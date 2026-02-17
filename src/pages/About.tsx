@@ -30,7 +30,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
               <img
-                src="/public/founder-photo.png"
+                src="/images/founder-photo.png"
                 alt="Founder Shamshad Alam"
                 className="w-full h-auto object-cover"
               />
