@@ -9,10 +9,10 @@ import { Send, Mail, MapPin, Phone, Instagram, Facebook, Linkedin, Youtube } fro
 
 // ✅ EASY TO EDIT — Change your social media links here
 const socialLinks = [
-  { name: "Instagram", icon: <Instagram className="h-4 w-4" />, url: "#" },
-  { name: "Facebook", icon: <Facebook className="h-4 w-4" />, url: "#" },
-  { name: "LinkedIn", icon: <Linkedin className="h-4 w-4" />, url: "#" },
-  { name: "YouTube", icon: <Youtube className="h-4 w-4" />, url: "#" },
+  { name: "Instagram", icon: <Instagram className="h-4 w-4" />, url: "https://www.instagram.com/inspireindiatalks/" },
+  { name: "Facebook", icon: <Facebook className="h-4 w-4" />, url: "https://www.facebook.com/p/Inspire-India-Talks-61577643296599/" },
+  { name: "LinkedIn", icon: <Linkedin className="h-4 w-4" />, url: "https://www.linkedin.com/company/inspire-india-talks/" },
+  { name: "YouTube", icon: <Youtube className="h-4 w-4" />, url: "https://www.youtube.com/@inspireindiatalks" },
 ];
 
 const WEB3FORMS_KEY = "30ad2072-0d0d-4d0b-8c55-ebeb571f65e4"; // Replace with your Web3Forms access key
