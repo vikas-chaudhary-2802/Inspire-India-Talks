@@ -96,6 +96,15 @@ const YouthSpotlight = () => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
 
+    // Radix Select / Checkbox don't reliably participate in native form submission,
+    // so ensure the selected values are present in FormData before validation/submission.
+    formData.set("category", categoryValue);
+    if (consentChecked) {
+      formData.set("consent", "accepted");
+    } else {
+      formData.delete("consent");
+    }
+
     if (!validateForm(formData)) {
       toast({
         title: "Validation Error",
