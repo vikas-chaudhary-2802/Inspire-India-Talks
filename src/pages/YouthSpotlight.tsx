@@ -16,15 +16,7 @@ import { useToast } from "@/hooks/use-toast";
 import { Send, Video, FileText, Sparkles, CheckCircle2, AlertCircle, ExternalLink } from "lucide-react";
 import { approvedYouthStories, type YouthSpotlightStory } from "@/data/youthSpotlightStories";
 
-// Google Forms Setup Instructions:
-// 1. Create a Google Form with fields matching the form below
-// 2. Get your form ID from the form URL: https://docs.google.com/forms/d/e/{FORM_ID}/viewform
-// 3. Replace YOUR_FORM_ID below with your actual form ID
-// 4. Inspect your Google Form HTML to get entry IDs (entry.123456789 format)
-//    - Right-click on each field → Inspect → Look for "name" attribute
-// 5. Update the entryMapping object below with your actual entry IDs
-// Format: https://docs.google.com/forms/d/e/{FORM_ID}/formResponse
-const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/YOUR_FORM_ID/formResponse";
+const WEB3FORMS_KEY = "4cde47b8-4bc1-40b8-8166-72179e1d74e9";
 
 const categories = [
   "Social Impact",
@@ -42,6 +34,8 @@ const YouthSpotlight = () => {
   const [showSuccess, setShowSuccess] = useState(false);
   const [articleText, setArticleText] = useState("");
   const [videoLink, setVideoLink] = useState("");
+  const [categoryValue, setCategoryValue] = useState("");
+  const [consentChecked, setConsentChecked] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const formRef = useRef<HTMLFormElement>(null);
   const honeypotRef = useRef<HTMLInputElement>(null);
@@ -58,7 +52,6 @@ const YouthSpotlight = () => {
     const category = formData.get("category") as string;
     const video = formData.get("videoLink") as string;
     const article = formData.get("article") as string;
-    const consent = formData.get("consent") as string;
     const honeypot = formData.get("website") as string;
 
     // Honeypot check
@@ -71,8 +64,8 @@ const YouthSpotlight = () => {
     if (!name?.trim()) newErrors.name = "Full name is required";
     if (!college?.trim()) newErrors.college = "College/School is required";
     if (!city?.trim()) newErrors.city = "City is required";
-    if (!category) newErrors.category = "Category is required";
-    if (!consent) newErrors.consent = "Consent is required";
+    if (!category?.trim()) newErrors.category = "Category is required";
+    if (!consentChecked) newErrors.consent = "Consent is required";
 
     // At least one of video or article required
     if (!video?.trim() && !article?.trim()) {
@@ -115,54 +108,40 @@ const YouthSpotlight = () => {
     setIsSubmitting(true);
 
     try {
-      // Map form fields to Google Forms entry IDs
-      // You'll need to inspect your Google Form HTML to get the correct entry IDs
-      // Example mapping (replace with your actual entry IDs):
-      const entryMapping: Record<string, string> = {
-        name: "entry.123456789", // Replace with actual entry ID
-        college: "entry.987654321",
-        city: "entry.111222333",
-        category: "entry.444555666",
-        videoLink: "entry.777888999",
-        article: "entry.000111222",
-      };
+      formData.append("access_key", WEB3FORMS_KEY);
+      formData.append("subject", "Youth Spotlight Submission — Inspire India Talks");
+      formData.append("from_name", "Inspire India Talks — Youth Spotlight");
+      formData.append("category", categoryValue);
+      if (consentChecked) formData.append("consent", "accepted");
 
-      const submitData = new URLSearchParams();
-      
-      // Add mapped form data
-      Object.entries(entryMapping).forEach(([field, entryId]) => {
-        const value = formData.get(field);
-        if (value) {
-          submitData.append(entryId, value as string);
-        }
-      });
-
-      // Submit to Google Forms
-      const response = await fetch(GOOGLE_FORM_URL, {
+      const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        mode: "no-cors", // Google Forms doesn't allow CORS, so we use no-cors
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded",
-        },
-        body: submitData.toString(),
+        body: formData,
       });
+      const data = await res.json();
 
-      // Note: With no-cors mode, we can't read the response
-      // The form will submit successfully if the URL and entry IDs are correct
-      
-      setShowSuccess(true);
-      formRef.current?.reset();
-      setArticleText("");
-      setVideoLink("");
-      setErrors({});
+      if (data.success) {
+        setShowSuccess(true);
+        formRef.current?.reset();
+        setArticleText("");
+        setVideoLink("");
+        setCategoryValue("");
+        setConsentChecked(false);
+        setErrors({});
 
-      toast({
-        title: "Submission Successful! ✅",
-        description: "Your story has been submitted. We'll review it and get back to you soon.",
-      });
+        toast({
+          title: "Submission Successful! ✅",
+          description: "Your story has been submitted. We'll review it and get back to you soon.",
+        });
 
-      // Reset success message after 5 seconds
-      setTimeout(() => setShowSuccess(false), 5000);
+        setTimeout(() => setShowSuccess(false), 5000);
+      } else {
+        toast({
+          title: "Error",
+          description: "Something went wrong. Please try again.",
+          variant: "destructive",
+        });
+      }
     } catch (error) {
       console.error("Form submission error:", error);
       toast({
@@ -347,7 +326,7 @@ const YouthSpotlight = () => {
                   <label className="text-sm font-medium mb-2 block text-foreground">
                     Category <span className="text-primary">*</span>
                   </label>
-                  <Select name="category" required>
+                  <Select value={categoryValue} onValueChange={setCategoryValue} required>
                     <SelectTrigger className={`bg-background/50 border-border/50 ${errors.category ? "border-destructive" : ""}`}>
                       <SelectValue placeholder="Select a category" />
                     </SelectTrigger>
@@ -425,8 +404,8 @@ const YouthSpotlight = () => {
                 <div className="flex items-start gap-3">
                   <Checkbox
                     id="consent"
-                    name="consent"
-                    required
+                    checked={consentChecked}
+                    onCheckedChange={(checked) => setConsentChecked(!!checked)}
                     className={`mt-1 ${errors.consent ? "border-destructive" : ""}`}
                   />
                   <label htmlFor="consent" className="text-sm text-foreground cursor-pointer">
