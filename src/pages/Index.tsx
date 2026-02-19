@@ -405,10 +405,11 @@ const RegistrationSection = () => {
                   <div className="h-px w-12 bg-primary" />
                   <span className="text-primary font-medium tracking-[0.3em] uppercase text-xs">Register Now</span>
                 </div>
-                <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground leading-tight">
+                <h2 className="font-serif text-4xl md:text-5xl font-bold text-white leading-tight">
                   Attend an <br /><span className="text-primary">Inspire Talk</span>
                 </h2>
-                <p className="text-muted-foreground mt-6 leading-relaxed max-w-md text-lg">
+                <p className="mt-6 leading-relaxed max-w-md text-lg text-white/85">
+
                   Register your interest to attend our upcoming events. We'll review your profile and send a confirmation if selected.
                 </p>
 
@@ -423,7 +424,7 @@ const RegistrationSection = () => {
                       className="flex items-center gap-3"
                     >
                       <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                      <span className="text-foreground/70 text-sm">{item}</span>
+                      <span className="text-white/80 text-sm">{item}</span>
                     </motion.div>
                   ))}
                 </div>

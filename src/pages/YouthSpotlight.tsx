@@ -47,6 +47,8 @@ const YouthSpotlight = () => {
   const validateForm = (formData: FormData): boolean => {
     const newErrors: Record<string, string> = {};
     const name = formData.get("name") as string;
+    const email = formData.get("email") as string;
+    const phone = formData.get("phone") as string;
     const college = formData.get("college") as string;
     const city = formData.get("city") as string;
     const category = formData.get("category") as string;
@@ -62,10 +64,22 @@ const YouthSpotlight = () => {
     }
 
     if (!name?.trim()) newErrors.name = "Full name is required";
+    if (!email?.trim()) {
+      newErrors.email = "Email is required";
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
+      newErrors.email = "Please enter a valid email address";
+    }
     if (!college?.trim()) newErrors.college = "College/School is required";
     if (!city?.trim()) newErrors.city = "City is required";
-    if (!category?.trim()) newErrors.category = "Category is required";
     if (!consentChecked) newErrors.consent = "Consent is required";
+
+    if (phone?.trim()) {
+      const normalized = phone.replace(/[^\d+]/g, "");
+      const digitsOnly = normalized.replace(/[^\d]/g, "");
+      if (digitsOnly.length < 8) {
+        newErrors.phone = "Please enter a valid phone number";
+      }
+    }
 
     // At least one of video or article required
     if (!video?.trim() && !article?.trim()) {
@@ -120,8 +134,6 @@ const YouthSpotlight = () => {
       formData.append("access_key", WEB3FORMS_KEY);
       formData.append("subject", "Youth Spotlight Submission — Inspire India Talks");
       formData.append("from_name", "Inspire India Talks — Youth Spotlight");
-      formData.append("category", categoryValue);
-      if (consentChecked) formData.append("consent", "accepted");
 
       const res = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -294,6 +306,43 @@ const YouthSpotlight = () => {
                   )}
                 </div>
 
+                {/* Email and Phone */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label className="text-sm font-medium mb-2 block text-foreground">
+                      Email <span className="text-primary">*</span>
+                    </label>
+                    <Input
+                      name="email"
+                      type="email"
+                      required
+                      placeholder="you@example.com"
+                      className={`bg-background/50 border-border/50 ${errors.email ? "border-destructive" : ""}`}
+                    />
+                    {errors.email && (
+                      <p className="text-xs text-destructive mt-1 flex items-center gap-1">
+                        <AlertCircle className="h-3 w-3" /> {errors.email}
+                      </p>
+                    )}
+                  </div>
+                  <div>
+                    <label className="text-sm font-medium mb-2 block text-foreground">
+                      Phone <span className="text-muted-foreground">(Optional)</span>
+                    </label>
+                    <Input
+                      name="phone"
+                      type="tel"
+                      placeholder="+91 98765 43210"
+                      className={`bg-background/50 border-border/50 ${errors.phone ? "border-destructive" : ""}`}
+                    />
+                    {errors.phone && (
+                      <p className="text-xs text-destructive mt-1 flex items-center gap-1">
+                        <AlertCircle className="h-3 w-3" /> {errors.phone}
+                      </p>
+                    )}
+                  </div>
+                </div>
+
                 {/* College/School and City */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
@@ -330,14 +379,14 @@ const YouthSpotlight = () => {
                   </div>
                 </div>
 
-                {/* Category */}
+                {/* Category (Optional) */}
                 <div>
                   <label className="text-sm font-medium mb-2 block text-foreground">
-                    Category <span className="text-primary">*</span>
+                    Category <span className="text-muted-foreground">(Optional)</span>
                   </label>
-                  <Select value={categoryValue} onValueChange={setCategoryValue} required>
-                    <SelectTrigger className={`bg-background/50 border-border/50 ${errors.category ? "border-destructive" : ""}`}>
-                      <SelectValue placeholder="Select a category" />
+                  <Select value={categoryValue} onValueChange={setCategoryValue}>
+                    <SelectTrigger className="bg-background/50 border-border/50">
+                      <SelectValue placeholder="Select a category (optional)" />
                     </SelectTrigger>
                     <SelectContent>
                       {categories.map((cat) => (
@@ -347,11 +396,9 @@ const YouthSpotlight = () => {
                       ))}
                     </SelectContent>
                   </Select>
-                  {errors.category && (
-                    <p className="text-xs text-destructive mt-1 flex items-center gap-1">
-                      <AlertCircle className="h-3 w-3" /> {errors.category}
-                    </p>
-                  )}
+                  <p className="text-xs text-muted-foreground mt-1">
+                    Skip this if you’re not sure.
+                  </p>
                 </div>
 
                 {/* Video Link */}
