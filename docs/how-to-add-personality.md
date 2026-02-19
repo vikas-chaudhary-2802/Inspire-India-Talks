@@ -51,3 +51,11 @@ The personality will automatically appear on the website!
 - Use high-quality portrait photos
 - Any size works — the website auto-crops and adjusts
 - Prefer `.webp` or `.jpg` for smaller file sizes
+
+---
+
+## Youth Spotlight uploads
+
+If you’re adding **approved Youth Spotlight** videos/articles, follow:
+
+- `docs/youth-spotlight-content.md`
