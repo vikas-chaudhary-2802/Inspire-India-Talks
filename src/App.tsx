@@ -9,6 +9,7 @@ import CategoryDetail from "./pages/CategoryDetail";
 import PersonalityDetail from "./pages/PersonalityDetail";
 import HostEvent from "./pages/HostEvent";
 import Contact from "./pages/Contact";
+import YouthSpotlight from "./pages/YouthSpotlight";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/personality/:id" element={<PersonalityDetail />} />
           <Route path="/host-event" element={<HostEvent />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/youth-spotlight" element={<YouthSpotlight />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
