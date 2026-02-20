@@ -169,10 +169,10 @@ const Index = () => {
         <section className="border-y border-border/50 py-8">
           <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { icon: <Users className="h-5 w-5" />, number: "50+", label: "Inspiring Stories" },
-              { icon: <BookOpen className="h-5 w-5" />, number: "5", label: "Categories" },
+              { icon: <Users className="h-5 w-5" />, number: "500+", label: "Inspiring Stories" },
+              { icon: <BookOpen className="h-5 w-5" />, number: "30+", label: "Categories" },
               { icon: <Star className="h-5 w-5" />, number: "100+", label: "Achievements" },
-              { icon: <Award className="h-5 w-5" />, number: "∞", label: "Inspiration" },
+              { icon: <Award className="h-5 w-5" />, number: "500+", label: "Inspiration" },
             ].map((stat, i) => (
               <motion.div
                 key={i}
@@ -244,9 +244,9 @@ const Index = () => {
           </Link>
         </section>
 
-        {/* Featured Personalities */}
-        <section className="container mx-auto px-4 py-20">
-          <div className="flex items-center justify-between mb-12">
+        {/* Featured Personalities Slider */}
+        <section className="container mx-auto px-4 py-20 overflow-hidden">
+          <div className="flex items-end justify-between mb-12">
             <div>
               <div className="flex items-center gap-3 mb-3">
                 <div className="h-px w-8 bg-primary" />
@@ -254,11 +254,37 @@ const Index = () => {
               </div>
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground">Icons of India</h2>
             </div>
+            <div className="flex gap-2">
+              <button
+                onClick={() => {
+                  const el = document.getElementById("featured-slider");
+                  if (el) el.scrollBy({ left: -400, behavior: "smooth" });
+                }}
+                className="h-12 w-12 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+              >
+                <ArrowRight className="h-5 w-5 rotate-180" />
+              </button>
+              <button
+                onClick={() => {
+                  const el = document.getElementById("featured-slider");
+                  if (el) el.scrollBy({ left: 400, behavior: "smooth" });
+                }}
+                className="h-12 w-12 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all"
+              >
+                <ArrowRight className="h-5 w-5" />
+              </button>
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            id="featured-slider"
+            className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-none"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
             {featured.map((person, i) => (
-              <PersonalityCard key={person.id} person={person} index={i} />
+              <div key={person.id} className="min-w-[300px] md:min-w-[350px] snap-start">
+                <PersonalityCard person={person} index={i} isFeatured={true} />
+              </div>
             ))}
           </div>
         </section>

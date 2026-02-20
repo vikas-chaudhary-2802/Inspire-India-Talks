@@ -2,7 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Layout from "@/components/Layout";
 import PersonalityCard from "@/components/PersonalityCard";
-import { getPersonalitiesByCategory, getCategoryBySlug } from "@/data/personalities";
+import { getPersonalitiesByCategory, getCategoryBySlug, isRecentlyAdded } from "@/data/personalities";
 
 const CategoryDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -36,7 +36,12 @@ const CategoryDetail = () => {
       <section className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {people.map((person, i) => (
-            <PersonalityCard key={person.id} person={person} index={i} />
+            <PersonalityCard
+              key={person.id}
+              person={person}
+              index={i}
+              isFeatured={i < 4 && isRecentlyAdded(person.id, 60)}
+            />
           ))}
         </div>
       </section>

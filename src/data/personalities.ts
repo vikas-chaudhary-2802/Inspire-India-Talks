@@ -13,6 +13,7 @@ export interface Personality {
   achievements: string[];
   authorName?: string;
   authorLinkedin?: string;
+  addedAt?: string;
 }
 
 export interface Category {
@@ -51,6 +52,7 @@ export const personalities: Personality[] = [
     achievements: ["Grew Tata Group revenues from $5B to $100B+", "Acquired Jaguar Land Rover and Corus Steel", "Launched Tata Nano — world's cheapest car", "Padma Vibhushan recipient", "Humanitarian philanthropist"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "mukesh-ambani",
@@ -67,6 +69,7 @@ export const personalities: Personality[] = [
     achievements: ["Asia's richest person multiple years", "Launched Jio — India's digital revolution", "Built world's largest oil refinery complex", "Transformed India's retail landscape", "Leader of India's most valuable company"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "azim-premji",
@@ -83,6 +86,7 @@ export const personalities: Personality[] = [
     achievements: ["Transformed Wipro from cooking oil to IT giant", "Donated over $21 billion to philanthropy", "Padma Vibhushan recipient", "India's most generous philanthropist", "Built global IT powerhouse"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "gautam-adani",
@@ -99,6 +103,7 @@ export const personalities: Personality[] = [
     achievements: ["Built India's largest private port at Mundra", "Manages 7 major Indian airports", "World's largest solar energy developer", "First-generation billionaire entrepreneur", "Major player in green energy transition"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "narayana-murthy",
@@ -115,6 +120,7 @@ export const personalities: Personality[] = [
     achievements: ["Co-founded Infosys with just $250", "Pioneered India's IT services model", "Padma Vibhushan recipient", "Father of Indian IT sector", "Global icon of corporate governance"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "shiv-nadar",
@@ -131,6 +137,7 @@ export const personalities: Personality[] = [
     achievements: ["Founded HCL in a garage", "Built India's first indigenous microcomputer", "Donated over $1 billion to education", "Padma Bhushan recipient", "Created world-class educational institutions"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "bhavish-aggarwal",
@@ -147,6 +154,7 @@ export const personalities: Personality[] = [
     achievements: ["Built Ola into India's largest mobility platform", "Founded Ola Electric", "Built world's largest 2W EV factory", "IIT Bombay alumnus", "Time 100 Most Influential People"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "deepinder-goyal",
@@ -163,6 +171,7 @@ export const personalities: Personality[] = [
     achievements: ["Built Zomato from a menu site to $10B+ company", "Led one of India's first major tech IPOs", "Pioneered food delivery at scale in India", "IIT Delhi alumnus", "Acquired Blinkit for quick commerce"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "falguni-nayar",
@@ -179,6 +188,7 @@ export const personalities: Personality[] = [
     achievements: ["Founded Nykaa at age 50", "India's wealthiest self-made woman billionaire", "Nykaa's successful IPO", "Built India's leading beauty-tech platform", "Inspiration for women entrepreneurs"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "ritesh-agarwal",
@@ -195,6 +205,7 @@ export const personalities: Personality[] = [
     achievements: ["Founded OYO at age 19", "World's youngest self-made billionaire at 26", "Thiel Fellow (first Asian)", "Built global hospitality chain", "Disrupted budget hotel industry"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   // ===== LEADING LADIES =====
   {
@@ -212,6 +223,7 @@ export const personalities: Personality[] = [
     achievements: ["First Indian-born woman in space", "NASA Congressional Space Medal of Honor", "Logged 31 days in space", "Aerospace engineering pioneer", "Eternal inspiration for women in science"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "indra-nooyi",
@@ -228,6 +240,7 @@ export const personalities: Personality[] = [
     achievements: ["CEO of PepsiCo (2006-2018)", "Consistently in Forbes Most Powerful Women", "Padma Bhushan recipient", "Transformed PepsiCo's product portfolio", "Global business icon"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sudha-murty",
@@ -244,6 +257,7 @@ export const personalities: Personality[] = [
     achievements: ["First female engineer at TELCO", "Chairperson of Infosys Foundation", "Padma Bhushan recipient", "Bestselling author", "Rajya Sabha MP"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "tessy-thomas",
@@ -260,6 +274,7 @@ export const personalities: Personality[] = [
     achievements: ["Project Director, Agni-V", "First woman to head a missile project", "Pioneer in solid propellant systems", "Lal Bahadur Shastri National Award", "Sentinel of India's defense"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "arundhati-roy",
@@ -276,6 +291,7 @@ export const personalities: Personality[] = [
     achievements: ["Booker Prize winner (1997)", "Global literary icon", "Fearless political activist", "Champion of human rights", "Influential essayist"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "kiran-bedi",
@@ -292,6 +308,7 @@ export const personalities: Personality[] = [
     achievements: ["First woman IPS officer in India", "Ramon Magsaysay Award winner", "Revolutionized Tihar Jail", "Lieutenant Governor of Puducherry", "Author and social activist"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "priyanka-chopra",
@@ -308,6 +325,7 @@ export const personalities: Personality[] = [
     achievements: ["Miss World 2000", "Padma Shri recipient", "Global UNICEF Goodwill Ambassador", "First South Asian to headline US drama", "Successful tech investor and author"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "nirmala-sitharaman",
@@ -324,6 +342,7 @@ export const personalities: Personality[] = [
     achievements: ["First full-time female Finance Minister", "First full-time female Defence Minister", "Steered economy during COVID-19", "Forbes 100 Most Powerful Women", "Key architect of Atmanirbhar Bharat"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sushma-swaraj",
@@ -340,6 +359,7 @@ export const personalities: Personality[] = [
     achievements: ["First female Chief Minister of Delhi", "External Affairs Minister (2014-2019)", "Padma Vibhushan (Posthumous)", "Transformed consular assistance via Twitter", "Outstanding Parliamentarian Award"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "lata-mangeshkar",
@@ -356,6 +376,7 @@ export const personalities: Personality[] = [
     achievements: ["Bharat Ratna recipient", "Recorded 25,000+ songs", "Dadasaheb Phalke Award", "Legion of Honour (France)", "Guinness World Record holder"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   // ===== TEACHERS & EDUCATORS =====
   {
@@ -373,6 +394,7 @@ export const personalities: Personality[] = [
     achievements: ["Founder of Super 30", "Educated hundreds of underprivileged students for IITs", "Padma Shri recipient", "Subject of biopic 'Super 30'", "Global Teacher Prize finalist"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "apj-abdul-kalam",
@@ -389,6 +411,7 @@ export const personalities: Personality[] = [
     achievements: ["Bharat Ratna recipient", "11th President of India", "Inspired millions of students", "Author of 'Wings of Fire'", "Died doing what he loved: Teaching"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sarvepalli-radhakrishnan",
@@ -405,6 +428,7 @@ export const personalities: Personality[] = [
     achievements: ["Bharat Ratna recipient", "First Vice President & 2nd President of India", "Spalding Professor at Oxford", "Knighted in 1931", "His birthday is National Teachers' Day"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "khan-sir",
@@ -421,6 +445,7 @@ export const personalities: Personality[] = [
     achievements: ["20M+ YouTube subscribers", "Democratized competitive exam preparation", "Known for unique, engaging teaching style", "Runs affordable coaching in Patna", "Digital education icon"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "hc-verma",
@@ -437,6 +462,7 @@ export const personalities: Personality[] = [
     achievements: ["Author of 'Concepts of Physics'", "Padma Shri recipient", "Professor at IIT Kanpur", "National award for teaching physics", "Created Shiksha Sopan for rural education"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "savitribai-phule",
@@ -453,6 +479,7 @@ export const personalities: Personality[] = [
     achievements: ["First female teacher of India", "Opened first school for girls in India", "Pioneered women's education movement", "Fought against caste discrimination", "Icon of social reform"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "rabindranath-tagore",
@@ -469,6 +496,7 @@ export const personalities: Personality[] = [
     achievements: ["Nobel Prize in Literature (1913)", "Founded Visva-Bharati University", "Composed National Anthems of India and Bangladesh", "Knighthood (renounced after Jallianwala Bagh)", "Global cultural ambassador"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   // {
   //   id: "sonam-wangchuk",
@@ -485,6 +513,7 @@ export const personalities: Personality[] = [
   //   achievements: ["Founded SECMOL", "Rolex Award for Enterprise", "Invented Ice Stupas", "Inspired '3 Idiots' character", "Climate activist for Ladakh"],
   //   authorName: "Inspire India",
   //   authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+  //    addedAt: "2026-02-15",
   // },
   {
     id: "swami-vivekananda",
@@ -501,6 +530,7 @@ export const personalities: Personality[] = [
     achievements: ["Founded Ramakrishna Mission", "Chicago Address (1893)", "Revived Hinduism globally", "National Youth Day celebrated heavily", "Spiritual teacher of modern India"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "roman-saini",
@@ -517,6 +547,7 @@ export const personalities: Personality[] = [
     achievements: ["Co-founder Unacademy", "Youngest IAS officer (formerly)", "AIIMS Doctor", "Democratized test prep in India", "Inspiration for youth"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sonam-wangchuk",
@@ -554,6 +585,7 @@ export const personalities: Personality[] = [
     achievements: ["Performed 15,000+ heart surgeries", "Founder of Narayana Health", "Padma Bhushan recipient", "Pioneered low-cost cardiac care", "Mother Teresa's personal physician"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "naresh-trehan",
@@ -570,6 +602,7 @@ export const personalities: Personality[] = [
     achievements: ["Performed 48,000+ open-heart surgeries", "Founder of Medanta", "Padma Bhushan & Padma Shri recipient", "Served as President of India's surgeon", "pioneered minimally invasive cardiac surgery"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "bc-roy",
@@ -586,6 +619,7 @@ export const personalities: Personality[] = [
     achievements: ["Bharat Ratna recipient", "Architect of modern West Bengal", "Founder of IMA and MCI", "National Doctors' Day is celebrated on his birthday", "FRCS and MRCP simultaneously"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "muthulakshmi-reddi",
@@ -602,6 +636,7 @@ export const personalities: Personality[] = [
     achievements: ["First woman legislator in India", "Founder of Adyar Cancer Institute", "Padma Bhushan recipient", "Abolished Devadasi system", "First female student in a men's college"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "govindappa-venkataswamy",
@@ -618,6 +653,7 @@ export const personalities: Personality[] = [
     achievements: ["Founded Aravind Eye Care System", "Padma Shri recipient", "Performed 100,000+ eye surgeries", "Pioneered high-volume cataract surgery", "Saved sight of millions"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "prathap-c-reddy",
@@ -634,6 +670,7 @@ export const personalities: Personality[] = [
     achievements: ["Founded Apollo Hospitals Group", "Padma Vibhushan recipient", "Father of corporate healthcare in India", "Brought cutting-edge medical tech to India", "Reversed medical tourism"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "soumya-swaminathan",
@@ -650,6 +687,7 @@ export const personalities: Personality[] = [
     achievements: ["First Chief Scientist of WHO", "Former DG of ICMR", "Expert in Tuberculosis and HIV", "Guided global response to COVID-19", "Global health policy leader"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "gagandeep-kang",
@@ -666,6 +704,7 @@ export const personalities: Personality[] = [
     achievements: ["First Indian woman Fellow of Royal Society", "Key role in Rotavac vaccine development", "Infosys Prize in Life Sciences", "Top virologist and public health expert", "Champion of evidence-based medicine"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "randeep-guleria",
@@ -682,6 +721,7 @@ export const personalities: Personality[] = [
     achievements: ["Director, AIIMS Delhi (2017-2022)", "Padma Shri recipient", "Dr. B.C. Roy Award", "Led National COVID-19 Task Force", "Pioneer in pulmonary medicine in India"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "prakash-amte",
@@ -698,6 +738,7 @@ export const personalities: Personality[] = [
     achievements: ["Ramon Magsaysay Award", "Padma Shri recipient", "Built hospital & school for remote tribals", "Runs 'Animal Ark' orphanage for wild animals", "Legacy of Baba Amte"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
 
   // ===== ENVIRONMENTALISTS =====
@@ -716,6 +757,7 @@ export const personalities: Personality[] = [
     achievements: ["Leader of Chipko Movement", "Padma Vibhushan recipient", "Right Livelihood Award (Alternative Nobel)", "Fought against Tehri Dam", "Gandhian peace activist"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "jadav-payeng",
@@ -732,6 +774,7 @@ export const personalities: Personality[] = [
     achievements: ["Planted 1,360-acre forest single-handedly", "Padma Shri recipient", "Title 'Forest Man of India'", "Subject of documentaries and children's books", "Global inspiration for reforestation"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "vandana-shiva",
@@ -748,6 +791,7 @@ export const personalities: Personality[] = [
     achievements: ["Founder of Navdanya", "Right Livelihood Award", "Sydney Peace Prize", "Defeated biopiracy patents", "Global voice against GMOs"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "saalumarada-thimmakka",
@@ -764,6 +808,7 @@ export const personalities: Personality[] = [
     achievements: ["Planted 385 banyan trees", "Padma Shri recipient", "BBC 100 Women", "Recognized as 'Mother of Trees'", "Centenarian environmentalist"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "rajendra-singh",
@@ -780,6 +825,7 @@ export const personalities: Personality[] = [
     achievements: ["Stockholm Water Prize (Nobel for Water)", "Ramon Magsaysay Award", "Revived 7 rivers", "Known as 'Waterman of India'", "Built 8,600+ johads"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sunita-narain",
@@ -796,6 +842,7 @@ export const personalities: Personality[] = [
     achievements: ["Director General, CSE", "Padma Shri recipient", "Stockholm Water Prize", "Exposed pesticide in colas", "Champion of 'Green Politics'"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "tulsi-gowda",
@@ -812,6 +859,7 @@ export const personalities: Personality[] = [
     achievements: ["Known as 'Encyclopedia of Forest'", "Padma Shri recipient", "Planted 30,000+ saplings", "Vast traditional knowledge of herbs", "Tribal icon of conservation"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "mike-pandey",
@@ -828,6 +876,7 @@ export const personalities: Personality[] = [
     achievements: ["3-time Green Oscar winner", "Saved Whale Sharks through film", "CMS Vatavaran Founder", "Influenced wildlife legislation", "UN recognition for conservation"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "afroz-shah",
@@ -844,6 +893,7 @@ export const personalities: Personality[] = [
     achievements: ["Champion of the Earth (UN Environment)", "Cleaned 5 million kg trash from Versova Beach", "Revived turtle nesting at Versova", "Sparked global cleanup movement", "CNN Hero"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "gd-agarwal",
@@ -860,6 +910,7 @@ export const personalities: Personality[] = [
     achievements: ["Former Member Secretary CPCB", "Head of Civil Engineering, IIT Kanpur", "Fasted unto death for Ganga", "Stopped Loharinag Pala project", "Symbol of environmental sacrifice"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
 
   // ===== SPORTS ICONS =====
@@ -878,6 +929,7 @@ export const personalities: Personality[] = [
     achievements: ["Bharat Ratna recipient", "100 International Centuries", "Most runs in Tests and ODIs", "World Cup Winner 2011", "Wisden Cricketer of the Year"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "ms-dhoni",
@@ -894,6 +946,7 @@ export const personalities: Personality[] = [
     achievements: ["Won 2007 T20 World Cup, 2011 ODI WC, 2013 CT", "Padma Bhushan recipient", "Honorary Lieutenant Colonel in Territorial Army", "Most successful Indian captain", "Icon of small-town India"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "virat-kohli",
@@ -910,6 +963,7 @@ export const personalities: Personality[] = [
     achievements: ["Most ODI Centuries (50)", "ICC Cricketer of the Decade", "Fastest to 13,000 ODI runs", "Padma Shri recipient", "Fitness icon"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "neeraj-chopra",
@@ -926,6 +980,7 @@ export const personalities: Personality[] = [
     achievements: ["Olympic Gold Medal (Tokyo 2020)", "World Athletics Champion", "Diamond League Champion", "Padma Shri recipient", "First Asian to win Olympic Gold in Javelin"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "viswanathan-anand",
@@ -942,6 +997,7 @@ export const personalities: Personality[] = [
     achievements: ["5-time World Chess Champion", "India's first Grandmaster", "Padma Vibhushan recipient", "Khel Ratna awardee", "Sparked India's chess boom"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "milkha-singh",
@@ -958,6 +1014,7 @@ export const personalities: Personality[] = [
     achievements: ["Commonwealth Games Gold (1958)", "4-time Asian Games Gold", "Padma Shri recipient", "Legendary 4th place at Rome Olympics", "First Indian sports superstar"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "major-dhyan-chand",
@@ -974,6 +1031,7 @@ export const personalities: Personality[] = [
     achievements: ["3 Olympic Gold Medals (1928, 1932, 1936)", "Padma Bhushan recipient", "Scored 570+ goals", "National Sports Day celebrated on his birthday", "Khel Ratna renamed in his honor"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "abhinav-bindra",
@@ -990,6 +1048,7 @@ export const personalities: Personality[] = [
     achievements: ["Olympic Gold Medal (Beijing 2008)", "World Champion (2006)", "Padma Bhushan recipient", "First individual Olympic Gold for India", "Author of 'A Shot at History'"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sunil-chhetri",
@@ -1006,6 +1065,7 @@ export const personalities: Personality[] = [
     achievements: ["90+ International Goals", "Khel Ratna recipient", "7-time AIFF Player of the Year", "Led India to multiple titles", "Padma Shri recipient"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "mithali-raj",
@@ -1022,6 +1082,7 @@ export const personalities: Personality[] = [
     achievements: ["Leading run-scorer in women's cricket", "Khel Ratna recipient", "Padma Shri recipient", "Led India to two WC finals", "First woman to score 7,000 ODI runs"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "vaibhav-suryavanshi",
@@ -1158,6 +1219,7 @@ export const personalities: Personality[] = [
     achievements: ["First Field Marshal of India", "Architect of 1971 War Victory", "Padma Vibhushan recipient", "Military Cross for gallantry (WWII)", "Legendary military leader"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "vikram-batra",
@@ -1174,6 +1236,7 @@ export const personalities: Personality[] = [
     achievements: ["Param Vir Chakra (Posthumous)", "Recaptured Point 5140 and 4875", "Kargil War Hero", "Subject of film 'Shershaah'", "Symbol of youth bravery"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "bipin-rawat",
@@ -1190,6 +1253,7 @@ export const personalities: Personality[] = [
     achievements: ["First Chief of Defence Staff (CDS) of India", "Former Chief of Army Staff", "Padma Vibhushan (Posthumous)", "PVSM, UYSM, AVSM, YSM, SM, VSM", "Architect of military reforms"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sandeep-unnikrishnan",
@@ -1206,6 +1270,7 @@ export const personalities: Personality[] = [
     achievements: ["Ashoka Chakra (Posthumous)", "Hero of 26/11 Taj Operation", "Saved 14 hostages", "NSG Commando", "Inspiration for film 'Major'"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "ajit-doval",
@@ -1222,6 +1287,7 @@ export const personalities: Personality[] = [
     achievements: ["National Security Advisor", "Kirti Chakra recipient", "First police officer to get military gallantry award", "Spent 7 years undercover in Pakistan", "Architect of Surgical Strikes"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "yogendra-singh-yadav",
@@ -1238,6 +1304,7 @@ export const personalities: Personality[] = [
     achievements: ["Youngest Param Vir Chakra recipient", "Tiger Hill Hero", "Survived 15 bullet wounds", "Honorary Captain", "Living legend of bravery"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "arjan-singh",
@@ -1254,6 +1321,7 @@ export const personalities: Personality[] = [
     achievements: ["Only Marshal of the Indian Air Force", "Padma Vibhushan recipient", "Led IAF in 1965 War", "Distinguished Flying Cross (WWII)", "Diplomat and Lt. Governor"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "tukaram-omble",
@@ -1270,6 +1338,7 @@ export const personalities: Personality[] = [
     achievements: ["Ashoka Chakra (Posthumous)", "Captured Ajmal Kasab alive", "Sacrificed life for duty", "Mumbai Police Hero", "Exposed 26/11 conspiracy"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "nambi-narayanan",
@@ -1286,6 +1355,7 @@ export const personalities: Personality[] = [
     achievements: ["Padma Bhushan recipient", "Developed the Vikas Engine", "Pioneer of Liquid Propulsion Systems", "Cleared of false espionage charges", "Subject of film 'Rocketry'"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "abhinandan-varthaman",
@@ -1302,6 +1372,7 @@ export const personalities: Personality[] = [
     achievements: ["Vir Chakra recipient", "Shot down an F-16 with a MiG-21", "Symbol of grace under pressure", "First IAF pilot to down an F-16", "National icon of courage"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
 
   // ===== YOUNG ACHIEVERS =====
@@ -1320,6 +1391,7 @@ export const personalities: Personality[] = [
     achievements: ["Grandmaster at age 12", "World Cup Runner-up 2023", "Defeated Magnus Carlsen repeatedly", "Arjuna Award recipient", "Youngest World Cup finalist"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sheetal-devi",
@@ -1336,6 +1408,7 @@ export const personalities: Personality[] = [
     achievements: ["2 Gold Medals, Asian Para Games 2022", "First armless female archer", "Arjuna Award recipient", "World No. 1 Para Archer", "Global inspiration"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "yashasvi-jaiswal",
@@ -1352,6 +1425,7 @@ export const personalities: Personality[] = [
     achievements: ["Test Century on Debut", "Fastest IPL 50 (13 balls)", "U-19 World Cup Player of the Tournament", "ICC Player of the Month", "Symbol of grit and determination"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "manu-bhaker",
@@ -1368,6 +1442,7 @@ export const personalities: Personality[] = [
     achievements: ["2 Bronze Medals, Paris 2024 Olympics", "Commonwealth Games Gold", "Youth Olympic Gold", "World Champion", "First Indian with 2 medals in one Olympics"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "aman-sehrawat",
@@ -1384,6 +1459,7 @@ export const personalities: Personality[] = [
     achievements: ["Bronze Medal, Paris 2024 Olympics", "Youngest Indian Olympic Medallist", "Asian Games Bronze", "Asian Champion", "U-23 World Champion"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "gukesh-d",
@@ -1400,6 +1476,7 @@ export const personalities: Personality[] = [
     achievements: ["Youngest Candidates Tournament Winner", "India's No. 1 Chess Player", "Grandmaster at age 12", "Won Chess Olympiad Gold", "Future World Champion contender"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "ridhima-pandey",
@@ -1416,6 +1493,7 @@ export const personalities: Personality[] = [
     achievements: ["Filed climate lawsuit at age 9", "UN Climate Action complainant", "BBC 100 Women", "TEDx Speaker", "Voice of Global South youth"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "kaamya-karthikeyan",
@@ -1432,6 +1510,7 @@ export const personalities: Personality[] = [
     achievements: ["Youngest to summit Mt. Aconcagua", "Prime Minister's Rashtriya Bal Puraskar", "Climbed Mt. Kilimanjaro", "Mission 7 Summits", "Navy child achiever"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "tilottama-sen",
@@ -1448,6 +1527,7 @@ export const personalities: Personality[] = [
     achievements: ["World Championship Bronze Medallist", "Olympic Quota winner at 15", "National Champion", "Asian Championship Medallist", "Rising star of Indian shooting"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "anahat-singh",
@@ -1464,6 +1544,7 @@ export const personalities: Personality[] = [
     achievements: ["Youngest Indian at CWG 2022", "US Junior Open Champion", "Asian Junior Champion", "National Games Gold", "Prime Minister's Rashtriya Bal Puraskar"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
 
   // ===== OTHERS (CHANGEMAKERS) =====
@@ -1482,6 +1563,7 @@ export const personalities: Personality[] = [
     achievements: ["Founder of Amul", "Father of White Revolution", "Ramon Magsaysay Award", "Padma Vibhushan recipient", "World Food Prize winner"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "kailash-satyarthi",
@@ -1498,6 +1580,7 @@ export const personalities: Personality[] = [
     achievements: ["Nobel Peace Prize (2014)", "Rescued 100,000+ children", "Founded Bachpan Bachao Andolan", "Architect of Global March Against Child Labor", "Global human rights icon"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sonu-sood",
@@ -1514,6 +1597,7 @@ export const personalities: Personality[] = [
     achievements: ["Sent thousands of migrants home during COVID", "SDG Special Humanitarian Action Award", "Time 100 Influential People (Reader's Poll)", "National icon of kindness", "Runs Sood Charity Foundation"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "ar-rahman",
@@ -1530,6 +1614,7 @@ export const personalities: Personality[] = [
     achievements: ["2 Academy Awards (Oscars)", "2 Grammy Awards", "Padma Bhushan recipient", "Golden Globe winner", "Global music icon"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "draupadi-murmu",
@@ -1546,6 +1631,7 @@ export const personalities: Personality[] = [
     achievements: ["15th President of India", "First Tribal President", "First President born in Independent India", "Former Governor of Jharkhand", "Symbol of women empowerment"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "ruskin-bond",
@@ -1562,6 +1648,7 @@ export const personalities: Personality[] = [
     achievements: ["Padma Bhushan recipient", "Sahitya Akademi Award", "Written 500+ stories", "India's favorite children's author", "Living literary legend"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "sudarsan-pattnaik",
@@ -1578,6 +1665,7 @@ export const personalities: Personality[] = [
     achievements: ["Padma Shri recipient", "Won People's Choice Award in US", "Guinness World Record holder", "Global ambassador of Sand Art", "Champion of social causes through art"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "vikas-khanna",
@@ -1594,6 +1682,7 @@ export const personalities: Personality[] = [
     achievements: ["Michelin Star Chef", "Coordinator of 'Feed India' (65M+ meals)", "Host of MasterChef India", "Asia Game Changer Award", "Humanitarian Chef"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "bhupen-hazarika",
@@ -1610,6 +1699,7 @@ export const personalities: Personality[] = [
     achievements: ["Bharat Ratna recipient", "Dadasaheb Phalke Award", "Padma Vibhushan", "Voice of Northeast India", "Cultural icon"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "zakir-hussain",
@@ -1626,6 +1716,7 @@ export const personalities: Personality[] = [
     achievements: ["Padma Vibhushan recipient", "multiple Grammy Awards", "Co-founder of Shakti", "Global Tabla phenomenon", "Sangeet Natak Akademi Fellow"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+    addedAt: "2026-02-15",
   },
   {
     id: "tetseo-sisters",
@@ -1671,7 +1762,7 @@ export const personalities: Personality[] = [
 ];
 
 export const getPersonalitiesByCategory = (categorySlug: string): Personality[] => {
-  return personalities.filter(p => p.categorySlug === categorySlug);
+  return personalities.filter(p => p.categorySlug === categorySlug).reverse();
 };
 
 export const getPersonalityById = (id: string): Personality | undefined => {
@@ -1682,13 +1773,29 @@ export const getCategoryBySlug = (slug: string): Category | undefined => {
   return categories.find(c => c.slug === slug);
 };
 
+// Helper to check if a personality was recently added to the database
+export const isRecentlyAdded = (personId: string, limit: number = 60): boolean => {
+  const index = personalities.findIndex(p => p.id === personId);
+  if (index === -1) return false;
+  return index >= personalities.length - limit;
+};
+
 export const getFeaturedPersonalities = (): Personality[] => {
-  return [
-    personalities.find(p => p.id === "ratan-tata")!,
-    personalities.find(p => p.id === "kalpana-chawla")!,
-    personalities.find(p => p.id === "gukesh-d")!,
-    personalities.find(p => p.id === "vikram-batra")!,
-    personalities.find(p => p.id === "ms-dhoni")!,
-    personalities.find(p => p.id === "anand-kumar")!,
-  ].filter((p): p is Personality => !!p);
+  const allFeatured: Personality[] = [];
+
+  categories.forEach(cat => {
+    // Get personalities for this category, newest first
+    const catPeople = personalities.filter(p => p.categorySlug === cat.slug).reverse();
+    // Filter for only those that are "recent" globally (last 60 items)
+    const recentCatPeople = catPeople.filter(p => isRecentlyAdded(p.id, 60));
+    // Add the latest 4 from this category
+    allFeatured.push(...recentCatPeople.slice(0, 4));
+  });
+
+  // Sort the final list by global position (newest first) to avoid awkward grouping
+  return allFeatured.sort((a, b) => {
+    const indexA = personalities.findIndex(p => p.id === a.id);
+    const indexB = personalities.findIndex(p => p.id === b.id);
+    return indexB - indexA;
+  });
 };
