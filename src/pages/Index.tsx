@@ -290,34 +290,63 @@ const Index = () => {
         </section>
 
         {/* Categories — With Lucide Icons */}
-        <section className="py-20">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="h-px w-8 bg-primary" />
-              <span className="text-primary font-medium tracking-[0.2em] uppercase text-xs">Browse</span>
-            </div>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-12">Inspiring Voices</h2>
+        <section className="relative py-24 overflow-hidden">
+          {/* Background Decorative Elements */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-6xl -z-10 opacity-30">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-[120px] animate-pulse" />
+            <div className="absolute bottom-0 left-0 w-80 h-80 bg-primary/5 rounded-full blur-[100px]" />
+          </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="container mx-auto px-4">
+            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+              <div className="max-w-2xl">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="h-px w-10 bg-primary" />
+                  <span className="text-primary font-medium tracking-[0.3em] uppercase text-xs">Explore by Interest</span>
+                </div>
+                <h2 className="font-serif text-4xl md:text-5xl font-bold">Browse Categories</h2>
+                <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
+                  Discover stories of excellence across diverse fields that shape the spirit of modern India.
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {categories.map((cat, i) => (
                 <motion.div
                   key={cat.slug}
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: i * 0.08 }}
+                  transition={{ delay: i * 0.05, duration: 0.6 }}
                 >
                   <Link
                     to={`/category/${cat.slug}`}
-                    className="group block glass-card-hover p-8"
+                    className="group relative block h-full overflow-hidden rounded-3xl border border-white/5 bg-white/[0.03] p-8 transition-all duration-500 hover:border-primary/30 hover:bg-white/[0.07] hover:shadow-2xl hover:shadow-primary/10"
                   >
-                    <div className="h-14 w-14 rounded-2xl bg-primary/10 flex items-center justify-center text-primary mb-4 group-hover:bg-primary/20 transition-colors">
-                      {categoryIcons[cat.slug] || <Star className="h-8 w-8" />}
-                    </div>
-                    <h3 className="font-serif text-xl font-bold group-hover:text-primary transition-colors">{cat.name}</h3>
-                    <p className="text-sm text-muted-foreground mt-3 leading-relaxed">{cat.description}</p>
-                    <div className="flex items-center gap-2 text-primary text-sm font-medium mt-6 group-hover:gap-3 transition-all">
-                      View all <ArrowRight className="h-3 w-3" />
+                    {/* Hover Background Glow */}
+                    <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-primary/10 blur-3xl transition-all duration-700 group-hover:bg-primary/20 group-hover:scale-150" />
+
+                    <div className="relative z-10">
+                      <div className="mb-8 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-primary/20 to-primary/5 text-primary ring-1 ring-primary/20 transition-all duration-500 group-hover:scale-110 group-hover:rotate-3 group-hover:from-primary/30 group-hover:ring-primary/40 shadow-lg shadow-primary/5">
+                        {categoryIcons[cat.slug] || <Star className="h-8 w-8" />}
+                      </div>
+
+                      <h3 className="font-serif text-2xl font-bold group-hover:text-primary transition-colors duration-300">
+                        {cat.name}
+                      </h3>
+                      <p className="mt-4 text-muted-foreground leading-relaxed group-hover:text-foreground/80 transition-colors duration-300">
+                        {cat.description}
+                      </p>
+
+                      <div className="mt-8 flex items-center justify-between">
+                        <span className="text-primary text-sm font-semibold tracking-wide uppercase opacity-0 -translate-x-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0">
+                          View Collection
+                        </span>
+                        <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-primary transition-all duration-500 group-hover:bg-primary group-hover:text-primary-foreground group-hover:rotate-[-45deg]">
+                          <ArrowRight className="h-5 w-5" />
+                        </div>
+                      </div>
                     </div>
                   </Link>
                 </motion.div>
