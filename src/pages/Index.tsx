@@ -304,7 +304,7 @@ const Index = () => {
                   <div className="h-px w-10 bg-primary" />
                   <span className="text-primary font-medium tracking-[0.3em] uppercase text-xs">Explore by Interest</span>
                 </div>
-                <h2 className="font-serif text-4xl md:text-5xl font-bold">Browse Categories</h2>
+                <h2 className="font-serif text-4xl md:text-5xl font-bold">Browse Inspiring Voices</h2>
                 <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
                   Discover stories of excellence across diverse fields that shape the spirit of modern India.
                 </p>
