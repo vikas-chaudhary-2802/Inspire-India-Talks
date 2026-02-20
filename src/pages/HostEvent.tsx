@@ -67,7 +67,7 @@ const HostEvent = () => {
             {[
               { icon: <Calendar className="h-6 w-6" />, title: "Flexible Scheduling", desc: "We work around your timeline — weekdays, weekends, or special occasions." },
               { icon: <Users className="h-6 w-6" />, title: "Any Audience Size", desc: "From intimate workshops of 20 to conferences of 5000+." },
-              { icon: <Building className="h-6 w-6" />, title: "All Event Types", desc: "Corporate events, college seminars, school assemblies, TEDx-style talks, and more." },
+              { icon: <Building className="h-6 w-6" />, title: "All Event Types", desc: "Corporate events, college seminars, school assemblies, Inspiring talks, and more." },
               { icon: <Sparkles className="h-6 w-6" />, title: "Premium Experience", desc: "Our speakers deliver world-class presentations with storytelling that inspires action." },
             ].map((item, i) => (
               <motion.div
