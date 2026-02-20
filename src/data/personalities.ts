@@ -1069,7 +1069,7 @@ export const personalities: Personality[] = [
     title: "Professional Footballer",
     category: "Sports Icons",
     categorySlug: "sports-icons",
-    image: "/public/images/personalities/Amir-khan.jpg",
+    image: "/images/personalities/Amir-khan.jpg",
     born: "Jammu & Kashmir, India",
     profession: "Footballer",
     knownFor: "Emerging football representation from Kashmir",
