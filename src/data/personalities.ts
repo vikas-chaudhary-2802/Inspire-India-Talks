@@ -470,22 +470,22 @@ export const personalities: Personality[] = [
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
   },
-  {
-    id: "sonam-wangchuk",
-    name: "Sonam Wangchuk",
-    title: "Innovator & Education Reformer",
-    category: "Teachers & Educators",
-    categorySlug: "teachers-educators",
-    image: "/images/personalities/sonam-wangchuk.png",
-    born: "1 September 1966, Ladakh",
-    profession: "Engineer & Reformer",
-    knownFor: "SECMOL and Ice Stupas",
-    quote: "Innovation is not just about technology, it's about empathy.",
-    story: "Sonam Wangchuk founded SECMOL (Students' Educational and Cultural Movement of Ladakh) to reform the education system in Ladakh, which was failing local students. He created a solar-powered school campus run by students. He is also famous for inventing the 'Ice Stupa' artificial glaciers to solve water scarcity in the high Himalayas. The character 'Phunsukh Wangdu' in the movie '3 Idiots' was inspired by him. He continues to fight for environmental protection and sustainable education in the Himalayas.",
-    achievements: ["Founded SECMOL", "Rolex Award for Enterprise", "Invented Ice Stupas", "Inspired '3 Idiots' character", "Climate activist for Ladakh"],
-    authorName: "Inspire India",
-    authorLinkedin: "https://www.linkedin.com/company/inspire-india",
-  },
+  // {
+  //   id: "sonam-wangchuk",
+  //   name: "Sonam Wangchuk",
+  //   title: "Innovator & Education Reformer",
+  //   category: "Teachers & Educators",
+  //   categorySlug: "teachers-educators",
+  //   image: "/images/personalities/sonam-wangchuk.png",
+  //   born: "1 September 1966, Ladakh",
+  //   profession: "Engineer & Reformer",
+  //   knownFor: "SECMOL and Ice Stupas",
+  //   quote: "Innovation is not just about technology, it's about empathy.",
+  //   story: "Sonam Wangchuk founded SECMOL (Students' Educational and Cultural Movement of Ladakh) to reform the education system in Ladakh, which was failing local students. He created a solar-powered school campus run by students. He is also famous for inventing the 'Ice Stupa' artificial glaciers to solve water scarcity in the high Himalayas. The character 'Phunsukh Wangdu' in the movie '3 Idiots' was inspired by him. He continues to fight for environmental protection and sustainable education in the Himalayas.",
+  //   achievements: ["Founded SECMOL", "Rolex Award for Enterprise", "Invented Ice Stupas", "Inspired '3 Idiots' character", "Climate activist for Ladakh"],
+  //   authorName: "Inspire India",
+  //   authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+  // },
   {
     id: "swami-vivekananda",
     name: "Swami Vivekananda",
@@ -517,6 +517,26 @@ export const personalities: Personality[] = [
     achievements: ["Co-founder Unacademy", "Youngest IAS officer (formerly)", "AIIMS Doctor", "Democratized test prep in India", "Inspiration for youth"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+  },
+  {
+    id: "sonam-wangchuk",
+    name: "Sonam Wangchuk",
+    title: "Education Reformer & Innovator",
+    category: "Teachers & Educators",
+    categorySlug: "teachers-educators",
+    image: "/images/personalities/sonam-wangchuk.png",
+    born: "1 September 1966, Ladakh",
+    profession: "Engineer & Education Innovator",
+    knownFor: "Revolutionizing experiential education in Ladakh",
+    quote: "Real education builds innovation and character.",
+    story: "Sonam Wangchuk transformed education in Ladakh through practical learning models and sustainable innovations like the Ice Stupa project.",
+    achievements: [
+      "Founder of SECMOL",
+      "Ice Stupa Innovator",
+      "Ramon Magsaysay Awardee"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
   },
   // ===== DOCTORS & MEDICAL HEROES =====
   {
@@ -1003,6 +1023,125 @@ export const personalities: Personality[] = [
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
   },
+  {
+    id: "vaibhav-suryavanshi",
+    name: "Vaibhav Suryavanshi",
+    title: "Rising Cricket Talent",
+    category: "Sports Icons",
+    categorySlug: "sports-icons",
+    image: "/images/personalities/Vaibhav-suryavanshi.webp",
+    born: "Bihar, India",
+    profession: "Cricketer",
+    knownFor: "Emerging cricket talent representing Bihar’s new sports wave",
+    quote: "Dreams from small towns can reach the biggest stadiums.",
+    story: "Vaibhav Suryavanshi represents the new era of cricket talent emerging from Bihar. Rising through youth circuits and local leagues, he symbolizes the growth of grassroots sports infrastructure in non-metro India.",
+    achievements: [
+      "Recognized emerging cricket prospect",
+      "Represented Bihar in competitive circuits",
+      "Symbol of grassroots sports rise"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "deepika-kumari",
+    name: "Deepika Kumari",
+    title: "World-Class Archer",
+    category: "Sports Icons",
+    categorySlug: "sports-icons",
+    image: "/images/personalities/deepika-kumari.jpg",
+    born: "13 June 1994, Ranchi",
+    profession: "Archer",
+    knownFor: "World No.1 ranked archer and Olympian",
+    quote: "Focus and discipline turn dreams into reality.",
+    story: "Born in Ranchi, Deepika Kumari rose from humble beginnings to become one of the world’s top-ranked archers. Her journey from practicing with homemade bows to representing India globally inspires millions.",
+    achievements: [
+      "World No.1 Ranked Archer",
+      "Olympian",
+      "Commonwealth Games Gold Medalist"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "aamir-khan-footballer",
+    name: "Aamir Khan",
+    title: "Professional Footballer",
+    category: "Sports Icons",
+    categorySlug: "sports-icons",
+    image: "/public/images/personalities/Amir-khan.jpg",
+    born: "Jammu & Kashmir, India",
+    profession: "Footballer",
+    knownFor: "Emerging football representation from Kashmir",
+    quote: "Sports can rewrite the story of any region.",
+    story: "Aamir Khan represents the growing football culture in Jammu & Kashmir and inspires youth participation in professional sports.",
+    achievements: [
+      "Professional football representation",
+      "Youth sports inspiration"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "pv-sindhu",
+    name: "P. V. Sindhu",
+    title: "Olympic Medalist",
+    category: "Sports Icons",
+    categorySlug: "sports-icons",
+    image: "/images/personalities/PV-Sindhu.jpg",
+    born: "5 July 1995, Hyderabad",
+    profession: "Badminton Player",
+    knownFor: "Olympic medalist and world champion",
+    quote: "Hard work beats talent when talent doesn’t work hard.",
+    story: "P. V. Sindhu is one of India’s most decorated badminton players, inspiring millions through her Olympic and world championship achievements.",
+    achievements: [
+      "Olympic Silver & Bronze Medalist",
+      "World Champion",
+      "Padma Bhushan Awardee"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "kidambi-srikanth",
+    name: "Kidambi Srikanth",
+    title: "Badminton Champion",
+    category: "Sports Icons",
+    categorySlug: "sports-icons",
+    image: "/images/personalities/kidambi-srikanth.avif",
+    born: "7 February 1993, Andhra Pradesh",
+    profession: "Badminton Player",
+    knownFor: "Former World No.1 badminton player",
+    quote: "Consistency creates champions.",
+    story: "Kidambi Srikanth made history as World No.1 in badminton rankings and strengthened India’s global presence in the sport.",
+    achievements: [
+      "Former World No.1",
+      "Multiple Super Series Titles",
+      "Arjuna Awardee"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "mirabai-chanu",
+    name: "Saikhom Mirabai Chanu",
+    title: "Olympic Weightlifting Medalist",
+    category: "Sports Icons",
+    categorySlug: "sports-icons",
+    image: "/images/personalities/saikhom-mirabai-chanu.avif",
+    born: "8 August 1994, Manipur",
+    profession: "Weightlifter",
+    knownFor: "Olympic medalist in weightlifting",
+    quote: "Strength comes from perseverance.",
+    story: "Mirabai Chanu rose from a small village in Manipur to become an Olympic medalist, symbolizing rural India’s global sporting rise.",
+    achievements: [
+      "Olympic Silver Medalist",
+      "World Champion",
+      "Commonwealth Games Gold Medalist"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
   // ===== INDIAN HEROES =====
   {
     id: "sam-manekshaw",
@@ -1487,6 +1626,46 @@ export const personalities: Personality[] = [
     achievements: ["Padma Vibhushan recipient", "multiple Grammy Awards", "Co-founder of Shakti", "Global Tabla phenomenon", "Sangeet Natak Akademi Fellow"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
+  },
+  {
+    id: "tetseo-sisters",
+    name: "Tetseo Sisters",
+    title: "Folk Fusion Music Icons",
+    category: "Others",
+    categorySlug: "others",
+    image: "/images/personalities/tetseo-sisters.jpg",
+    born: "Nagaland, India",
+    profession: "Musicians",
+    knownFor: "Blending traditional Naga folk music with modern sounds",
+    quote: "Music preserves culture and connects generations.",
+    story: "The Tetseo Sisters are cultural ambassadors from Nagaland who have revived and globalized traditional Naga music through contemporary performances.",
+    achievements: [
+      "Revived indigenous Naga folk traditions",
+      "Performed internationally",
+      "Cultural icons of Northeast India"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "alobo-naga",
+    name: "Alobo Naga",
+    title: "Youth Music Icon",
+    category: "Others",
+    categorySlug: "others",
+    image: "/images/personalities/Alobo-Naga.jpg",
+    born: "Nagaland, India",
+    profession: "Singer & Performer",
+    knownFor: "Popular contemporary music figure from Northeast India",
+    quote: "Art has the power to unite cultures.",
+    story: "Alobo Naga is one of the most recognized contemporary music figures from Nagaland, shaping youth culture and promoting Northeast representation on national stages.",
+    achievements: [
+      "Northeast youth icon",
+      "National-level performances",
+      "Cultural ambassador"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
   },
 
 ];
