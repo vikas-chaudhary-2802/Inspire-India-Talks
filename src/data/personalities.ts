@@ -1649,7 +1649,7 @@ export const personalities: Personality[] = [
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",
-  },
+  }, 
   {
     id: "sudarsan-pattnaik",
     name: "Sudarsan Pattnaik",

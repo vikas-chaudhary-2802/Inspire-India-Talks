@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import { getPersonalityById, getPersonalitiesByCategory } from "@/data/personalities";
 import { ArrowLeft, Quote, ArrowRight } from "lucide-react";
@@ -29,6 +30,24 @@ const PersonalityDetail = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <title>{person.name} — Inspire India Talks</title>
+        <meta name="description" content={person.story.substring(0, 160) + "..."} />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://inspireindiatalks.com/personality/${person.id}`} />
+        <meta property="og:title" content={`${person.name} — Inspire India Talks`} />
+        <meta property="og:description" content={`${person.title}. ${person.knownFor}`} />
+        <meta property="og:image" content={`https://inspireindiatalks.com${person.image}`} />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content={`https://inspireindiatalks.com/personality/${person.id}`} />
+        <meta name="twitter:title" content={`${person.name} — Inspire India Talks`} />
+        <meta name="twitter:description" content={person.quote} />
+        <meta name="twitter:image" content={`https://inspireindiatalks.com${person.image}`} />
+      </Helmet>
       {/* Hero Image with scroll shrink */}
       <motion.section
         ref={heroRef}
