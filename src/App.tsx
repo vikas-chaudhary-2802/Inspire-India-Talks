@@ -10,6 +10,7 @@ import PersonalityDetail from "./pages/PersonalityDetail";
 import HostEvent from "./pages/HostEvent";
 import Contact from "./pages/Contact";
 import YouthSpotlight from "./pages/YouthSpotlight";
+import FoundersTalk from "./pages/FoundersTalk";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/host-event" element={<HostEvent />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/youth-spotlight" element={<YouthSpotlight />} />
+          <Route path="/founders-talk" element={<FoundersTalk />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
