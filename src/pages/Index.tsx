@@ -49,7 +49,13 @@ const Index = () => {
     setMousePos({ x: e.clientX, y: e.clientY });
   }, []);
 
-  const storyOfWeek = personalities.find(p => p.id === "ratan-tata")!;
+  const sortedPersonalities = [...personalities].sort((a, b) => {
+    const dateA = a.addedAt ? new Date(a.addedAt).getTime() : 0;
+    const dateB = b.addedAt ? new Date(b.addedAt).getTime() : 0;
+    return dateB - dateA;
+  });
+
+  const storyOfWeek = sortedPersonalities[0] || personalities[0];
 
   return (
     <div ref={pageRef} onMouseMove={handleMouseMove} className="relative">
@@ -169,10 +175,10 @@ const Index = () => {
         <section className="border-y border-border/50 py-8">
           <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
-              { icon: <Users className="h-5 w-5" />, number: "500+", label: "Inspiring Stories" },
-              { icon: <BookOpen className="h-5 w-5" />, number: "30+", label: "Categories" },
+              { icon: <Users className="h-5 w-5" />, number: `${personalities.length}+`, label: "Inspiring Stories" },
+              { icon: <BookOpen className="h-5 w-5" />, number: `${categories.length}+`, label: "Categories" },
               { icon: <Star className="h-5 w-5" />, number: "100+", label: "Achievements" },
-              { icon: <Award className="h-5 w-5" />, number: "500+", label: "Inspiration" },
+              { icon: <Award className="h-5 w-5" />, number: `${personalities.length * 5}+`, label: "Inspiration" },
             ].map((stat, i) => (
               <motion.div
                 key={i}
@@ -304,7 +310,7 @@ const Index = () => {
                   <div className="h-px w-10 bg-primary" />
                   <span className="text-primary font-medium tracking-[0.3em] uppercase text-xs">Explore by Interest</span>
                 </div>
-                <h2 className="font-serif text-4xl md:text-5xl font-bold">Browse Inspiring Voices</h2>
+                <h2 className="font-serif text-4xl md:text-5xl font-bold">Browse {personalities.length} Inspiring Voices</h2>
                 <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
                   Discover stories of excellence across diverse fields that shape the spirit of modern India.
                 </p>

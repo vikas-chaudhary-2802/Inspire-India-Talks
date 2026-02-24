@@ -207,6 +207,52 @@ export const personalities: Personality[] = [
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",
   },
+  {
+    id: "gorre-ashok",
+    name: "Gorre Ashok",
+    title: "Rural Agri-Tech Innovator",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/personalities/Gorre-Ashok.webp",
+    born: "Manala, Rajanna Sircilla, Telangana, India",
+    profession: "Agri-Tech Entrepreneur & Innovator",
+    knownFor: "Inventing a multipurpose farm utility vehicle for small-scale Indian farmers",
+    quote: "Innovation doesn’t belong to cities — it belongs wherever problems exist.",
+    story: "In the small agrarian village of Manala in Telangana, Gorre Ashok grew up witnessing the relentless physical strain of farming. His father, a marginal farmer, spent hours manually spraying pesticides and weeding fields under the scorching sun. While most agricultural machinery in India is designed for large-scale farms, Ashok realized that small and irregular landholdings — which form the backbone of rural Bharat — were largely ignored by modern innovation.\n\nAt just 17 years old, while preparing for board exams, Ashok began experimenting in a small shed using scrap materials and mechanical components. Driven not by academic pressure but by lived experience, he engineered a compact multipurpose farm utility vehicle tailored specifically for small-scale Indian farmers.\n\nThe machine was capable of precision pesticide spraying up to 20 feet in height and width, reducing hours of manual labor to just 15–20 minutes per acre. Beyond spraying, it could be adapted for ploughing, weeding, and transporting agricultural loads — making it a cost-effective and fuel-efficient alternative to expensive tractors.\n\nWhat sets Ashok apart is not just invention, but execution. He went on to establish Rural Rise Agrinery, aiming to manufacture and distribute these machines to fellow farmers. His work bridges grassroots necessity with practical engineering, proving that world-class innovation can emerge from rural India.\n\nRecognized by the National Innovation Foundation and honored at state levels, Ashok represents a new generation of rural Gen-Z innovators — young builders solving real problems at the source. His journey is a powerful reminder that when innovation begins in the fields, it can transform the future of a nation.",
+    achievements: [
+      "Developed a multipurpose farm utility vehicle at age 17",
+      "Founded Rural Rise Agrinery",
+      "Recognized by National Innovation Foundation (NIF)",
+      "Recipient of multiple state-level innovation honors",
+      "Engineered precision spraying technology covering one acre in 15–20 minutes"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+    addedAt: "2026-02-24"
+  },
+  {
+    id: "vaishali-patil",
+    name: "Vaishali Patil",
+    title: "Reviver of India’s Ancient Supergrain",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/personalities/Vaishali-patil.webp",
+    born: "Jalgaon, Maharashtra, India",
+    profession: "Agricultural Entrepreneur & Seed Innovator",
+    knownFor: "Reviving Khapli (Emmer) wheat and scaling its cultivation across Maharashtra",
+    quote: "Sometimes the future of health lies in the wisdom of our past.",
+    story: "Vaishali Patil’s journey into agricultural entrepreneurship began not in a boardroom, but beside her mother’s hospital bed. When her mother was diagnosed with leukemia, Vaishali began searching for traditional, low-glycemic and nutrient-rich foods that could support better health. During this search, she rediscovered Khapli (Emmer) wheat — an ancient Indian grain that had nearly disappeared from farms after the Green Revolution prioritized high-yield hybrid varieties.\n\nWhat she uncovered was more than just a grain; it was a forgotten piece of agricultural heritage. Khapli wheat, known for its low gluten content and high nutritional value, had once been a staple in Indian households. However, modern farming trends had pushed it to the margins.\n\nDetermined to bring it back, Vaishali began cultivation on just two acres of land. Despite initial skepticism from farmers who were accustomed to hybrid seeds, she persisted — educating communities about the health benefits and economic viability of the grain.\n\nHer efforts sparked a quiet revolution. Today, Khapli wheat is grown on over 1,500 acres, and Vaishali holds one of the first Seed Dealer Licenses for this variety, ensuring certified distribution to farmers. Her work has empowered thousands of cultivators to grow what she calls 'medicine as food,' reconnecting agriculture with nutrition and sustainability.Vaishali’s story is not just about reviving a crop — it is about reviving confidence in indigenous knowledge, empowering rural farmers, and proving that tradition and entrepreneurship can grow side by side. Through resilience and purpose, she transformed a personal struggle into a statewide agricultural movement.",
+    achievements: [
+      "Revived large-scale cultivation of Khapli (Emmer) wheat in Maharashtra",
+      "Scaled cultivation from 2 acres to over 1,500 acres",
+      "Holds one of the first Seed Dealer Licenses for Khapli wheat",
+      "Empowered thousands of farmers to adopt nutrient-rich traditional crops",
+      "Promoted the concept of 'medicine as food' through sustainable farming"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+    addedAt: "2026-02-24"
+  },
   // ===== LEADING LADIES =====
   {
     id: "kalpana-chawla",
@@ -378,6 +424,29 @@ export const personalities: Personality[] = [
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",
   },
+  {
+    id: "kalyani-shinde",
+    name: "Kalyani Shinde",
+    title: "The Engineer Transforming India’s Onion Capital",
+    category: "Leading Ladies",
+    categorySlug: "leading-ladies",
+    image: "/images/personalities/Kalyani-Shinde.avif",
+    born: "Lasalgaon, Maharashtra, India",
+    profession: "IoT Innovator & Agri-Tech Entrepreneur",
+    knownFor: "Developing IoT technology to detect early-stage onion spoilage in storage",
+    quote: "Innovation has the most meaning when it solves the problems of your own people.",
+    story: "Lasalgaon in Maharashtra is known as Asia’s largest onion market. Yet behind its scale lies a silent crisis—nearly 40% of harvested onions are lost to rot during storage. For decades, farmers accepted this as inevitable. Most young engineers from such towns leave for cities like Pune or Bengaluru. Kalyani Shinde chose a different path.\n\nA trained computer engineer, Kalyani decided to stay back and address the very problem affecting her community. She observed that by the time farmers could smell spoilage, the loss was already significant. Determined to intervene earlier in the cycle, she founded Godaam Innovations—an IoT-based solution designed specifically for rural storage systems.\n\nHer device detects the early chemical changes and subtle gas emissions that indicate rotting onions—long before the human nose can sense it. The system then sends alerts directly to farmers’ phones in local languages, enabling timely action to prevent large-scale damage.\n\nBy combining modern sensor technology with grassroots understanding, Kalyani created a powerful example of ‘Brain Gain’—highly educated youth returning home to solve generational problems using 21st-century tools.\n\nHer work not only reduces financial loss for farmers but also strengthens food supply chains and rural economic stability. Kalyani represents a new wave of women technologists who are redefining innovation—not from corporate towers, but from mandis and farmlands across Bharat.",
+    achievements: [
+      "Founded Godaam Innovations to reduce post-harvest crop losses",
+      "Developed IoT device detecting early-stage onion spoilage",
+      "Created multilingual alert system for farmers",
+      "Helped reduce crop wastage in Asia’s largest onion market",
+      "Pioneer of rural-focused agri-tech innovation"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  
   // ===== TEACHERS & EDUCATORS =====
   {
     id: "anand-kumar",
@@ -565,6 +634,95 @@ export const personalities: Personality[] = [
       "Founder of SECMOL",
       "Ice Stupa Innovator",
       "Ramon Magsaysay Awardee"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "radhamani-kp",
+    name: "Radhamani K.P.",
+    title: "The Walking Library of Wayanad",
+    category: "Teachers & Educators",
+    categorySlug: "teachers-educators",
+    image: "/images/personalities/Radhamani-Chechy.jpg",
+    born: "Mothakkara, Wayanad, Kerala, India",
+    profession: "Community Educator & Literacy Advocate",
+    knownFor: "Delivering books door-to-door to rural women in remote villages of Kerala",
+    quote: "If access to knowledge is limited, we must carry knowledge to the people.",
+    story: "In the remote hilly village of Mothakkara in Kerala’s Wayanad district, literacy among rural women remained stagnant—not because of a lack of interest, but because of limited access. Libraries were far, public spaces were scarce, and daily responsibilities confined many women to their homes.\n\nSince 2012, Radhamani K.P. has quietly rewritten this reality. Known as the 'Walking Librarian of Wayanad,' she carries a heavy bag of books on her shoulder and treks through difficult terrain to deliver literature directly to the doorsteps of rural women. Rain, hills, and distance have never been barriers to her mission.\n\nHer initiative represents true last-mile delivery of knowledge. By personally engaging with women, encouraging reading habits, and making books accessible within their own spaces, she has fostered confidence, awareness, and intellectual growth in communities often left behind.\n\nIn an age dominated by digital solutions, Radhamani’s work reminds us of the enduring power of physical books and human connection. Her story is a quiet yet powerful testament that education does not always require technology—it requires commitment.\n\nThrough consistency and compassion, she has strengthened literacy, empowered women, and proved that meaningful change often begins with a single step taken repeatedly.",
+    achievements: [
+      "Serving as a Walking Librarian in Wayanad since 2012",
+      "Improved access to books for rural women in remote regions",
+      "Promoted grassroots literacy through door-to-door book delivery",
+      "Encouraged reading culture in underserved communities",
+      "Demonstrated impactful last-mile knowledge distribution"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+    addedAt: "2026-02-24"
+  },
+  {
+    id: "ganeshwar-shastri-dravid",
+    name: "Ganeshwar Shastri Dravid",
+    title: "The Modern Voice of Vedic Wisdom",
+    category: "Teachers & Educators",
+    categorySlug: "teachers-educators",
+    image: "/images/personalities/Ganeshwar-Shastri-Dravid.jpg",
+    born: "Varanasi, Uttar Pradesh, India",
+    profession: "Vedic Scholar & Sanskrit Educator",
+    knownFor: "Making Vedic knowledge and Sanskrit accessible to rural students",
+    quote: "Tradition must live in practice, not in museums.",
+    story: "In the spiritual city of Varanasi and its surrounding rural hubs, Ganeshwar Shastri Dravid has dedicated his life to bridging the gap between ancient Vedic scholarship and modern education. At a time when traditional Vedic learning often appears rigid, exclusive, and financially inaccessible, he chose a different path — one of simplification and inclusion.\n\nRooted deeply in classical Sanskrit and Vedic texts, Ganeshwar Shastri recognized that knowledge loses relevance when it becomes confined to elite institutions. Many rural students with intellectual curiosity could not afford expensive traditional gurukul systems or specialized education. He began translating complex philosophical and ritualistic concepts into practical, understandable lessons tailored for contemporary learners.\n\nRather than treating Sanskrit as a 'dead language,' he promotes it as a living medium of thought, ethics, and character-building. Through lectures, simplified teachings, and grassroots engagement, he ensures that ancient wisdom remains relevant to modern youth.\n\nHis work represents the modernization of tradition — not dilution, but democratization. By making Vedic knowledge accessible to rural communities, he preserves India’s intellectual heritage while adapting it to changing societal needs.\n\nGaneshwar Shastri Dravid’s journey reminds us that cultural continuity depends not on rigid preservation, but on thoughtful evolution. In his classrooms, tradition breathes, speaks, and guides a new generation.",
+    achievements: [
+      "Simplified Vedic teachings for rural accessibility",
+      "Promoted Sanskrit as a living language",
+      "Expanded access to traditional education in rural Uttar Pradesh",
+      "Bridged classical scholarship with modern pedagogy",
+      "Advocated democratization of ancient knowledge systems"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "achyut-ramchandra-palav",
+    name: "Achyut Ramchandra Palav",
+    title: "The Calligrapher of Compassion",
+    category: "Teachers & Educators",
+    categorySlug: "teachers-educators",
+    image: "/images/personalities/Achyut-Ramchandra-Palav.jpeg",
+    born: "West Bengal / Maharashtra, India",
+    profession: "Calligrapher & Literacy Educator",
+    knownFor: "Conducting script workshops in rural regions to promote literacy and communal harmony",
+    quote: "When writing becomes art, learning becomes pride.",
+    story: "In villages where access to quality education is still a struggle, Achyut Ramchandra Palav chose to reimagine literacy not as a compulsory skill, but as a source of pride and beauty. A master calligrapher, he understood that writing could be more than communication — it could be identity, confidence, and cultural connection.\n\nRather than confining his craft to galleries or urban workshops, Achyut took his art to rural Bengal and Maharashtra. Through 'Script Workshops,' he introduces children to the aesthetics of letters, teaching them that alphabets carry rhythm, emotion, and harmony.\n\nIn communities where literacy levels remain low, he transforms the act of writing into an empowering experience. Children who once hesitated to hold a pen begin to see their handwriting as creative expression. This shift builds self-esteem and deepens engagement with education.\n\nBeyond literacy, his workshops also promote communal harmony by celebrating multiple scripts and linguistic traditions. By showing the artistic unity in diverse writing systems, he fosters respect across cultural lines.\n\nAchyut Ramchandra Palav’s work reminds us that education is not only about access — it is about inspiration. By turning writing into art, he gives rural children a new reason to learn and a new way to see themselves.",
+    achievements: [
+      "Conducted rural script workshops across Bengal and Maharashtra",
+      "Promoted literacy through calligraphy-based education",
+      "Advocated communal harmony through script diversity",
+      "Empowered underprivileged children through creative writing",
+      "Elevated calligraphy as a tool for social impact"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "gautham-anuradha",
+    name: "Gautham & Anuradha",
+    title: "The Visionaries Behind The Sarang Dream",
+    category: "Teachers & Educators",
+    categorySlug: "teachers-educators",
+    image: "/images/personalities/gauthamAnuradha.jpg",
+    born: "Sarang Hills, Kerala, India",
+    profession: "Alternative Education Pioneers & Ecological Educators",
+    knownFor: "Transforming a barren hill into a forest-based learning ecosystem",
+    quote: "Education must teach us how to live, not just how to earn.",
+    story: "In the Sarang Hills of Kerala, Gautham and Anuradha chose a path few dared to take. Decades ago, they stepped away from conventional systems to build something radically different — an alternative school rooted in ecological living and life education.\n\nFor years, they were mocked for 'dropping out' of mainstream society. Living on a barren hill with no water, no electricity, and no institutional backing, they committed themselves to a long-term vision. While others questioned their choices, they planted trees, conserved soil, and slowly nurtured the land back to life.\n\nWhat was once dry terrain gradually transformed into a thriving forest — now known as The Sarang Dream. Alongside ecological restoration, they built a learning space where rural children are taught more than textbooks. Their curriculum includes farming, martial arts such as Kalaripayattu, self-reliance skills, and deep respect for nature.\n\nTheir model emphasizes life education — teaching children resilience, discipline, sustainability, and community responsibility. Over time, society’s skepticism gave way to admiration as the once-barren hill flourished.\n\nTheir journey represents the power of the long game. It proves that when vision is sustained over decades with patience and conviction, both nature and society eventually respond. Gautham and Anuradha remind us that true education shapes character, restores ecosystems, and builds futures grounded in harmony.",
+    achievements: [
+      "Transformed a barren hill into a thriving ecological forest",
+      "Founded an alternative life-education model in rural Kerala",
+      "Integrated farming and Kalaripayattu into education",
+      "Promoted sustainable living practices for rural youth",
+      "Built a long-term ecological learning community known as The Sarang Dream"
     ],
     authorName: "Inspire India Talks",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
@@ -1374,25 +1532,53 @@ export const personalities: Personality[] = [
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",
   },
+  {
+    id: "mohammad-meer-hamja",
+    name: "Mohammad Meer Hamja",
+    title: "The Voice of the Nomadic Forests",
+    category: "Indian Heroes",
+    categorySlug: "indian-heroes",
+    image: "/images/personalities/Meer-Hamza.png",
+    born: "Uttarakhand, India (Van Gujjar Community)",
+    profession: "Community Leader & Tribal Rights Activist",
+    knownFor: "Leading digital and legal literacy movement for the Van Gujjar nomadic community",
+    quote: "Recognition is not a favor — it is our constitutional right.",
+    story: "For centuries, the Van Gujjars of Uttarakhand have lived as nomadic pastoralists, moving through forest landscapes with their livestock, sustaining both their families and the delicate ecological balance of the region. Yet despite their deep-rooted history, they have often been treated as 'encroachers' on the very land their ancestors protected.\n\nMohammad Meer Hamja emerged as a voice from within this invisible community. Witnessing the lack of legal awareness and documentation among his people, he understood that survival in the modern state required more than tradition — it required literacy in law, rights, and digital systems.\n\nHe founded the Van Gujjar Tribal Yuva Sangathan, initiating one of the first organized digital and legal literacy movements among nomadic forest communities. Through workshops, GPS mapping of traditional grazing routes, and education around the Forest Rights Act, Hamja has empowered families to document their presence and claim constitutional protections.\n\nHis mission extends beyond land rights. Hamja envisions transforming his community into a 'Viksit Samaj' (Developed Society) by 2026 — not by abandoning their identity, but by strengthening it through awareness, documentation, and civic participation.\n\nIn a country where many marginalized voices remain unheard, Hamja represents a new generation of grassroots leaders who are using the law as a tool for dignity. His journey is not merely about land; it is about identity, recognition, and rightful belonging within the fabric of the nation.",
+    achievements: [
+      "Founded Van Gujjar Tribal Yuva Sangathan",
+      "Launched digital literacy initiatives for nomadic communities",
+      "Promoted awareness of the Forest Rights Act",
+      "Used GPS mapping to document traditional grazing territories",
+      "Leading movement toward recognition of Van Gujjars as a 'Viksit Samaj' by 2026"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
 
   // ===== YOUNG ACHIEVERS =====
   {
-    id: "praggnanandhaa",
-    name: "R. Praggnanandhaa",
-    title: "Chess Prodigy",
-    category: "Young Achievers",
-    categorySlug: "young-achievers",
-    image: "/images/personalities/R-Praggnanandhaas.jpg",
-    born: "10 August 2005, Chennai",
-    profession: "Chess Grandmaster",
-    knownFor: "Defeating World Champion Magnus Carlsen multiple times",
-    quote: "I just want to play good chess.",
-    story: "Rameshbabu Praggnanandhaa is the wonder kid of Indian chess. Becoming an International Master at 10 (youngest at the time) and Grandmaster at 12, he stunned the world by defeating World Champion Magnus Carlsen multiple times in rapid chess. He reached the final of the Chess World Cup 2023, becoming the youngest player to do so, and qualified for the Candidates Tournament. His calm demeanor and tactical genius have marked him as a future World Champion.",
-    achievements: ["Grandmaster at age 12", "World Cup Runner-up 2023", "Defeated Magnus Carlsen repeatedly", "Arjuna Award recipient", "Youngest World Cup finalist"],
-    authorName: "Inspire India",
-    authorLinkedin: "https://www.linkedin.com/company/inspire-india",
-    addedAt: "2026-02-15",
-  },
+  id: "praggnanandhaa",
+  name: "R. Praggnanandhaa",
+  title: "Chess Prodigy",
+  category: "Young Achievers",
+  categorySlug: "young-achievers",
+  image: "/images/personalities/r-praggnanandhaa.jpg",
+  born: "10 August 2005, Chennai, India",
+  profession: "Chess Grandmaster",
+  knownFor: "Defeating World Champion Magnus Carlsen multiple times",
+  quote: "I just want to play good chess.",
+  story: "Rameshbabu Praggnanandhaa is one of India's brightest chess prodigies. He became an International Master at the age of 10 and a Grandmaster at just 12, making him one of the youngest in history. He stunned the chess world by defeating World Champion Magnus Carlsen multiple times in rapid formats. In 2023, he reached the final of the FIDE Chess World Cup, becoming the youngest finalist and qualifying for the Candidates Tournament. His calm composure, deep calculation, and fearless play have positioned him as a future World Championship contender.",
+  achievements: [
+    "Grandmaster at age 12",
+    "FIDE World Cup Runner-up 2023",
+    "Multiple wins against Magnus Carlsen",
+    "Arjuna Award recipient",
+    "Youngest World Cup finalist"
+  ],
+  authorName: "Inspire India Talks",
+  authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+  addedAt: "2026-02-15"
+},
   {
     id: "sheetal-devi",
     name: "Sheetal Devi",
@@ -1546,6 +1732,50 @@ export const personalities: Personality[] = [
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",
   },
+  {
+    id: "wanmei-konyak",
+    name: "Wanmei Konyak",
+    title: "From Hunter to Restoration Leader",
+    category: "Environmentalists",
+    categorySlug: "environmentalists",
+    image: "/images/personalities/Wanmei-Konyak.jpg",
+    born: "Chi Village, Nagaland, India",
+    profession: "Community Conservation Leader & Eco-Restoration Advocate",
+    knownFor: "Transforming his village into a model for community-driven wildlife restoration",
+    quote: "Protecting our forest is the only way to protect our future.",
+    story: "Born in Chi village in Nagaland, Wanmei Konyak grew up in a proud Konyak community with a long tradition of hunting. For generations, the forest had been seen primarily as a source of meat and livelihood. However, over time, wildlife populations began to decline and jhum (slash-and-burn) cultivation led to land degradation. The ecological imbalance started affecting not just biodiversity, but also the long-term sustainability of village life.\n\nRather than resisting change, Wanmei chose to lead it.\n\nThrough the GreenHub network, he began documenting his community’s traditional ecological knowledge and cultural lore. He realized that conservation did not mean rejecting heritage — it meant evolving it. By engaging youth, elders, and local leaders, he helped shift the narrative from hunting to habitat restoration.\n\nWanmei spearheaded initiatives to protect remaining wildlife, restore degraded land, and promote sustainable practices within the village. His efforts have successfully transformed Chi into a model for community-driven eco-restoration in the region.\n\nHis journey represents cultural evolution at its finest — honoring ancestral identity while adapting to protect the future. Wanmei Konyak stands as proof that real environmental leadership begins from within the community, not from outside intervention.",
+    achievements: [
+      "Led community-driven wildlife restoration in Chi village",
+      "Documented indigenous ecological knowledge through GreenHub",
+      "Promoted transition from hunting to conservation practices",
+      "Helped restore degraded jhum lands",
+      "Transformed his village into a model for eco-restoration in Nagaland"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "chami-murmu",
+    name: "Chami Murmu",
+    title: "The Lady Tarzan of Jharkhand",
+    category: "Environmentalists",
+    categorySlug: "environmentalists",
+    image: "/images/personalities/Chami-Murmu.jpg",
+    born: "Rajnagar, Jharkhand, India",
+    profession: "Environmental Activist & Social Reformer",
+    knownFor: "Mobilizing women to plant over 30 lakh trees and fighting witch-hunting practices",
+    quote: "Protecting the forest is protecting our future — and our dignity.",
+    story: "In the tribal belts of Rajnagar, Jharkhand, Chami Murmu grew up witnessing forests being destroyed by the timber mafia. The once-rich landscape of Jal-Jungle-Jameen (water, forest, land) was slowly being stripped away, threatening both livelihoods and ecological balance.\n\nInstead of remaining silent, Chami chose resistance.\n\nFacing death threats and intense social pressure, she began mobilizing tribal women to protect and restore their forests. What started as a small collective movement grew into a massive environmental revolution. Under her leadership, women planted more than 30 lakh (3 million) trees across the region — transforming barren land into thriving green cover.\n\nBut her courage did not stop at environmental restoration.\n\nIn rural pockets of Jharkhand, witch-hunting and the stigma of labeling women as 'Dayan' still haunt communities. Chami became a fierce anti-witchcraft crusader, intervening in cases where women were targeted, abused, or socially ostracized. She worked tirelessly to protect vulnerable women and restore their dignity.\n\nHer leadership represents fearless grassroots activism — defending both the land and the lives of women. Chami Murmu’s story is not just about planting trees; it is about reclaiming identity, resisting injustice, and building a future rooted in courage and community strength.",
+    achievements: [
+      "Mobilized women to plant over 30 lakh trees in Jharkhand",
+      "Led grassroots resistance against timber mafia activities",
+      "Active crusader against witch-hunting practices",
+      "Advocate for protection of Jal-Jungle-Jameen",
+      "Recognized as the 'Lady Tarzan of Jharkhand'"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
 
   // ===== OTHERS (CHANGEMAKERS) =====
   {
@@ -1649,7 +1879,7 @@ export const personalities: Personality[] = [
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",
-  }, 
+  },
   {
     id: "sudarsan-pattnaik",
     name: "Sudarsan Pattnaik",
@@ -1758,6 +1988,50 @@ export const personalities: Personality[] = [
     authorName: "Inspire India Talks",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
   },
+  {
+    id: "bhagwandas-raikwar",
+    name: "Bhagwandas Raikwar",
+    title: "The Guardian of Bundelkhand’s Folk Legacy",
+    category: "Others",
+    categorySlug: "others",
+    image: "/images/personalities/bhagavan-das-raikwar.webp",
+    born: "Bundelkhand, Madhya Pradesh, India",
+    profession: "Folk Arts & Traditional Sports Mentor",
+    knownFor: "Preserving and training youth in Bundelkhand’s traditional arts and folk sports",
+    quote: "Our culture is not backward — it is our strength.",
+    story: "In the drought-prone region of Bundelkhand, where economic hardship often pushes youth toward migration and daily-wage labor, traditional arts and folk sports have long struggled to survive. As modernization reshaped aspirations, many local practices were abandoned, considered outdated in a globalized world.\n\nBhagwandas Raikwar refused to let that identity disappear.\n\nFor decades, he has dedicated his life to preserving the folk sports and artistic traditions of Bundelkhand. Rather than treating them as mere performances for festivals, he positioned them as tools for building confidence, discipline, and community pride among rural youth.\n\nThrough regular training sessions, cultural gatherings, and mentorship, Bhagwandas has helped young people reconnect with their heritage. His efforts have created a sense of belonging in villages where economic stagnation often leads to social fragmentation.\n\nIn 2026, he was formally recognized for his lifelong commitment to cultural preservation. But beyond recognition, his true achievement lies in reshaping perception — teaching rural youth that their local identity is not something to escape, but something to honor.\n\nBhagwandas Raikwar’s journey is a reminder that resilience is not built only through infrastructure or policy; it is built through shared culture, collective memory, and pride in one’s roots.",
+    achievements: [
+      "Preserved traditional folk sports of Bundelkhand",
+      "Mentored village youth in indigenous art forms",
+      "Recognized in 2026 for cultural preservation efforts",
+      "Strengthened rural identity and community cohesion",
+      "Advocated pride in local heritage among rural youth"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
+  {
+    id: "pandi-ram-mandavi",
+    name: "Pandi Ram Mandavi",
+    title: "The Iron Artisan of Bastar",
+    category: "Others",
+    categorySlug: "others",
+    image: "/images/personalities/pandi-ram.webp",
+    born: "Bastar, Chhattisgarh, India",
+    profession: "Master Artisan & Cultural Entrepreneur",
+    knownFor: "Reviving Bastar Iron Craft and creating sustainable livelihoods for tribal artisans",
+    quote: "Art can build futures where conflict once stood.",
+    story: "In the conflict-affected region of Bastar, Chhattisgarh, where headlines often speak of insurgency and unrest, Pandi Ram Mandavi chose a different narrative — one forged not with weapons, but with iron and fire.\n\nA master of the traditional Bastar Iron Craft, Pandi Ram inherited an ancient tribal art form that risked fading into obscurity. In a region where instability often overshadows creativity, many young people faced limited opportunities and difficult choices.\n\nInstead of allowing the craft to disappear, he transformed it into a global symbol of tribal excellence. By refining traditional techniques and connecting local artisans to broader markets, he elevated Bastar Iron Craft from a village practice to an internationally appreciated art form.\n\nMore importantly, he built a livelihood ecosystem around it. Hundreds of local artisans now depend on this craft for sustainable income, preserving both economic stability and cultural pride.\n\nHis work sends a powerful message — that creative economy can be a stabilizing force. By giving youth a dignified alternative, he encourages them to choose the hammer of art over the gun of conflict.\n\nPandi Ram Mandavi’s journey is a testament to peace through art — proving that culture, when nurtured, can rebuild identity and resilience in even the most fragile regions.",
+    achievements: [
+      "Master artisan of traditional Bastar Iron Craft",
+      "Revived and modernized tribal metal art techniques",
+      "Provided livelihood opportunities to hundreds of artisans",
+      "Elevated Bastar craft to national and global markets",
+      "Advocated art as a tool for peace and community stability"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
+  },
 
 ];
 
@@ -1773,29 +2047,35 @@ export const getCategoryBySlug = (slug: string): Category | undefined => {
   return categories.find(c => c.slug === slug);
 };
 
-// Helper to check if a personality was recently added to the database
-export const isRecentlyAdded = (personId: string, limit: number = 60): boolean => {
-  const index = personalities.findIndex(p => p.id === personId);
-  if (index === -1) return false;
-  return index >= personalities.length - limit;
+// Helper to check if a personality was recently added (within last 30 days or newest in its category)
+export const isRecentlyAdded = (personId: string, limit: number = 30): boolean => {
+  const person = personalities.find(p => p.id === personId);
+  if (!person || !person.addedAt) return false;
+
+  const addedDate = new Date(person.addedAt);
+  const now = new Date(); // In a real app we might use a fixed "today" for build consistency
+  // For this project, let's assume "recent" means Feb 2026 or later
+  const threshold = new Date("2026-02-01");
+
+  return addedDate >= threshold;
 };
 
 export const getFeaturedPersonalities = (): Personality[] => {
-  const allFeatured: Personality[] = [];
+  return [...personalities]
+    .sort((a, b) => {
+      // If a person has no date, treat them as the "newest attainable" date (future)
+      // This ensures manual additions without dates are at the top
+      const dateA = a.addedAt ? new Date(a.addedAt).getTime() : Date.now() + 1000 * 60 * 60 * 24 * 365; // +1 year
+      const dateB = b.addedAt ? new Date(b.addedAt).getTime() : Date.now() + 1000 * 60 * 60 * 24 * 365; // +1 year
 
-  categories.forEach(cat => {
-    // Get personalities for this category, newest first
-    const catPeople = personalities.filter(p => p.categorySlug === cat.slug).reverse();
-    // Filter for only those that are "recent" globally (last 60 items)
-    const recentCatPeople = catPeople.filter(p => isRecentlyAdded(p.id, 60));
-    // Add the latest 4 from this category
-    allFeatured.push(...recentCatPeople.slice(0, 4));
-  });
+      if (dateB !== dateA) {
+        return dateB - dateA;
+      }
 
-  // Sort the final list by global position (newest first) to avoid awkward grouping
-  return allFeatured.sort((a, b) => {
-    const indexA = personalities.findIndex(p => p.id === a.id);
-    const indexB = personalities.findIndex(p => p.id === b.id);
-    return indexB - indexA;
-  });
+      // If dates are the same (or both missing), use index in original array (higher index = newer)
+      const indexA = personalities.findIndex(p => p.id === a.id);
+      const indexB = personalities.findIndex(p => p.id === b.id);
+      return indexB - indexA;
+    })
+    .slice(0, 15);
 };
