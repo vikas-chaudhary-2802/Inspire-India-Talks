@@ -5,6 +5,10 @@
       "destination": "/api/personality?id=:id"
     },
     {
+      "source": "/founders-talk",
+      "destination": "/api/founders-talk"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
