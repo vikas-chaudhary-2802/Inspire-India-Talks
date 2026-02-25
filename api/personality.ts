@@ -13,6 +13,7 @@ interface PersonalityOG {
 
 /** Escape special HTML characters to prevent XSS in meta tags */
 function escapeHtml(str: string): string {
+    if (!str) return '';
     return str
         .replace(/&/g, '&amp;')
         .replace(/"/g, '&quot;')
@@ -22,13 +23,19 @@ function escapeHtml(str: string): string {
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
     const { id: rawId } = req.query;
-    const id = typeof rawId === 'string' ? rawId.trim().toLowerCase() : '';
+
+    // Clean up the ID: remove trailing slashes, spaces, and lowercase it
+    const id = typeof rawId === 'string'
+        ? rawId.replace(/\/$/, '').trim().toLowerCase()
+        : '';
 
     if (!id) {
         return res.status(400).send('ID is required');
     }
 
-    console.log(`[OG] Processing request for personality: ${id}`);
+    // Set diagnostics headers
+    res.setHeader('X-OG-ID', id);
+    res.setHeader('X-OG-Timestamp', new Date().toISOString());
 
     try {
         // 1. Read index.html from the built output
@@ -39,16 +46,24 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const ogDataPath = join(process.cwd(), 'dist', 'og-data.json');
         const ogData: PersonalityOG[] = JSON.parse(readFileSync(ogDataPath, 'utf8'));
 
-        // 3. Find the personality by ID (case-insensitive for safety)
+        // 3. Find the personality by ID
         const person = ogData.find(p => p.id.toLowerCase() === id);
 
         if (person) {
-            console.log(`[OG] Found personality: ${person.name}`);
-            const fullTitle = escapeHtml(`${person.name} — Inspire India Talks`);
-            const description = escapeHtml(`${person.title}. ${person.knownFor}`);
-            const imageUrl = `https://www.inspireindiatalks.com${person.image}`;
-            const pageUrl = `https://www.inspireindiatalks.com/personality/${person.id}`;
-            const twitterQuote = escapeHtml(person.quote || description);
+            res.setHeader('X-OG-Match', 'true');
+            res.setHeader('X-OG-Person', person.name);
+
+            const name = escapeHtml(person.name || 'Inspire India Talks');
+            const title = escapeHtml(person.title || '');
+            const knownFor = escapeHtml(person.knownFor || '');
+            const quote = escapeHtml(person.quote || '');
+            const image = person.image || '/logo.png';
+
+            const fullTitle = `${name} — Inspire India Talks`;
+            const description = `${title}${title && knownFor ? '. ' : ''}${knownFor}`;
+            const imageUrl = `https://inspireindiatalks.com${image}`;
+            const pageUrl = `https://inspireindiatalks.com/personality/${person.id}`;
+            const twitterQuote = quote || description;
 
             // 4. Update the main <title> tag
             html = html.replace(/<title>.*?<\/title>/, `<title>${fullTitle}</title>`);
@@ -66,6 +81,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   <meta property="og:image" content="${imageUrl}" />
   <meta property="og:url" content="${pageUrl}" />
   <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Inspire India Talks" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="${fullTitle}" />
   <meta name="twitter:description" content="${twitterQuote}" />
@@ -77,14 +93,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
                 ogInjection
             );
         } else {
-            console.warn(`[OG] Personality ID "${id}" not found in data.`);
+            res.setHeader('X-OG-Match', 'false');
         }
 
-        res.setHeader('Content-Type', 'text/html');
+        res.setHeader('Content-Type', 'text/html; charset=utf-8');
+        res.setHeader('Cache-Control', 'public, max-age=3600, s-maxage=3600');
+
         return res.status(200).send(html);
     } catch (error) {
-        console.error('[OG] Error injecting OG tags:', error);
-        // Fallback: serve original index.html
+        res.setHeader('X-OG-Error', 'true');
+        // Serve default index.html as fallback
         try {
             const indexPath = join(process.cwd(), 'dist', 'index.html');
             return res.status(200).send(readFileSync(indexPath, 'utf8'));
