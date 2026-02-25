@@ -21,11 +21,14 @@ function escapeHtml(str: string): string {
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
-    const { id } = req.query;
+    const { id: rawId } = req.query;
+    const id = typeof rawId === 'string' ? rawId.trim().toLowerCase() : '';
 
-    if (!id || typeof id !== 'string') {
+    if (!id) {
         return res.status(400).send('ID is required');
     }
+
+    console.log(`[OG] Processing request for personality: ${id}`);
 
     try {
         // 1. Read index.html from the built output
@@ -36,64 +39,51 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const ogDataPath = join(process.cwd(), 'dist', 'og-data.json');
         const ogData: PersonalityOG[] = JSON.parse(readFileSync(ogDataPath, 'utf8'));
 
-        // 3. Find the personality by ID
-        const person = ogData.find(p => p.id === id);
+        // 3. Find the personality by ID (case-insensitive for safety)
+        const person = ogData.find(p => p.id.toLowerCase() === id);
 
         if (person) {
+            console.log(`[OG] Found personality: ${person.name}`);
             const fullTitle = escapeHtml(`${person.name} — Inspire India Talks`);
             const description = escapeHtml(`${person.title}. ${person.knownFor}`);
             const imageUrl = `https://www.inspireindiatalks.com${person.image}`;
-            const pageUrl = `https://www.inspireindiatalks.com/personality/${id}`;
+            const pageUrl = `https://www.inspireindiatalks.com/personality/${person.id}`;
+            const twitterQuote = escapeHtml(person.quote || description);
 
-            // 4. Replace the <title> tag
+            // 4. Update the main <title> tag
             html = html.replace(/<title>.*?<\/title>/, `<title>${fullTitle}</title>`);
 
-            // 5. Replace the meta description
+            // 5. Update the page-level description
             html = html.replace(
                 /<meta\s+name="description"\s+content="[^"]*"\s*\/?>/,
                 `<meta name="description" content="${description}" />`
             );
 
-            // 6. Inject personality-specific OG tags between the markers
+            // 6. Replace the entire OG/Twitter block inside the markers
             const ogInjection = `<!-- OG_INJECT_START -->
-    <meta property="og:title" content="${fullTitle}" />
-    <meta property="og:description" content="${description}" />
-    <meta property="og:image" content="${imageUrl}" />
-    <meta property="og:url" content="${pageUrl}" />
-    <meta property="og:type" content="article" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="${fullTitle}" />
-    <meta name="twitter:description" content="${escapeHtml(person.quote)}" />
-    <meta name="twitter:image" content="${imageUrl}" />
-    <!-- OG_INJECT_END -->`;
+  <meta property="og:title" content="${fullTitle}" />
+  <meta property="og:description" content="${description}" />
+  <meta property="og:image" content="${imageUrl}" />
+  <meta property="og:url" content="${pageUrl}" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="${fullTitle}" />
+  <meta name="twitter:description" content="${twitterQuote}" />
+  <meta name="twitter:image" content="${imageUrl}" />
+  <!-- OG_INJECT_END -->`;
 
             html = html.replace(
                 /<!-- OG_INJECT_START -->[\s\S]*?<!-- OG_INJECT_END -->/,
                 ogInjection
             );
-
-            // 7. Replace the default static OG tags with personality-specific ones
-            html = html.replace(/<meta\s+property="og:title"\s+content="[^"]*"\s*\/?>/,
-                `<meta property="og:title" content="${fullTitle}" />`);
-            html = html.replace(/<meta\s+property="og:description"[\s\S]*?\/>/,
-                `<meta property="og:description" content="${description}" />`);
-            html = html.replace(/<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/,
-                `<meta property="og:type" content="article" />`);
-            html = html.replace(/<meta\s+property="og:url"\s+content="[^"]*"\s*\/?>/,
-                `<meta property="og:url" content="${pageUrl}" />`);
-            html = html.replace(/<meta\s+property="og:image"\s+content="[^"]*"\s*\/?>/,
-                `<meta property="og:image" content="${imageUrl}" />`);
-
-            html = html.replace(/<meta\s+name="twitter:title"\s+content="[^"]*"\s*\/?>/,
-                `<meta name="twitter:title" content="${fullTitle}" />`);
-            html = html.replace(/<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/?>/,
-                `<meta name="twitter:image" content="${imageUrl}" />`);
+        } else {
+            console.warn(`[OG] Personality ID "${id}" not found in data.`);
         }
 
         res.setHeader('Content-Type', 'text/html');
         return res.status(200).send(html);
     } catch (error) {
-        console.error('Error injecting OG tags:', error);
+        console.error('[OG] Error injecting OG tags:', error);
         // Fallback: serve original index.html
         try {
             const indexPath = join(process.cwd(), 'dist', 'index.html');
