@@ -49,15 +49,7 @@ const features = [
     },
 ];
 
-const stageOptions = [
-    "Idea",
-    "MVP",
-    "Revenue Generating",
-    "Funded",
-    "Scaling",
-];
 
-const modeOptions = ["In-Person", "Virtual"];
 
 const FoundersTalk = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -263,21 +255,16 @@ const FoundersTalk = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
-                        className="glass-card p-8 md:p-12 space-y-12"
+                        className="glass-card p-8 md:p-12 space-y-8"
                     >
-                        {/* ── Section 1: Basic Information ── */}
                         <div className="space-y-6">
-                            <div className="flex items-center gap-3 mb-2">
-                                <span className="text-xs font-semibold text-primary tracking-[0.2em] uppercase">01</span>
-                                <h3 className="font-serif text-lg font-semibold">Basic Information</h3>
-                            </div>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                 <div>
                                     <label className="text-sm font-medium mb-1.5 block text-foreground/80">Full Name <span className="text-primary">*</span></label>
                                     <Input name="full_name" required placeholder="Your full name" className="bg-background/50 border-border/40 focus:border-primary/50" />
                                 </div>
                                 <div>
-                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">Startup / Organization <span className="text-primary">*</span></label>
+                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">Startup Name <span className="text-primary">*</span></label>
                                     <Input name="startup_name" required placeholder="Your startup name" className="bg-background/50 border-border/40 focus:border-primary/50" />
                                 </div>
                             </div>
@@ -293,155 +280,27 @@ const FoundersTalk = () => {
                             </div>
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                 <div>
-                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">LinkedIn Profile URL</label>
-                                    <Input name="linkedin" placeholder="linkedin.com/in/yourprofile" className="bg-background/50 border-border/40 focus:border-primary/50" />
+                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">LinkedIn Profile <span className="text-primary">*</span></label>
+                                    <Input name="linkedin" required placeholder="linkedin.com/in/yourprofile" className="bg-background/50 border-border/40 focus:border-primary/50" />
                                 </div>
                                 <div>
                                     <label className="text-sm font-medium mb-1.5 block text-foreground/80">Website URL</label>
                                     <Input name="website" placeholder="yourstartup.com" className="bg-background/50 border-border/40 focus:border-primary/50" />
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="border-t border-border/30" />
-
-                        {/* ── Section 2: Startup Details ── */}
-                        <div className="space-y-6">
-                            <div className="flex items-center gap-3 mb-2">
-                                <span className="text-xs font-semibold text-primary tracking-[0.2em] uppercase">02</span>
-                                <h3 className="font-serif text-lg font-semibold">Startup Details</h3>
-                            </div>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                                <div>
-                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">Industry</label>
-                                    <Input name="industry" placeholder="e.g. EdTech, FinTech, AgriTech" className="bg-background/50 border-border/40 focus:border-primary/50" />
-                                </div>
-                                <div>
-                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">Stage</label>
-                                    <select
-                                        name="stage"
-                                        className="w-full h-10 rounded-md border border-border/40 bg-background/50 px-3 text-sm text-foreground focus:border-primary/50 focus:outline-none focus:ring-1 focus:ring-primary/30 transition-colors"
-                                    >
-                                        <option value="">Select stage</option>
-                                        {stageOptions.map((s) => (
-                                            <option key={s} value={s}>{s}</option>
-                                        ))}
-                                    </select>
-                                </div>
-                            </div>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                                <div>
-                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">Founded Year</label>
-                                    <Input name="founded_year" placeholder="e.g. 2022" className="bg-background/50 border-border/40 focus:border-primary/50" />
-                                </div>
-                                <div className="sm:col-span-1" />
-                            </div>
                             <div>
-                                <label className="text-sm font-medium mb-1.5 block text-foreground/80">Current Traction</label>
+                                <label className="text-sm font-medium mb-1.5 block text-foreground/80">What makes your story unique? (Briefly) <span className="text-primary">*</span></label>
                                 <Textarea
-                                    name="traction"
-                                    rows={3}
-                                    placeholder="Users, revenue, growth metrics, or any measurable progress..."
-                                    className="bg-background/50 border-border/40 focus:border-primary/50 resize-none"
-                                />
-                            </div>
-                        </div>
-
-                        <div className="border-t border-border/30" />
-
-                        {/* ── Section 3: Founder Story Fit ── */}
-                        <div className="space-y-6">
-                            <div className="flex items-center gap-3 mb-2">
-                                <span className="text-xs font-semibold text-primary tracking-[0.2em] uppercase">03</span>
-                                <h3 className="font-serif text-lg font-semibold">Founder Story Fit</h3>
-                            </div>
-                            <div>
-                                <label className="text-sm font-medium mb-1.5 block text-foreground/80">What problem are you solving? <span className="text-primary">*</span></label>
-                                <Textarea
-                                    name="problem"
+                                    name="story"
                                     required
                                     rows={3}
-                                    placeholder="Describe the problem your startup addresses..."
-                                    className="bg-background/50 border-border/40 focus:border-primary/50 resize-none"
-                                />
-                            </div>
-                            <div>
-                                <label className="text-sm font-medium mb-1.5 block text-foreground/80">What has been your biggest challenge as a founder?</label>
-                                <Textarea
-                                    name="challenge"
-                                    rows={3}
-                                    placeholder="The hardest parts of your journey so far..."
-                                    className="bg-background/50 border-border/40 focus:border-primary/50 resize-none"
-                                />
-                            </div>
-                            <div>
-                                <label className="text-sm font-medium mb-1.5 block text-foreground/80">Why should students hear your story?</label>
-                                <Textarea
-                                    name="why_students"
-                                    rows={3}
-                                    placeholder="What makes your story worth sharing with our audience..."
-                                    className="bg-background/50 border-border/40 focus:border-primary/50 resize-none"
-                                />
-                            </div>
-                            <div>
-                                <label className="text-sm font-medium mb-1.5 block text-foreground/80">What makes your journey different?</label>
-                                <Textarea
-                                    name="differentiator"
-                                    rows={3}
-                                    placeholder="Your unique story, unconventional path, or defining moment..."
+                                    placeholder="Your elevator pitch, a major challenge overcome, or why our audience should hear from you..."
                                     className="bg-background/50 border-border/40 focus:border-primary/50 resize-none"
                                 />
                             </div>
                         </div>
 
-                        <div className="border-t border-border/30" />
-
-                        {/* ── Section 4: Logistics ── */}
-                        <div className="space-y-6">
-                            <div className="flex items-center gap-3 mb-2">
-                                <span className="text-xs font-semibold text-primary tracking-[0.2em] uppercase">04</span>
-                                <h3 className="font-serif text-lg font-semibold">Logistics</h3>
-                            </div>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                                <div>
-                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">Preferred Mode</label>
-                                    <select
-                                        name="mode"
-                                        className="w-full h-10 rounded-md border border-border/40 bg-background/50 px-3 text-sm text-foreground focus:border-primary/50 focus:outline-none focus:ring-1 focus:ring-primary/30 transition-colors"
-                                    >
-                                        <option value="">Select mode</option>
-                                        {modeOptions.map((m) => (
-                                            <option key={m} value={m}>{m}</option>
-                                        ))}
-                                    </select>
-                                </div>
-                                <div>
-                                    <label className="text-sm font-medium mb-1.5 block text-foreground/80">Available Dates / Time Window</label>
-                                    <Input name="availability" placeholder="e.g. March 2026, weekdays preferred" className="bg-background/50 border-border/40 focus:border-primary/50" />
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="border-t border-border/30" />
-
-                        {/* ── Section 5: Confirmation ── */}
-                        <div className="space-y-6">
-                            <div className="flex items-center gap-3 mb-2">
-                                <span className="text-xs font-semibold text-primary tracking-[0.2em] uppercase">05</span>
-                                <h3 className="font-serif text-lg font-semibold">Confirmation</h3>
-                            </div>
-                            <label className="flex items-start gap-3 cursor-pointer group">
-                                <input
-                                    type="checkbox"
-                                    name="confirmation"
-                                    required
-                                    className="mt-1 h-4 w-4 rounded border-border/40 bg-background/50 accent-primary"
-                                />
-                                <span className="text-sm text-foreground/70 group-hover:text-foreground/90 transition-colors">
-                                    I confirm that the information provided is accurate and I am authorised to represent this startup.
-                                </span>
-                            </label>
-
+                        <div className="pt-2">
                             <Button
                                 type="submit"
                                 disabled={isSubmitting}
@@ -453,10 +312,13 @@ const FoundersTalk = () => {
                                 ) : (
                                     <>
                                         <CheckCircle2 className="h-4 w-4 mr-2" />
-                                        Apply for Feature
+                                        Submit Application
                                     </>
                                 )}
                             </Button>
+                            <p className="text-center text-xs text-muted-foreground mt-4">
+                                Takes less than a minute. We'll reach out if there's a fit.
+                            </p>
                         </div>
                     </motion.form>
                 </div>
