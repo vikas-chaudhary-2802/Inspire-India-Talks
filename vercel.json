@@ -6,6 +6,10 @@
   },
   "rewrites": [
     {
+      "source": "/events/:slug",
+      "destination": "/api/event?slug=:slug"
+    },
+    {
       "source": "/personality/:id",
       "destination": "/api/personality?id=:id"
     },

@@ -71,6 +71,7 @@ const Navbar = () => {
 
           {[
             { path: "/about", label: "About" },
+            { path: "/events", label: "Events" },
             { path: "/youth-spotlight", label: "Youth Spotlight" },
             { path: "/founders-talk", label: "Founders Talk" },
             { path: "/host-event", label: "Host a Talk" },
@@ -104,6 +105,7 @@ const Navbar = () => {
                 </Link>
               ))}
               <Link to="/about" className="block text-sm font-medium py-2 hover:text-primary" onClick={() => setIsOpen(false)}>About</Link>
+              <Link to="/events" className="block text-sm font-medium py-2 hover:text-primary" onClick={() => setIsOpen(false)}>Events</Link>
               <Link to="/youth-spotlight" className="block text-sm font-medium py-2 hover:text-primary" onClick={() => setIsOpen(false)}>Youth Spotlight</Link>
               <Link to="/founders-talk" className="block text-sm font-medium py-2 hover:text-primary" onClick={() => setIsOpen(false)}>Founders Talk</Link>
               <Link to="/host-event" className="block text-sm font-medium py-2 hover:text-primary" onClick={() => setIsOpen(false)}>Host a Talk</Link>
