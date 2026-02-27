@@ -17,7 +17,7 @@ const heroQuotes = [
 
 const categoryIcons: Record<string, React.ReactNode> = {
   entrepreneurs: <Briefcase className="h-8 w-8" />,
-  "leading-ladies": <Crown className="h-8 w-8" />,
+  "she-talks": <Crown className="h-8 w-8" />,
   "teachers-educators": <BookOpen className="h-8 w-8" />,
   "medical-heroes": <Stethoscope className="h-8 w-8" />,
   environmentalists: <Leaf className="h-8 w-8" />,
