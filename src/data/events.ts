@@ -23,13 +23,13 @@ export interface Event {
 export const events: Event[] = [
     {
         id: "e1",
-        slug: "women-who-hustle-iiit-delhi",
-        title: "Women Who Hustle",
-        tagline: "Inspiring talks by trailblazing women founders and leaders.",
+        slug: "From Idea to Impact",
+        title: "The Entrepreneurial Journey of Building Customer-Centric Startups.",
+        tagline: "Inspiring talks by trailblazing founders and leaders.",
         date: "March 8, 2024",
         location: "IIIT Delhi",
         coverImage: "/images/events/women-who-hustle-iiit-delhi/cover.jpg",
-        shortDescription: "An exclusive event celebrating women leadership and entrepreneurship at IIIT Delhi.",
+        shortDescription: "An exclusive event celebrating entrepreneurship and leadership and startup's at IIIT Delhi.",
         fullDescription: [
             "Inspire India Talks brought together some of the most inspiring women leaders to IIIT Delhi for a day of motivation, learning, and networking.",
             "The 'Women Who Hustle' event focused on the unique challenges and triumphs of women in entrepreneurship, tech, and creative industries. Attendees had the opportunity to hear firsthand accounts of building successful ventures from the ground up."
@@ -63,12 +63,12 @@ export const events: Event[] = [
     {
         id: "e1",
         slug: "women-who-hustle-iiit-delhi",
-        title: "From Idea to Impact",
-        tagline: "The Entrepreneurial Journey of Building Customer-Centric Startups.",
+        title: "Women Who Hustle",
+        tagline: "Women Who Hustle, From Idea to Impact",
         date: "March 14th, 2024",
         location: "GGSIPU",
         coverImage: "/images/events/women-who-hustle-iiit-delhi/cover.jpg",
-        shortDescription: "An exclusive event celebrating entrepreneurship and leadership and startup's at IIIT Delhi.",
+        shortDescription: "An exclusive event celebrating women leadership and entrepreneurship at IIIT Delhi.",
         fullDescription: [
             "Inspire India Talks brought together some of the most inspiring women leaders to IIIT Delhi for a day of motivation, learning, and networking.",
             "The 'Women Who Hustle' event focused on the unique challenges and triumphs of women in entrepreneurship, tech, and creative industries. Attendees had the opportunity to hear firsthand accounts of building successful ventures from the ground up."
