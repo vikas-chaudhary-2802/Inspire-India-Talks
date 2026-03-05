@@ -23,9 +23,9 @@ export interface Event {
 export const events: Event[] = [
     {
         id: "e1",
-        slug: "From Idea to Impact",
-        title: "The Entrepreneurial Journey of Building Customer-Centric Startups.",
-        tagline: "Inspiring talks by trailblazing founders and leaders.",
+        slug: "from-idea-to-impact-iit-delhi",
+        title: "From Idea to Impact",
+        tagline: "The Entrepreneurial Journey of Building Customer-Centric Startups and Inspiring talks by trailblazing founders and leaders.",
         date: "March 8, 2024",
         location: "IIIT Delhi",
         coverImage: "/images/events/women-who-hustle-iiit-delhi/cover.jpg",
