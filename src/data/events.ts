@@ -23,7 +23,7 @@ export interface Event {
 export const events: Event[] = [
     {
         id: "e1",
-        slug: "from-idea-to-impact-iit-delhi",
+        slug: "from-idea-to-impact-iiit-delhi",
         title: "From Idea to Impact",
         tagline: "The Entrepreneurial Journey of Building Customer-Centric Startups and Inspiring talks by trailblazing founders and leaders.",
         date: "March 14, 2026",
