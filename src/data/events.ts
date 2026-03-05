@@ -26,26 +26,37 @@ export const events: Event[] = [
         slug: "from-idea-to-impact-iit-delhi",
         title: "From Idea to Impact",
         tagline: "The Entrepreneurial Journey of Building Customer-Centric Startups and Inspiring talks by trailblazing founders and leaders.",
-        date: "March 8, 2024",
+        date: "March 14, 2026",
         location: "IIIT Delhi",
-        coverImage: "/images/events/women-who-hustle-iiit-delhi/cover.jpg",
-        shortDescription: "An exclusive event celebrating entrepreneurship and leadership and startup's at IIIT Delhi.",
+        coverImage: "/images/events/IIIT-Delhi.jpg",
+        shortDescription: "An exclusive event celebrating entrepreneurship, leadership and startup's at IIIT Delhi.",
         fullDescription: [
-            "Inspire India Talks brought together some of the most inspiring women leaders to IIIT Delhi for a day of motivation, learning, and networking.",
-            "The 'Women Who Hustle' event focused on the unique challenges and triumphs of women in entrepreneurship, tech, and creative industries. Attendees had the opportunity to hear firsthand accounts of building successful ventures from the ground up."
+            "The theme 'From Idea to Impact' highlighted the challenges, learnings, and strategic decisions involved in building meaningful ventures. Attendees gained insights into product-market fit, early-stage struggles, leadership mindset, and how bold ideas evolve into impactful startups."
         ],
         speakers: [
             {
                 id: "s1",
-                name: "Jane Doe",
-                role: "Founder & CEO, TechCorp",
-                image: "/images/events/women-who-hustle-iiit-delhi/speaker1.jpg"
+                name: "Chandan Singh",
+                role: "Founder & CEO, Kinzy & Ex-Cofounder of Adda247",
+                image: "/images/events/Chandan-Sir.jpeg"
             },
             {
                 id: "s2",
-                name: "Sarah Smith",
-                role: "Director of Product",
-                image: "/images/events/women-who-hustle-iiit-delhi/speaker2.jpg"
+                name: "Samshad Alam",
+                role: "Founder & CEO, Edunachal & Inspire India Talks",
+                image: "/images/events/Shamshad-Alam.jpeg"
+            },
+            {
+                id: "s3",
+                name: "Anjali Malhotra",
+                role: "Founder — C-Xcel, Venture Partner & Independent Director",
+                image: "/images/events/Anjali-malhotra.jpeg"
+            },
+            {
+                id: "s4",
+                name: "Tanmay Arora",
+                role: "Partner & Vice President — KRESERA™ & Managing Director — The XCLUSIVE™ Crew",
+                image: "/images/events/Tanmay-arora.jpeg"
             }
         ],
         gallery: [
