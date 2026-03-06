@@ -108,54 +108,44 @@ const Index = () => {
 
                 <div className="mt-10 flex flex-wrap gap-4">
                   <Link
-                    to="/category/entrepreneurs"
+                    to="/events"
                     className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 rounded-xl font-medium hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/20"
                   >
-                    Explore Stories <ArrowRight className="h-4 w-4" />
+                    Explore Events <ArrowRight className="h-4 w-4" />
                   </Link>
                   <Link
-                    to="/host-event"
+                    to="/category/entrepreneurs"
                     className="inline-flex items-center gap-2 border border-border text-foreground/80 px-8 py-4 rounded-xl font-medium hover:border-primary/50 hover:text-primary transition-all"
                   >
-                    <Play className="h-4 w-4" /> Host a Talk
+                    <Play className="h-4 w-4" /> Explore Stories
                   </Link>
                 </div>
               </motion.div>
 
-              {/* Right — Conference Image */}
+              {/* Right — Event Video */}
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, delay: 0.3 }}
                 className="hidden lg:block relative"
               >
-                <div className="relative rounded-2xl overflow-hidden aspect-[4/3] glass-card group">
-                  <img
-                    src="/images/conference-stage.png"
-                    alt="Inspire India Talks — Live conference session"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                <div className="relative rounded-2xl overflow-hidden aspect-video glass-card group">
+                  <video
+                    src="/images/events/0306(1).mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    className="w-full h-full object-cover scale-[1.35]"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
                   <div className="absolute inset-0 bg-gradient-to-r from-background/40 via-transparent to-transparent" />
                   {/* Floating badge */}
                   <div className="absolute bottom-6 left-6 glass-card px-4 py-2 flex items-center gap-2">
                     <div className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                    <span className="text-xs font-medium text-foreground/90 tracking-wider uppercase">Live Events</span>
+                    <span className="text-xs font-medium text-foreground/90 tracking-wider uppercase">IIIT Delhi Event</span>
                   </div>
                 </div>
-                {/* Secondary image overlay */}
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.8 }}
-                  className="absolute -bottom-6 -left-6 w-40 h-28 rounded-xl overflow-hidden glass-card border border-primary/20 shadow-2xl shadow-primary/10"
-                >
-                  <img
-                    src="/images/conference-crowd.png"
-                    alt="Inspire India Talks — Audience"
-                    className="w-full h-full object-cover"
-                  />
-                </motion.div>
               </motion.div>
             </div>
           </motion.div>

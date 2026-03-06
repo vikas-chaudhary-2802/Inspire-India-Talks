@@ -52,14 +52,27 @@ const EventDetail = () => {
                 {/* Banner Section */}
                 <section className="relative h-[60vh] min-h-[500px] flex items-end">
                     <div className="absolute inset-0 z-0">
-                        <img
-                            src={event.coverImage}
-                            alt={event.title}
-                            className="w-full h-full object-cover"
-                            onError={(e) => {
-                                (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?auto=format&fit=crop&q=80';
-                            }}
-                        />
+                        {event.heroVideo ? (
+                            <video
+                                autoPlay
+                                muted
+                                loop
+                                playsInline
+                                poster={event.coverImage}
+                                className="w-full h-full object-cover"
+                            >
+                                <source src={event.heroVideo} type="video/mp4" />
+                            </video>
+                        ) : (
+                            <img
+                                src={event.coverImage}
+                                alt={event.title}
+                                className="w-full h-full object-cover"
+                                onError={(e) => {
+                                    (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?auto=format&fit=crop&q=80';
+                                }}
+                            />
+                        )}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
                     </div>
 

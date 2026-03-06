@@ -13,6 +13,7 @@ export interface Event {
     date: string;
     location: string;
     coverImage: string;
+    heroVideo?: string;
     shortDescription: string;
     fullDescription: string[];
     speakers: EventSpeaker[];
@@ -29,6 +30,7 @@ export const events: Event[] = [
         date: "March 14, 2026",
         location: "IIIT Delhi",
         coverImage: "/images/events/IIIT-Delhi.jpg",
+        heroVideo: "/images/events/0306(1).mp4",
         shortDescription: "An exclusive event celebrating entrepreneurship, leadership and startup's at IIIT Delhi.",
         fullDescription: [
             "The theme 'From Idea to Impact' highlighted the challenges, learnings, and strategic decisions involved in building meaningful ventures. Attendees gained insights into product-market fit, early-stage struggles, leadership mindset, and how bold ideas evolve into impactful startups."
@@ -84,7 +86,7 @@ export const events: Event[] = [
         ]
     },
     {
-        id: "e1",
+        id: "e2",
         slug: "women-who-hustle-iiit-delhi",
         title: "Women Who Hustle",
         tagline: "Women Who Hustle, From Idea to Impact",
