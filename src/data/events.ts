@@ -57,10 +57,22 @@ export const events: Event[] = [
                 name: "Tanmay Arora",
                 role: "Partner & Vice President — KRESERA™ & Managing Director — The XCLUSIVE™ Crew",
                 image: "/images/events/Tanmay-arora.jpeg"
+            },
+            {
+                id: "s5",
+                name: "Dipali Kulshrestha",
+                role: "AWS Hero, Principal Engineer & Building Resilient Financial Systems",
+                image: "/images/events/Dipali-Kulshrestha.jpeg"
+            },
+            {
+                id: "s6",
+                name: "Amit Kumar",
+                role: "Senior Solutions Architect @ Amazon Web Services & Hybrid Cloud Specialist",
+                image: "/images/events/Amit-kumar.jpeg"
             }
         ],
         gallery: [
-            "/images/events/women-who-hustle-iiit-delhi/gallery1.jpg",
+            "/images/events/IIIT-Delhi.jpg",
             "/images/events/women-who-hustle-iiit-delhi/gallery2.jpg",
             "/images/events/women-who-hustle-iiit-delhi/gallery3.jpg",
             "/images/events/women-who-hustle-iiit-delhi/gallery4.jpg"
