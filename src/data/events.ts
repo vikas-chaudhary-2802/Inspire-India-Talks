@@ -33,7 +33,7 @@ export const events: Event[] = [
         heroVideo: "/images/events/0306(1).mp4",
         shortDescription: "An exclusive event celebrating entrepreneurship, leadership and startup's at IIIT Delhi.",
         fullDescription: [
-            "The theme 'From Idea to Impact' highlighted the challenges, learnings, and strategic decisions involved in building meaningful ventures. Attendees gained insights into product-market fit, early-stage struggles, leadership mindset, and how bold ideas evolve into impactful startups."
+            "The theme “From Idea to Impact” will highlight the challenges, learnings, and strategic decisions involved in building meaningful ventures. Attendees will gain insights into product-market fit, early-stage struggles, leadership mindset, and how bold ideas evolve into impactful startups."
         ],
         speakers: [
             {
@@ -75,9 +75,9 @@ export const events: Event[] = [
         ],
         gallery: [
             "/images/events/IIIT-Delhi.jpg",
-            "/images/events/women-who-hustle-iiit-delhi/gallery2.jpg",
-            "/images/events/women-who-hustle-iiit-delhi/gallery3.jpg",
-            "/images/events/women-who-hustle-iiit-delhi/gallery4.jpg"
+            "/images/events/eventphotos.png",
+            "/images/events/eventphotos-1.png",
+            "/images/events/eventphotos-2.png"
         ],
         highlights: [
             "Over 500+ attendees from various colleges",
