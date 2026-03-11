@@ -2085,7 +2085,7 @@ export const personalities: Personality[] = [
     title: "Human Rights Activist & Nobel Peace Prize Laureate",
     category: "Others",
     categorySlug: "others",
-    image: "/public/images/personalities/Nadia-Murad.webp",
+    image: "/images/personalities/Nadia-Murad.webp",
     born: "Kocho, Sinjar, Iraq",
     profession: "Human Rights Activist",
     knownFor: "Advocating for survivors of sexual violence and genocide, and exposing the atrocities committed by ISIS against the Yazidi community",
