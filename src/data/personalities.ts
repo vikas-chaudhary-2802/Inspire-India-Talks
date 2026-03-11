@@ -446,7 +446,31 @@ export const personalities: Personality[] = [
     authorName: "Inspire India Talks",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
   },
-  
+  {
+    id: "malala-yousafzai",
+    name: "Malala Yousafzai",
+    title: "Education Activist & Nobel Peace Prize Laureate",
+    category: "She Talks",
+    categorySlug: "she-talks",
+    image: "/images/personalities/Malala-Yousafzai.webp",
+    born: "Mingora, Swat Valley, Pakistan",
+    profession: "Education Activist",
+    knownFor: "Advocating for girls’ education worldwide after surviving a Taliban attack",
+    quote: "One child, one teacher, one book, and one pen can change the world.",
+    story: "Malala Yousafzai was born in Mingora in Pakistan’s Swat Valley, a region where girls' education was increasingly threatened by extremist groups. Inspired by her father, an educator and activist, Malala developed a strong belief in the power of education from an early age.\n\nAt just 11 years old, she began speaking publicly and writing about the importance of girls' education. Through a blog for the BBC, Malala shared the reality of life under Taliban rule and the fear many girls faced when trying to attend school.\n\nIn October 2012, Malala was targeted and shot by the Taliban while returning home from school because of her outspoken advocacy. The attack shocked the world. After receiving life-saving treatment and recovering in the United Kingdom, Malala chose not to retreat from her mission.\n\nInstead, she continued her campaign with even greater determination, becoming a global voice for education and equality. Through the Malala Fund, she works to ensure that every girl around the world has access to 12 years of free, safe, and quality education.\n\nIn 2014, Malala Yousafzai became the youngest-ever recipient of the Nobel Peace Prize. Her courage and commitment have inspired millions, proving that one voice can challenge injustice and ignite change across the world.",
+    achievements: [
+      "Youngest Nobel Peace Prize laureate in history (2014)",
+      "Co-founder of the Malala Fund promoting girls’ education globally",
+      "Appointed United Nations Messenger of Peace",
+      "Global advocate for education equality and human rights",
+      "Inspired millions of young people worldwide to stand up for education"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+    addedAt: "2026-03-11"
+  },
+
+
   // ===== TEACHERS & EDUCATORS =====
   {
     id: "anand-kumar",
@@ -1070,6 +1094,29 @@ export const personalities: Personality[] = [
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",
   },
+  {
+    id: "arun-krishnamurthy",
+    name: "Arun Krishnamurthy",
+    title: "Founder of Environmental Foundation of India",
+    category: "Environmentalists",
+    categorySlug: "environmentalists",
+    image: "/images/personalities/Arun-Krishnamurthy.webp",
+    born: "Chennai, Tamil Nadu, India",
+    profession: "Environmental Activist & Conservationist",
+    knownFor: "Restoring lakes and water bodies across India through community-driven conservation",
+    quote: "If we take care of nature today, nature will take care of our future.",
+    story: "Arun Krishnamurthy began his environmental journey as a teenager in Chennai when he noticed the alarming deterioration of lakes and water bodies in urban areas. While many people spoke about environmental problems, Arun decided to act.\n\nAt the age of 19, he founded the Environmental Foundation of India (EFI), a volunteer-driven organization focused on restoring India’s water ecosystems. The initiative started with small lake cleanups but gradually evolved into a nationwide movement involving thousands of volunteers.EFI works on scientifically restoring degraded lakes, wetlands, and ponds while also educating communities about environmental stewardship. Through consistent grassroots efforts, Arun and his team have helped revive hundreds of water bodies across India, improving biodiversity and supporting local ecosystems.Arun Krishnamurthy’s work shows that meaningful environmental change does not always require large institutions—sometimes it begins with a small group of committed citizens willing to take responsibility for the planet.",
+    achievements: [
+      "Founder of Environmental Foundation of India (EFI)",
+      "Led restoration of hundreds of lakes and wetlands across India",
+      "Mobilized thousands of volunteers for environmental conservation",
+      "Recognized for community-driven ecological restoration",
+      "Advocate for sustainable water ecosystem management"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+    addedAt: "2026-03-11"
+  },
 
   // ===== SPORTS ICONS =====
   {
@@ -1248,7 +1295,7 @@ export const personalities: Personality[] = [
     title: "Rising Cricket Talent",
     category: "Sports Icons",
     categorySlug: "sports-icons",
-    image: "/images/personalities/Vaibhav-suryavanshi.webp",
+    image: "/public/images/personalities/Vaibhav-suryavanshi.webp",
     born: "Bihar, India",
     profession: "Cricketer",
     knownFor: "Emerging cricket talent representing Bihar’s new sports wave",
@@ -1557,28 +1604,28 @@ export const personalities: Personality[] = [
 
   // ===== YOUNG ACHIEVERS =====
   {
-  id: "praggnanandhaa",
-  name: "R. Praggnanandhaa",
-  title: "Chess Prodigy",
-  category: "Young Achievers",
-  categorySlug: "young-achievers",
-  image: "/images/personalities/r-praggnanandhaa.jpg",
-  born: "10 August 2005, Chennai, India",
-  profession: "Chess Grandmaster",
-  knownFor: "Defeating World Champion Magnus Carlsen multiple times",
-  quote: "I just want to play good chess.",
-  story: "Rameshbabu Praggnanandhaa is one of India's brightest chess prodigies. He became an International Master at the age of 10 and a Grandmaster at just 12, making him one of the youngest in history. He stunned the chess world by defeating World Champion Magnus Carlsen multiple times in rapid formats. In 2023, he reached the final of the FIDE Chess World Cup, becoming the youngest finalist and qualifying for the Candidates Tournament. His calm composure, deep calculation, and fearless play have positioned him as a future World Championship contender.",
-  achievements: [
-    "Grandmaster at age 12",
-    "FIDE World Cup Runner-up 2023",
-    "Multiple wins against Magnus Carlsen",
-    "Arjuna Award recipient",
-    "Youngest World Cup finalist"
-  ],
-  authorName: "Inspire India Talks",
-  authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
-  addedAt: "2026-02-15"
-},
+    id: "praggnanandhaa",
+    name: "R. Praggnanandhaa",
+    title: "Chess Prodigy",
+    category: "Young Achievers",
+    categorySlug: "young-achievers",
+    image: "/images/personalities/r-praggnanandhaa.jpg",
+    born: "10 August 2005, Chennai, India",
+    profession: "Chess Grandmaster",
+    knownFor: "Defeating World Champion Magnus Carlsen multiple times",
+    quote: "I just want to play good chess.",
+    story: "Rameshbabu Praggnanandhaa is one of India's brightest chess prodigies. He became an International Master at the age of 10 and a Grandmaster at just 12, making him one of the youngest in history. He stunned the chess world by defeating World Champion Magnus Carlsen multiple times in rapid formats. In 2023, he reached the final of the FIDE Chess World Cup, becoming the youngest finalist and qualifying for the Candidates Tournament. His calm composure, deep calculation, and fearless play have positioned him as a future World Championship contender.",
+    achievements: [
+      "Grandmaster at age 12",
+      "FIDE World Cup Runner-up 2023",
+      "Multiple wins against Magnus Carlsen",
+      "Arjuna Award recipient",
+      "Youngest World Cup finalist"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+    addedAt: "2026-02-15"
+  },
   {
     id: "sheetal-devi",
     name: "Sheetal Devi",
@@ -2032,6 +2079,29 @@ export const personalities: Personality[] = [
     authorName: "Inspire India Talks",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/"
   },
+  {
+    id: "nadia-murad",
+    name: "Nadia Murad",
+    title: "Human Rights Activist & Nobel Peace Prize Laureate",
+    category: "Others",
+    categorySlug: "others",
+    image: "/public/images/personalities/Nadia-Murad.webp",
+    born: "Kocho, Sinjar, Iraq",
+    profession: "Human Rights Activist",
+    knownFor: "Advocating for survivors of sexual violence and genocide, and exposing the atrocities committed by ISIS against the Yazidi community",
+    quote: "I want to be the last girl in the world with a story like mine.",
+    story: "Nadia Murad was born in the small Yazidi village of Kocho in northern Iraq. Her life changed forever in 2014 when ISIS militants attacked her community, killing many of the men and capturing women and girls as slaves. Nadia was among thousands of Yazidi women who were abducted and subjected to brutal violence and exploitation.\n\nAfter months of captivity, Nadia managed to escape and eventually found refuge in Germany. Instead of remaining silent about the trauma she endured, she chose to speak out and became one of the strongest voices advocating for justice for the Yazidi people and survivors of sexual violence.\n\nNadia began sharing her story at international platforms, including the United Nations, urging the global community to recognize the genocide committed against the Yazidis and to hold perpetrators accountable. Her courage transformed her into a global symbol of resilience and hope.\n\nIn 2018, Nadia Murad was awarded the Nobel Peace Prize for her efforts to end the use of sexual violence as a weapon of war and armed conflict. Through her organization, Nadia’s Initiative, she continues to rebuild communities affected by conflict and support survivors in their journey toward justice and healing.\n\nNadia Murad’s story is a powerful reminder that even in the face of unimaginable suffering, courage and determination can inspire global change and bring attention to those who need it most.",
+    achievements: [
+      "Awarded the Nobel Peace Prize in 2018",
+      "Appointed as the first UN Goodwill Ambassador for the Dignity of Survivors of Human Trafficking",
+      "Founded Nadia’s Initiative to support communities affected by conflict and violence",
+      "Recognized globally as a leading voice against sexual violence in conflict",
+      "Advocated for justice for the Yazidi genocide at international platforms including the United Nations"
+    ],
+    authorName: "Inspire India Talks",
+    authorLinkedin: "https://www.linkedin.com/company/inspire-india-talks/",
+    addedAt: "2026-03-11"
+  },
 
 ];
 
@@ -2063,10 +2133,8 @@ export const isRecentlyAdded = (personId: string, limit: number = 30): boolean =
 export const getFeaturedPersonalities = (): Personality[] => {
   return [...personalities]
     .sort((a, b) => {
-      // If a person has no date, treat them as the "newest attainable" date (future)
-      // This ensures manual additions without dates are at the top
-      const dateA = a.addedAt ? new Date(a.addedAt).getTime() : Date.now() + 1000 * 60 * 60 * 24 * 365; // +1 year
-      const dateB = b.addedAt ? new Date(b.addedAt).getTime() : Date.now() + 1000 * 60 * 60 * 24 * 365; // +1 year
+      const dateA = a.addedAt ? new Date(a.addedAt).getTime() : 0;
+      const dateB = b.addedAt ? new Date(b.addedAt).getTime() : 0;
 
       if (dateB !== dateA) {
         return dateB - dateA;
