@@ -32,6 +32,10 @@ dist-ssr
 .tmp/
 node-compile-cache/
 
-# Node compile cache (temp)
-.tmp/
-node-compile-cache/
+# Vite build artifacts (auto-generated, should never be committed)
+vite.config.ts.timestamp-*.mjs
+vite.config.js.timestamp-*.mjs
+
+# Scratch / temp files
+temp_*.txt
+*.tmp

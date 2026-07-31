@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, Calendar, Clock, TrendingUp } from "lucide-react";
 import { businessinsights as rawInsights } from "../data/businessinsights";
+import { businesslegacy } from "../data/businesslegacy";
+import { businessstartups } from "../data/businessstartups";
 import { highlightKeywords } from "@/lib/highlight";
 
 /* Loose local type so this page compiles regardless of how
@@ -27,9 +29,45 @@ const toTime = (d: string): number => {
 };
 
 /* Newest first — so the latest story is always at the top. */
-const articles = ([...(rawInsights as unknown as Article[])]).sort(
-  (a, b) => toTime(b.date) - toTime(a.date)
-);
+const articles = ([
+  ...(rawInsights as unknown as Article[]),
+  ...(businesslegacy as unknown as Article[]),
+  ...(businessstartups as unknown as Article[]),
+]).sort((a, b) => toTime(b.date) - toTime(a.date));
+
+/* ===== Feeds — each tab shows only its own category of article ===== */
+export type Feed = "insights" | "legacy" | "startups";
+
+export const isLegacy = (a: Article) => a.category === "Business Legacy";
+export const isStartup = (a: Article) => !!a.category && /^Startups/i.test(a.category);
+export const isNews = (a: Article) => !isLegacy(a) && !isStartup(a);
+
+const FEED_META: Record<
+  Feed,
+  { eyebrow: string; title: string; subtitle: string; match: (a: Article) => boolean }
+> = {
+  insights: {
+    eyebrow: "Independent Journalism",
+    title: "Business Insights",
+    subtitle:
+      "Sharp reporting on the deals, markets, and founders shaping India's economy — newest first.",
+    match: isNews,
+  },
+  legacy: {
+    eyebrow: "The Long Read",
+    title: "Business Legacy",
+    subtitle:
+      "Deep research files on the empires that built modern India — their governance, trust structures and staying power.",
+    match: isLegacy,
+  },
+  startups: {
+    eyebrow: "The Startup Desk",
+    title: "Startup Stories",
+    subtitle:
+      "The founders, funding rounds and breakout ventures defining India's next generation of companies.",
+    match: isStartup,
+  },
+};
 
 const Cover = ({ article, className = "" }: { article: Article; className?: string }) => (
   <div className={`relative overflow-hidden bg-muted ${className}`}>
@@ -65,11 +103,14 @@ const MetaRow = ({ article }: { article: Article }) => (
   </div>
 );
 
-const BusinessInsights = () => {
+const BusinessInsights = ({ feed = "insights" }: { feed?: Feed }) => {
+  const meta = FEED_META[feed];
+  // Only the articles belonging to this feed/tab.
+  const feedArticles = articles.filter(meta.match);
   // The newest article always takes the hero slot, so every new article pushed
   // is automatically featured on top. (`featured` can still pin one as a fallback.)
-  const latest = articles[0] ?? articles.find((a) => a.featured);
-  const rest = articles.filter((a) => a !== latest);
+  const latest = feedArticles[0] ?? feedArticles.find((a) => a.featured);
+  const rest = feedArticles.filter((a) => a !== latest);
 
   return (
     <Layout>
@@ -79,17 +120,17 @@ const BusinessInsights = () => {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <div className="flex items-center justify-between border-b border-border pb-4 mb-4">
               <span className="font-mono text-primary font-bold tracking-[0.3em] uppercase text-[11px]">
-                Independent Journalism
+                {meta.eyebrow}
               </span>
               <span className="font-mono text-muted-foreground text-[11px] uppercase tracking-widest">
                 {new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
               </span>
             </div>
             <h1 className="font-serif text-5xl md:text-7xl font-black tracking-tight text-foreground">
-              Business Insights
+              {meta.title}
             </h1>
             <p className="mt-3 text-muted-foreground max-w-2xl text-lg font-light">
-              Sharp reporting on the deals, markets, and founders shaping India's economy — newest first.
+              {meta.subtitle}
             </p>
           </motion.div>
         </div>

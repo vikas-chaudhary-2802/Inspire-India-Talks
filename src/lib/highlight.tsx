@@ -27,8 +27,10 @@ const PATTERNS: RegExp[] = [
   new RegExp(`${NUM}(?:-?plus)?\\s?${UNIT}(?![A-Za-z])`, "i"),
   // hyphenated quantities like 60-satellite, 207,000-plus
   /\d[\d,.]*-(?:plus|satellite|year|month|week|day|seat|store|city|cities)/i,
-  // standalone years 2020-2099
-  /\b20\d{2}\b/,
+  // standalone years 1800-2099
+  /\b(?:18|19|20)\d{2}\b/,
+  // markdown bold syntax for explicit keyword highlighting
+  /\*\*[^*]+\*\*/,
 ];
 
 const COMBINED = new RegExp(`(${PATTERNS.map((p) => p.source).join("|")})`, "gi");
@@ -40,6 +42,13 @@ export function highlightKeywords(text: string): React.ReactNode[] {
     if (!part) return null;
     // split() with one capture group puts the matches at the odd indices.
     if (i % 2 === 1) {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return (
+          <strong key={i} className="font-bold text-foreground">
+            {part.slice(2, -2)}
+          </strong>
+        );
+      }
       return (
         <mark
           key={i}

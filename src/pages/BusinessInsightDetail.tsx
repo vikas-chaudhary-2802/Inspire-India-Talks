@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import { businessinsights, getBusinessInsightById } from "@/data/businessinsights";
+import { events } from "@/data/events";
 import { highlightKeywords } from "@/lib/highlight";
 import { ArrowLeft, ArrowRight, Calendar, Clock, Facebook, Linkedin, Instagram } from "lucide-react";
 import NewsletterSheet from "@/components/NewsletterSheet";
@@ -30,7 +31,19 @@ const BusinessInsightDetail = () => {
   }
 
   const paragraphs = (article.content ?? article.excerpt ?? "").split(/\n\s*\n/).filter(Boolean);
-  const related = businessinsights.filter((a) => a.id !== article.id).slice(0, 4);
+  // Keep "Other Stories" within the same section as the current article
+  // (a Business Insights article shows other news, a Business Legacy article shows other legacy, etc.).
+  const feedOf = (a: { category?: string }) =>
+    a.category === "Business Legacy" ? "legacy" : a.category && /^Startups/i.test(a.category) ? "startups" : "insights";
+  const currentFeed = feedOf(article);
+  const related = businessinsights
+    .filter((a) => a.id !== article.id && feedOf(a) === currentFeed)
+    .slice(0, 4);
+
+  // Extra rail modules so the sidebar fills the column alongside a long article.
+  const relatedIds = new Set([article.id, ...related.map((r) => r.id)]);
+  const mostRead = businessinsights.filter((a) => !relatedIds.has(a.id)).slice(0, 5);
+  const whatsOn = events.slice(0, 3);
 
   return (
     <Layout>
@@ -156,13 +169,12 @@ const BusinessInsightDetail = () => {
             </div>
           </article>
 
-          {/* ===== Right rail — other news, TNM "picks" style ===== */}
-          {related.length > 0 && (
-            <aside className="lg:col-span-4">
-              <div className="lg:sticky lg:top-28">
-                <h3 className="font-serif text-lg font-bold mb-1 text-foreground">
-                  Other Stories
-                </h3>
+          {/* ===== Right rail ===== */}
+          <aside className="lg:col-span-4 space-y-10">
+            {/* Other Stories */}
+            {related.length > 0 && (
+              <div>
+                <h3 className="font-serif text-lg font-bold mb-1 text-foreground">Other Stories</h3>
                 <div className="h-1 w-10 bg-primary mb-6" />
                 <div className="divide-y divide-border border-t border-b border-border">
                   {related.map((r) => (
@@ -186,9 +198,7 @@ const BusinessInsightDetail = () => {
                         <h4 className="font-serif text-sm font-bold leading-snug mt-1 text-foreground group-hover:text-primary transition-colors line-clamp-3">
                           {r.title}
                         </h4>
-                        <span className="mt-1.5 block text-muted-foreground text-xs">
-                          {r.date}
-                        </span>
+                        <span className="mt-1.5 block text-muted-foreground text-xs">{r.date}</span>
                       </div>
                     </Link>
                   ))}
@@ -200,8 +210,74 @@ const BusinessInsightDetail = () => {
                   View all stories <ArrowRight className="h-3.5 w-3.5" />
                 </Link>
               </div>
-            </aside>
-          )}
+            )}
+
+            {/* Most Read */}
+            {mostRead.length > 0 && (
+              <div>
+                <h3 className="font-serif text-lg font-bold mb-1 text-foreground">Most Read</h3>
+                <div className="h-1 w-10 bg-primary mb-6" />
+                <ol className="space-y-4 border-t border-b border-border divide-y divide-border">
+                  {mostRead.map((r, i) => (
+                    <li key={r.id}>
+                      <Link to={`/business-insights/${r.id}`} className="group flex gap-3 py-4">
+                        <span className="font-serif text-2xl font-black text-primary/30 leading-none w-7 shrink-0 group-hover:text-primary transition-colors">
+                          {i + 1}
+                        </span>
+                        <div className="min-w-0">
+                          {r.category && (
+                            <span className="font-mono text-[10px] uppercase tracking-widest text-primary font-bold">
+                              {r.category}
+                            </span>
+                          )}
+                          <h4 className="font-serif text-sm font-bold leading-snug mt-0.5 text-foreground group-hover:text-primary transition-colors line-clamp-3">
+                            {r.title}
+                          </h4>
+                        </div>
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            )}
+
+            {/* What's On */}
+            {whatsOn.length > 0 && (
+              <div>
+                <h3 className="font-serif text-lg font-bold mb-1 text-foreground">What's On</h3>
+                <div className="h-1 w-10 bg-primary mb-6" />
+                <div className="space-y-4">
+                  {whatsOn.map((ev) => (
+                    <Link key={ev.id} to={`/events/${ev.slug}`} className="group flex gap-3 border-b border-border pb-4 last:border-0">
+                      <div className="shrink-0 w-12 text-center border border-border py-1.5">
+                        <span className="block font-serif text-base font-black text-primary leading-none">
+                          {ev.date.match(/\d+/)?.[0] ?? ""}
+                        </span>
+                        <span className="block text-[8px] uppercase tracking-widest text-muted-foreground mt-1">
+                          {ev.date.split(" ")[0].slice(0, 3)}
+                        </span>
+                      </div>
+                      <div className="min-w-0">
+                        <h4 className="font-serif text-sm font-bold leading-snug text-foreground group-hover:text-primary transition-colors">
+                          {ev.title}
+                        </h4>
+                        <p className="text-xs text-muted-foreground mt-0.5">{ev.location}</p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Newsletter */}
+            <div className="bg-secondary/50 border border-border p-6">
+              <span className="text-primary text-[10px] font-bold uppercase tracking-widest block mb-2">The Newsletter</span>
+              <p className="font-serif text-lg font-bold text-foreground mb-4 leading-snug">
+                One considered edition, every Friday.
+              </p>
+              <NewsletterSheet source="business-article-rail" triggerLabel="Subscribe Free" />
+            </div>
+          </aside>
         </div>
       </div>
     </Layout>

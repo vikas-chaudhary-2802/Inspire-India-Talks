@@ -1,47 +1,77 @@
 import { useParams, Link } from "react-router-dom";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef, useEffect } from "react";
+import { motion } from "framer-motion";
+import { useEffect, Fragment } from "react";
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import { getPersonalityById, getPersonalitiesByCategory } from "@/data/personalities";
-import { ArrowLeft, Quote, ArrowRight } from "lucide-react";
+import { businessinsights } from "@/data/businessinsights";
+import { events } from "@/data/events";
+import { ArrowLeft, ArrowRight, Calendar, Clock, Facebook, Linkedin, Instagram } from "lucide-react";
 import NewsletterSheet from "@/components/NewsletterSheet";
 
 const PersonalityDetail = () => {
   const { id } = useParams<{ id: string }>();
   const person = getPersonalityById(id || "");
-  const heroRef = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: heroRef, offset: ["start start", "end start"] });
-  const heroScale = useTransform(scrollYProgress, [0, 1], [1, 0.85]);
-  const heroOpacity = useTransform(scrollYProgress, [0, 1], [1, 0.3]);
-  const heroRadius = useTransform(scrollYProgress, [0, 1], [0, 24]);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, [id]);
 
   if (!person) {
     return (
       <Layout>
-        <div className="container mx-auto px-4 py-20 text-center">
+        <div className="container mx-auto px-4 py-32 text-center">
           <h1 className="font-serif text-3xl font-bold">Personality not found</h1>
-          <Link to="/" className="text-primary mt-4 inline-block">← Back to Home</Link>
+          <Link to="/founders-talk" className="text-primary mt-4 inline-block">
+            ← Back to Founders Stories
+          </Link>
         </div>
       </Layout>
     );
   }
 
-  const related = getPersonalitiesByCategory(person.categorySlug).filter(p => p.id !== person.id).slice(0, 4);
+  const related = getPersonalitiesByCategory(person.categorySlug)
+    .filter((p) => p.id !== person.id)
+    .slice(0, 4);
 
-  // Helper to render text with **bold** and *italic* support
+  // Extra rail modules so the sidebar fills the column alongside a long story.
+  const fromDesk = businessinsights.slice(0, 5);
+  const whatsOn = events.slice(0, 3);
+
+  const paragraphs = (person.story ?? "").split(/\n\s*\n/).filter(Boolean);
+  // Drop the pull quote into the middle of the story.
+  const quoteAfterIdx = person.quote ? Math.max(0, Math.ceil(paragraphs.length / 2) - 1) : -1;
+
+  // Reading time from the story length.
+  const wordCount = (person.story ?? "").split(/\s+/).filter(Boolean).length;
+  const readMins = Math.max(3, Math.round(wordCount / 200));
+
+  // Published date, shown DD-MM-YYYY to match the rest of the paper.
+  const dateStr = person.addedAt
+    ? new Date(person.addedAt)
+        .toLocaleDateString("en-GB", { day: "2-digit", month: "2-digit", year: "numeric" })
+        .replace(/\//g, "-")
+    : "";
+
+  // Render text supporting **bold** and *italic*.
   const renderRichText = (text: string) => {
-    // Handle bold: **text**
     const parts = text.split(/(\*\*.*?\*\*)/g);
     return parts.map((part, i) => {
-      if (part.startsWith('**') && part.endsWith('**')) {
-        return <strong key={i} className="text-primary font-bold">{part.slice(2, -2)}</strong>;
+      if (part.startsWith("**") && part.endsWith("**")) {
+        return (
+          <strong key={i} className="font-bold text-foreground">
+            {part.slice(2, -2)}
+          </strong>
+        );
       }
-      // Handle italic: *text* (simple version)
       const subParts = part.split(/(\*.*?\*)/g);
       return subParts.map((sub, j) => {
-        if (sub.startsWith('*') && sub.endsWith('*')) {
-          return <em key={`${i}-${j}`} className="italic text-foreground/90">{sub.slice(1, -1)}</em>;
+        if (sub.startsWith("*") && sub.endsWith("*")) {
+          return (
+            <em key={`${i}-${j}`} className="italic text-foreground/90">
+              {sub.slice(1, -1)}
+            </em>
+          );
         }
         return sub;
       });
@@ -53,223 +83,303 @@ const PersonalityDetail = () => {
       <Helmet>
         <title>{person.name} — Inspire India Talks</title>
         <meta name="description" content={person.story.substring(0, 160) + "..."} />
-
-        {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
         <meta property="og:url" content={`https://inspireindiatalks.com/personality/${person.id}`} />
         <meta property="og:title" content={`${person.name} — Inspire India Talks`} />
         <meta property="og:description" content={`${person.title}. ${person.knownFor}`} />
         <meta property="og:image" content={`https://inspireindiatalks.com${person.image}`} />
-
-        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content={`https://inspireindiatalks.com/personality/${person.id}`} />
         <meta name="twitter:title" content={`${person.name} — Inspire India Talks`} />
         <meta name="twitter:description" content={person.quote} />
         <meta name="twitter:image" content={`https://inspireindiatalks.com${person.image}`} />
       </Helmet>
-      {/* Hero Image with scroll shrink */}
-      <motion.section
-        ref={heroRef}
-        style={{ scale: heroScale, opacity: heroOpacity, borderRadius: heroRadius }}
-        className="relative h-[60vh] md:h-[70vh] overflow-hidden origin-top"
-      >
-        <img
-          src={person.image}
-          alt={person.name}
-          className="personality-hero-image"
-          onError={(e) => {
-            (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(person.name)}&size=1200&background=1a1a2e&color=f97316&font-size=0.25&bold=true`;
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-background/10" />
-        <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12">
-          <div className="container mx-auto">
-            <Link to={`/category/${person.categorySlug}`} className="inline-flex items-center gap-2 text-sm text-foreground/60 hover:text-primary transition-colors mb-4">
-              <ArrowLeft className="h-4 w-4" /> Back to {person.category}
-            </Link>
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-              <p className="font-mono text-primary text-[11px] uppercase tracking-[0.25em] font-medium mb-3">{person.category}</p>
-              <h1 className="font-serif text-5xl md:text-7xl font-bold text-foreground glow-text leading-[1.02]">{person.name}</h1>
-              <p className="text-muted-foreground mt-3 text-lg md:text-xl font-light">{person.title}</p>
-            </motion.div>
-          </div>
-        </div>
-      </motion.section>
 
-      {/* ===== Editorial facts band ===== */}
-      <div className="border-b border-border/40 bg-muted/40">
-        <div className="container mx-auto px-4 md:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-border/40">
-            {[
-              { label: "Born", value: person.born },
-              { label: "Profession", value: person.profession },
-              { label: "Known For", value: person.knownFor },
-            ].map(({ label, value }) => (
-              <div key={label} className="py-6 sm:px-8 first:sm:pl-0">
-                <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-primary mb-2">{label}</p>
-                <p className="font-serif text-base md:text-lg text-foreground/90 leading-snug">{value}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+      <div className="container mx-auto px-4 md:px-8 pt-10 md:pt-14 pb-20">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+          {/* ===== Main article column ===== */}
+          <article className="lg:col-span-8">
+            {/* Breadcrumb / section tag */}
+            <div className="flex items-center gap-2 text-sm mb-5">
+              <Link to="/founders-talk" className="text-primary font-bold hover:underline">
+                Founders Stories
+              </Link>
+              {person.category && (
+                <>
+                  <span className="text-border">/</span>
+                  <span className="text-muted-foreground">{person.category}</span>
+                </>
+              )}
+            </div>
 
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Main Content */}
-          <div className="lg:col-span-2 space-y-12">
-            {/* Story Section - Editorial Style */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
+            {/* Headline */}
+            <motion.h1
+              initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3 }}
-              className="relative"
+              transition={{ duration: 0.4 }}
+              className="font-serif text-3xl md:text-[2.5rem] font-extrabold leading-[1.15] tracking-tight text-foreground"
             >
-              <h2 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-10 relative inline-block">
-                The Inspiring Story
-                <span className="absolute -bottom-2 left-0 w-12 h-1 bg-primary rounded-full" />
-              </h2>
+              {person.name}
+            </motion.h1>
 
-              <div className="prose prose-invert max-w-none">
-                {person.story.split('\n\n').map((paragraph, idx) => {
-                  const isHighlight = paragraph.trim().startsWith('Key:') || paragraph.trim().startsWith('Crucially:');
-                  
-                  return (
-                    <motion.div 
-                      key={idx} 
-                      initial={{ opacity: 0, y: 10 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true, margin: "-100px" }}
-                      className="relative group"
-                    >
-                      {/* Drop Cap for first paragraph */}
-                      {idx === 0 ? (
-                        <p className="font-serif text-xl md:text-2xl text-foreground/80 leading-relaxed mb-12 first-letter:text-7xl first-letter:font-bold first-letter:text-primary first-letter:mr-3 first-letter:float-left first-letter:mt-1">
-                          {renderRichText(paragraph)}
-                        </p>
-                      ) : isHighlight ? (
-                        <div className="my-12 p-8 md:p-10 bg-primary/5 border-l-4 border-primary rounded-r-2xl glass-card">
-                          <p className="font-serif text-xl md:text-2xl text-foreground font-medium leading-relaxed italic">
-                            {renderRichText(paragraph.replace(/^(Key:|Crucially:)\s*/, ''))}
-                          </p>
-                        </div>
-                      ) : (
-                        <p className="font-serif text-xl md:text-2xl text-foreground/80 leading-relaxed mb-12">
-                          {renderRichText(paragraph)}
-                        </p>
-                      )}
+            {/* Dek / standfirst */}
+            {person.knownFor && (
+              <p className="mt-4 text-lg md:text-xl text-muted-foreground leading-relaxed font-serif italic">
+                {person.title}. {person.knownFor}
+              </p>
+            )}
 
-                      {/* Pull Quote - Inserted after the 1st paragraph */}
-                      {idx === 0 && person.story.split('\n\n').length > 1 && (
-                        <motion.div
-                          initial={{ opacity: 0, scale: 0.95 }}
-                          whileInView={{ opacity: 1, scale: 1 }}
-                          viewport={{ once: true }}
-                          className="my-16 py-12 px-8 md:px-16 border-y border-primary/20 bg-primary/5 relative overflow-hidden group rounded-3xl"
-                        >
-                          <Quote className="absolute -top-4 -left-4 h-32 w-32 text-primary opacity-5 rotate-12" />
-                          <div className="relative z-10 text-center">
-                            <p className="font-serif text-3xl md:text-4xl italic font-bold text-foreground leading-tight mb-6 glow-text">
-                              "{person.quote}"
-                            </p>
-                            <div className="flex items-center justify-center gap-4">
-                              <div className="h-px w-12 bg-primary/40" />
-                              <span className="text-primary text-sm uppercase tracking-widest font-black">{person.name}</span>
-                              <div className="h-px w-12 bg-primary/40" />
-                            </div>
-                          </div>
-                          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-primary/5 rounded-full blur-3xl" />
-                        </motion.div>
-                      )}
-                    </motion.div>
-                  );
-                })}
+            {/* Byline row */}
+            <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-y border-border py-4">
+              <div className="flex items-center gap-x-5 gap-y-1 flex-wrap text-sm text-muted-foreground">
+                <span className="font-semibold text-foreground/80">By Editorial Desk</span>
+                {dateStr && (
+                  <span className="inline-flex items-center gap-1.5">
+                    <Calendar className="h-3.5 w-3.5" /> {dateStr}
+                  </span>
+                )}
+                <span className="inline-flex items-center gap-1.5">
+                  <Clock className="h-3.5 w-3.5" /> {readMins} min read
+                </span>
               </div>
-            </motion.div>
-
-            {/* Achievements Section */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="pt-8"
-            >
-              <div className="flex items-center gap-4 mb-8">
-                <h2 className="font-serif text-2xl md:text-3xl font-bold text-foreground">Key Achievements</h2>
-                <div className="h-px flex-grow bg-gradient-to-r from-border/60 to-transparent" />
+              <div className="flex items-center gap-3 text-muted-foreground">
+                <a href="https://www.instagram.com/inspireindiatalks/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <Instagram className="h-4 w-4 hover:text-primary transition-colors cursor-pointer" />
+                </a>
+                <a href="https://www.facebook.com/p/Inspire-India-Talks-61577643296599/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                  <Facebook className="h-4 w-4 hover:text-primary transition-colors cursor-pointer" />
+                </a>
+                <a href="https://www.linkedin.com/company/inspire-india-talks/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <Linkedin className="h-4 w-4 hover:text-primary transition-colors cursor-pointer" />
+                </a>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {person.achievements.map((a, i) => (
-                  <div key={i} className="flex items-start gap-4 glass-card p-6 border-l-2 border-l-primary/30 hover:border-l-primary transition-all duration-300 hover:translate-x-1 group">
-                    <span className="h-10 w-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center text-sm font-bold flex-shrink-0 group-hover:bg-primary group-hover:text-white transition-colors">{i + 1}</span>
-                    <span className="text-foreground/90 font-medium pt-1.5 leading-snug">{a}</span>
-                  </div>
-                ))}
-              </div>
-            </motion.div>
+            </div>
 
-            {person.authorName && (
-              <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}>
-                <div className="mt-10 pt-6 border-t border-border/40 flex items-center gap-2 text-sm text-muted-foreground bg-primary/5 p-4 rounded-xl">
-                  <span className="italic">Story curated by</span>
+            {/* Hero image */}
+            <figure className="mt-8">
+              <div className="relative w-full bg-muted border border-border">
+                <img
+                  src={person.image}
+                  alt={person.name}
+                  className="w-full h-auto"
+                  onError={(e) => {
+                    (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
+                      person.name
+                    )}&size=1200&background=1a1a2e&color=f97316&font-size=0.25&bold=true`;
+                  }}
+                />
+              </div>
+              <figcaption className="mt-2 text-xs text-muted-foreground border-l-2 border-primary pl-2">
+                {person.name} — {person.title}
+              </figcaption>
+            </figure>
+
+            {/* Fact box — Born / Profession / Known For */}
+            <div className="mt-8 border-t border-b border-border grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-border">
+              {[
+                { label: "Born", value: person.born },
+                { label: "Profession", value: person.profession },
+                { label: "Known For", value: person.knownFor },
+              ].map(({ label, value }) => (
+                <div key={label} className="py-5 sm:px-6 first:sm:pl-0">
+                  <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-primary mb-1.5">{label}</p>
+                  <p className="font-serif text-sm md:text-base text-foreground/90 leading-snug">{value}</p>
+                </div>
+              ))}
+            </div>
+
+            {/* Body */}
+            <div className="mt-10">
+              {paragraphs.map((para, idx) => {
+                const isHighlight = para.trim().startsWith("Key:") || para.trim().startsWith("Crucially:");
+
+                return (
+                  <Fragment key={idx}>
+                    {isHighlight ? (
+                      <blockquote className="my-10 border-l-4 border-primary bg-secondary/40 py-6 px-6 md:px-8 font-serif text-xl md:text-2xl italic font-medium text-foreground leading-relaxed">
+                        {renderRichText(para.replace(/^(Key:|Crucially:)\s*/, ""))}
+                      </blockquote>
+                    ) : (
+                      <motion.p
+                        initial={{ opacity: 0, y: 10 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, margin: "-80px" }}
+                        className={
+                          idx === 0
+                            ? "font-sans text-[18px] leading-[1.8] text-foreground/90 mb-6 first-letter:font-serif first-letter:text-6xl first-letter:font-black first-letter:text-primary first-letter:mr-3 first-letter:float-left first-letter:leading-[0.85] first-letter:mt-1"
+                            : "font-sans text-[18px] leading-[1.8] text-foreground/90 mb-6"
+                        }
+                      >
+                        {renderRichText(para)}
+                      </motion.p>
+                    )}
+
+                    {/* Pull quote — set into the middle of the story */}
+                    {person.quote && idx === quoteAfterIdx && (
+                      <figure className="my-12 border-y-2 border-foreground py-8 text-center">
+                        <blockquote className="font-serif text-2xl md:text-3xl font-bold italic text-foreground leading-tight max-w-3xl mx-auto">
+                          “{person.quote}”
+                        </blockquote>
+                        <figcaption className="mt-4 text-primary text-xs uppercase tracking-[0.2em] font-bold">
+                          {person.name}
+                        </figcaption>
+                      </figure>
+                    )}
+                  </Fragment>
+                );
+              })}
+
+              {person.authorName && (
+                <p className="mt-10 pt-6 border-t border-border text-sm text-muted-foreground italic">
+                  Story curated by{" "}
                   {person.authorLinkedin ? (
                     <a
                       href={person.authorLinkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary font-bold hover:underline flex items-center gap-1"
+                      className="text-primary font-bold not-italic hover:underline"
                     >
                       {person.authorName}
-                      <ArrowRight className="h-3 w-3 -rotate-45" />
                     </a>
                   ) : (
-                    <span className="font-bold text-foreground">{person.authorName}</span>
+                    <span className="font-bold not-italic text-foreground">{person.authorName}</span>
                   )}
+                  .
+                </p>
+              )}
+
+              {/* Newsletter CTA */}
+              <div className="mt-12 border-t border-border pt-8">
+                <p className="font-serif text-xl font-bold text-foreground">Enjoyed this story?</p>
+                <p className="mt-2 text-sm text-muted-foreground">
+                  Subscribe for more inspiring Indian journeys, delivered weekly.
+                </p>
+                <NewsletterSheet source="personality-article" triggerLabel="Subscribe" triggerClassName="mt-4" />
+              </div>
+
+              <div className="mt-10 pt-6 border-t border-border">
+                <Link
+                  to="/founders-talk"
+                  className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all"
+                >
+                  <ArrowLeft className="h-4 w-4" /> Back to Founders Stories
+                </Link>
+              </div>
+            </div>
+          </article>
+
+          {/* ===== Right rail ===== */}
+          <aside className="lg:col-span-4 space-y-10">
+            {/* Other Founders */}
+            {related.length > 0 && (
+              <div>
+                <h3 className="font-serif text-lg font-bold mb-1 text-foreground">Other Founders</h3>
+                <div className="h-1 w-10 bg-primary mb-6" />
+                <div className="divide-y divide-border border-t border-b border-border">
+                  {related.map((r) => (
+                    <Link key={r.id} to={`/personality/${r.id}`} className="group flex gap-4 py-5">
+                      <div className="h-20 w-28 shrink-0 overflow-hidden bg-muted border border-border">
+                        <img
+                          src={r.image}
+                          alt={r.name}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          style={{ objectPosition: "center 25%" }}
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
+                              r.name
+                            )}&size=200&background=1a1a2e&color=f97316`;
+                          }}
+                        />
+                      </div>
+                      <div className="min-w-0">
+                        {r.category && (
+                          <span className="font-mono text-[10px] uppercase tracking-widest text-primary font-bold">
+                            {r.category}
+                          </span>
+                        )}
+                        <h4 className="font-serif text-sm font-bold leading-snug mt-1 text-foreground group-hover:text-primary transition-colors line-clamp-3">
+                          {r.name}
+                        </h4>
+                        <span className="mt-1.5 block text-muted-foreground text-xs">{r.title}</span>
+                      </div>
+                    </Link>
+                  ))}
                 </div>
-              </motion.div>
+                <Link
+                  to="/founders-talk"
+                  className="mt-6 inline-flex items-center gap-1.5 text-primary text-sm font-semibold hover:gap-2.5 transition-all"
+                >
+                  View all founders <ArrowRight className="h-3.5 w-3.5" />
+                </Link>
+              </div>
             )}
 
-            <div className="border-t border-border pt-8">
-              <p className="font-serif text-xl font-bold text-foreground">Enjoyed this story?</p>
-              <p className="mt-2 text-sm text-muted-foreground">
-                Subscribe for more inspiring Indian journeys, delivered weekly.
-              </p>
-              <NewsletterSheet
-                source="personality-article"
-                triggerLabel="Subscribe"
-                triggerClassName="mt-4"
-              />
-            </div>
-          </div>
+            {/* From the Business Desk */}
+            {fromDesk.length > 0 && (
+              <div>
+                <h3 className="font-serif text-lg font-bold mb-1 text-foreground">From the Business Desk</h3>
+                <div className="h-1 w-10 bg-primary mb-6" />
+                <ol className="border-t border-b border-border divide-y divide-border">
+                  {fromDesk.map((r, i) => (
+                    <li key={r.id}>
+                      <Link to={`/business-insights/${r.id}`} className="group flex gap-3 py-4">
+                        <span className="font-serif text-2xl font-black text-primary/30 leading-none w-7 shrink-0 group-hover:text-primary transition-colors">
+                          {i + 1}
+                        </span>
+                        <div className="min-w-0">
+                          {r.category && (
+                            <span className="font-mono text-[10px] uppercase tracking-widest text-primary font-bold">
+                              {r.category}
+                            </span>
+                          )}
+                          <h4 className="font-serif text-sm font-bold leading-snug mt-0.5 text-foreground group-hover:text-primary transition-colors line-clamp-3">
+                            {r.title}
+                          </h4>
+                        </div>
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            )}
 
-          {/* Sidebar */}
-          <div className="space-y-6 lg:sticky lg:top-28 self-start">
-            {related.length > 0 && (
-              <div className="glass-card p-6">
-                <h3 className="font-serif text-lg font-bold mb-5">Related Personalities</h3>
+            {/* What's On */}
+            {whatsOn.length > 0 && (
+              <div>
+                <h3 className="font-serif text-lg font-bold mb-1 text-foreground">What's On</h3>
+                <div className="h-1 w-10 bg-primary mb-6" />
                 <div className="space-y-4">
-                  {related.map(r => (
-                    <Link key={r.id} to={`/personality/${r.id}`} className="flex items-center gap-3 group">
-                      <img
-                        src={r.image}
-                        alt={r.name}
-                        className="h-12 w-12 rounded-xl object-cover bg-muted"
-                        style={{ objectPosition: 'center 30%' }}
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(r.name)}&size=96&background=1a1a2e&color=f97316`;
-                        }}
-                      />
-                      <div>
-                        <p className="text-sm font-medium group-hover:text-primary transition-colors">{r.name}</p>
-                        <p className="text-xs text-muted-foreground">{r.title}</p>
+                  {whatsOn.map((ev) => (
+                    <Link key={ev.id} to={`/events/${ev.slug}`} className="group flex gap-3 border-b border-border pb-4 last:border-0">
+                      <div className="shrink-0 w-12 text-center border border-border py-1.5">
+                        <span className="block font-serif text-base font-black text-primary leading-none">
+                          {ev.date.match(/\d+/)?.[0] ?? ""}
+                        </span>
+                        <span className="block text-[8px] uppercase tracking-widest text-muted-foreground mt-1">
+                          {ev.date.split(" ")[0].slice(0, 3)}
+                        </span>
+                      </div>
+                      <div className="min-w-0">
+                        <h4 className="font-serif text-sm font-bold leading-snug text-foreground group-hover:text-primary transition-colors">
+                          {ev.title}
+                        </h4>
+                        <p className="text-xs text-muted-foreground mt-0.5">{ev.location}</p>
                       </div>
                     </Link>
                   ))}
                 </div>
               </div>
             )}
-          </div>
+
+            {/* Newsletter */}
+            <div className="bg-secondary/50 border border-border p-6">
+              <span className="text-primary text-[10px] font-bold uppercase tracking-widest block mb-2">The Newsletter</span>
+              <p className="font-serif text-lg font-bold text-foreground mb-4 leading-snug">
+                One considered edition, every Friday.
+              </p>
+              <NewsletterSheet source="founder-article-rail" triggerLabel="Subscribe Free" />
+            </div>
+          </aside>
         </div>
       </div>
     </Layout>
