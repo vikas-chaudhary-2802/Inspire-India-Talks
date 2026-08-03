@@ -42,6 +42,7 @@ export function highlightKeywords(text: string): React.ReactNode[] {
     if (!part) return null;
     // split() with one capture group puts the matches at the odd indices.
     if (i % 2 === 1) {
+      // Explicit **bold** markers.
       if (part.startsWith('**') && part.endsWith('**')) {
         return (
           <strong key={i} className="font-bold text-foreground">
@@ -49,13 +50,12 @@ export function highlightKeywords(text: string): React.ReactNode[] {
           </strong>
         );
       }
+      // Auto-detected keywords (numbers, money, %, years) — render bold like the
+      // Business Legacy style, not as an orange highlight box.
       return (
-        <mark
-          key={i}
-          className="bg-primary/15 text-primary font-semibold rounded px-1 py-0.5 mx-0.5 whitespace-nowrap"
-        >
+        <strong key={i} className="font-bold text-foreground">
           {part}
-        </mark>
+        </strong>
       );
     }
     return <React.Fragment key={i}>{part}</React.Fragment>;

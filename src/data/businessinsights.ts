@@ -33,6 +33,64 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "snabbit-115000-daily-jobs-q1-fy27",
+    title: "Snabbit Crosses 115,000 Daily Jobs as Burn Per Job Falls Below Rs 250",
+    date: "02-08-2026",
+    category: "Quick Commerce",
+    image: "/images/business-insights/snabbit-daily-jobs.png",
+    excerpt:
+      "Quick home-services startup Snabbit has crossed 115,000 fulfilled jobs in a single day and sharpened its unit economics in Q1 FY27, with burn per job dropping below Rs 250.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Quick home-services startup Snabbit has crossed 115,000 fulfilled jobs in a single day, alongside a notable improvement in its unit economics during the first quarter of FY27.
+
+The company completed roughly 4 million jobs in its core househelp category during Q1 FY27, while consolidated Net Order Value (NOV) — after customer discounts — crossed Rs 130. Crucially, burn per job fell by more than Rs 100 quarter-on-quarter to below Rs 250, and Snabbit maintained that its growth has not been driven mainly by aggressive discounting.
+
+The scale-up has been rapid: Snabbit went from around 400 daily jobs to more than 115,000 a day in under two years, having crossed 50,000 daily jobs and one million monthly jobs earlier this year. It now operates across 10 cities — including Mumbai, Delhi, Pune, Gurgaon, Noida, and Hyderabad — spanning over 150 micromarkets, with early traction in newer categories like Home Cooks and Salon at Home.
+
+Founder and CEO Aayush Agarwal said mature micromarkets now complete more than 2,500 jobs a day, with several residential communities generating over 500 daily jobs, and expects consolidated NOV to improve another 15–20% in the coming months. The platform says it enables more than 100,000 daily earning opportunities for its network of 25,000-plus "Experts."
+
+The milestone comes months after Snabbit raised $56 million in a Series D round (taking total funding to $112 million) — and amid intensifying competition. Rival Urban Company's InstaHelp also crossed 100,000 delivered orders in a single day, and per a recent report completed about 1.9 million orders in July versus Snabbit's 1.85 million, while Pronto crossed 1.25 million bookings.`,
+  },
+  {
+    id: "upi-record-july-2026",
+    title: "UPI Hits All-Time High of 23.66 Billion Transactions in July",
+    date: "01-08-2026",
+    category: "Fintech & Payments",
+    image: "/images/business-insights/upi-july-2026-record.png",
+    excerpt:
+      "UPI processed a record 23.66 billion transactions worth Rs 29.88 lakh crore in July 2026, its highest-ever monthly volume, per NPCI data.",
+    readTime: "3 min read",
+    featured: false,
+    content: `India's Unified Payments Interface (UPI) has set a new record, clocking its highest-ever monthly volume in July 2026 with 23.66 billion transactions worth Rs 29.88 lakh crore, according to data from the National Payments Corporation of India (NPCI).
+
+The July figure surpassed the previous volume record of 23.20 billion transactions set in May. Transaction value stayed just shy of its all-time high of Rs 29.90 lakh crore, also recorded in May. On a daily basis, UPI handled 763 million transactions, with average daily value of Rs 96,383 crore.
+
+Growth continued month-on-month and year-on-year: volume rose 4.1% over June (from 22.72 billion) and value climbed 3.3% (from Rs 28.92 lakh crore), while on an annual basis volume grew 22% and value 19%. UPI had first crossed the 23 billion monthly mark only in May.
+
+Among apps, PhonePe (backed by Walmart) retained its lead as of June with 10.48 billion transactions, followed by Google Pay and Paytm; notably, WhatsApp overtook CRED in monthly volume. NPCI is yet to release app-wise data for July.
+
+UPI's global footprint also keeps widening. Following the Maldives' recent launch of a real-time payment corridor with India, UPI merchant payments are now live in 10 international markets — Bhutan, Singapore, the UAE, France, Mauritius, Sri Lanka, Nepal, Qatar, Cambodia, and the Maldives — with Greece connected for peer-to-peer transfers and remittance linkages live in Singapore and Nepal.`,
+  },
+  {
+    id: "unbloc-yuvraj-singh-founding-team",
+    title: "Yuvraj Singh Joins Healthians Founder's Stealth Health Venture UN:BLOC",
+    date: "03-08-2026",
+    category: "Health Tech",
+    image: "/images/business-insights/unbloc-yuvraj-singh.png",
+    excerpt:
+      "Cricketer Yuvraj Singh has joined UN:BLOC — serial entrepreneur Deepak Sahni's new, still-stealth healthcare startup — as an investor and founding-team member, reuniting the duo behind Healthians.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Cricketer Yuvraj Singh has joined UN:BLOC, the new healthcare venture from serial entrepreneur Deepak Sahni, as both an investor and a member of its founding team — the second company the two have built together.
+
+The partnership is a familiar one. Yuvraj was among the earliest backers of Sahni's previous company, Healthians, which grew into one of India's largest at-home diagnostics networks. This time, he's in from the very beginning.
+
+For now, UN:BLOC is deliberately quiet. Headquartered in Gurugram and still in stealth mode, the company has yet to unveil its product or business model. It says it wants to tackle longstanding problems in healthcare by focusing on areas that have received relatively little attention. Sahni is in early conversations with a close circle from healthcare, business, and other sectors — some of whom are expected to take part in a pre-launch funding round in the coming weeks.
+
+The move also reflects a broader shift in Indian sport: over the past decade, cricketers have gone from brand ambassadors to active startup investors. More than 20 current and former players have backed ventures across fintech, healthtech, D2C, fitness, gaming, EVs, and sports technology. Virat Kohli has built one of the largest startup portfolios among Indian athletes; Yuvraj invests through his YouWeCan Ventures; and, more recently, MS Dhoni, Jasprit Bumrah, and Hardik Pandya backed gaming startup LightFury Games.`,
+  },
+  {
     id: "vault-virat-kohli-investors",
     title: "Virat Kohli and Brother Vikas Join \"Vault by Virat Kohli\" as Strategic Investors",
     date: "31-07-2026",
