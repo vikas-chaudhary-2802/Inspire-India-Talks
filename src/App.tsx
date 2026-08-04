@@ -17,6 +17,10 @@ import BusinessInsights from "./pages/BusinessInsights";
 import BusinessInsightDetail from "./pages/BusinessInsightDetail";
 import FoundersStories from "./pages/InspiringVoices"; // Re-purposed as Founders Stories
 import NewsletterStatus from "./pages/NewsletterStatus";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsConditions from "./pages/TermsConditions";
+import Careers from "./pages/Careers";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +30,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
@@ -41,6 +46,9 @@ const App = () => (
           <Route path="/business-legacy" element={<BusinessInsights feed="legacy" />} />
           <Route path="/startup-stories" element={<BusinessInsights feed="startups" />} />
           <Route path="/business-insights/:id" element={<BusinessInsightDetail />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/terms" element={<TermsConditions />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/newsletter/confirmed" element={<NewsletterStatus variant="confirmed" />} />
           <Route path="/newsletter/unsubscribed" element={<NewsletterStatus variant="unsubscribed" />} />
           <Route path="*" element={<NotFound />} />

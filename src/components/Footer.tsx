@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Facebook, Linkedin, Youtube } from "lucide-react";
+import NewsletterSheet from "@/components/NewsletterSheet";
 
 const socialLinks = [
   { name: "Instagram", icon: <Instagram className="h-4 w-4" />, url: "https://www.instagram.com/inspireindiatalks/" },
@@ -22,6 +23,11 @@ const Footer = () => {
             <p className="text-lg font-serif text-foreground/80 max-w-md leading-relaxed">
               In-depth profiles, founder journeys and business insight — reported, written and fact-checked by our editorial team.
             </p>
+            <div className="mt-6">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-primary block mb-2">The Newsletter</span>
+              <p className="text-sm text-foreground/70 mb-3 max-w-md">One considered edition, every Friday — founder stories &amp; business insight in your inbox.</p>
+              <NewsletterSheet source="footer" triggerLabel="Subscribe Free" />
+            </div>
           </div>
 
           {/* Center Col: Desks */}
@@ -32,7 +38,7 @@ const Footer = () => {
               <li><Link to="/founders-talk" className="font-serif text-foreground/90 hover:text-primary transition-colors">Founders Stories</Link></li>
               <li><Link to="/business-legacy" className="font-serif text-foreground/90 hover:text-primary transition-colors">Business Legacy</Link></li>
               <li><Link to="/startup-stories" className="font-serif text-foreground/90 hover:text-primary transition-colors">Startup Stories</Link></li>
-              <li><Link to="/events" className="font-serif text-foreground/90 hover:text-primary transition-colors">Events & Interviews</Link></li>
+              <li><Link to="/events" className="font-serif text-foreground/90 hover:text-primary transition-colors">Events</Link></li>
             </ul>
           </div>
 
@@ -43,14 +49,17 @@ const Footer = () => {
               <li><Link to="/about" className="font-serif text-foreground/90 hover:text-primary transition-colors">About Us</Link></li>
               <li><Link to="/tree-volution" className="font-serif text-foreground/90 hover:text-primary transition-colors">Archive (Tree-volution)</Link></li>
               <li><Link to="/host-event" className="font-serif text-foreground/90 hover:text-primary transition-colors">Host a Talk</Link></li>
-              <li><Link to="/contact" className="font-serif text-foreground/90 hover:text-primary transition-colors">Contact the desk</Link></li>
+              <li><Link to="/contact" className="font-serif text-foreground/90 hover:text-primary transition-colors">Contact Us</Link></li>
+              <li><Link to="/careers" className="font-serif text-foreground/90 hover:text-primary transition-colors">Careers</Link></li>
+              <li><Link to="/terms" className="font-serif text-foreground/90 hover:text-primary transition-colors">Terms &amp; Conditions</Link></li>
+              <li><Link to="/privacy-policy" className="font-serif text-foreground/90 hover:text-primary transition-colors">Privacy Policy</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs uppercase tracking-wider text-muted-foreground font-medium">
-            © {new Date().getFullYear()} Inspire India Talks. Printed digitally, daily.
+            Copyright © {new Date().getFullYear()} Inspire India Talks. All Rights Reserved.
           </p>
           <div className="flex gap-3">
             {socialLinks.map(s => (
