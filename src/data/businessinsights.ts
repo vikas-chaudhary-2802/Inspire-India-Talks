@@ -33,6 +33,46 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "leap-india-ipo-august-2026",
+    title: "KKR-Backed LEAP India Files RHP for ₹2,480 Crore IPO; Issue Opens August 7",
+    date: "03-08-2026",
+    category: "IPO & Markets",
+    image: "/images/business-insights/leap-india-ipo.png",
+    excerpt:
+      "Logistics firm LEAP India has filed its RHP for a ₹2,480 crore IPO opening August 7, with a ₹480 crore fresh issue and a ₹2,000 crore KKR-led offer for sale.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Logistics solutions firm LEAP India has filed its red herring prospectus (RHP) with SEBI for a ₹2,480 crore initial public offering, set to open on August 7 and close on August 11 (with the anchor book on August 6). The price band is fixed at ₹151–₹159 per share.
+
+The company, which received SEBI's approval in December, has bumped up its fresh issue to ₹480 crore (from ₹400 crore proposed in its draft filing), with the remaining ₹2,000 crore coming as an offer for sale. The OFS is led by KKR-backed promoter entity Vertical Holdings II Pte. Ltd., selling shares worth ₹1,998.6 crore, alongside a smaller ₹13.8 crore sale by another KKR-linked entity.
+
+Founded in 2013, LEAP India provides pallet pooling, container pooling, and related material-handling solutions, counting leading FMCG, pharma, and e-commerce players among its clients. Of the fresh-issue proceeds, ₹360 crore will go toward repaying certain borrowings, with the rest for general corporate purposes. JM Financial, Avendus Capital, IIFL Capital, and UBS Securities are the book-running lead managers.
+
+As of the RHP, KKR's Vertical Holdings II is the largest shareholder at 73.78%, followed by founder Sunu Mathew with 21.07%; Sixth Sense Ventures, First Bridge Fund, and Madhurima International hold small stakes.
+
+The listing comes on the back of strong numbers: for FY26, LEAP India grew operating revenue 57% year-on-year to ₹730 crore (from ₹466 crore), while profit jumped more than 70% to ₹63 crore.`,
+  },
+  {
+    id: "matel-series-b-uc-impower",
+    title: "Matel Raises ₹130 Crore Series B to Scale India-Made EV Powertrains",
+    date: "03-08-2026",
+    category: "EV & Mobility",
+    image: "/images/business-insights/matel-series-b.png",
+    excerpt:
+      "Pune-based Matel Motion & Energy Solutions has raised ₹130 crore in a Series B led by UC Impower to expand manufacturing and R&D for its EV motors and powertrains.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Pune-based Matel Motion & Energy Solutions has raised ₹130 crore (around $15 million) in a Series B round led by UC Impower. The round also drew Catamaran as a new investor, with existing backer Transition VC participating again — a sharp step up from the $4 million Series A it raised in May 2024.
+
+The startup plans to use the fresh capital to expand manufacturing capacity, deepen research and development, accelerate product development, hire across engineering and production, and support international expansion.
+
+Founded in 2017 by Sunil Patel and Netaji Patro, Matel designs and manufactures motors, motor controllers, and integrated powertrains for automotive and industrial use. Its solutions span the full spectrum of electric vehicles — two-, three-, and four-wheelers, buses, and off-road vehicles — as well as pumping, cooling, and other industrial systems. It began mass production of its powertrains in April 2024 after securing validation and certification from multiple EV OEMs.
+
+On the technology front, Matel has developed magnet-free motor technology and offers IE5 industrial motors, with an even more efficient IE6 motor in development. It currently supplies OEMs across the two-wheeler, three-wheeler, and industrial segments.
+
+The founders bring deep pedigree: CEO Sunil Patel previously led the Chetak EV development programme at Bajaj Auto's R&D division, while co-founder Netaji Patro has held R&D roles at Maruti Suzuki and Bajaj Auto — experience that anchors Matel's bet on building core EV components in India.`,
+  },
+  {
     id: "snabbit-115000-daily-jobs-q1-fy27",
     title: "Snabbit Crosses 115,000 Daily Jobs as Burn Per Job Falls Below Rs 250",
     date: "02-08-2026",
