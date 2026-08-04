@@ -14,17 +14,22 @@ const FoundersStories = () => {
     <Layout>
       <div className="container mx-auto px-4 py-8">
         
-        {/* Section Header */}
-        <div className="flex items-center justify-between mb-8 border-b-[3px] border-foreground pb-4">
-          <div>
-            <span className="text-primary text-[10px] font-bold uppercase tracking-widest block mb-2">Inspiring Voices</span>
-            <h1 className="font-serif text-4xl md:text-5xl font-black text-foreground">
-              Founders Stories
-            </h1>
+        {/* Section Header — newspaper masthead style (matches other pages) */}
+        <div className="pt-6 pb-8 border-b-4 border-foreground mb-8">
+          <div className="flex items-center justify-between border-b border-border pb-4 mb-4">
+            <span className="font-mono text-primary font-bold tracking-[0.3em] uppercase text-[11px]">
+              Inspiring Voices
+            </span>
+            <span className="font-mono text-muted-foreground text-[11px] uppercase tracking-widest">
+              {new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
+            </span>
           </div>
-          <div className="hidden md:block text-right text-muted-foreground text-sm font-serif">
-            The people building a new India — <br/> reported profiles of the founders whose choices shaped their companies.
-          </div>
+          <h1 className="font-serif text-5xl md:text-7xl font-black tracking-tight text-foreground">
+            Founders Stories
+          </h1>
+          <p className="mt-3 text-muted-foreground max-w-2xl text-lg font-light">
+            The people building a new India — reported profiles of the founders whose choices shaped their companies.
+          </p>
         </div>
 
         {/* Lead Story */}
