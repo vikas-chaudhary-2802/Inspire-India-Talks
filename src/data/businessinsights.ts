@@ -33,6 +33,50 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "alibaba-qwen-max-open-weights-2026",
+    title: "Alibaba Gives Away Its Most Powerful AI Model Yet — Free to Download, and Built to Run Inside Its Rivals' Tools",
+    date: "05-08-2026",
+    category: "Artificial Intelligence",
+    image: "/images/business-insights/alibaba-qwen-max.jpg",
+    excerpt:
+      "Alibaba's new Qwen3.8-Max is the first Max-class model it will release with open weights — a 2.4-trillion-parameter system that comes close to Claude and ChatGPT and ships ready to run inside its rivals' own coding tools.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Alibaba has released **Qwen3.8-Max**, calling it the most capable model it has ever built — and, in a first for the company, it is giving it away. The weights land on **Hugging Face** and **ModelScope** next week, the first time Alibaba has open-sourced a model at its top "Max" tier, after years of keeping that class of system locked behind a paid API.
+
+The scale is enormous. Qwen3.8-Max carries **2.4 trillion parameters** in total, with about **95 billion switched on** for any given query. Parameters are simply the dials a model can turn; the trick here is that only a fraction light up at once. The effect is like a vast library where just the relevant shelf illuminates for each question — which means small businesses and research labs with capable hardware can now run a state-of-the-art model without paying for a full datacenter.
+
+Rather than the usual benchmark-chasing pitch, Alibaba leaned on **endurance**. The company says the model spent 16 days building a coding tool entirely on its own — 265 commits, 127 pull requests and 151 issues with no human touching the keyboard. It spent five days reproducing a research paper it had never seen the code for, then beat that paper's own results by 2.7 points. And in a 24-hour machine-learning contest, it finished ahead of 458 of 526 human teams.
+
+**Built to live inside a rival's tools.** Perhaps the most striking part is the packaging. Qwen3.8-Max ships with setup instructions for **Claude Code** and **Codex** — the coding assistants made by Anthropic and OpenAI — and its API speaks both companies' protocols. Most of Alibaba's own coding benchmarks were run inside Claude Code.
+
+Those benchmarks are candid about where the model stands. Across 31 text tests on Alibaba's own scorecard, **Anthropic's Fable 5** takes 15 first-place spots, **OpenAI's GPT-5.6 Sol** takes nine, and Qwen takes seven; on the 12 coding tests, Qwen wins exactly one. The counterweight is price — Qwen is far cheaper to run, costing roughly **30% of what Fable 5 charges**, so even if it needs more iterations to reach an answer, the total bill can come out lower. And on multimodal work — documents, video, spatial reasoning — the ranking inverts, with Qwen leading most of that table.
+
+The giveaway marks a sharp strategic U-turn. As recently as April, Alibaba had shut down the free tier of Qwen Code and drifted toward closed, paid models after a round of leadership departures. That door is now open again, and the timing is deliberate. Chinese open-weight models have gone from under 2% of tokens on OpenRouter in late 2024 to roughly **61% by mid-2026**, and Qwen has overtaken Meta's Llama as the most self-hosted model in the world.
+
+The backdrop is geopolitical as much as commercial. Washington restricted Fable 5 and Mythos 5 under export controls in June, and Beijing is reportedly weighing limits of its own on Chinese models heading overseas. Alibaba, in short, is losing on paper and winning on distribution — and when the thing you can download for free comes this close, second place starts to look like a very comfortable seat.`,
+  },
+  {
+    id: "profound-ai-rep-seed-2026",
+    title: "Ex-Swiggy and Zomato Leaders Launch Profound, an AI Startup That Gives Every Professional Their Own Agent",
+    date: "04-08-2026",
+    category: "Artificial Intelligence",
+    image: "/images/business-insights/profound-ai-rep.jpg",
+    excerpt:
+      "Bengaluru-based Profound has raised $1.5 million to build an AI 'representative' for every professional — starting with a voice conversation and backed by the founders of Swiggy, Zomato and Razorpay.",
+    readTime: "3 min read",
+    featured: false,
+    content: `A new Bengaluru-based startup wants to give every working professional the kind of representation that until now was reserved for actors and athletes. **Profound**, founded by former product and technology leaders **Anuj Rathi** and **Prashant Parashar**, has launched an AI-powered platform for professional networking and hiring, and raised **$1.5 million** in a seed round to build it out.
+
+The founders bring an unusually deep operating pedigree, with experience spanning **Swiggy, Zomato, Cleartrip, Flipkart, Ola and Walmart Labs** — and the cap table reflects it. The round drew a roll-call of India's consumer-tech elite as angels: Swiggy CEO **Sriharsha Majety**, Swiggy cofounder **Nandan Reddy**, former Zomato cofounder **Pankaj Chaddah**, Razorpay CEO **Harshil Mathur**, WhatsApp's global head **Kunal Shah**, and OfBusiness cofounder **Bhuvan Gupta**, alongside venture firms **Stellaris Venture Partners** and **3one4 Capital**.
+
+The idea at the centre of the product is the **"AI Rep."** Each professional's representative begins with a voice conversation, learning their experience, expertise, working style and career goals. From there, the platform recommends opportunities and quietly makes professional introductions on the user's behalf — the digital equivalent of an agent working the room while you get on with your job. "Just as actors have agents and athletes have managers, Profound gives each professional their own AI Rep," said cofounder and CEO Anuj Rathi.
+
+The same logic runs in reverse for employers. Hiring managers can create AI representatives for specific roles or teams, capturing what they actually need through a voice conversation rather than a static job description — a bet that the messy, human parts of hiring are better expressed in speech than in bullet points.
+
+Profound plans to use the fresh capital to expand its engineering and product teams, sharpen its AI capabilities, and develop the matching-and-introductions engine that sits at its core. It has opened **early access** for a first cohort of users, with a wider beta planned later this year and an ambition to onboard **one million professionals** globally before it fully opens the doors.`,
+  },
+  {
     id: "leap-india-ipo-august-2026",
     title: "KKR-Backed LEAP India Files RHP for ₹2,480 Crore IPO; Issue Opens August 7",
     date: "03-08-2026",
