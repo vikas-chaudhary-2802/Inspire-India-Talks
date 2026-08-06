@@ -33,6 +33,46 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "adiabatic-indigenous-battery-deeptech-2026",
+    title: "The Pune Startup Building India's Own Batteries for Robots, Drones and Defence",
+    date: "05-08-2026",
+    category: "Deep Tech",
+    image: "/images/business-insights/adiabatic-battery-tech.png",
+    excerpt:
+      "Adiabatic Technologies designs its lithium-ion packs, chargers and battery brains in-house — and has already put more than 20,000 of them into robots, drones, defence systems and farm machines across India.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Most of the batteries powering India's robots, drones and defence hardware are still built on imported cells and off-the-shelf electronics. A Pune-based deep-tech startup, **Adiabatic Technologies**, is trying to change that by designing the entire battery system — cell selection, pack architecture, thermal management and its own **Battery Management System (BMS)** — under one roof.
+
+Founded in 2022 by **Darshan Meher**, Adiabatic makes custom lithium-ion battery packs, smart chargers and proprietary BMS units for OEMs in high-reliability industries — the kind of applications where a battery failure is not a nuisance but a mission risk. Its systems are engineered for high discharge performance, fast charging, intelligent monitoring and thermal safety, the qualities that matter when a pack is sitting inside a drone, an autonomous mobile robot or a piece of defence equipment.
+
+The traction is already on the ground rather than on a pitch deck: the company says it has deployed **more than 20,000 battery systems** across **25-plus OEMs**, spanning robotics, defence, drones, agriculture equipment, electric vehicles and solar energy. That breadth is the point — by controlling the design end to end, Adiabatic can tune a pack to the punishing, specialised needs of each sector instead of forcing a generic battery to fit.
+
+The startup now plans to sharpen its focus on specialised platforms for **robotics, autonomous mobile robots (AMRs), industrial automation and unmanned aerial systems**, where reliability and performance are non-negotiable. It intends to scale in-house manufacturing capacity to **100 MWh a year**, backed by a recent seed round co-led by Malpani Ventures and Avinya Ventures, and is building out its engineering team to match.
+
+In a market where energy storage is increasingly strategic — for factories, farms and the armed forces alike — Adiabatic's bet is that the country's next generation of machines will run better on batteries designed in India, for India's own conditions. It competes with a growing pack of domestic energy startups including EMO Energy, Neuron Energy and Inverted Energy.`,
+  },
+  {
+    id: "earthre-inrisk-ai-reinsurance-giftcity-2026",
+    title: "India Gets Its First Home-Grown Reinsurer — Powered by Satellites and AI",
+    date: "05-08-2026",
+    category: "Climate Tech",
+    image: "/images/business-insights/inrisk-earthre-climate-ai.png",
+    excerpt:
+      "InRisk Labs has won the first reinsurer licence at GIFT City's international finance hub for its subsidiary EarthRe — an AI-native platform that prices climate and catastrophe risk using satellite, geospatial and claims data.",
+    readTime: "3 min read",
+    featured: false,
+    content: `As floods, cyclones and crop failures grow costlier and harder to predict, India has taken a notable step toward pricing that risk with its own technology. **InRisk Labs**, a technology-led risk and reinsurance platform, has crossed a regulatory milestone: its subsidiary **EarthRe Insurance IFSC Limited** has become the **first incorporated reinsurer** to receive a licence from the International Financial Services Centres Authority (IFSCA) at **GIFT City**.
+
+The licence marks the company's shift from a pure insurtech platform into an integrated reinsurance group with its own licensed, risk-bearing balance sheet. InRisk Labs will keep building the technology, data and risk-intelligence layer, while EarthRe underwrites the actual reinsurance business — the financial backstop that insurers themselves lean on when disaster strikes.
+
+What makes the effort a genuine tech story is the engine underneath it. EarthRe's platform fuses **climate, geospatial, satellite, exposure and claims data** to sharpen underwriting, pricing, portfolio construction and capital allocation — an "AI-native" approach to a business that has traditionally run on historical tables and human judgment. It is built for **non-life reinsurance** across natural catastrophe, climate risk, property, crop and specialty lines, and plans to offer treaty, facultative, structured and **parametric** products — the kind that pay out automatically when, say, rainfall or wind speed crosses a defined threshold.
+
+The ambition is explicitly national. "India will be the most consequential insurance market over the next two decades. To drive sustainable growth, we must build indigenous capacity and tailored solutions built by India, for India," said Malay Kumar Poddar, CEO of EarthRe. A fresh Series A co-led by Bessemer Venture Partners and Northpoint Capital will fund the underwriting, actuarial, catastrophe-modelling and AI capabilities needed to scale.
+
+For a country that has long depended on global reinsurers to absorb its biggest shocks, a home-grown platform that reads risk through satellites and machine learning — and designs cover for the Global South — is as much an infrastructure bet as a financial one.`,
+  },
+  {
     id: "alibaba-qwen-max-open-weights-2026",
     title: "Alibaba Gives Away Its Most Powerful AI Model Yet — Free to Download, and Built to Run Inside Its Rivals' Tools",
     date: "05-08-2026",
