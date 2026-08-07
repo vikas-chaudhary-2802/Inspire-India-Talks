@@ -13,6 +13,7 @@ const socialLinks = [
   { name: "Facebook", handle: "Inspire India Talks", icon: <Facebook className="h-5 w-5" />, url: "https://www.facebook.com/p/Inspire-India-Talks-61577643296599/", color: "hover:bg-blue-500/10 hover:border-blue-500/40 hover:text-blue-400" },
   { name: "LinkedIn", handle: "inspire-india-talks", icon: <Linkedin className="h-5 w-5" />, url: "https://www.linkedin.com/company/inspire-india-talks/", color: "hover:bg-sky-500/10 hover:border-sky-500/40 hover:text-sky-400" },
   { name: "YouTube", handle: "Inspire India Talks", icon: <Youtube className="h-5 w-5" />, url: "https://www.youtube.com/channel/UCrvZvbuRbBc7TEBLH3T5NQQ", color: "hover:bg-red-500/10 hover:border-red-500/40 hover:text-red-400" },
+  { name: "X", handle: "@inspireindia_", icon: <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>, url: "https://x.com/inspireindia_", color: "hover:bg-neutral-500/10 hover:border-neutral-400/40 hover:text-foreground" },
 ];
 
 const Contact = () => {

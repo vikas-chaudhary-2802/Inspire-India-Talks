@@ -33,6 +33,46 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "nazara-preferential-issue-new-ceo-2026",
+    title: "Nazara Hands Its New CEO a 4.67% Stake in a ₹733 Crore Bet on Fresh Leadership",
+    date: "06-08-2026",
+    category: "Gaming & Media",
+    image: "/images/business-insights/nazara-preferential-issue.png",
+    excerpt:
+      "Gaming major Nazara has approved a ₹733.5 crore preferential share issue that will make incoming CEO Raymond Stauffer a significant shareholder — days after a weak quarter and a founder-led leadership handover.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Gaming and media company **Nazara Technologies** has approved a **preferential issue of equity shares worth up to ₹733.5 crore**, in a move that ties its next chapter of leadership directly to the company's cap table. The proposal still awaits shareholder and regulatory approvals.
+
+The board cleared the issuance of up to **2,39,70,676 equity shares at ₹306 apiece** (including a ₹304 premium) to **six identified investors** on a preferential basis. The names point to an international cohort: **Raymond Albaladejo Stauffer, Marc Sylvester Schutze, Maxime Loppin, Alexandre Paul Jean Noirot Cosson, Alexander Osou and Hugo Rémy Gaston Blavin.** Together, the six will hold a **5.87% stake** in Nazara after the issue.
+
+The standout is Stauffer himself. Appointed Nazara's **chief executive officer earlier this week** and set to take charge from **September 1**, he will receive the lion's share — **1,90,67,969 shares**, giving him a **4.67% stake** in the company. It is a deliberate alignment of interests: the incoming chief executive is being asked to buy into the business he is about to run, not merely draw a salary from it.
+
+The timing is pointed. The fundraise lands just three days after Nazara reported a **soft start to FY27.** Operating revenue fell **14%** year-on-year to **₹429 crore** in the June quarter (from ₹499 crore), and the company slipped to a **net loss of ₹82 crore**, reversing a ₹51 crore profit a year earlier. The red ink was weighed down by ₹62 crore in its share of losses from associates and a ₹22 crore impairment charge — the kind of quarter that often precedes a leadership reset.
+
+That reset is already underway. Founder **Nitish Mittersain** has stepped down as CEO and will continue as **managing director**, turning his focus to long-term strategy and strategic partnerships, while Stauffer takes the operational reins. For a company that pioneered listed gaming in India, the combination of a founder moving to a strategy role, a new CEO with real skin in the game, and fresh capital signals an attempt to steady the ship and reset expectations after a rocky quarter.`,
+  },
+  {
+    id: "homerun-series-a-plus-nexus-2026",
+    title: "The Startup Delivering Cement and Plywood to Your Doorstep in 60 Minutes Raises $12 Million",
+    date: "06-08-2026",
+    category: "Quick Commerce",
+    image: "/images/business-insights/homerun-series-a.png",
+    excerpt:
+      "Bengaluru's HomeRun is applying the quick-commerce playbook to an unglamorous corner of the economy — construction materials — and has raised a $12 million Series A+ led by Nexus Venture Partners to expand.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Quick commerce has conquered groceries, medicines and meals. **HomeRun**, a Bengaluru-based startup, is betting the same ten-minutes-to-your-door logic can work for something far heavier: **cement, plywood, wires and paint.** The company has raised **$12 million** in a **Series A+** round led by **Nexus Venture Partners** to widen that bet.
+
+The round also drew existing backers — **Sorin Investments, Titan Capital, Sparrow Capital, and Consumer Collective by Atrium** — and follows a **$6.6 million** raise earlier this year, a sign of how quickly investor appetite for the category is building. HomeRun plans to use the fresh capital to enter new markets while strengthening its supply chain, technology and product range.
+
+Founded by **Pukhraj Grewal**, HomeRun delivers construction and interior materials to contractors and homeowners **within 60 minutes**, with a catalogue spanning cement, plywood, wires, paints, hardware and other building supplies. It is a deceptively hard problem: unlike a packet of snacks, building materials are bulky, heavy and ordered in unpredictable combinations, which makes fast, reliable fulfilment a genuine operational feat rather than a marketing promise.
+
+The early traction suggests the model resonates. HomeRun says it has fulfilled **more than 100,000 orders** and grown **8x** over the past year, all while operating out of a single city, Bengaluru, and deepening its core product categories rather than sprawling thin. Grewal is no first-timer in the space either — before HomeRun he co-founded the interior-contracting startup **Tornado** and the construction-labour marketplace **Project Hero**, giving him an unusually close view of the messy, fragmented world of Indian construction.
+
+He is not alone in spotting the opportunity. The rapid-delivery-of-building-materials category is heating up: just last week, fellow Bengaluru startup **Fixxly** raised $5.5 million from Accel, Fireside Ventures and Lightspeed, while HomeRun also competes with retailers and players such as IBO and Material Depot. For Nexus Venture Partners — which closed its eighth fund at $700 million to back Indian and US startups across AI, enterprise software, consumer and fintech — the deal is a bet that the next big quick-commerce winner may be found not in the kitchen, but on the construction site.`,
+  },
+  {
     id: "adiabatic-indigenous-battery-deeptech-2026",
     title: "The Pune Startup Building India's Own Batteries for Robots, Drones and Defence",
     date: "05-08-2026",
