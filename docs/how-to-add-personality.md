@@ -3,7 +3,7 @@
 ## Steps (No coding experience needed!)
 
 ### 1. Add the Photo
-- Save the photo in: `public/images/personalities/`
+- Save the photo in: `public/images/founder-stories/`
 - Name it with the person's slug (e.g., `apj-abdul-kalam.jpg`)
 - Any format works: `.jpg`, `.png`, `.webp`
 
@@ -21,7 +21,7 @@ Copy this template and fill in the details:
   title: "Title / Designation",
   category: "Category Name",          // Must match exactly
   categorySlug: "category-slug",      // Must match exactly
-  image: "/images/personalities/first-last.jpg",
+  image: "/images/founder-stories/first-last.jpg",
   born: "Date, Place",
   profession: "Profession",
   knownFor: "One line about what they're known for",

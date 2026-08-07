@@ -119,8 +119,8 @@ The page is wrapped in `<Layout>` (shared Navbar with logo `public/logo.png` + F
 
 | # | Title | Icon | Image |
 |---|-------|------|-------|
-| 01 | Inspire | `Sparkles` | `/images/personalities/srikanth-bolla.webp` |
-| 02 | Educate | `BookOpen` | `/images/personalities/anand-kumar.jpeg` |
+| 01 | Inspire | `Sparkles` | `/images/founder-stories/srikanth-bolla.webp` |
+| 02 | Educate | `BookOpen` | `/images/founder-stories/anand-kumar.jpeg` |
 | 03 | Empower | `Rocket` | `/images/events/Khushi-grewal.jpg` |
 | 04 | Connect | `Users` | `/images/conference-crowd.png` |
 
@@ -135,12 +135,12 @@ The page is wrapped in `<Layout>` (shared Navbar with logo `public/logo.png` + F
 
 | # | Title | Category | Note | Image |
 |---|-------|----------|------|-------|
-| 01 | Inspiring Voices | Stories | Founders, officers, educators, artists. | `/images/personalities/srikanth-bolla.webp` |
+| 01 | Inspiring Voices | Stories | Founders, officers, educators, artists. | `/images/founder-stories/srikanth-bolla.webp` |
 | 02 | Business Insights | Ideas | Startups built outside the metros. | `/images/business-insights/non-metro-startup-story.png` |
 | 03 | Youth Leadership | Impact | Young Indians driving real change. | `/images/events/Khushi-grewal.jpg` |
 | 04 | Innovation | Future | DeepTech, climate, and frontier ideas. | `/images/business-insights/deeptech.png` |
-| 05 | Education | Learning | Teachers and institutions worth knowing. | `/images/personalities/anand-kumar.jpeg` |
-| 06 | Social Change | Bharat | Grassroots leaders rewriting their regions. | `/images/personalities/Chami-Murmu.jpg` |
+| 05 | Education | Learning | Teachers and institutions worth knowing. | `/images/founder-stories/anand-kumar.jpeg` |
+| 06 | Social Change | Bharat | Grassroots leaders rewriting their regions. | `/images/founder-stories/Chami-Murmu.jpg` |
 
 ### f) Why Inspire India Talks? (`#why`, SectionLabel 05)
 - Two columns. Left: two stacked images with chips — `public/images/conference-crowd.png` ("The Audience") and `public/images/business-insights/startup-funding-2026.jpg` ("The Ideas"), plus caption "— Built with the people we report on."

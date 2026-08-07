@@ -18,13 +18,13 @@ const missionPillars = [
     icon: Sparkles,
     title: "Inspire",
     text: "Share real journeys that make ambition feel close, possible, and Indian.",
-    image: "/images/personalities/srikanth-bolla.webp",
+    image: "/images/founder-stories/srikanth-bolla.webp",
   },
   {
     icon: BookOpen,
     title: "Educate",
     text: "Turn lived experience into practical lessons for students, founders, and young leaders.",
-    image: "/images/personalities/anand-kumar.jpeg",
+    image: "/images/founder-stories/anand-kumar.jpeg",
   },
   {
     icon: Rocket,
@@ -67,7 +67,7 @@ const coverAreas = [
   {
     title: "Inspiring Voices",
     category: "Stories",
-    image: "/images/personalities/srikanth-bolla.webp",
+    image: "/images/founder-stories/srikanth-bolla.webp",
   },
   {
     title: "Business Insights",
@@ -87,12 +87,12 @@ const coverAreas = [
   {
     title: "Education",
     category: "Learning",
-    image: "/images/personalities/anand-kumar.jpeg",
+    image: "/images/founder-stories/anand-kumar.jpeg",
   },
   {
     title: "Social Change",
     category: "Bharat",
-    image: "/images/personalities/Chami-Murmu.jpg",
+    image: "/images/founder-stories/Chami-Murmu.jpg",
   },
 ];
 
