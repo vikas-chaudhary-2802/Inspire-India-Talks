@@ -2202,7 +2202,7 @@ For aspiring entrepreneurs and leaders, his life offers timeless lessons: pursue
     title: "Rising Cricket Talent",
     category: "Sports Icons",
     categorySlug: "sports-icons",
-    image: "/public/images/founder-stories/Vaibhav-suryavanshi.webp",
+    image: "/images/founder-stories/Vaibhav-suryavanshi.webp",
     born: "Bihar, India",
     profession: "Cricketer",
     knownFor: "Emerging cricket talent representing Bihar’s new sports wave",

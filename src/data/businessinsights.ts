@@ -33,6 +33,42 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "aum-ventures-innovation-fund-ii-2026",
+    title: "Aum Ventures Announces First Close of ₹750 Crore India Innovation Fund II",
+    date: "11-08-2026",
+    category: "Venture Capital",
+    image: "/images/business-insights/aum-ventures.jpg",
+    excerpt:
+      "Early-stage VC firm Aum Ventures has announced the first close of its ₹750 crore India Innovation Fund II, focusing on IP-led deep-tech startups across space tech, AI, and semiconductors.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Early-stage venture capital firm **Aum Ventures** has announced the first close of its **India Innovation Fund II at ₹225 crore**. The fund has a target corpus of **₹750 crore (approximately $80 million)** and will invest in early-stage startups building IP-led technology companies from India for global markets.
+
+According to the Mumbai-based VC firm, the first close attracted participation from both existing and new investors, with more than 65% of commitments coming from international limited partners across the US, the Middle East, and other global markets. The investor base includes family offices, entrepreneurs, and strategic investors.
+
+The new fund will focus on sectors such as **space tech, AI, semiconductors, aerospace, defence tech, robotics, energy transition, and advanced manufacturing**. It will primarily invest at the pre-seed and seed stages, with initial investments typically ranging from **$750,000 to $2 million**. The fund will also reserve capital for follow-on investments through Series A and Series B rounds, aiming to back 25–30 companies over its lifecycle.
+
+Aum Ventures was an early institutional investor in **Skyroot Aerospace**, which became India's first space-tech unicorn and recently launched its Vikram-1 rocket. Fund II builds on the firm's first fund, launched in 2023, which has recorded a gross MOIC of 2.23x and a gross IRR of 53% so far. Aum Ventures' portfolio includes Skyroot Aerospace, Azimuth AI, Cosmoserve Space, Sanyark Space, Sully.ai, and Latentai.`,
+  },
+  {
+    id: "lightspeed-discovered-materials-seed-9mn-2026",
+    title: "Lightspeed India Leads $9 Million Seed Round in Deep-Tech Startup Discovered Materials",
+    date: "11-08-2026",
+    category: "Deep Tech",
+    image: "/images/business-insights/discovered-materials.jpg",
+    excerpt:
+      "Deep-tech startup Discovered Materials has raised $9 million in a seed round led by Lightspeed India Partners to scale its AI research agents for semiconductor thermal management.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Deep-tech startup **Discovered Materials** has raised **$9 million (₹85 crore)** in a seed funding round led by **Lightspeed India Partners**, with participation from Y Combinator, Peak XV Partners, and global angel investors including Paul Graham, Gokul Rajaram, and Thariq Shihipar. The fresh funds will be used to expand its team, laboratory, and scale its autonomous AI research agents.
+
+Founded by **Advaith Sridhar** and **Akash Ramdas**, Discovered Materials is an AI-driven deep-tech startup focused on thermal dissipation challenges in AI chips, which can generate more than 140W/cm². The company is developing thermally conductive dielectric materials for 3D chip packaging.
+
+The startup operates cloud-based autonomous AI agents that run thousands of virtual material hypotheses daily, using custom model harnesses incorporating frontier AI models. The AI-generated material candidates are then evaluated through physics simulations to assess their stability, dielectric constants, and thermal properties. The company has also launched the **Material Discovery Bench** to evaluate how frontier AI systems perform on real-world semiconductor material challenges.
+
+Discovered Materials plans to patent promising candidates and license the resulting thermal management technologies to global chipmakers. According to the company, its AI systems have already developed new thermal materials in three months with performance comparable to products that traditionally took years to develop.`,
+  },
+  {
     id: "nazara-preferential-issue-new-ceo-2026",
     title: "Nazara Hands Its New CEO a 4.67% Stake in a ₹733 Crore Bet on Fresh Leadership",
     date: "06-08-2026",

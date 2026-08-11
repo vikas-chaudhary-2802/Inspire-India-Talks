@@ -38,9 +38,9 @@ const articles = ([
 /* ===== Feeds — each tab shows only its own category of article ===== */
 export type Feed = "insights" | "legacy" | "startups";
 
-export const isLegacy = (a: Article) => a.category === "Business Legacy";
-export const isStartup = (a: Article) => !!a.category && /^Startups/i.test(a.category);
-export const isNews = (a: Article) => !isLegacy(a) && !isStartup(a);
+const isLegacy = (a: Article) => a.category === "Business Legacy";
+const isStartup = (a: Article) => !!a.category && /^Startups/i.test(a.category);
+const isNews = (a: Article) => !isLegacy(a) && !isStartup(a);
 
 const FEED_META: Record<
   Feed,
