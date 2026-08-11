@@ -9,6 +9,35 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "wadia-group-290-year-legacy",
+    title: "Wadia Group: The 290-Year Legacy That Helped Build Modern India",
+    date: "11-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/wadia-group.jpg",
+    excerpt: "Founded in 1736 as a marine construction enterprise, the Wadia Group has evolved into a diversified conglomerate spanning textiles, food, engineering, and real estate, maintaining its core values for nearly three centuries.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Imagine a business that began before the United States even existed, witnessed the rise and fall of empires, helped shape global maritime history, and still continues to influence millions of lives today. That is the extraordinary story of the **Wadia Group**—one of India's oldest and most respected business houses, whose remarkable journey began in **1736**.
+
+The story starts with **Loeji (Lovji) Nusserwanjee Wadia**, a master shipbuilder whose craftsmanship transformed Bombay into one of the world's most important shipbuilding centres. What began as a marine construction enterprise soon became a symbol of engineering excellence. Over the next 150 years, the Wadia shipyards built **more than 355 vessels**, many of which earned global recognition for their quality and durability.
+
+Some of these ships are woven into world history. The **HMS Trincomalee** remains the world's second-oldest surviving warship still afloat. The **Minden** is remembered as the ship where the words of the American National Anthem were composed, while the **HMS Cornwallis** became the site where the historic Treaty of Nanking was signed. These achievements reflected not just exceptional craftsmanship, but a commitment to excellence that would define the Wadia name for generations.
+
+As India entered a new industrial era, the Wadia Group successfully reinvented itself. In **1879**, it established **Bombay Dyeing**, a company that would become one of India's most iconic textile brands. Known for its premium fabrics, home textiles, and apparel, Bombay Dyeing has earned the trust of generations of Indian families. Today, alongside its textile business, the company is also creating landmark real estate developments that are helping redefine urban living.
+
+The Group's spirit of diversification continued with **The Bombay Burmah Trading Corporation**, founded in **1863**. Originally established for teak trading, the company steadily expanded into plantations, tea, coffee, horticulture, auto components, healthcare products, and several other sectors. Its evolution perfectly reflects the Wadia Group's ability to adapt while staying true to its core values.
+
+No discussion of the Wadia Group is complete without mentioning **Britannia**, one of India's most loved food companies. Every day, millions of consumers enjoy Britannia's wide range of biscuits, bakery products, dairy offerings, and other foods. Over the decades, the brand has become synonymous with quality, consistency, and trust, making it an integral part of everyday life across the country.
+
+Innovation has remained central to the Group's growth. **National Peroxide Limited** has established itself as India's largest manufacturer of hydrogen peroxide, supplying essential products to industries including paper, textiles, chemicals, and environmental treatment. Meanwhile, **Wadia Techno-Engineering Services Limited** delivers engineering, design, and project management solutions for industrial, commercial, residential, hospitality, and infrastructure projects.
+
+The Group is also shaping the future of urban development through **Bombay Realty**. Its integrated mixed-use projects combine residences, offices, hotels, retail, healthcare, and educational spaces to create vibrant communities where people can truly "Live. Work. Play."
+
+Yet, perhaps the Wadia Group's greatest achievement is not the industries it has entered, but the values it has preserved for nearly three centuries. Guided by **Integrity, Excellence, Respect, Teamwork, and Trust**, the Group remains committed to creating long-term value while embracing responsible business practices. Its focus on environmental, social, and governance (ESG) principles, along with initiatives supporting housing, education, healthcare, research, and disaster rehabilitation, reflects a vision that extends far beyond business success.
+
+From building legendary ships in the eighteenth century to shaping industries and communities in the twenty-first, the Wadia Group's journey is a testament to resilience, innovation, and unwavering purpose. Nearly **290 years** after its founding, it continues to prove that while industries evolve and markets change, enduring values remain the strongest foundation for lasting success.`,
+  },
+  {
     id: "tata-group-150-year-journey",
     title: "Tata Group: A 150-Year Journey of Trust, Growth, and Nation Building",
     date: "30-07-2026",
