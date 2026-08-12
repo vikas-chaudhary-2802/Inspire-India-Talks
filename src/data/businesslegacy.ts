@@ -9,6 +9,35 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "century-textiles-125-year-story",
+    title: "Century Textiles: The 125-Year Story of Reinvention, Resilience, and Remarkable Vision",
+    date: "12-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/century-textiles.jpg",
+    excerpt: "From a single cotton mill in 1897 to shaping modern skylines as Aditya Birla Real Estate Limited, Century Textiles' 125-year journey is a masterclass in corporate reinvention and resilience.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Very few companies can claim to have witnessed India's transformation from the colonial era to the digital age. Even fewer have managed to evolve with every generation while remaining relevant, respected, and forward-looking. **Century Textiles**, now known as **Aditya Birla Real Estate Limited (ABREL)**, is one such remarkable enterprise. Its story is not simply about longevity—it is about the courage to reinvent itself time and again without ever losing sight of its core values.
+
+The journey began in **1897** with a single cotton processing mill under the name Century Spinning and Manufacturing Company. At a time when India's industrial landscape was still taking shape, the company embarked on a mission to produce high-quality cotton products. What started as a modest textile venture would eventually become one of the country's most admired industrial success stories.
+
+A turning point arrived in 1951, when the Birla family assumed management control and welcomed Century into the Birla Group. Under the visionary leadership of Syt. Basant Kumar Birla (B. K. Birla), the company entered a new phase of ambitious growth. Instead of limiting itself to textiles, Century embraced change, expanding into businesses such as rayon, nylon, pulp and paper, yarn, denim, cement, and several other industries. Each diversification reflected the company's willingness to anticipate the future rather than simply respond to it.
+
+Over the decades, Century established world-class manufacturing facilities across India and built a reputation for operational excellence, innovation, and uncompromising quality. Every milestone strengthened the company's belief that true growth comes from continuously adapting to changing customer needs, emerging technologies, and evolving markets.
+
+One of the most exciting chapters in Century's journey began in 2016 with the launch of **Birla Estates**, marking the company's strategic entry into the real estate sector. But Birla Estates was never intended to be just another real estate developer. Built on more than a century of trust, it was created with a bold vision—to redefine the Indian real estate experience by placing people at the heart of every development.
+
+This philosophy is beautifully captured in its signature concept, LifeDesigned®. Rather than merely constructing buildings, Birla Estates focuses on designing spaces that enrich everyday life. Every residential and commercial project reflects thoughtful planning, elegant architecture, transparency, and an unwavering commitment to quality. The goal is simple yet powerful: create environments where people don't just live—they truly thrive.
+
+Alongside its growing real estate business, the company continues to maintain a strong presence in the Pulp & Paper sector. Guided by sustainable green technologies and customer-centric innovation, the business strives to deliver premium-quality products while minimizing environmental impact. This balanced approach demonstrates that commercial success and responsible business practices can go hand in hand.
+
+As the business landscape evolved, Century also reshaped its own portfolio. Businesses including cement, textiles, rayon, yarn, and denim were strategically reorganized, enabling the company to focus on sectors with strong long-term potential. This transformation reached a defining milestone in 2024, when Century Textiles and Industries Limited officially became Aditya Birla Real Estate Limited—a name that reflects both its exciting future and its proud heritage.
+
+Today, as part of the globally respected Aditya Birla Group, ABREL stands as a leading player in Real Estate and Pulp & Paper, driven by innovation, sustainability, transparency, and customer-first thinking. While its businesses have transformed dramatically over the past 125 years, the values that built the company remain unchanged—integrity, excellence, and an unwavering commitment to creating lasting value.
+
+The story of Century Textiles is ultimately a story of fearless reinvention. From a single cotton mill in 1897 to shaping modern skylines and sustainable industries today, the company has continually embraced change without forgetting where it began. More than a century later, its journey reminds us that the greatest legacy is not built by standing still—it is built by having the vision to evolve, the courage to innovate, and the determination to create a better future with every generation.`,
+  },
+  {
     id: "wadia-group-290-year-legacy",
     title: "Wadia Group: The 290-Year Legacy That Helped Build Modern India",
     date: "11-08-2026",

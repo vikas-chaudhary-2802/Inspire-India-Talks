@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "porter-fy26-revenue-4x-profit-2026",
+    title: "Porter Posts ₹6,650 Cr Revenue in FY26; Profits Jump 4X",
+    date: "12-08-2026",
+    category: "Logistics",
+    image: "/images/business-insights/porter-logistics.jpg",
+    excerpt: "Bengaluru-based intra-city logistics firm Porter has seen its operating revenue cross ₹6,650 crore, while net profits surged more than fourfold to ₹229 crore in FY26.",
+    readTime: "3 min read",
+    featured: false,
+    content: `**Porter** has managed to keep its growth engine running even as competition heats up in India's intra-city logistics market, with Uber, Rapido and Delhivery expanding into the two-wheeler parcel delivery segment. After turning profitable for the first time in FY25, the Bengaluru-based firm's profit surged more than fourfold in the fiscal year ended March 2026. 
+
+Its revenue also more than doubled over the past two fiscals, rising from ₹2,734 crore in FY24 to over ₹6,600 crore in FY26. Porter's revenue from operations increased **54.4% year-on-year to ₹6,650 crore in FY26** from ₹4,306 crore in FY25, according to its consolidated financial statements.
+
+Porter operates a full-stack logistics platform that helps businesses optimise their last-mile delivery operations. Goods transportation services contributed 99% of its operating revenue, while the remaining revenue came from platform fees and other operating activities. The company primarily serves micro, small and medium enterprises (MSMEs) and has expanded its presence to more than 20 cities across India.
+
+The growth in scale, coupled with better cost management, helped Porter increase its net profit more than fourfold to **₹229 crore in FY26** from ₹55 crore in FY25. Its return on capital employed (ROCE) improved to 16.7%. As of March 2026, the company had total current assets of ₹1,052 crore, including ₹526 crore in cash and bank balances.
+
+Porter has raised more than $332 million to date, including a $200 million Series F round in May 2025, led by Kedaara Capital and Wellington Management. For Porter, the challenge now is less about proving that the market exists and more about defending its position as larger players step into the segment.`,
+  },
+  {
+    id: "yulu-series-c-gef-capital-93m-2026",
+    title: "Yulu Raises $93 Mn in Series C Round Led by GEF Capital",
+    date: "12-08-2026",
+    category: "Electric Mobility",
+    image: "/images/business-insights/yulu-funding.jpg",
+    excerpt: "Electric mobility-as-a-service (MaaS) platform Yulu has raised $93 million to quadruple its active fleet to 200,000 EVs and expand into new urban mobility segments.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Electric mobility-as-a-service (MaaS) platform **Yulu** has raised **$93 million** in a Series C funding round through a combination of $63 million in equity led by GEF Capital Partners and $30 million in debt. The Bengaluru-based company had previously raised $19.25 million from existing investors Magna and Bajaj Auto in February 2024. 
+
+Yulu plans to use the fresh capital to quadruple its active fleet to **200,000 electric vehicles** over the next two years, expand into new urban mobility use cases and support its plans for a potential public market listing. The company currently operates across 12 primary metros and eight franchise-operated regional markets.
+
+Founded in 2017 by Amit Gupta, Anuj Tewari, RK Misra, and Naveen Dachuri, Yulu operates a technology-enabled fleet of electric two-wheelers for urban mobility and last-mile delivery. Its fleet is currently around 50,000 vehicles, covering 2.5 million zero-emission kilometres and facilitating more than 750,000 doorstep deliveries every day. The company claims its vehicles support more than 15% of quick-commerce deliveries across India's top four metropolitan centres.
+
+Yulu nearly doubled its operating revenue to **₹237.4 crore in FY25**, while its net loss declined 12% to ₹126 crore. The company has since reported positive EBITDA from April 2025 and said its revenue grew sevenfold between FY23 and FY26.
+
+The MaaS segment spans last-mile delivery, employee transportation, urban commuting, EV rentals and fleet electrification. Startups in the space use software, fleet management and charging infrastructure to improve vehicle utilisation and reduce operating costs. Yulu also plans to enter adjacent intra-city mobility segments with Yulu Express, a full-sized, high-payload electric scooter designed for ecommerce logistics.`,
+  },
+  {
     id: "aum-ventures-innovation-fund-ii-2026",
     title: "Aum Ventures Announces First Close of ₹750 Crore India Innovation Fund II",
     date: "11-08-2026",
