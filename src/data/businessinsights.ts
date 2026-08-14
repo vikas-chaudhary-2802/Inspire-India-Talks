@@ -33,6 +33,42 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "bank-of-america-acquires-stake-jio-credit-2026",
+    title: "Bank of America to Acquire 50% Stake in Jio Credit",
+    date: "14-08-2026",
+    category: "Financial Services",
+    image: "/images/business-insights/jio-bofa.jpg",
+    excerpt: "Bank of America and Jio Financial Services have announced a strategic joint venture, with the US bank set to acquire up to a 49.9% stake in Jio Credit Limited.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Bank of America and Jio Financial Services announced a strategic joint venture on August 12, 2026, under which Bank of America will acquire up to a **49.9% stake** in Jio Credit Limited, the lending subsidiary of Jio Financial Services. 
+
+The deal is valued at approximately **₹18,268 crore** (roughly USD 1.9 billion). Under the structure of the agreement, Bank of America will initially acquire a 26.5% equity stake through a preferential allotment of shares and warrants, with the option to increase this to 49.9% upon the exercise of warrants.
+
+The joint venture aims to combine Jio Financial Services' massive digital reach and local market knowledge with Bank of America’s global expertise in financial services, risk management, and technology. This powerful alliance is designed to accelerate credit access across India and introduce innovative lending products to a rapidly growing consumer base.
+
+Jio Credit will maintain equal board representation from both companies, and its existing management team will continue to lead its strategy and operations. The transaction is subject to customary regulatory and statutory approvals, but it already marks one of the most significant foreign direct investments in India's booming financial sector this year.`,
+  },
+  {
+    id: "astrotalk-becomes-unicorn-esop-buyback-2026",
+    title: "Astrotalk Becomes Unicorn at USD 1 Bn Valuation Through ESOP Buyback",
+    date: "14-08-2026",
+    category: "Spiritual Tech",
+    image: "/images/business-insights/astrotalk.jpg",
+    excerpt: "Spiritual-tech platform Astrotalk has officially achieved unicorn status, reaching a USD 1 billion valuation through an ESOP buyback funded entirely from its own profits.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Spiritual-tech platform **Astrotalk** officially achieved unicorn status on August 12, 2026, reaching a massive **USD 1 billion** valuation. 
+
+What makes this milestone remarkable is the method of valuation. Unlike most startups that reach unicorn status through a fresh venture capital funding round, Astrotalk achieved it through an **ESOP (Employee Stock Ownership Plan) buyback**. Even more impressively, the buyback was funded entirely through the company's own business profits rather than external capital.
+
+More than 100 employees participated in the buyback, allowing them to liquidate a portion of their vested shares while remaining stakeholders in the company. This rare and elegant path to unicorn status rewards employees and validates the company's profitability without diluting equity through new venture capital.
+
+Astrotalk has demonstrated stellar financial performance to back up its new valuation, reporting **₹1,176 crore in operating revenue** and **₹250 crore in net profit** for FY25. Its annualized revenue run rate has now surpassed ₹2,500 crore.
+
+Founded in 2017 by Puneet Gupta and Anmol Jain, the Noida-based platform has successfully transitioned from an online astrology consultation marketplace into a broader spiritual-tech and e-commerce business via the Astrotalk Store. As the spiritual tech market continues to expand globally, Astrotalk is proving that sustainable, profitable growth is a viable alternative to the traditional growth-at-all-costs startup model.`,
+  },
+  {
     id: "porter-fy26-revenue-4x-profit-2026",
     title: "Porter Posts ₹6,650 Cr Revenue in FY26; Profits Jump 4X",
     date: "12-08-2026",
