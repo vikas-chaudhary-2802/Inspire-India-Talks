@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "physicswallah-q1-fy27-results",
+    title: "PhysicsWallah Revenue Rises 24% to Rs 1,054 Cr in Q1 FY27; Loss Drops 31%",
+    date: "17-08-2026",
+    category: "EdTech",
+    image: "/images/business-insights/physicswallah-founder.jpg",
+    excerpt: "Edtech unicorn PhysicsWallah reported a 24.4% year-on-year increase in revenue from operations to Rs 1,054 crore, while managing to narrow its net loss by 30.7%.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Edtech company PhysicsWallah reported a solid start to the financial year, with a **24.4% year-on-year increase** in revenue from operations in Q1 FY27, while successfully narrowing its losses by 30.7% during the quarter.
+
+PhysicsWallah's revenue from operations increased to **Rs 1,054 crore** in Q1 FY27 from Rs 847 crore in Q1 FY26. The company's online business contributed Rs 549 crore, up 33.3% year-on-year. Offline revenue also grew 14.5% to Rs 490 crore. Including other income, total income stood at Rs 1,162 crore.
+
+On the expense side, employee benefits remained the largest cost component at Rs 528 crore, up 15.8% year-on-year. Overall expenditure rose 18.3% to Rs 1,247 crore.
+
+Due to strong revenue growth outpacing the rise in expenses, PhysicsWallah's net loss decreased to **Rs 88 crore** in Q1 FY27, down from Rs 127 crore in Q1 FY26. 
+
+Recently, PhysicsWallah also approved a Rs 71.8 crore investment in UPSC coaching platform Sarrthi IAS, raising its stake from 40% to 51% and making it a subsidiary. The acquisition is expected to strengthen its presence in the UPSC and civil services examination preparation segment as it expands beyond its core K12 and test preparation business.`,
+  },
+  {
+    id: "easemytrip-q1-fy27-results",
+    title: "EaseMyTrip Posts Rs 135 Cr Revenue and Rs 11.7 Cr Loss in Q1 FY27",
+    date: "17-08-2026",
+    category: "Travel Tech",
+    image: "/images/business-insights/easemytrip-founder.jpg",
+    excerpt: "EaseMyTrip's operating revenue grew 18.5% year-on-year, but increased service and operating costs pushed the online travel aggregator into a net loss of Rs 11.7 crore for the quarter.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Online travel aggregator (OTA) platform EaseMyTrip announced its financial results for Q1 FY27. The company's operating revenue grew **18.5% year-on-year** to Rs 134.7 crore, up from Rs 113.7 crore in Q1 FY26. However, the company slipped into the red, reporting a net loss of Rs 11.7 crore.
+
+Hotel packages emerged as the largest revenue contributor, accounting for over 50% of operating revenue. Revenue from the segment more than doubled to Rs 67.6 crore, compared to Rs 32.5 crore in Q1 FY26. Hotel room night bookings also rose 95.4% YoY to 6.47 lakh, averaging around 7,000 bookings per day. Air ticketing revenue, on the other hand, declined 4% YoY to Rs 54.7 crore.
+
+Including other services and non-operating income, EaseMyTrip's total income rose to Rs 141.2 crore. 
+
+On the expense side, the company's total expenses rose 30% year-on-year to Rs 152.6 crore in Q1 FY27. Service cost remained the largest expense at Rs 39.2 crore, more than doubling from the year-ago period. Advertisement and sales promotion expenses also increased significantly to Rs 18.5 crore. 
+
+The rise in service costs and other operating expenses, coupled with slower revenue growth than the increase in expenses, pushed EaseMyTrip into a net loss for the quarter, compared to a profit of Rs 44 lakh in the same quarter last year.`,
+  },
+  {
     id: "bank-of-america-acquires-stake-jio-credit-2026",
     title: "Bank of America to Acquire 50% Stake in Jio Credit",
     date: "14-08-2026",

@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "amrutanjan-healthcare-133-year-legacy",
+    title: "Amrutanjan Healthcare: A 133-Year Legacy of Healing and Heritage",
+    date: "14-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/amrutanjan.jpg",
+    excerpt: "Founded in 1893 by a visionary freedom fighter and social reformer, Amrutanjan evolved from a single iconic yellow pain balm into a diversified, modern healthcare brand.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Amrutanjan Healthcare has a rich legacy dating back to **1893**, when it was founded in Bombay (now Mumbai) by **Kasinathuni Nageswara Rao Pantulu**. Often referred to affectionately as *Desodharaka* Nageswara Rao Pantulu, he was a multifaceted personality—a prominent journalist, social reformer, and freedom fighter who played a significant role in the Indian independence movement.
+
+The company began as a humble patent medicine venture. Nageswara Rao Pantulu famously popularized his signature yellow pain balm by distributing it free of cost at music concerts, making it an accessible household remedy across the country. In 1914, the company shifted its headquarters from Mumbai to Madras (now Chennai), firmly establishing its roots in South India.
+
+In 1936, the business became a public limited company under the name Amrutanjan Limited. For generations, the name "Amrutanjan" was synonymous with quick pain relief, becoming a staple in Indian households. 
+
+However, a true legacy is built on evolution. In 2007, the company officially changed its name to **Amrutanjan Healthcare Limited** to better reflect its diverse operations. While it began with its iconic pain balm, the company has grown into a diversified healthcare entity under the leadership of the founder's descendants. 
+
+Today, Amrutanjan has expanded into various segments such as congestion relief, hygiene products (like Comfy sanitary napkins), and even food and beverages. Despite its massive modernization, the company continues to maintain its roots in Ayurveda, seamlessly integrating ancient knowledge with modern scientific research to deliver high-quality wellness products.`,
+  },
+  {
     id: "century-textiles-125-year-story",
     title: "Century Textiles: The 125-Year Story of Reinvention, Resilience, and Remarkable Vision",
     date: "12-08-2026",
