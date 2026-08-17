@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "muthoot-group-139-year-legacy",
+    title: "The Muthoot Group: A 139-Year Journey from Timber Trading to Financial Titan",
+    date: "17-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/muthoot.jpg",
+    excerpt: "Founded in 1887 in a remote Kerala village, The Muthoot Group evolved from a modest timber and grain trading post into a multinational gold loan empire.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The story of **The Muthoot Group** begins in **1887**, in the remote village of Kozhencherry, Kerala. It was founded by **Ninan Mathai Muthoot** (1873–1955), who started the business as a modest retail and wholesale trading operation dealing in food grains and timber. A significant portion of his supplies catered to the large British-owned estates in the region.
+
+While trading was profitable, the true turning point came when the founder recognized the unmet savings and credit needs of estate workers. He initiated chit fund services to help them, marking the group's first steps into the financial sector. Over time, under the leadership of his son, **M. George Muthoot**, the business formally transitioned into financial services. In 1939, the finance division was incorporated, and the group began building what would eventually become its flagship enterprise: the gold loan business.
+
+Rooted in a family lineage that is often cited as spanning 800 years, the group's foundational values have always emphasized trust, ethics, and community service. These values guided the business as it grew from a local trading enterprise into a major multinational conglomerate. 
+
+Today, The Muthoot Group is a diversified giant with interests spanning financial services, media, healthcare, education, hospitality, and infrastructure. Although a family partition in 1979 led to the formation of distinct entities like the Muthoot Pappachan Group, the shared heritage of business excellence remains intact.
+
+Operating thousands of branches across India and maintaining a global presence in countries such as the USA, UK, UAE, Sri Lanka, and Nepal, The Muthoot Group continues to honor its 139-year legacy of financial inclusion, customer-centric service, and unshakable trust.`,
+  },
+  {
     id: "amrutanjan-healthcare-133-year-legacy",
     title: "Amrutanjan Healthcare: A 133-Year Legacy of Healing and Heritage",
     date: "14-08-2026",
