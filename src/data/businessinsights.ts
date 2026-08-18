@@ -33,6 +33,42 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "rezolv-12-5-mn-series-a-2026",
+    title: "Norwest Leads $12.5 Mn Series A Round in AI Lending Tech Platform Rezolv",
+    date: "18-08-2026",
+    category: "FinTech",
+    image: "/images/business-insights/rezolv.png",
+    excerpt: "AI-native lending technology platform Rezolv has raised $12.5 million in a Series A round led by Norwest to strengthen its core AI capabilities across sales, risk, and collections.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Rezolv, an AI-native lending technology platform for financial services, has raised **$12.5 million** in a Series A funding round led by Norwest, with participation from Vertex Ventures Southeast Asia and India, and existing investor 3one4 Capital. Prior to this, the Mumbai-based firm raised $3.5 million in a seed round led by 3one4 Capital in March last year.
+
+The company will deploy the fresh capital to strengthen its core AI capabilities across the lending suite, including sales, risk, underwriting, and collections.
+
+Co-founded in October 2024 by Karan Mehta and Sonali Jindal (former co-founders of digital lending startup Kissht), Rezolv enables lenders to automate, streamline, and optimize their lending workflows. The platform leverages advanced analytics, automation, and digital engagement to drive efficiencies while improving customer experience, from welcome calling and pre-delinquency to write-offs.
+
+Rezolv primarily serves banks and NBFCs through a debt-collection platform powered by AI. Since its inception, the startup has partnered with over 22 banks and NBFCs, including AU Small Finance Bank, ICICI Bank, Poonawalla Fincorp, Bajaj Auto Credit, and Five-Star Business Finance. 
+
+Currently, Rezolv powers 6.5 million minutes of borrower conversations every month, enabling pan-India collections across more than 12 million loan accounts. The company claims its platform has helped improve bounce and resolution rates by 35%.`,
+  },
+  {
+    id: "wispr-flow-280-mn-series-b-2026",
+    title: "Wispr Flow Raises $280 Mn at $2 Bn Valuation",
+    date: "18-08-2026",
+    category: "Voice AI",
+    image: "/images/business-insights/wispr-flow.png",
+    excerpt: "San Francisco-based voice AI startup Wispr Flow has raised $280 million in a Series B round, nearly tripling its valuation to $2 billion in less than a year.",
+    readTime: "2 min read",
+    featured: false,
+    content: `San Francisco-based voice AI startup Wispr Flow has raised $280 million in a Series B funding round led by Menlo Ventures. The round saw participation from existing investors including Notable Capital, NEA, Neo Ventures, and 8VC, as well as new investors like Acrew, Forerunner, Goodwater, and Peak XV. 
+
+The round valued the company at **$2 billion**, nearly a threefold increase from its $700 million valuation when it raised $25 million less than a year ago. The fresh funding takes Wispr Flow's total capital raised to $361 million.
+
+Founded by Tanay Kothari, Wispr Flow develops AI-powered speech-to-text software that allows users to write and perform workplace tasks using voice. The company's platform is currently used by more than 10,000 businesses. The new capital will be used to expand its product and speech AI capabilities. 
+
+Wispr Flow has also introduced Canto, its proprietary speech recognition model designed to improve accuracy in difficult environments. The company is actively expanding beyond voice dictation into areas such as meeting notes and other workplace applications. Notably, India is the second-largest market for Wispr Flow in terms of both users and paying subscribers.`,
+  },
+  {
     id: "physicswallah-q1-fy27-results",
     title: "PhysicsWallah Revenue Rises 24% to Rs 1,054 Cr in Q1 FY27; Loss Drops 31%",
     date: "17-08-2026",

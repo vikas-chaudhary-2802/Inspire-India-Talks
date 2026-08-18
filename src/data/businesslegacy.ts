@@ -9,6 +9,23 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "batliboi-130-year-legacy",
+    title: "Batliboi: A 130-Year Evolution from Trading Post to Engineering Pioneer",
+    date: "18-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/batliboi.jpg",
+    excerpt: "Founded in 1892, Batliboi transformed from a humble selling organization in Bombay into an Indian engineering and manufacturing powerhouse.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Established in **1892** by **Jehangir Framji Batliboi**, Batliboi began its journey as a modest selling organization in Bombay. However, the company's true transformation began in 1916 when it was acquired by the **Bhogilal family**, shifting its trajectory from a trading firm to a formidable engineering powerhouse.
+
+Under the visionary leadership of the Bhogilal family, Batliboi steadily expanded its operations. The company was formally incorporated as a limited company in 1941, laying the groundwork for massive industrial expansion. By 1961, Batliboi had launched its dedicated manufacturing division in Udhna, Surat, marking a major milestone in India's indigenous engineering capabilities.
+
+Over the decades, Batliboi has consistently spearheaded technological change across the country. The company diversified its expertise into critical sectors, becoming a leading name in Machine Tools, Textile Air Engineering, Textile Machinery, Environmental Engineering, Wind Energy, and Electrical Engineering. 
+
+Today, Batliboi is a publicly listed enterprise on the Bombay Stock Exchange (BSE), maintaining a global presence with state-of-the-art manufacturing facilities in India (Surat and Bangalore) and Canada. For over 130 years, it has stood as a pillar of Indian industrialization, driving innovation while remaining deeply rooted in its historic legacy.`,
+  },
+  {
     id: "muthoot-group-139-year-legacy",
     title: "The Muthoot Group: A 139-Year Journey from Timber Trading to Financial Titan",
     date: "17-08-2026",
