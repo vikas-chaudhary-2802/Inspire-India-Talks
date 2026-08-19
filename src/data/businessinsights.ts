@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "shiprocket-stellar-ipo-debut-2026",
+    title: "Shiprocket Makes Stellar Debut, Shares List 35% Above IPO Price",
+    date: "19-08-2026",
+    category: "Logistics",
+    image: "/images/business-insights/shiprocket-ipo.png",
+    excerpt: "E-commerce logistics platform Shiprocket made a strong debut on the stock exchanges, with its shares listing at a 35% premium over its issue price.",
+    readTime: "2 min read",
+    featured: false,
+    content: `E-commerce shipping and logistics platform Shiprocket made a strong debut on the stock exchanges on Wednesday, August 19, with its shares listing at Rs 131 on the NSE, a 35% premium over its issue price of Rs 97. 
+
+The company's shares were listed at Rs 131 on the NSE and Rs 130 on the BSE, giving investors a solid listing gain on the first day of trading. Shiprocket had fixed the price band for its IPO at Rs 92-97 per share. The Rs 1,617 crore public issue was open for subscription between August 12 and August 14 and saw strong demand across investor categories, being subscribed 99 times by the end of the bidding period. 
+
+Qualified institutional buyers (QIBs) led the demand, subscribing to their reserved portion 123 times. The non-institutional investor (NII) quota was subscribed 89 times, while the retail portion saw 46 times subscription. 
+
+The strong debut comes as Indian startups continue to test investor appetite in the public markets. Shiprocket joins a growing list of new-age companies tapping the IPO route to raise capital and provide an exit opportunity to existing investors. 
+
+The Gurugram-based company provides shipping, logistics, and ecommerce enablement services to online sellers and businesses. It is backed by investors including Temasek and Eternal. Shiprocket reported a 24% year-on-year increase in operating revenue to Rs 2,024 crore in FY26, though its net loss widened 6.8% to Rs 79 crore during the year.`,
+  },
+  {
+    id: "yc-sells-groww-stake-1435cr-2026",
+    title: "Y Combinator Sells Another Rs 1,435 Cr Stake in Groww",
+    date: "19-08-2026",
+    category: "FinTech",
+    image: "/images/business-insights/groww-yc.png",
+    excerpt: "US-based startup accelerator Y Combinator has reduced its stake in Groww, selling nearly 1.2% in the fintech company for Rs 1,435 crore through an open-market transaction.",
+    readTime: "2 min read",
+    featured: false,
+    content: `US-based startup accelerator Y Combinator has once again reduced its stake in Groww, selling nearly 1.2% in the fintech company's parent, Billionbrains Garage Ventures, for Rs 1,435 crore through an open-market transaction. 
+
+According to BSE bulk deal data, Y Combinator, through its affiliate YC Holdings II LLC, sold 7.47 crore shares at an average price of Rs 192.16 per share. Following the sale, YC Holdings II's stake in Groww has fallen to 7.44% from 8.63%. The buyers involved in the transaction were not disclosed. 
+
+This is Y Combinator's second major stake sale in Groww this year. In May, the accelerator sold a 1.45% stake for Rs 1,642 crore through an open-market transaction, joining early investors like Peak XV Partners and Ribbit Capital in a collective 4.7% stake sale worth Rs 5,352 crore. 
+
+The latest sale comes at a time when Groww continues to report strong financial growth. The Bengaluru-based fintech posted a 94% year-on-year jump in net profit to Rs 735 crore in Q1 FY27, compared with Rs 378 crore in the year-ago period. Its consolidated revenue from operations also rose 66% year-on-year to Rs 1,501 crore during the quarter. 
+
+Groww's share is currently trading at Rs 194.8 per share with a total market capitalization of Rs 1,22,209 crore.`,
+  },
+  {
     id: "rezolv-12-5-mn-series-a-2026",
     title: "Norwest Leads $12.5 Mn Series A Round in AI Lending Tech Platform Rezolv",
     date: "18-08-2026",

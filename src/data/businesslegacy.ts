@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "shapoorji-pallonji-160-year-legacy",
+    title: "Shapoorji Pallonji: The 160-Year Legacy That Built Mumbai",
+    date: "19-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/shapoorji.jpg",
+    excerpt: "From a small 1865 construction partnership to a global conglomerate, the Shapoorji Pallonji Group has been the silent architect behind many of India's most iconic landmarks.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The **Shapoorji Pallonji Group** is one of India's oldest and most prestigious conglomerates, boasting a rich legacy that spans over 160 years. 
+
+The story began in **1865**, when **Pallonji Mistry** (grandfather of the late billionaire Pallonji Shapoorji Mistry) formed a small construction partnership in Bombay (now Mumbai) known as *Littlewood Pallonji*, alongside an English partner. The firm's early reputation was built on vital civic works, including laying the pavements at Girgaum Chowpatty and constructing the Malabar Hill reservoir in 1881, which supplied water to the rapidly growing city.
+
+After the founder's death in 1921, his son **Shapoorji Pallonji Mistry** took the helm, followed later by his grandson, Pallonji Mistry. Under their generational leadership, the group transformed from a regional contractor into a global engineering and construction powerhouse. The group is famously the silent architect behind many of Mumbai’s most iconic structures, including the Reserve Bank of India building, the Taj Mahal Palace Hotel's tower wing, the Cricket Club of India, and numerous major bank headquarters. 
+
+Beyond construction, the group made strategic moves that shaped its financial future. In 1936, the acquisition of the finance firm F.E. Dinshaw & Co. provided the group with a highly lucrative stake in **Tata Sons**, linking two of India's most powerful business families. Over the decades, the group diversified massively into energy, infrastructure, real estate, water treatment, and even the arts—notably financing the 1960s Bollywood epic, *Mughal-e-Azam*.
+
+Today, led by Chairman **Shapoor Mistry**, the Shapoorji Pallonji Group operates across over 70 countries. Representing the fourth generation of the founding family, the group remains highly regarded globally for its immense engineering expertise and its foundational role in building modern India.`,
+  },
+  {
     id: "batliboi-130-year-legacy",
     title: "Batliboi: A 130-Year Evolution from Trading Post to Engineering Pioneer",
     date: "18-08-2026",
