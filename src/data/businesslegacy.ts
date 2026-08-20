@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "jk-organisation-100-year-legacy",
+    title: "JK Organisation: The Swadeshi Dream That Built an Industrial Empire",
+    date: "20-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/jk-organisation.jpg",
+    excerpt: "Born from the Swadeshi movement, Lala Kamlapat Singhania's vision in the 1920s transformed a Kanpur cotton mill into one of India's largest multinational conglomerates.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The **JK Organisation** stands as a towering pillar of Indian industrialization, bearing a legacy deeply intertwined with the nation's fight for self-reliance. The group derives its name from its founders: **Lala Juggilal Singhania** (1857–1922) and his visionary son, **Lala Kamlapat Singhania** (1884–1937).
+
+While the Singhania family's entrepreneurial roots trace back to the 18th century as successful bankers and traders, the modern conglomerate was forged in the fires of the *Swadeshi* movement. Driven by a desire to build indigenous, self-reliant Indian enterprises, Lala Kamlapat Singhania established the **Juggilal Kamlapat Cotton Spinning & Weaving Mills** in Kanpur in 1921. This was a bold statement of Indian industrial capability under British rule, and it was soon followed by the J.K. Jute Mills in 1929.
+
+In 1943, the group adopted its iconic "hand and hammer" symbol, signifying labor, strength, and impeccable workmanship. Over the decades, particularly from the 1950s through the 1980s, the group expanded aggressively. Under the leadership of successive family generations like Sir Padampat Singhania, the JK Organisation grew into one of India’s largest conglomerates, trailing only historic giants like Tata and Birla.
+
+Today, the JK Organisation is a modern, diversified multinational force. It commands leading positions in core industries—most notably with **JK Tyre**, **JK Lakshmi Cement**, and **JK Paper**—while also holding significant interests in biotech, dairy, agri-genetics, and engineering equipment.
+
+Operating manufacturing facilities across Mexico, Indonesia, Romania, Belgium, Portugal, Switzerland, and the UAE, the group has successfully translated an early 20th-century Swadeshi dream into a formidable global legacy.`,
+  },
+  {
     id: "shapoorji-pallonji-160-year-legacy",
     title: "Shapoorji Pallonji: The 160-Year Legacy That Built Mumbai",
     date: "19-08-2026",
