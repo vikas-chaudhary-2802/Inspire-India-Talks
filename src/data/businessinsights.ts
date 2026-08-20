@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "orange-health-posts-139cr-revenue-2026",
+    title: "Y Combinator-Backed Orange Health Posts Rs 139 Cr Revenue in FY26",
+    date: "20-08-2026",
+    category: "HealthTech",
+    image: "/images/business-insights/orange-health.png",
+    excerpt: "Diagnostics and healthcare platform Orange Health saw its revenue surge to Rs 138.6 crore in FY26, as the company prepares to raise a fresh $30 million.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Diagnostics and healthcare platform Orange Health is raising $30 million in fresh funding, with the impact of the capital infusion likely to reflect in its FY27 annual results. 
+
+According to its financial statements filed with the Registrar of Companies (RoC), the Bengaluru-based startup's revenue from operations surged 65% year-on-year to Rs 138.6 crore in the fiscal year ended March 2026, up from Rs 84 crore in FY25. However, losses widened to nearly Rs 100 crore as the company expanded across tier I cities.
+
+Founded in 2020 by Dhruv Gupta and Tarun Bhambra, Orange Health Labs is a full-stack diagnostics platform offering on-demand testing and at-home sample collection for routine diagnostics. Beyond D2C services, Orange Health has onboarded over 2,000 clinics on its platform to enable faster diagnosis and clinical decision-making. The company claims to have added over 60 company-owned collection centres in the past year.
+
+Employee benefits was the largest cost for the firm, rising over 43% to Rs 72.2 crore. Materials used for testing and diagnostics also increased 40% to Rs 42.9 crore. The Bertelsmann India-backed company's loss before tax increased 11% year-on-year to Rs 97 crore, with overall expenses increasing 36% to Rs 240.3 crore.
+
+Meanwhile, the company's EBITDA loss stood at Rs 92.4 crore. However, the firm claims to have achieved 20% EBITDA profitability in Bengaluru. Prior to its upcoming $30 million round, Orange Health Labs had raised nearly $50 million in funding.`,
+  },
+  {
+    id: "peeko-raises-7mn-series-a-2026",
+    title: "Babycare Quick Commerce Platform Peeko Raises Over $7 Mn Led by Chiratae",
+    date: "20-08-2026",
+    category: "Quick Commerce",
+    image: "/images/business-insights/peeko.png",
+    excerpt: "Peeko, a babycare quick commerce platform delivering essentials within 60 minutes, raised Rs 67.4 crore (over $7 million) in a Series A funding round.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Peeko, a babycare quick commerce platform that delivers baby and kids-care essentials within 60 minutes, has raised Rs 67.4 crore (over $7 million) in a Series A funding round led by Chiratae Ventures. The round also saw participation from existing investor Stellaris Venture Partners and angel investors. 
+
+Prior to this, the Bengaluru-based startup had secured $3.2 million in a funding round led by Stellaris Venture Partners in August last year. The proceeds will be used to invest in technology aimed at building a broader "parenting partner" proposition alongside its commerce business. 
+
+Founded last year by Chetan Sharma, Abhijit Gairola, and Vivek Khetan, Peeko operates a vertical quick commerce platform focused on baby and kids-care essentials. The platform offers apparel, diapers, toys, and baby food, along with try-and-buy and instant return options. 
+
+Peeko claims it has grown nearly two-fold every quarter over the past six months, with more than one lakh parents shopping on the platform since its launch. The startup currently operates three dark stores in Bengaluru, covering around 55% of the city, and plans to expand to six stores by the end of 2026 before entering two more cities next year.
+
+The platform has expanded its assortment from around 6,000 SKUs at launch to 27,000-30,000 SKUs. Its average order value stands at around Rs 1,000, with apparel, toys, and baby gear accounting for a significant share of its business.`,
+  },
+  {
     id: "shiprocket-stellar-ipo-debut-2026",
     title: "Shiprocket Makes Stellar Debut, Shares List 35% Above IPO Price",
     date: "19-08-2026",
