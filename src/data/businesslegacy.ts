@@ -9,6 +9,23 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "pn-gadgil-jewellers-190-year-legacy",
+    title: "P. N. Gadgil Jewellers: A 190-Year Legacy from Sangli to the World",
+    date: "21-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/pn-gadgil.jpg",
+    excerpt: "Founded in 1832, the brand transitioned from trading traditional towels to becoming the official royal jewellers of Sangli, expanding into a modern jewelry empire.",
+    readTime: "3 min read",
+    featured: false,
+    content: `With a history spanning over 190 years, **P. N. Gadgil Jewellers** stands as one of India's oldest and most renowned jewellery brands. Its roots trace back to **November 29, 1832**, when the business was established by **Ganesh Narayan Gadgil** in Sangli, Maharashtra.
+
+Interestingly, before venturing into the world of gold and diamonds, the family traded in "Gadgili Panche" (traditional towels). Their transition into jewellery was incredibly successful. The family quickly gained prominence, serving as *savakars* (moneylenders) to influential local families, and eventually earning the prestigious title of **official royal jewellers** to the Patwardhan kings of the Sangli princely state. The business was later named **Purshottam Narayan Gadgil** after the founder's grandson.
+
+For over 125 years, the brand remained deeply rooted in Sangli. However, a major turning point arrived in **1958** when the fourth generation of the family made the bold decision to expand to Pune, opening a flagship showroom on Laxmi Road. This move laid the groundwork for decades of unprecedented growth.
+
+In 2012, the original entity demerged, leading to the formation of P. N. Gadgil Jewellers Limited, which is now a public company led by Saurabh Gadgil. Today, the brand is celebrated for preserving traditional Maharashtrian craftsmanship while seamlessly catering to contemporary designs. Operating across numerous retail stores in India and internationally, P.N. Gadgil Jewellers remains a glittering testament to trust, transparency, and a 190-year-old heritage.`,
+  },
+  {
     id: "jk-organisation-100-year-legacy",
     title: "JK Organisation: The Swadeshi Dream That Built an Industrial Empire",
     date: "20-08-2026",

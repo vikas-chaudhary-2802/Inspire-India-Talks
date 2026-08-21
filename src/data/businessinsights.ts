@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "atomberg-files-drhp-450cr-ipo",
+    title: "Atomberg Files DRHP for Rs 450 Cr Fresh Issue",
+    date: "21-08-2026",
+    category: "Consumer Tech",
+    image: "/images/business-insights/atomberg.webp",
+    excerpt: "Consumer appliance startup Atomberg has filed its DRHP for an IPO featuring a Rs 450 crore fresh issue and an OFS for existing investors.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Consumer appliance startup Atomberg Technologies has filed its draft red herring prospectus (DRHP) with SEBI for its initial public offering (IPO). The proposed IPO comprises a fresh issue of equity shares worth up to Rs 450 crore and an offer for sale (OFS) of up to 7.65 crore shares.
+
+Major investors, including A91 Partners, Temasek-backed V-Sciences Investments, and Jungle Ventures, will offload partial stakes in the OFS. A91 Partners will sell the largest chunk of 3.77 crore shares. 
+
+Atomberg plans to use Rs 90 crore from the fresh issue to repay borrowings, Rs 150 crore for brand awareness and performance marketing, and Rs 100 crore for research and development. 
+
+Founded by Manoj Meena in 2012, with Sibabrata Das joining as co-founder in 2013, Atomberg makes premium consumer appliances like ceiling fans, mixer grinders, water purifiers, and smart locks. The company is a dominant player in the premium fans segment, commanding a 46.08% market share by cumulative sales value in FY26. 
+
+Financially, Atomberg reported a robust 34.8% year-on-year growth in operating revenue to Rs 1,293.77 crore in FY26, up from Rs 959.51 crore in FY25. However, its adjusted EBITDA declined to Rs 37.12 crore, and the restated loss stood at Rs 148.88 crore.`,
+  },
+  {
+    id: "cashfree-revenue-967cr-fy26",
+    title: "Cashfree Reports Rs 967 Cr Revenue in FY26, Losses Narrow 23%",
+    date: "21-08-2026",
+    category: "FinTech",
+    image: "/images/business-insights/cashfree.png",
+    excerpt: "Cashfree Payments staged a comeback in FY26, with operating scale rising 51% to Rs 967 crore, while its losses narrowed by 23% to Rs 119 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Following a flat scale in FY25, payments infrastructure and intelligence company Cashfree Payments staged a strong comeback in FY26. The company's operating scale rose 51% year-on-year to nearly Rs 1,000 crore, while its losses narrowed by 23%. 
+
+According to its consolidated financial statements, Cashfree's revenue from operations surged to Rs 967 crore in FY26 from Rs 640 crore in FY25. Payment gateway commissions remained the primary revenue driver, jumping 85% to Rs 890 crore. Payout commissions added Rs 69 crore, while cross-border payments contributed another Rs 8 crore. 
+
+Founded in 2015 by Akash Sinha and Reeju Datta, Cashfree helps businesses collect online payments, make payouts, and streamline KYC. The company holds all three RBI payments licences: PA-PG, PA-CB, and PPI. It processes up to 12,000 transactions per second and handles over $80 billion in annual volume.
+
+Payment gateway processing costs were the largest expense, accounting for 64% of total expenses at Rs 698 crore. Overall expenditure rose 37% to Rs 1,091 crore. Despite this, tighter control over other operating expenses helped narrow the net loss to Rs 119 crore in FY26, down from Rs 154 crore in FY25. 
+
+The Y Combinator-backed company's EBITDA stood at Rs 90.5 crore. Cashfree has raised $95 million to date from investors like Y Combinator, Smilegate Investments, and State Bank of India.`,
+  },
+  {
     id: "orange-health-posts-139cr-revenue-2026",
     title: "Y Combinator-Backed Orange Health Posts Rs 139 Cr Revenue in FY26",
     date: "20-08-2026",
