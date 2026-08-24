@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "mdh-masala-dharampal-gulati-legacy",
+    title: "MDH Masala: The Incredible Journey of Mahashay Dharampal Gulati",
+    date: "24-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/mdh-masala.png",
+    excerpt: "From driving a tonga in Delhi after Partition with just Rs 1,500 to building one of India's most iconic global spice empires.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The story of **Mahashian Di Hatti (MDH)** and its late visionary leader, **Mahashay Dharampal Gulati**, is one of the most inspiring tales of resilience and entrepreneurship in Indian history.
+
+The foundation of the brand dates back to 1919, when Dharampal Gulati's father established a small spice shop in Sialkot (now in Pakistan) known as "Mahashian Di Hatti" and famously called "Deggi Mirch Wale". Born in 1923, Dharampal Gulati dropped out of school before completing the 5th standard, trying his hand at various odd jobs before eventually joining his father's flourishing spice business.
+
+However, the Partition of India in 1947 forced the family to leave everything behind. Gulati arrived in Delhi as a refugee with merely Rs 1,500 to his name. To survive in the new city, he initially worked as a tonga (horse cart) driver. Eventually, he saved enough money to purchase a tiny 14ft x 9ft "khokha" on Ajmal Khan Road in Karol Bagh, where he restarted the family spice business under the familiar MDH banner.
+
+Gulati revolutionized Indian kitchens by pioneering ready-to-use ground spices. Under his leadership, that small shop grew into a massive spice empire with a presence in over 100 countries. He became a cultural icon, starring as the beloved face of the brand in nearly all of its television advertisements. 
+
+In 2019, the Government of India awarded him the Padma Bhushan, the country's third-highest civilian award, in recognition of his monumental contributions to trade and industry. He passed away in 2020 at the age of 97, leaving behind a legacy that continues to flavor millions of meals globally.`,
+  },
+  {
     id: "pn-gadgil-jewellers-190-year-legacy",
     title: "P. N. Gadgil Jewellers: A 190-Year Legacy from Sangli to the World",
     date: "21-08-2026",

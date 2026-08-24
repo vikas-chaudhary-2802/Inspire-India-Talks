@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "third-wave-coffee-raises-408cr-westbridge",
+    title: "Third Wave Coffee Raises Rs 408 Cr Led by WestBridge",
+    date: "24-08-2026",
+    category: "Food & Beverage",
+    image: "/images/business-insights/third-wave.png",
+    excerpt: "Coffee chain Third Wave Coffee secured Rs 408 crore in a new funding round led by WestBridge Capital, pushing its valuation to roughly Rs 2,000 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based coffee chain Third Wave Coffee has raised Rs 408 crore ($43 million) in a funding round led by existing investor WestBridge Capital. The round also saw participation from Creaegis and other angel investors. 
+
+The new funding will support expansion in existing markets, increase presence in high-potential cities, and accelerate its Third Rush Desserts segment. The latest round values Third Wave Coffee at around Rs 2,000 crore ($210 million), compared to Rs 1,200 crore ($150 million) during its previous funding round. The company plans to enter nine new cities in the coming months, including Ludhiana, Jalandhar, Amritsar, and Lucknow, while deepening its tier II and tier III presence.
+
+Founded in 2017 by Sushant Goel, Ayush Bathwal, and Anirudh Sharma, Third Wave Coffee operates cafes and sells products like coffee beans and cold brew bags across major cities. WestBridge has backed the company since its Series A round and led its $21 million Series B round in 2022, while Creaegis led its $35 million Series C round in 2023.
+
+In FY25, Third Wave Coffee's operating revenue stood at Rs 285 crore, while its net loss narrowed to Rs 94 crore. The company has yet to file its FY26 financials.`,
+  },
+  {
+    id: "battery-smart-raises-19-5mn-430mn-val",
+    title: "Battery Smart Raises $19.5 Mn at $430 Mn Valuation",
+    date: "24-08-2026",
+    category: "CleanTech",
+    image: "/images/business-insights/battery-smart.png",
+    excerpt: "EV battery-swapping startup Battery Smart raised $19.5 million in its Series C funding round led by Rising Tide Ventures.",
+    readTime: "2 min read",
+    featured: false,
+    content: `EV battery-swapping startup Battery Smart has raised Rs 185.5 crore ($19.50 million) in its Series C funding round led by existing investors Rising Tide Ventures, with participation from Ecosystem Integrity Fund and Blume Ventures.
+
+The board approved the allotment of 34,094 Series C CCPS to raise the amount. Rising Tide Ventures led the round with Rs 112 crore, followed by Ecosystem Integrity Fund (Rs 49 crore) and Blume Ventures (Rs 25 crore). Post-money, the company is valued at around Rs 4,075 crore ($430 million). 
+
+The proceeds will be used to support business expansion, capital expenditure, and working capital requirements. Founded in 2020, Battery Smart operates a battery-swapping network for electric two- and three-wheelers. Its battery-as-a-service (BaaS) model allows users, particularly gig economy drivers, to swap batteries instead of bearing the high upfront cost of battery ownership. 
+
+The company has raised over $211 million to date, backed by investors like Tiger Global. Financially, its revenue surged 43.8% to Rs 358 crore in FY26 from Rs 249 crore in FY25, while losses declined by 12.8% to Rs 23.55 crore.`,
+  },
+  {
     id: "atomberg-files-drhp-450cr-ipo",
     title: "Atomberg Files DRHP for Rs 450 Cr Fresh Issue",
     date: "21-08-2026",
