@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "khatau-group-150-year-legacy",
+    title: "Khatau Group: The Pioneers of Bombay's Textile Revolution",
+    date: "25-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/khatau-group.jpg",
+    excerpt: "Founded in 1874, the Khatau Group spearheaded India's textile boom and played a foundational role in establishing massive industries like ACC Cement and HAL.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The **Khatau Group** stands as one of India's oldest and most historically significant industrial conglomerates, with roots tracing deeply into the mid-19th century. 
+
+The group was founded by **Seth Khatau Makanji**. While officially incorporated as a public limited company on October 19, 1874, historical records show the flagship **Khatau Makanji Spinning and Weaving Mills** was established in Byculla, Bombay as early as 1869. The mill quickly gained renown for producing extremely high-quality textiles, including superfine fabrics, voiles, dhotis, and mulls, which spearheaded Bombay's massive textile boom.
+
+By the mid-20th century, the Khatau Group evolved far beyond textiles, driving India's broader industrial revolution. Often collaborating with other titans of the era like the Tatas and Walchand Hirachand, the Khatau Group was instrumental in founding several key national enterprises. They were founding partners in **ACC Limited** (Associated Cement Companies) in 1936, co-founded **Hindustan Aeronautics Limited (HAL)** in 1940, and helped establish automotive pioneer **Premier Automobiles Limited** in 1944.
+
+While the group faced significant challenges starting in the 1980s—including family splits and the eventual closure of the original textile mills in 1997 due to shifting industry dynamics—the profound impact of their early ventures shaped modern India. 
+
+Today, the legacy of the Khatau Group continues through its descendants, with modern operations focused heavily on real estate development and specialized chemicals, proving that true industrial legacies can adapt and endure across centuries.`,
+  },
+  {
     id: "mdh-masala-dharampal-gulati-legacy",
     title: "MDH Masala: The Incredible Journey of Mahashay Dharampal Gulati",
     date: "24-08-2026",

@@ -33,6 +33,42 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "sanlayan-technologies-revenue-125cr-fy26",
+    title: "Sanlayan Technologies Turns Profitable as Revenue Jumps 5.6X to Rs 125 Cr",
+    date: "25-08-2026",
+    category: "Defense Tech",
+    image: "/images/business-insights/sanlayan.png",
+    excerpt: "Aerospace and defence startup Sanlayan Technologies saw a sharp 5.6X jump in revenue in FY26, turning profitable with Rs 25 crore in net profit.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Aerospace and defence startup Sanlayan Technologies saw a sharp jump in its revenue in FY26, while turning profitable during the year. The company's operating revenue grew 5.6X year-on-year to Rs 125 crore in FY26 from Rs 22 crore in FY25. 
+
+Founded in 2023 by former Zetwerk employees Abhijit Kothawale, Rohan Gala, and Rahul Vamsidhar, Sanlayan develops electronic systems for the aerospace and defence sectors, including radar, electronic warfare, and avionics. Its customer base includes HAL, BEL, DRDO, the Indian Armed Forces, and private defence system integrators. 
+
+Sanlayan ended FY26 with a Rs 286 crore order backlog and a confirmed pipeline of over Rs 2,000 crore. The company recently secured a Rs 70+ crore production order for the Uttam AESA Radar programme. 
+
+The sharp growth in revenue helped the company turn profitable, posting a profit of Rs 25 crore in FY26 against a loss of Rs 4 crore in FY25. On a unit economics basis, Sanlayan spent Rs 0.83 to generate every rupee of operating revenue in FY26. 
+
+The company is also expanding its manufacturing footprint, opening a 20,000 sq ft facility in Bengaluru's Electronic City. Backed by Jungle Ventures, Sanlayan was valued at Rs 567 crore during its $22 million funding round last year.`,
+  },
+  {
+    id: "lead-group-revenue-387cr-fy26",
+    title: "Edtech Unicorn LEAD Group Posts Rs 387 Cr Revenue in FY26; Losses Narrow 20%",
+    date: "25-08-2026",
+    category: "EdTech",
+    image: "/images/business-insights/lead-group.png",
+    excerpt: "After flat revenue in FY25, edtech unicorn LEAD Group returned to double-digit growth in FY26, with operating revenue rising 10% to Rs 387 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `After flat revenue in FY25, edtech unicorn LEAD Group returned to double-digit growth in FY26, with operating revenue rising 10%. The company also improved its operating EBITDA, which jumped sevenfold, while cutting its losses by 20% year-on-year. 
+
+The company's operating revenue grew to Rs 386.6 crore in the fiscal year ended March 2026 from Rs 351.5 crore in FY25. Founded in 2012 by Sumeet Mehta and Smita Deorah, LEAD provides integrated curriculum and technology solutions, including books, smart classes, teacher training, and ERPs. The company currently has a presence across more than 9,000 schools in over 400 towns, reaching nearly 41 lakh students.
+
+Revenue from products such as books and teaching aids accounted for over 71% of the company's operating income at Rs 275.4 crore. For the edtech firm, employee benefit expenses remained the largest cost head at Rs 131.2 crore. 
+
+Growth in its core business, coupled with controlled operating expenditure, helped LEAD narrow its overall losses to Rs 34.5 crore in FY26 from Rs 43.3 crore in FY25. The firm attributed the growth to the larger role of AI-led solutions for students and teachers. LEAD has raised over $180 million to date, backed heavily by WestBridge Capital.`,
+  },
+  {
     id: "third-wave-coffee-raises-408cr-westbridge",
     title: "Third Wave Coffee Raises Rs 408 Cr Led by WestBridge",
     date: "24-08-2026",
