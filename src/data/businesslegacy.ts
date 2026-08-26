@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "rpg-group-goenka-legacy",
+    title: "RPG Group: The Legacy of India's Original 'Takeover King'",
+    date: "26-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/rpg-group.jpg",
+    excerpt: "Tracing the Goenka family's two-century journey from Rajasthan merchants to building a modern, multi-sector conglomerate under Dr. R.P. Goenka.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The story of the **RPG Group** is deeply intertwined with the centuries-old legacy of the Goenka family. The journey began in 1820 when Ramdutt Goenka left Rajasthan for Calcutta to trade with the British East India Company. Over generations, the family expanded aggressively into banking, jute, tea, and textiles.
+
+However, the modern iteration of the empire was forged in 1979 when **Dr. Rama Prasad Goenka (R.P. Goenka)** established **RPG Enterprises**. Taking his inheritance—which included companies like Phillips Carbon Black and Asian Cables—Dr. Goenka set out on an unprecedented expansion spree. 
+
+During an era when corporate acquisitions were rare and difficult in India, R.P. Goenka earned the moniker of India's "Takeover King." His aggressive, strategic maneuvers led to the acquisition of massive entities like **CEAT Tyres**, **CESC** (Calcutta Electric Supply Corporation), and **Raychem**. These acquisitions transformed RPG from a collection of inherited assets into a multi-sector powerhouse spanning automotive, power, IT, and infrastructure.
+
+In 2010, ensuring a smooth transition, R.P. Goenka divided his assets between his sons: Harsh Goenka (leading Mumbai-based RPG Enterprises) and Sanjiv Goenka (leading Kolkata-based RPSG Group). 
+
+Today, RPG Enterprises, under the leadership of Chairman Harsh Goenka, continues to thrive globally with flagship companies like CEAT, KEC International, and Zensar Technologies, perfectly blending a 200-year-old merchant heritage with modern corporate aggression.`,
+  },
+  {
     id: "khatau-group-150-year-legacy",
     title: "Khatau Group: The Pioneers of Bombay's Textile Revolution",
     date: "25-08-2026",

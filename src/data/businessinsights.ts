@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "flipkart-minutes-overtakes-swiggy-instamart",
+    title: "Flipkart Minutes Overtakes Swiggy Instamart in Top 10 Cities' Dark Stores",
+    date: "26-08-2026",
+    category: "Quick Commerce",
+    image: "/images/business-insights/flipkart-minutes.png",
+    excerpt: "Flipkart Minutes now operates 627 dark stores across India's top 10 cities, surpassing Swiggy Instamart, according to a recent CLSA report.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Flipkart Minutes has officially overtaken Swiggy Instamart in the number of dark stores across India's top 10 cities, marking a significant shift in the quick-commerce landscape. 
+
+According to a CLSA report, Flipkart Minutes had 627 dark stores as of August 2026, compared to 615 for Swiggy Instamart. Flipkart has also surpassed Instamart in overall pincode coverage across these key markets. 
+
+Blinkit continues to lead the market overall with 969 dark stores, followed by Zepto (828), Flipkart Minutes (627), Swiggy Instamart (615), and BigBasket (497). Together, these top five players operate 3,536 dark stores in major markets like Bengaluru, Delhi, and Hyderabad. 
+
+Blinkit accounts for roughly 30% of all dark stores in these top 10 cities and over 34% nationally. Meanwhile, Flipkart Minutes is aggressively expanding beyond metros, increasing its presence in Tier III cities by 42 times over the past year to test new demand.`,
+  },
+  {
+    id: "boat-profit-jumps-84cr-fy26",
+    title: "boAt Profit Jumps 38% to Rs 84 Cr in FY26",
+    date: "26-08-2026",
+    category: "Consumer Tech",
+    image: "/images/business-insights/boat.png",
+    excerpt: "Consumer electronics brand boAt reported a 38% increase in profit after tax to Rs 84.5 Cr in FY26, despite a slight decline in operating revenue.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Consumer electronics brand boAt reported a 38% year-on-year increase in profit after tax (PAT) to Rs 84.5 Cr in FY26, up from Rs 61.1 Cr in FY25. Profit before tax also grew 53% to Rs 114.3 Cr. 
+
+However, the company's revenue from operations declined 4.6% YoY to Rs 2,931 Cr. This marks the third consecutive year of revenue decline since peaking at Rs 3,373 Cr in FY23. Despite this, boAt improved its return on capital employed (ROCE) to 15.2% and ended the year with Rs 397 Cr in cash reserves and zero bank debt. 
+
+At the segment level, boAt's wearables business impressively turned profitable, shifting from a Rs 54 crore loss in FY25 to a Rs 7 Cr profit in FY26. Audio remains the core business, while newer categories like charging solutions and gaming also saw profits rise. 
+
+The company is gearing up for its IPO, having recently filed an updated DRHP to raise Rs 1,500 crore.`,
+  },
+  {
     id: "sanlayan-technologies-revenue-125cr-fy26",
     title: "Sanlayan Technologies Turns Profitable as Revenue Jumps 5.6X to Rs 125 Cr",
     date: "25-08-2026",
