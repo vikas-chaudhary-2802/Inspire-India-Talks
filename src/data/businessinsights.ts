@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "trucksup-raises-8-2mn-growth-round",
+    title: "Logistics Platform TrucksUp Raises $8.2 Mn in Growth Round",
+    date: "27-08-2026",
+    category: "Logistics Tech",
+    image: "/images/business-insights/trucksup.png",
+    excerpt: "AI-driven digital freight marketplace TrucksUp has secured $8.2 million in fresh funding at a $42.3 million valuation to scale its tech and fleet solutions.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Logistics platform TrucksUp has raised $8.2 million in a funding round at a post-money valuation of $42.3 million. The round saw participation from institutional investors and family offices, alongside co-founders Sarthak Shah Elwadhi and Aviraj Singh Chadha. 
+
+Founded in 2022, TrucksUp is an AI-driven digital freight marketplace and logistics platform designed to bridge the demand-supply gap in India’s traditional trucking ecosystem. The platform directly connects truck owners, fleet operators, and drivers with businesses requiring freight movement.
+
+The startup uses AI-enabled algorithms to match available trucks with verified loads in real time, reducing reverse-loading wait times. It also offers a single dashboard for real-time GPS tracking, document management, and shipment monitoring, along with FASTag solutions, smart fuel programs, and vehicle financing options. 
+
+The fresh funds will be used to scale its technology and fleet solutions. The funding comes amid growing investor interest in AI-led logistics and freight tech in India.`,
+  },
+  {
+    id: "ribbit-capital-sells-2217cr-stake-groww",
+    title: "Ribbit Capital Sells Rs 2,217 Cr Stake in Groww; Shares Fall 3%",
+    date: "27-08-2026",
+    category: "FinTech",
+    image: "/images/business-insights/groww-stake.jpg",
+    excerpt: "Ribbit Capital has sold shares worth around Rs 2,217 crore in Groww’s parent company through bulk deals, marking its second major sell-down this year.",
+    readTime: "2 min read",
+    featured: false,
+    content: `US-based venture capital firm Ribbit Capital has sold shares worth around Rs 2,217 crore in Groww’s parent company, Billionbrains Garage Ventures, through bulk deals. 
+
+Ribbit Capital sold over 11.31 crore shares at an average price of roughly Rs 196 apiece. The total block and bulk transactions in Groww were larger, with around 12.74 crore shares worth nearly Rs 2,500 crore changing hands. Groww shares fell more than 3% following the news.
+
+This is Ribbit’s second major sell-down in Groww this year, having previously sold over Rs 2,500 crore worth of shares in May alongside Y Combinator and Peak XV Partners. Y Combinator has also been steadily reducing its stake. 
+
+Despite investor exits, Groww continues to report strong financial growth. Its parent company posted Rs 1,501 crore revenue in Q1 FY27, up 66% year-on-year, while profit after tax rose 94% to Rs 735 crore.`,
+  },
+  {
     id: "flipkart-minutes-overtakes-swiggy-instamart",
     title: "Flipkart Minutes Overtakes Swiggy Instamart in Top 10 Cities' Dark Stores",
     date: "26-08-2026",

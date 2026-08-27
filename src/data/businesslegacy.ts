@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "ck-birla-160-year-legacy",
+    title: "CKA Birla Group: From a Rajasthan Cotton Trader to a Global Giant",
+    date: "27-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/ck-birla.jpg",
+    excerpt: "Tracing the 160-year journey of the Birla family, starting with Seth Shiv Narayan Birla trading cotton in the desert town of Pilani in 1862.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The **CKA Birla Group** (formerly known as the CK Birla Group) represents one of the most enduring entrepreneurial legacies in Indian history, spanning over 160 years. 
+
+The origin of this massive multinational conglomerate can be traced back to 1862 in the small desert town of Pilani, Rajasthan. It was here that **Seth Shiv Narayan Birla** began a modest trading venture, dealing primarily in commodities like cotton. Over the decades, guided by generations of visionary family members—including stalwarts like Braj Mohan Birla and Ganga Prasad Birla—the family transitioned from simple commodity trading into large-scale manufacturing and industry.
+
+Throughout the 20th century, the group became a driving force in nation-building, expanding rapidly across diverse sectors. 
+
+Today, under the leadership of Chairman Chandra Kant (C. K.) Birla, the group operates across five continents with more than 35,000 employees and over 50 manufacturing facilities. The conglomerate maintains a massive footprint in crucial industries, including Technology (Birlasoft), Automotive (NBC Bearings, AVTEC), Home & Building (Orient Electric), and Healthcare (CK Birla Hospitals). 
+
+Beyond pure business, the group remains deeply committed to the philanthropic values instilled by its founders, particularly in education through institutions like the Birla Institute of Technology (BIT) Mesra. The story of the CKA Birla Group is a masterclass in how to evolve a localized trading business into an ethical, modern global powerhouse.`,
+  },
+  {
     id: "rpg-group-goenka-legacy",
     title: "RPG Group: The Legacy of India's Original 'Takeover King'",
     date: "26-08-2026",
