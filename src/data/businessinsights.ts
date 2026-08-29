@@ -33,6 +33,47 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "indian-startup-funding-aug-24-29",
+    title: "Indian Startups Raise $218.69 Mn in Weekly Funding (Aug 24 - Aug 29)",
+    date: "29-08-2026",
+    category: "Venture Capital",
+    image: "/images/business-insights/weekly-funding-aug-29.png",
+    excerpt: "This week, 24 Indian startups raised $218.69 million across 2 growth-stage deals and 22 early-stage deals, driven by aerospace and AI.",
+    readTime: "3 min read",
+    featured: false,
+    content: `This week, 24 Indian startups raised a total of $218.69 million, an increase from the $198.33 million raised in the previous week. The funding was spread across 2 growth-stage deals and 22 early-stage deals.
+
+**Growth-Stage Highlights:**
+Growth-stage startups raised $68 million. Bengaluru-based coffee chain Third Wave Coffee secured Rs 408 crore ($43 million) led by WestBridge Capital. Meanwhile, electric motorcycle maker Matter secured $25 million in growth equity from existing investors.
+
+**Early-Stage Highlights:**
+Early-stage startups accounted for $150.69 million across 22 deals. Bengaluru-based aerospace startup Airbound led the pack with a massive $37 million Series A round led by Greenoaks. Agentic AI startup Runable raised $21 million in a Series A round co-led by Susquehanna Venture Capital and Nexus Venture Partners.
+
+**Sector and City Trends:**
+Bengaluru continued to dominate the funding charts with 12 startup deals, followed by Delhi-NCR with 6. Segment-wise, AI startups led the week with five deals, followed by e-commerce.
+
+In other major news, Ribbit Capital sold around Rs 2,217 crore worth of shares in Groww's parent company through bulk deals, and Lightspeed exited PhysicsWallah with a Rs 550 crore block deal.`,
+  },
+  {
+    id: "aakash-revenue-flat-fy26",
+    title: "Aakash Revenue Stays Flat at Rs 2,041 Cr in FY26; EBITDA Plunges 65%",
+    date: "29-08-2026",
+    category: "EdTech",
+    image: "/images/business-insights/aakash-revenue.png",
+    excerpt: "Aakash Educational Services delivered strong academic results, but its operating revenue remained flat at Rs 2,041 Cr, while EBITDA plunged 65% in FY26.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Aakash Educational Services (AESL) delivered strong academic results in FY26, with students securing top ranks in JEE Advanced and NEET. However, this performance did not translate into meaningful financial growth.
+
+The test-prep company's operating revenue remained largely flat at Rs 2,041 crore in FY26, compared to Rs 2,032 crore in FY25. Aakash derives almost all of its operating revenue (around 96%) from its core coaching business.
+
+Despite the stable revenue, Aakash's operating profitability weakened sharply. EBITDA plunged 65% to Rs 15.3 crore in FY26 from Rs 43.3 crore in the previous fiscal year, dragging its EBITDA margin down to just 0.75%. Overall, the firm reported a net loss of Rs 186.5 crore for the fiscal.
+
+Employee benefit expenses, Aakash's largest cost head, declined slightly to Rs 1,300 crore, while franchise service fees surged 66% to Rs 91 crore.
+
+This financial performance comes as Aakash remains at the center of Byju's ongoing ownership dispute. Byju's acquired the test-prep chain for around $1 billion in 2021, but its stake has since been diluted, with Manipal Health emerging as the largest shareholder.`,
+  },
+  {
     id: "trucksup-raises-8-2mn-growth-round",
     title: "Logistics Platform TrucksUp Raises $8.2 Mn in Growth Round",
     date: "27-08-2026",

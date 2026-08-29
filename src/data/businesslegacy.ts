@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "godrej-group-129-year-legacy",
+    title: "Godrej Group: From Locks to a Global Industrial Empire",
+    date: "29-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/godrej-group.jpg",
+    excerpt: "Founded in 1897 by Ardeshir Godrej, the Godrej Group began as a small lock-making business and grew into a diversified, multi-billion-dollar empire.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The **Godrej Group** is one of India's most iconic and trusted corporate houses, deeply intertwined with India's journey toward industrial self-reliance. 
+
+The story began in 1897 in Bombay when **Ardeshir Godrej**, a lawyer-turned-serial-entrepreneur, gave up his legal career to pursue manufacturing. After a few failed ventures, Ardeshir discovered a crucial gap in the market: security. At the time, burglaries were rampant in Bombay, and foreign-made locks were easily picked. Ardeshir engineered the first high-security lock featuring lever technology, launching the Godrej business. 
+
+The company's commitment to the *Swadeshi* movement (Indian self-reliance) made it a symbol of national pride. Ardeshir famously went on to create the world's first soap made from vegetable oil, completely changing the FMCG landscape in India. His brother, Pirojsha Godrej, later laid the industrial foundation of the group, establishing the sprawling township of Vikhroli in Mumbai as the company's manufacturing hub.
+
+Over the last 129 years, the Godrej Group has diversified massively into consumer goods, real estate, appliances, agriculture, and even aerospace—famously supplying critical components for India's space missions like Chandrayaan and Mangalyaan. 
+
+Today, Godrej remains a massive, multi-billion-dollar conglomerate with a profound legacy of ethical business practices, environmental sustainability, and cutting-edge engineering.`,
+  },
+  {
     id: "ck-birla-160-year-legacy",
     title: "CKA Birla Group: From a Rajasthan Cotton Trader to a Global Giant",
     date: "27-08-2026",
