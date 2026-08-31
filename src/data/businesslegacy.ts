@@ -9,6 +9,23 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "tata-group-150-year-legacy",
+    title: "Tata Group: The 150-Year Foundation of Modern Indian Industry",
+    date: "31-08-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/tata-group.jpg",
+    excerpt: "Founded by Jamsetji Tata in 1868, the Tata Group laid the bedrock for modern Indian industrialization, pioneering steel, power, and aviation.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The **Tata Group** is universally recognized as the bedrock of modern Indian industrialization. The conglomerate's story began in 1868 when a 29-year-old **Jamsetji Nusserwanji Tata** started a trading company with a capital of just Rs 21,000. 
+
+Jamsetji was a visionary who believed that true independence for India required economic and industrial self-reliance. He identified three crucial pillars for a modern nation: a steel company, a world-class educational institution, and a hydro-electric power plant. Though he did not live to see all of them completed, his successors brought his visions to life, establishing Tata Iron and Steel Company (now Tata Steel), the Indian Institute of Science (IISc), and Tata Power.
+
+Beyond heavy industry, the group pioneered numerous sectors in India. J.R.D. Tata, India's first licensed pilot, founded Tata Airlines in 1932 (which later became Air India). The group also launched India's first IT services company, Tata Consultancy Services (TCS), in 1968, which is now one of the world's largest IT firms.
+
+Today, the Tata Group operates in over 100 countries with revenues exceeding USD 150 billion, spanning automotive, aviation, consumer goods, and technology. What truly sets the 150-year-old legacy apart, however, is its unique ownership structure: approximately 66% of the equity capital of Tata Sons is held by philanthropic trusts, ensuring that wealth is continually returned to society.`,
+  },
+  {
     id: "godrej-group-129-year-legacy",
     title: "Godrej Group: From Locks to a Global Industrial Empire",
     date: "29-08-2026",

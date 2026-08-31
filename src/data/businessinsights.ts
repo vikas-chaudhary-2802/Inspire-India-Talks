@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "good-flippin-burgers-raises-rs55cr",
+    title: "Good Flippin' Burgers to Raise Fresh Capital at Rs 480 Cr Valuation",
+    date: "31-08-2026",
+    category: "Food & Beverage",
+    image: "/images/business-insights/good-flippin-burgers.jpg",
+    excerpt: "Quick-service burger chain Good Flippin' Burgers is set to raise Rs 55 crore from Delhi-based S.R. Foundation at a valuation of around Rs 481 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Quick-service burger chain Good Flippin' Burgers is set to raise fresh funding after a gap of two and a half years, with Delhi-based S.R. Foundation investing Rs 55 crore at a 20% valuation premium. 
+
+The company's board has passed a special resolution to issue 58,668 Compulsorily Convertible Preference Shares. Managed by corporate trustee Rajiv Kumar Gupta, S.R. Foundation operates as a back-end investment vehicle linked to the DS Group promoter network.
+
+As per estimates, the Mumbai-based company's valuation will rise to around Rs 481 crore in this Series B round, up from Rs 400 crore during its extended Series A round in April 2024. Launched in Mumbai in 2019, the seven-year-old firm now operates 67 outlets across major Indian cities including Mumbai, Delhi NCR, Pune, Bengaluru, Hyderabad, and Chennai. 
+
+The QSR chain plans to use the fresh capital for growth, expansion, and general corporate purposes as it competes with VC-backed homegrown chains such as Burger Singh and Biggies Burger.`,
+  },
+  {
+    id: "healthians-profitable-fy26",
+    title: "Healthians Turns Profitable in FY26; Revenue Jumps 37%",
+    date: "31-08-2026",
+    category: "HealthTech",
+    image: "/images/business-insights/healthians.jpg",
+    excerpt: "Diagnostics and wellness testing platform Healthians turned profitable for the first time in FY26, with operating revenue growing 35.7% to Rs 357 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Diagnostics and wellness testing platform Healthians turned profitable for the first time in the fiscal year ending March 2026, while continuing to aggressively scale its business. 
+
+The Gurugram-based company's revenue from operations grew 35.7% year-on-year to Rs 357 crore in FY26, up from Rs 263 crore in FY25. Diagnostics remained its biggest revenue driver, contributing 99% of the operating revenue. 
+
+On the cost front, employee benefits remained the company's largest expense, accounting for 36.8% of total expenditure (Rs 134 crore). However, with revenue growing faster than expenses, Healthians posted a net profit of Rs 5.4 crore in FY26, compared to a loss of Rs 4.77 crore in FY25. 
+
+The financial turnaround comes amid a leadership transition at Healthians, with founder Deepak Sahni stepping away from all formal executive responsibilities earlier this year. The company continues to compete in a highly competitive market against diagnostic players like Orange Health, Redcliffe Labs, and Dr Lal PathLabs.`,
+  },
+  {
     id: "indian-startup-funding-aug-24-29",
     title: "Indian Startups Raise $218.69 Mn in Weekly Funding (Aug 24 - Aug 29)",
     date: "29-08-2026",
