@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "kepler-aerospace-raises-8mn",
+    title: "Spacetech Startup Kepler Aerospace Raises $8 Mn in Seed Round",
+    date: "01-09-2026",
+    category: "SpaceTech",
+    image: "/images/business-insights/kepler-aerospace.png",
+    excerpt: "Space infrastructure company Kepler Aerospace raised $8 million in seed funding led by Blue Ashva Capital to develop next-generation space-based intelligence.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Space infrastructure and mission operations company Kepler Aerospace has raised $8 million in a seed funding round led by Blue Ashva Capital, with participation from Finvolve India Accelerator. 
+
+Founded in 2018 by Navneet Singh and Kiran Sharma, Kepler Aerospace builds scalable space and ground systems for strategic, defence, and commercial missions. Its capabilities span satellite avionics, subsystems, ground infrastructure, and space-based intelligence. 
+
+The Bengaluru-based startup will use the fresh capital to develop and deploy next-generation space-based persistent Intelligence, Surveillance, and Reconnaissance (ISR) capabilities. A key goal is to reduce intelligence latency from months to minutes through persistent ISR systems and integrated mission infrastructure. 
+
+Kepler Aerospace aims to address the growing demand for low-latency intelligence from space. The company has already secured two IDEX prime contracts (supported by $4 million in grants) to provide swarming ISR constellations to India's defence space ecosystem. Through a network of more than 70 ground stations, Kepler provides satellite communication, tracking, telemetry, and mission operations capabilities.`,
+  },
+  {
+    id: "insurancedekho-renewbuy-merger",
+    title: "InsuranceDekho and RenewBuy Officially Announce Merger",
+    date: "01-09-2026",
+    category: "InsurTech",
+    image: "/images/business-insights/insurancedekho-merger.png",
+    excerpt: "Gurugram-based insurtech startups InsuranceDekho and RenewBuy have officially merged to create a unified insurance distribution platform.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Gurugram-based insurtech startups InsuranceDekho and RenewBuy have officially announced their merger to create a unified insurance distribution platform with a pan-India presence. 
+
+The combined entity will operate under the InsuranceDekho brand, with InsuranceDekho founder and CEO Ankit Agrawal leading the business. The merger strategically brings together InsuranceDekho's strong presence across northern and western India with RenewBuy's established network in the southern markets.
+
+The unified platform will offer motor, health, life, and commercial insurance products from multiple insurers. The company plans to integrate the technology platforms of both firms and aggressively deploy AI across partner onboarding, product recommendations, and insurance advisory services. 
+
+In FY26, the merged entity generated more than Rs 6,600 crore in insurance premiums through its POSP network. It boasts over 6 lakh digital partners and reaches 98.57% of India's pin codes. Looking ahead, InsuranceDekho is preparing to file its DRHP by the end of September, targeting an IPO by March 2027 with a Rs 2,500-3,000 crore issue at an estimated valuation of around Rs 9,500 crore.`,
+  },
+  {
     id: "good-flippin-burgers-raises-rs55cr",
     title: "Good Flippin' Burgers to Raise Fresh Capital at Rs 480 Cr Valuation",
     date: "31-08-2026",

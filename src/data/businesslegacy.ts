@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "mahindra-group-legacy",
+    title: "Mahindra Group: The Foundation of India's Utility and Automotive Might",
+    date: "01-09-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/mahindra.jpg",
+    excerpt: "Founded in 1945 as a steel trading company, Mahindra & Mahindra evolved into a multi-sector giant that put India on wheels with the iconic Willys Jeep.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The story of the **Mahindra Group** is a fascinating journey that mirrors the industrial evolution of independent India. 
+
+It all began in 1945, when two brothers, **J.C. Mahindra** and **K.C. Mahindra**, partnered with Malik Ghulam Muhammad to establish *Mahindra & Mohammed* as a steel trading company in Ludhiana. Following the partition of India in 1947, Malik Ghulam Muhammad left for Pakistan (later becoming its first Finance Minister), and the brothers renamed the company to **Mahindra & Mahindra (M&M)** in 1948.
+
+The true turning point for the company came when they recognized the urgent need for rugged, reliable utility vehicles in rural India. They secured the license to assemble the legendary **Willys Jeep** in India. The Jeep quickly became the backbone of Indian mobility across rough terrains, establishing Mahindra's reputation as a manufacturer of incredibly tough and durable vehicles. 
+
+In the decades that followed, under the leadership of visionary family members like Keshub Mahindra and later Anand Mahindra, the group aggressively expanded its footprint. From ruling the Indian tractor market (becoming the world's largest tractor manufacturer by volume) to entering IT services (Tech Mahindra), finance, hospitality, and aerospace, the group's diversification has been massive. 
+
+Today, the Mahindra Group is a global federation of companies, deeply rooted in its core philosophy of "Rise"—driving positive change in the lives of stakeholders and communities worldwide.`,
+  },
+  {
     id: "tata-group-150-year-legacy",
     title: "Tata Group: The 150-Year Foundation of Modern Indian Industry",
     date: "31-08-2026",
