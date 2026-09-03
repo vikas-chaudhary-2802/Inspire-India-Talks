@@ -9,6 +9,25 @@ import type { BusinessInsight } from "./businessinsights";
 // =====================================================================
 export const businesslegacy: BusinessInsight[] = [
   {
+    id: "bajaj-group-legacy",
+    title: "Bajaj Group: Driving India's Middle Class Since 1926",
+    date: "02-09-2026",
+    category: "Business Legacy",
+    image: "/images/business-legacy/bajaj.jpg",
+    excerpt: "Founded by Jamnalal Bajaj in 1926, the Bajaj Group grew from a sugar trading business into the two-wheeler giant that put middle-class India on the move.",
+    readTime: "3 min read",
+    featured: false,
+    content: `The **Bajaj Group** is one of the oldest and most trusted business houses in India, synonymous with the mobility of the Indian middle class. 
+
+The group was founded in 1926 by **Jamnalal Bajaj**, a close confidant and follower of Mahatma Gandhi. In fact, Gandhi famously referred to Jamnalal as his "fifth son." Jamnalal built the business on the strict Gandhian principles of trust, ethics, and service to the nation, starting with sugar factories and trading businesses in Wardha, Maharashtra.
+
+The true transformation of the group occurred under the leadership of Jamnalal's son, Kamalnayan Bajaj, and later his grandson, Rahul Bajaj. In the 1960s and 1970s, Bajaj Auto revolutionized Indian transportation by bringing the iconic Vespa and later the legendary **Bajaj Chetak** scooter to the masses. The Chetak was not just a vehicle; it was an aspiration. The marketing campaign *"Hamara Bajaj"* became a cultural anthem, perfectly capturing the pride of a self-reliant India.
+
+In the post-liberalization era, the group successfully pivoted from scooters to motorcycles, dominating the market with the Pulsar range, while simultaneously diversifying into major financial services through Bajaj Finserv and Bajaj Finance. 
+
+Today, the Bajaj Group is a massive multinational conglomerate that remains deeply rooted in the ethical foundation laid by Jamnalal nearly a century ago.`,
+  },
+  {
     id: "mahindra-group-legacy",
     title: "Mahindra Group: The Foundation of India's Utility and Automotive Might",
     date: "01-09-2026",

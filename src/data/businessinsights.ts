@@ -33,6 +33,42 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "comet-sneakers-raises-99cr",
+    title: "Sneaker Brand Comet Raising Rs 99 Cr at 3X Valuation Premium",
+    date: "02-09-2026",
+    category: "D2C Brands",
+    image: "/images/business-insights/comet-sneakers.png",
+    excerpt: "Bengaluru-based lifestyle sneaker brand Comet is raising Rs 98.75 crore in a round led by Verlinvest, pushing its valuation to roughly Rs 535 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `The competition in India's new-age sneaker market is heating up rapidly. Bengaluru-based lifestyle footwear brand Comet is set to raise Rs 98.75 crore ($10.2 million) in a fresh funding round led by new investor Verlinvest. 
+
+The round also sees participation from existing backers, including Elevation Capital and Nexus Venture Partners. The Belgium-based private equity firm Verlinvest will lead the round with an investment of Rs 61.73 crore. 
+
+This new funding comes at a massive premium. As per estimates, Comet's valuation will jump 3.2X to around Rs 535 crore ($56 million), up from its post-money valuation of Rs 167 crore following its Series A round in 2024. 
+
+Founded in 2023 by Utkarsh Gupta and Dishant Daryani, Comet focuses on India-inspired, fashion-forward sneaker designs and operates primarily through its own direct-to-consumer platform. Following this allotment, Elevation Capital and Nexus Ventures will each hold 19.72% in the company, while Verlinvest will hold 9.48%.`,
+  },
+  {
+    id: "investors-cash-out-277bn-tech-stocks",
+    title: "Investors Cash Out $2.77 Bn from Indian Tech Stocks in August",
+    date: "02-09-2026",
+    category: "Venture Capital",
+    image: "/images/business-insights/tech-stocks-cashout.png",
+    excerpt: "Indian new-age companies saw massive secondary market activity in August, with early investors cashing out $2.77 billion across major tech stocks.",
+    readTime: "3 min read",
+    featured: false,
+    content: `Indian new-age tech companies witnessed substantial secondary market activity in August, with 17 block and bulk deals worth Rs 26,337 crore ($2.77 billion) taking place across 12 companies. 
+
+The deals were largely driven by early-stage investors and promoters booking profits and offloading their holdings, while mutual funds, insurers, and global institutional investors stepped in as key buyers. 
+
+Lenskart saw the largest share of the activity at Rs 7,445 crore across three deals, with SoftBank alone selling shares worth Rs 2,888 crore. Overall, institutional investors have offloaded around $1.5 billion in Lenskart shares over the last few months. 
+
+Paytm followed closely with transactions worth nearly Rs 4,986 crore, as early backers like SAIF Partners, Elevation Capital, and Vijay Shekhar Sharma-backed Resilient Asset Management offloaded significant stakes. Groww also saw two large exits worth Rs 3,649 crore from Y Combinator and Ribbit Capital, while Meesho and Eternal witnessed exits worth Rs 2,919 crore and Rs 3,265 crore respectively.
+
+This flurry of deals points to rising liquidity in India's listed startup ecosystem, allowing early backers to finally monetize their holdings while institutional demand remains strong enough to absorb the massive exits.`,
+  },
+  {
     id: "kepler-aerospace-raises-8mn",
     title: "Spacetech Startup Kepler Aerospace Raises $8 Mn in Seed Round",
     date: "01-09-2026",
