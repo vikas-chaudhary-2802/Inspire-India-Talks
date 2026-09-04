@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "ultrahuman-raises-70mn",
+    title: "Ultrahuman Raises $70 Mn from Qualcomm, Alpha Wave, and Nexus",
+    date: "04-09-2026",
+    category: "HealthTech",
+    image: "/images/business-insights/ultrahuman.jpg",
+    excerpt: "Wearable tech startup Ultrahuman has raised $70 million in a new funding round led by Qualcomm Ventures to evolve into a human-computer interface company.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Wearable tech startup Ultrahuman has raised $70 million in a fresh funding round led by Qualcomm Ventures, with participation from Labcorp, Alpha Wave, Blume Ventures, Nexus Venture Partners, and Alteria. 
+
+Following this new investment, the Bengaluru-based company's post-money valuation has reached an estimated $363 million, marking a massive 65% jump from its previous Series B valuation. Ultrahuman said it will use the capital for extensive product development across sensing, AI, miniaturised electronics, and health algorithms. 
+
+Ultrahuman plans to radically evolve from a simple wearable health company into a comprehensive human-computer interface company built around data from the human body. Its platform combines data from the Ultrahuman Ring, continuous glucose monitoring, Ultrahuman Home, and the Jade AI system. 
+
+The company is experiencing staggering financial growth. Ultrahuman reported Rs 565 crore in revenue and a Rs 73 crore profit after tax in FY25. The company had projected revenue of around Rs 1,000 crore for FY26 as it aggressively expands its footprint in international markets.`,
+  },
+  {
+    id: "rentomojo-ipo-4200cr",
+    title: "Rentomojo Files RHP for Rs 1,256 Cr IPO; Targets Rs 4,200 Cr Valuation",
+    date: "04-09-2026",
+    category: "Startups",
+    image: "/images/business-insights/rentomojo.png",
+    excerpt: "Accel-backed furniture and appliance rental platform Rentomojo has filed its Red Herring Prospectus (RHP) for an IPO targeting a Rs 4,200 crore valuation.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Rentomojo, the Accel-backed furniture and appliance rental platform, has officially filed its Red Herring Prospectus (RHP) for its initial public offering (IPO). 
+
+The Bengaluru-based company is looking to raise around Rs 1,255.6 crore through the IPO, which will comprise a fresh issue of Rs 150 crore and an offer-for-sale (OFS) of around 2.73 crore shares worth Rs 1,105.6 crore. The company has fixed a price band of Rs 384-404 per share, valuing Rentomojo at around Rs 4,200 crore at the upper end. 
+
+Existing investors, including Accel India, Edelweiss, IDG Ventures India, ValueQuest, Madison India, and founder Geetansh Bamania, will sell shares through the OFS. Rentomojo plans to use the fresh issue proceeds primarily to strengthen its balance sheet, including Rs 70 crore towards debt repayment. 
+
+Financially, Rentomojo has continued to grow while remaining profitable. Its revenue from operations rose 45.5% year-on-year to Rs 387 crore in FY26, compared with Rs 266 crore in FY25. Profit after tax jumped a massive 142% to Rs 104.2 crore from Rs 43.1 crore in the previous fiscal.`,
+  },
+  {
     id: "comet-sneakers-raises-99cr",
     title: "Sneaker Brand Comet Raising Rs 99 Cr at 3X Valuation Premium",
     date: "02-09-2026",
