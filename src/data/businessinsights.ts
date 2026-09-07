@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "herspace-secures-40mn",
+    title: "HerSpace Secures $40 Mn from Existing Investor Gray Matters Capital",
+    date: "07-09-2026",
+    category: "PropTech",
+    image: "/images/business-insights/herspace.jpg",
+    excerpt: "Workforce accommodation startup HerSpace has secured a $40 million commitment to aggressively expand its affordable employee housing across key manufacturing hubs.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based workforce accommodation startup HerSpace Manufacturing has secured a massive fresh capital commitment of $40 million from existing investor Gray Matters Capital (GMC). 
+
+This latest injection takes the total capital committed by GMC to $50 million. The capital will be deployed aggressively over the next 30 months through a strategic mix of debt, quasi-equity, and equity. 
+
+Founded in 2023 by Bob Pattillo and Puneeth Thimmegowda, HerSpace provides critically needed leased accommodation for industrial workers. The startup funds, designs, builds, and operates highly compliant workforce housing facilities. The company will use the fresh funds to expand its affordable employee housing offerings across major manufacturing hubs, including Greater Bengaluru, Hosur, Chennai, and Andhra Pradesh. 
+
+HerSpace currently has more than 950 modular beds delivered and fully operational, with over 10,000 beds currently in the pipeline. This massive expansion comes at a crucial time; a recent NITI Aayog report highlighted that inadequate housing near industrial hubs is a major constraint for worker migration, retention, and overall productivity, particularly for women workers in the rapidly growing manufacturing sector.`,
+  },
+  {
+    id: "neobank-bet-better-capital",
+    title: "The Neobank Bet: What Backing Digital Banks in India Actually Taught Us",
+    date: "07-09-2026",
+    category: "Venture Capital",
+    image: "/images/business-insights/neobanks.jpg",
+    excerpt: "Better Capital reflects on their early bets on Indian neobanks, the massive structural constraints of banking licenses, and how Slice finally broke the ceiling.",
+    readTime: "3 min read",
+    featured: false,
+    content: `A core part of how early-stage investors operate is identifying a microtrend early, building conviction, and backing multiple companies before the trend becomes obvious. For Better Capital, the very first microtrend they bet on was Indian neobanks.
+
+Back in 2018/19, "neobank" wasn't even a recognized term in India. However, the foundational ingredients were finally in place: a smartphone-first, data-connected, and UPI-led population was ready for a genuinely modern banking experience. A wave of startups began building tailored solutions—neobanks for Gen Z, NRIs, and SMBs. 
+
+While consumer adoption was incredibly strong, the next several years revealed a massive structural constraint: you cannot easily get a banking license in India. Without a license, delivering a true full-stack customer experience was nearly impossible. Neobanks had to depend entirely on traditional bank partnerships, which caused severe delays across product launches and hampered their ability to control the core experience.
+
+The path to the ultimate vision kept hitting the same ceiling, until Slice finally broke through. By aggressively acquiring a bank and becoming a full-stack neobank, Slice unlocked the vision the ecosystem had held onto for years. Today, Slice is one of the top credit card issuers in the country, posting a PAT of around Rs 46 crore in Q1 FY27—proving that identifying a shift early and staying patient can completely redefine a category.`,
+  },
+  {
     id: "ultrahuman-raises-70mn",
     title: "Ultrahuman Raises $70 Mn from Qualcomm, Alpha Wave, and Nexus",
     date: "04-09-2026",
