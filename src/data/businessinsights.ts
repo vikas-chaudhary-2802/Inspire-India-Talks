@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "fintech-infrastructure-bet-better-capital",
+    title: "The Fintech Infrastructure Bet: Why the Real Opportunity Was Underneath",
+    date: "08-09-2026",
+    category: "Venture Capital",
+    image: "/images/business-insights/fintech-infra.jpg",
+    excerpt: "Better Capital's Vaibhav Domkundwar explores how the true value in India's fintech boom lies in the infrastructure layer powering new consumer experiences.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Following their early bets on consumer-facing neobanks, early-stage fund Better Capital quickly realized that the real structural opportunity in Indian fintech lay one layer deeper: the infrastructure. 
+
+If India was going to build a new generation of financial services for hundreds of millions of smartphone-connected users, someone had to solve the massive underlying complexity. How do fintechs connect with banks? How are products issued and managed? How is regulatory compliance seamlessly integrated?
+
+Whether it was neobanking, new-age credit cards, app-based lending, or wealth management, there was almost always a sophisticated infrastructure layer making the product possible. This thesis has played out incredibly well for Better Capital, with investments in companies like M2P (powering some of the largest fintech experiences globally), Upswing (enabling embedded fixed deposits and bonds), and Hyperface (building deeply integrated credit card experiences for brands).
+
+The last seven years have reinforced a simple truth in financial services: the more regulated and operationally complex the product, the more valuable the underlying infrastructure becomes. Furthermore, infrastructure built to handle the intense scale and complexity of the Indian market is increasingly proving that it can successfully travel and scale globally.`,
+  },
+  {
+    id: "blissclub-series-b-cap-table",
+    title: "Blissclub Founder’s Stake Slips Below 40% After Series B; Meesho’s Vidit Aatrey Holds 6.94%",
+    date: "08-09-2026",
+    category: "D2C Brands",
+    image: "/images/business-insights/blissclub.jpg",
+    excerpt: "D2C athleisure brand Blissclub recently raised Rs 160 crore in a Series B round led by Singularity AMC, pushing its valuation to around Rs 860 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `D2C athleisure brand BlissClub recently raised Rs 160 crore ($16.8 million) in a Series B round led by Singularity AMC. The funding comes amid continued investor interest in India's D2C apparel and sportswear space. 
+
+According to regulatory filings, BlissClub's board approved the issuance of 69,247 Series B CCPS at an issue price of Rs 24,503.3 per share. Singularity AMC emerged as the largest investor with an investment of Rs 70 crore, followed closely by Meesho CEO Vidit Aatrey with Rs 50 crore. Existing investors Elevation Capital and Eight Roads Ventures also participated.
+
+The fresh capital has pushed BlissClub's valuation up 62% to an estimated Rs 860 crore ($91 million), up from Rs 532 crore during its Series A round. However, following the latest allotment, the founders' combined stake has fallen below 40%. Co-founder Minu Margeret remains the largest shareholder with a 37.03% stake. Elevation Capital holds a 22.19% stake, Eight Roads Ventures at 14.24%, Singularity AMC at 8.14%, and Vidit Aatrey at 6.94%.
+
+Founded in 2020, BlissClub started with technical activewear for Indian women and has aggressively expanded into an omnichannel business with over 40 retail stores and a newly launched menswear line. The fresh capital will be heavily deployed to scale its offline retail presence and expand into new product categories.`,
+  },
+  {
     id: "herspace-secures-40mn",
     title: "HerSpace Secures $40 Mn from Existing Investor Gray Matters Capital",
     date: "07-09-2026",
