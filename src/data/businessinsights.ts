@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "consumer-fintech-bet-better-capital",
+    title: "The Consumer Fintech Bet: Why India Was Never One Market",
+    date: "09-09-2026",
+    category: "Venture Capital",
+    image: "/images/business-insights/consumer-fintech.jpg",
+    excerpt: "Better Capital unpacks its consumer fintech thesis, explaining why the massive Indian market must be treated as a collection of hyper-specific micro-segments.",
+    readTime: "3 min read",
+    featured: false,
+    content: `In the third installment of his investment reflection series, Better Capital's Vaibhav Domkundwar explores the core thesis that guided their bets in the consumer fintech space: India is not a single, homogeneous market. 
+
+When discussing the Indian consumer, there's often a tendency to treat the population as a monolith of hundreds of millions. Better Capital's approach was the exact opposite. They view India as a collection of distinctly different consumer segments—each tens of millions strong—with vastly different behaviors, incomes, and aspirations. 
+
+A gig worker's financial needs differ drastically from a young salaried professional, an NRI, or a crypto investor. Consequently, Better Capital reasoned that the financial experiences built for these users should not look the same. This philosophy led to targeted investments in highly specialized platforms. They backed Wint Wealth for retail fixed-income investors, Gullak for modern gold savings, Mudrex for crypto enthusiasts, and SBNRI specifically for the unique regulatory and repatriation needs of non-resident Indians. 
+
+Now, with the advent of AI, Domkundwar argues this personalization can go even further. Their latest investment, Smooth Money, acts as an AI-powered personal financial companion for Gen Z, adapting to their specific lifestyles rather than forcing them into traditional saving frameworks. Moving forward, the true winners in Indian fintech will be those who abandon the "one-size-fits-all" approach and build hyper-specific, AI-driven experiences for distinct consumer segments.`,
+  },
+  {
+    id: "kuku-fm-ipo-ai-team",
+    title: "Kuku to Build 1,000-Member AI Team Ahead of Rs 3,500 Cr IPO",
+    date: "09-09-2026",
+    category: "Media & Entertainment",
+    image: "/images/business-insights/kuku-ai.jpg",
+    excerpt: "Audio platform Kuku FM is building a massive AI-led content production unit in Mumbai to scale its microdrama business globally and slash production costs ahead of a planned $1.8 billion IPO.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Kuku Technologies, the parent company of the popular vernacular audio platform Kuku FM, is undertaking a massive expansion of its artificial intelligence capabilities as it prepares for the public markets. 
+
+The company is currently building a 1,000-member AI-led content production unit in Mumbai. The primary goal of this new division is to aggressively scale its microdrama business globally. Kuku has already hired nearly 200 people for this unit and expects to reach the 1,000-employee mark by the end of the current financial year. The team includes writers, filmmakers, and AI engineers working collaboratively—writers develop stories, filmmakers manage visual direction, and engineers build AI systems to ensure narrative continuity.
+
+This strategic pivot towards AI-native content generation comes as Kuku has confidentially filed draft IPO papers with SEBI. The company is aiming for a massive public issue of up to Rs 3,500 crore, targeting a valuation of around $1.8 billion.
+
+The economic rationale behind the AI push is compelling. Kuku expects its AI-native production to drastically cut microdrama creation costs to 30-50% of what it currently costs in China (where the microdrama trend originated). Production could cost under $100 per minute. Furthermore, AI tools allow a single creator to produce around 20 minutes of usable video daily, a massive leap from the one-minute output of traditional shoots.`,
+  },
+  {
     id: "fintech-infrastructure-bet-better-capital",
     title: "The Fintech Infrastructure Bet: Why the Real Opportunity Was Underneath",
     date: "08-09-2026",
