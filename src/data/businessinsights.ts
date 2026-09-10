@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "swish-10-min-food-delivery-24mn",
+    title: "10-Minute Food Delivery Startup Swish Raises $24 Mn Led by Bertelsmann",
+    date: "10-09-2026",
+    category: "FoodTech",
+    image: "/images/business-insights/swish-delivery.jpg",
+    excerpt: "Quick food delivery startup Swish has raised $24 million led by Bertelsmann India Investments to expand its 10-minute delivery model and cloud kitchen network.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Quick food delivery startup Swish has successfully raised $24 million in a fresh funding round led by Bertelsmann India Investments (BII). The round also saw participation from existing investors Accel, Bain Capital Ventures, and Hara Global.
+
+Founded by Aniket Shah, Ujjwal Sukheja, and Saran S, Swish operates a specialized network of neighborhood cloud kitchens that prepare and deliver fresh food within just 10 minutes. 
+
+The startup currently operates across Bengaluru, Gurugram, Noida, Delhi, and Ghaziabad. According to the company, monthly orders have officially crossed 1 million, with order volume tripling since March 2026. Its menu has aggressively expanded to over 250 SKUs spanning 20 food categories, with lunch and dinner now accounting for a larger share of orders than late-night snacks.
+
+The fresh capital will be deployed to expand Swish's dense kitchen network, strengthen its supply chain infrastructure, and aggressively enter more cities. The company has set an ambitious target of operating more than 1,000 kitchens over the next five years. Swish currently claims that over 80% of its orders are delivered within 15 minutes. 
+
+With this round, Swish's post-money valuation sits at an estimated $175 million. The 10-minute food delivery segment is rapidly heating up in India, with Swish competing directly against new hyper-fast offerings like Blinkit's Bistro, Zepto Cafe, and Swiggy's Bolt.`,
+  },
+  {
+    id: "mesa-school-series-a-100cr",
+    title: "Mesa School Set to Raise Rs 100 Cr in Series A; Co-Founder May Sell 2.9% Stake",
+    date: "10-09-2026",
+    category: "EdTech",
+    image: "/images/business-insights/mesa-school.jpg",
+    excerpt: "New-age business school Mesa is set to raise Rs 100 crore in Series A funding, combining equity and venture debt to expand its startup leadership and AI programs.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based new-age business school Mesa School of Business is set to raise around Rs 100 crore in a Series A funding round. 
+
+According to sources, the round is structured with approximately Rs 84 crore coming in equity and the remaining Rs 16 crore arriving through venture debt. Alongside the primary fundraise, co-founder Varun Limaye is reportedly looking to sell around a 2.9% stake for approximately Rs 3 crore in a secondary transaction to existing investors looking to increase their ownership.
+
+Founded by Ankit Kumar and Varun Limaye, Mesa had previously raised around Rs 34 crore ($4 million) in a Seed round in April 2023 led by Elevation Capital. That round saw backing from major founders, including CRED's Kunal Shah, Meesho's Vidit Aatrey, and Urban Company's Abhiraj Bhal.
+
+The proposed Series A comes as Mesa aggressively expands its curriculum offerings across startup leadership, entrepreneurship, product management, and AI. The company currently runs three distinct programs catering to different learner segments, including fresh graduates and MBA candidates. Over the past year, Mesa has recorded roughly 2.5X growth in annual revenue and student enrollments.
+
+Mesa operates in the rapidly emerging new-age business education segment in India, directly competing with platforms like Masters' Union, Altera Institute, and Scaler, which combine traditional business education with heavy exposure to technology, product building, and the startup ecosystem.`,
+  },
+  {
     id: "consumer-fintech-bet-better-capital",
     title: "The Consumer Fintech Bet: Why India Was Never One Market",
     date: "09-09-2026",
