@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "flipkart-minutes-4x-growth-150-cities",
+    title: "Flipkart Minutes Clocks 4X Growth in Two Years, Expands to 150+ Cities",
+    date: "11-09-2026",
+    category: "Quick Commerce",
+    image: "/images/business-insights/flipkart-minutes.png",
+    excerpt: "Flipkart's quick commerce platform, Flipkart Minutes, has expanded to nearly 1,200 micro-fulfillment centers and is seeing massive traction in Tier-II cities.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Flipkart's quick commerce platform, Flipkart Minutes, has officially completed two years of operations, reporting a staggering 4X year-on-year growth. Since its launch in August 2024, the platform has aggressively expanded to nearly 1,200 micro-fulfillment centers across more than 150 cities in India.
+
+The platform is boasting impressive retention metrics, noting that around 60% of its customers return to shop on Flipkart Minutes. While metros drive significant volume, the platform's real breakout success has been in Tier-II and smaller cities, where its customer base has exploded by nearly 25X year-on-year. Cities like Ambala, Bhagalpur, Durgapur, Roorkee, and Salem are showing massive demand for products beyond basic daily essentials, including Korean noodles, premium skincare, and ready-to-eat meals.
+
+Gen Z has also emerged as a massive growth engine for the platform. This demographic's customer base increased nearly 5X year-on-year over the past 12 months, accounting for more than 45% of orders across beauty, electronics, gaming, wearables, and health products.
+
+Kunal Gupta, Senior VP and Head of Flipkart Minutes, noted that the platform has rapidly evolved beyond daily groceries. Gourmet and specialty grocery segments have grown 8X, while men's grooming and pet food have surged. Highlighting the scale of quick commerce, the platform's largest single order to date was worth Rs 6 lakh, comprising five premium smartphones.`,
+  },
+  {
+    id: "popo-global-pizza-bakery-raises-532cr",
+    title: "The Pizza Bakery Operator Popo Global Raises Rs 532 Cr from Artal Asia",
+    date: "11-09-2026",
+    category: "F&B / Restaurants",
+    image: "/images/business-insights/pizza-bakery.png",
+    excerpt: "Bengaluru-based restaurant company Popo Global, the operator behind The Pizza Bakery and Paris Panini, has raised Rs 532 crore to aggressively expand its company-owned outlets.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based restaurant company Popo Global, which operates popular F&B brands The Pizza Bakery, Paris Panini, and Smash Guys, has successfully raised Rs 532 crore (roughly $56 million) from investment firm Artal Asia. 
+
+The company plans to deploy the fresh capital to aggressively expand its restaurant footprint across India and scale its diverse portfolio of food and beverage brands. Unlike many competitors that rely heavily on a franchise-led model, Popo Global deliberately operates its restaurants directly. This strategy allows the founders to retain tight control over quality, customer experience, and operations across all outlets.
+
+Founded by brothers Abhijit Gupta and Nikhil Gupta, Popo Global started its journey with The Pizza Bakery in Bengaluru in 2017. Following its success, the company expanded its brand presence by incubating and acquiring Paris Panini and Smash Guys, building a strong portfolio of company-owned outlets across the casual dining and quick-service restaurant segments.
+
+The company has maintained strong financial discipline alongside its growth. Popo Global reported impressive revenue of around Rs 175 crore in FY25 and remained profitable during the year. This massive capital infusion from Artal Asia will serve as the war chest for the company's next phase of nationwide expansion.`,
+  },
+  {
     id: "swish-10-min-food-delivery-24mn",
     title: "10-Minute Food Delivery Startup Swish Raises $24 Mn Led by Bertelsmann",
     date: "10-09-2026",
