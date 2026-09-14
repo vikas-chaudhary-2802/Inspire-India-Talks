@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "kissht-onemi-eyes-fresh-fundraise-post-ipo",
+    title: "Kissht Parent OnEMI Eyes Fresh Fundraise Months After Rs 926 Cr IPO",
+    date: "14-09-2026",
+    category: "FinTech",
+    image: "/images/business-insights/kissht.png",
+    excerpt: "Just four months after a successful Rs 926 crore IPO, digital lending platform Kissht is already considering another major fundraise.",
+    readTime: "2 min read",
+    featured: false,
+    content: `OnEMI Technology Solutions, the parent company of the prominent digital lending platform Kissht, is actively considering another fundraise—just four months after making a highly successful stock market debut in May. 
+
+The company's board is scheduled to meet on September 17 to officially evaluate raising funds through equity shares, warrants, convertible instruments, or other eligible securities. The proposed fundraise could be executed through a preferential issue or private placement, subject to regulatory and shareholder approvals. While the exact size of the proposed fundraise was not immediately disclosed, it signals aggressive expansion plans.
+
+This development follows OnEMI's massive Rs 926 crore initial public offering earlier this year, which comprised a fresh issue of Rs 850 crore. 
+
+Financially, Kissht continues to demonstrate strong growth. The company's operating revenue surged 45% year-on-year to Rs 670 crore in Q1 FY27, while profit rose 58% to Rs 95 crore. Crucially, its assets under management (AUM) increased by 61% YoY to reach Rs 8,001 crore. Following its listing, the stock has surged over 72%, giving the company an impressive market capitalization of Rs 5,830 crore.`,
+  },
+  {
+    id: "furnishka-pre-series-a-physicswallah",
+    title: "Exclusive: PhysicsWallah Founders, Udaan’s Sujeet Kumar to Back Furnishka’s Fresh Fundraise",
+    date: "14-09-2026",
+    category: "Startups / Retail",
+    image: "/images/business-insights/furnishka.jpg",
+    excerpt: "Omnichannel furniture startup Furnishka is raising Rs 26.8 crore in an extended pre-Series A round, backed by PhysicsWallah and Udaan founders.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Furniture startup Furnishka is raising Rs 26.8 crore in an extended pre-Series A round, drawing investment from several high-profile founders in the Indian ecosystem. According to regulatory filings, investors include PhysicsWallah founders Alakh Pandey and Prateek Boob, alongside Udaan co-founder Sujeet Kumar.
+
+The Bengaluru-based company has issued preference shares at an issue price of Rs 84,157 per share. The round saw participation from a mix of institutional and angel investors, including Beenext Asia, Bhaarath Sang, Onyx InVen, and prominent individuals like Amit Jain and Manish Dugar. 
+
+Based on the issue price, Furnishka's post-money valuation is estimated at around Rs 230 crore. This latest capital injection brings the startup's total funds raised to Rs 70 crore. The company had previously raised Rs 27 crore in October 2024 in a round led by IndiaQuotient.
+
+Founded in 2023 by Ganesh Pawar, Furnishka operates an omnichannel furniture retail business, combining direct online sales with large-format offline stores. The company focuses heavily on supply-chain efficiencies and customization across living room, dining room, and bedroom categories.`,
+  },
+  {
     id: "flipkart-minutes-4x-growth-150-cities",
     title: "Flipkart Minutes Clocks 4X Growth in Two Years, Expands to 150+ Cities",
     date: "11-09-2026",
