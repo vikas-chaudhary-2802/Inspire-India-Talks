@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "govt-no-charges-upi-rupay-2000",
+    title: "Govt Specifies No Charges on UPI, RuPay Debit Card Payments Up to Rs 2,000",
+    date: "15-09-2026",
+    category: "FinTech / Policy",
+    image: "/images/business-insights/upi-rupay.png",
+    excerpt: "The Finance Ministry has officially notified that banks and payment providers cannot impose charges on UPI and RuPay transactions up to Rs 2,000.",
+    readTime: "2 min read",
+    featured: false,
+    content: `The Indian government has officially specified that banks and payment system providers cannot impose any charges on Unified Payments Interface (UPI) transactions of up to Rs 2,000 or on payments made using RuPay-powered debit cards. 
+
+In a notification issued on Monday, the Finance Ministry stated that “no bank or system provider shall impose, whether directly or indirectly, any charge” on individuals making or receiving electronic payments through these specified modes. Both UPI and RuPay are managed by the National Payments Corporation of India (NPCI).
+
+Crucially, for UPI transactions above Rs 2,000, the notification does not specify a no-charge provision. This strategic omission leaves the door open for a Merchant Discount Rate (MDR) to potentially be introduced on higher-value UPI transactions in the future.
+
+This notification follows the Taxation and Other Laws (Amendment) Act, 2026, passed in August, which amended the Payment and Settlement Systems Act to empower the Centre to specify charge-free electronic payment modes. The amendment had sparked intense discussions around a possible MDR framework for UPI. The government previously clarified that any proposed MDR would be strictly limited to certain merchant transactions, ensuring that person-to-person (P2P) UPI payments will continue to remain completely free for everyday users.`,
+  },
+  {
+    id: "flam-ai-raises-40mn-series-b",
+    title: "AI Interactive Content Startup Flam Raises $40 Mn Led by QED Investors",
+    date: "15-09-2026",
+    category: "Artificial Intelligence",
+    image: "/images/business-insights/flam-ai.png",
+    excerpt: "Bengaluru-based AI startup Flam raises $40 million in Series B to scale its interactive 3D content and AI Visual Agents globally.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based AI interactive content company Flam has raised $40 million in its Series B funding round. The round was led by QED Investors, with participation from Claypond Capital, Martin Chavez, Olivier Pomel, Venky Harinarayan, and Bollywood actor Shah Rukh Khan, alongside existing investors RTP Global and Dovetail.
+
+Founded in 2021 by Shourya Agarwal, Malhar Patil, and Amit Gaiki, Flam develops AI-powered interactive content for enterprises. The company's technology is used across marketing, product visualization, learning and development, and customer support. Flam claims to have onboarded more than 100 enterprise customers globally over the past six quarters, including massive names like Google, Reliance, and Hyundai.
+
+The fresh capital will be deployed to expand R&D across its AI models, broaden its product suite, and scale enterprise sales globally. Flam currently holds over 15 patents for its specialized AI and 3D rendering technologies.
+
+The company offers impressive core formats, including 'Flicks' (interactive videos that dynamically switch elements without buffering), 'Airboards' (high-fidelity 3D content streamed directly through a camera interface in 300 milliseconds without an app), and 'Visual Agents' (human-like avatars built on a 26-billion-parameter LLM designed to conduct conversations and take agentic actions in under two seconds).`,
+  },
+  {
     id: "kissht-onemi-eyes-fresh-fundraise-post-ipo",
     title: "Kissht Parent OnEMI Eyes Fresh Fundraise Months After Rs 926 Cr IPO",
     date: "14-09-2026",
