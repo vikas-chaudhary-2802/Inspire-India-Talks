@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "phonepe-crosses-11bn-upi-transactions-august",
+    title: "PhonePe Crosses 11 Bn Monthly UPI Transactions; G-Pay Nears 8 Bn",
+    date: "16-09-2026",
+    category: "FinTech",
+    image: "/images/business-insights/upi-august.png",
+    excerpt: "PhonePe and Google Pay continue their absolute dominance over the UPI ecosystem, commanding nearly 78% of the total transaction volume in August.",
+    readTime: "3 min read",
+    featured: false,
+    content: `PhonePe has crossed a massive milestone, recording 11.19 billion monthly Unified Payments Interface (UPI) transactions in August, according to the latest data released by the National Payments Corporation of India (NPCI). 
+
+The Walmart-backed platform accounted for an incredible 45.64% of total UPI transaction volume and processed transactions worth Rs 14.26 lakh crore (holding a 47.82% share of the total UPI transaction value).
+
+Google Pay maintained a strong hold on the second spot with 7.91 billion UPI transactions, processing Rs 10.07 lakh crore in value. Paytm remained the third-largest UPI player with 1.97 billion transactions, accounting for 8.03% of UPI transaction volume.
+
+The data reveals a stark duopoly in the Indian digital payments space. Together, PhonePe and Google Pay accounted for 77.90% of the total UPI transaction volume and 81.60% of the transaction value in August. When factoring in Paytm, the top three players controlled nearly 86% of all UPI volume.
+
+Other notable players included Navi, which retained fourth place with over 1 billion transactions, and Flipkart-backed super.money, which recorded 421.87 million transactions.
+
+Crucially, the upcoming MDR framework (effective October 15) could open a significant revenue stream for these massive UPI apps. Select P2M transactions above Rs 2,000 will attract a 0.4% MDR (capped at Rs 300), which will be shared among participants across the UPI ecosystem.`,
+  },
+  {
+    id: "bluestone-appoints-cardekho-ceo-amit-jain",
+    title: "BlueStone Appoints CarDekho CEO Amit Jain as Non-Executive Independent Director",
+    date: "16-09-2026",
+    category: "Retail / Appointments",
+    image: "/images/business-insights/bluestone-amit-jain.png",
+    excerpt: "Jewellery retailer BlueStone has appointed Amit Jain, co-founder and CEO of CarDekho Group, to its board ahead of its continued nationwide expansion.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Jewellery retailer BlueStone has officially appointed Amit Jain, co-founder and CEO of CarDekho Group, as a Non-Executive Non-Independent Director on its board, effective September 14, 2026. The appointment was ratified at the company's 15th Annual General Meeting (AGM) and sees Jain replacing Sameer Dileep Nath, who recently retired by rotation.
+
+Founded in 2011, BlueStone has steadily expanded its footprint across India. Positioning itself as India's second-largest digital-first omnichannel jewelry brand, it added 12 new physical stores during Q1 FY27, bringing its total network to 352 stores across 139 cities. Impressively, nearly half of its stores are located in Tier II and Tier III markets, reflecting strong regional demand.
+
+Financially, BlueStone is showing strong momentum. In Q1 FY27, the company's operating revenue surged 49% year-on-year to Rs 737 Crore. More importantly, the company swung to profitability, recording a net profit of Rs 6 Crore compared to a loss of Rs 35 Crore in the same quarter the previous year.
+
+BlueStone continues to aggressively compete in India's highly lucrative organized jewelry market against heavyweights like CaratLane, Tanishq, Kalyan Jewellers, and Senco Gold.`,
+  },
+  {
     id: "govt-no-charges-upi-rupay-2000",
     title: "Govt Specifies No Charges on UPI, RuPay Debit Card Payments Up to Rs 2,000",
     date: "15-09-2026",
