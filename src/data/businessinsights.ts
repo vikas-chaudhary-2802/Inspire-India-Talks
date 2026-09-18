@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "rebel-foods-fy26-revenue-losses-narrow",
+    title: "Rebel Foods Reports Rs 1,952 Cr Revenue in FY26, Losses Narrow 16%",
+    date: "18-09-2026",
+    category: "FoodTech / Startups",
+    image: "/images/business-insights/rebel-foods.jpg",
+    excerpt: "Cloud kitchen company Rebel Foods improved its financial performance in FY26 as revenue growth accelerated to Rs 1,952 crore and losses narrowed 16%.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Cloud kitchen giant Rebel Foods significantly improved its financial performance in FY26, with revenue growth accelerating and net losses narrowing by 16%.
+
+According to its consolidated financial statements filed with the Registrar of Companies (RoC), Rebel Foods' operating revenue rose 21% year-on-year, growing to Rs 1,951.6 crore in FY26 from Rs 1,617.4 crore in FY25. Revenue from the sale of goods, generated through its massive portfolio of cloud kitchen brands like Faasos, Behrouz Biryani, The Good Bowl, LunchBox, and Oven Story Pizza, contributed nearly 97% of its operating revenue.
+
+India remained the company's largest market, contributing 85.5% of its operating revenue, though international revenue showed impressive growth, surging 39% to Rs 283.8 crore.
+
+On the expenditure front, cost of materials remained the largest expense (accounting for 35% of total expenditure). However, because revenue grew faster than its overall expenses, the company successfully reduced its net loss to Rs 281.8 crore from Rs 336.6 crore in FY25. The company's EBITDA margin also improved to a negative 5.4%. 
+
+On a unit economic level, Rebel Foods spent Rs 1.16 to earn one rupee of operating revenue, an improvement from Rs 1.23 in the previous fiscal year.`,
+  },
+  {
+    id: "nse-raises-6746cr-anchor-investors-ipo",
+    title: "NSE Raises Rs 6,746 Cr from Anchor Investors Ahead of Blockbuster IPO",
+    date: "18-09-2026",
+    category: "IPO / Finance",
+    image: "/images/business-insights/nse-ipo.jpg",
+    excerpt: "The National Stock Exchange (NSE) has mopped up Rs 6,746 crore from massive anchor investors including LIC and ADIA ahead of its highly anticipated IPO.",
+    readTime: "2 min read",
+    featured: false,
+    content: `The National Stock Exchange (NSE) has successfully raised Rs 6,746 crore from a massive lineup of anchor investors ahead of its highly anticipated initial public offering (IPO), which officially opened for public subscription today.
+
+The exchange allotted 3.78 crore equity shares to 189 anchor investors at Rs 1,785 per share—the upper end of its IPO price band. The anchor book saw massive participation from both domestic and global institutional titans. LIC emerged as the largest single anchor investor, picking up shares worth around Rs 400 crore. Other major global participants included Norway's Government Pension Fund Global, Abu Dhabi Investment Authority (ADIA), GIC Singapore, and Fidelity.
+
+Overall, Foreign Portfolio Investors (FPIs) accounted for nearly 43% of the anchor book (investing Rs 2,883 crore), while domestic investors contributed 53% (Rs 3,588 crore). 
+
+Demand was completely off the charts. The anchor book reportedly attracted bids worth nearly Rs 1.2 lakh crore—approximately 20 times the amount actually allocated to anchor investors.
+
+NSE has set a price band of Rs 1,700-1,785 per share for the IPO. The issue is entirely an Offer For Sale (OFS), meaning existing shareholders will liquidate their holdings, and the exchange itself will not receive fresh capital. The NSE is looking to raise a staggering total of Rs 22,569 crore through this IPO, cementing it as one of India's largest public issues in history.`,
+  },
+  {
     id: "rentomojo-ipo-debut-premium",
     title: "RentoMojo Makes Stock Market Debut at 19% Premium",
     date: "17-09-2026",
