@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "rentomojo-ipo-debut-premium",
+    title: "RentoMojo Makes Stock Market Debut at 19% Premium",
+    date: "17-09-2026",
+    category: "IPO / Retail",
+    image: "/images/business-insights/rentomojo-ipo.png",
+    excerpt: "Furniture and appliance rental platform RentoMojo had a stellar public market debut, listing at a nearly 19% premium following heavy investor demand.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Furniture and appliance rental platform RentoMojo made its highly anticipated stock market debut on Thursday, September 17, with its shares listing at a nearly 19% premium over the IPO issue price.
+
+The company's shares opened at Rs 482.45 on the NSE (a 19.42% premium over the issue price of Rs 404) and Rs 480 on the BSE. This massive listing pop comes on the heels of phenomenal investor demand for RentoMojo's Rs 1,256 crore IPO, which was subscribed a staggering 72.87 times overall. The Qualified Institutional Buyers (QIBs) portion alone received bids worth around 177.3 times the shares on offer.
+
+The IPO issue comprised a fresh issue of Rs 150 crore and a massive offer for sale (OFS) worth around Rs 1,106 crore, providing significant liquidity for early backers. Several early RentoMojo investors are set to generate astronomical returns, with some expected to clock up to 152X returns on their OFS.
+
+The Bengaluru-based company is India's first furniture rental platform to hit the public markets. On the financial front, RentoMojo has displayed exceptional growth leading up to its IPO—revenue from operations grew 45.5% year-on-year to Rs 387 crore in FY26, while its profit after tax jumped a massive 142% to Rs 104.2 crore. 
+
+Following its debut, RentoMojo's total market capitalization stood at Rs 5,250 crore.`,
+  },
+  {
+    id: "yulu-series-c-funding-breakup",
+    title: "Inside Yulu’s Series C: Funding Breakup, Valuation, and Cap Table",
+    date: "17-09-2026",
+    category: "Mobility / Startups",
+    image: "/images/business-insights/yulu-series-c.png",
+    excerpt: "Electric mobility-as-a-service platform Yulu raised $93 million in a mix of debt and equity to quadruple its active EV fleet.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Electric mobility-as-a-service (MaaS) platform Yulu recently secured a massive $93 million in its Series C round, utilizing a strategic mix of debt and equity financing.
+
+According to the latest regulatory filings, the round comprised $63 million in equity led by GEF Capital Partners, alongside participation from One Planet Partners, and an additional $30 million in debt. GEF Capital Partners led the equity portion with an investment of Rs 456 crore, while One Planet Partners infused the remaining Rs 91 crore.
+
+Yulu plans to deploy this fresh capital war chest to massively scale its operations. The company aims to quadruple its active fleet to a staggering 200,000 electric vehicles over the next two years, expand into new urban mobility use cases, and fortify its financials ahead of potential public market listing plans. 
+
+Following the latest allotment, Yulu’s post-money valuation stands at an estimated $180–$200 million. GEF Capital Partners now holds a commanding 31.29% stake in Yulu, followed by automotive giants Magna International Inc. at 14.38% and Bajaj Auto at 12.38%. Yulu's co-founders collectively retain a healthy 22.25% stake in the company.
+
+Financially, Yulu has shown impressive scale. In its latest available FY25 filings, the company's operating revenue jumped 98% to Rs 237.4 Crore, while simultaneously narrowing its net loss by 12%.`,
+  },
+  {
     id: "phonepe-crosses-11bn-upi-transactions-august",
     title: "PhonePe Crosses 11 Bn Monthly UPI Transactions; G-Pay Nears 8 Bn",
     date: "16-09-2026",
