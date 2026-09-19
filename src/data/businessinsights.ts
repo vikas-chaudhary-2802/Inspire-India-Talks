@@ -33,6 +33,40 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "curefoods-fy26-revenue-loss-cloud-kitchen",
+    title: "Curefoods Reports Rs 916 Cr Revenue and Rs 192 Cr Loss in FY26",
+    date: "19-09-2026",
+    category: "FoodTech / Startups",
+    image: "/images/business-insights/curefoods-fy26.jpg",
+    excerpt: "Cloud kitchen company Curefoods saw its revenue grow 23% to Rs 916 crore in FY26, but the growth came with a wider net loss of Rs 192 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Ankit Nagori-led cloud kitchen startup Curefoods saw its operating revenue jump 23% to Rs 916 crore in FY26, up from Rs 745.8 crore in FY25. However, this topline growth came alongside a wider net loss of Rs 192.2 crore (up 13% from Rs 170 crore in the previous fiscal year).
+
+Curefoods operates a multi-brand portfolio including EatFit, Sharief Bhai Biryani, CakeZone, Nomad Pizza, and Frozen Bottle, managing 281 cloud kitchens, 99 kiosks, and 122 restaurants. 
+
+While its overall net loss widened, largely due to higher depreciation and finance costs, the company did see improvements on the operating front. Curefoods narrowed its EBITDA loss to around Rs 69.3 crore (from Rs 86 crore in FY25) and improved its EBITDA margin to negative 7.6%. Unit economics also slightly improved, with the company spending Rs 1.23 to earn a rupee of operating revenue, compared with Rs 1.27 in FY25.
+
+Notably, the company recently put its Rs 800 crore IPO plans on hold amid volatile market conditions, making its path to sustainable profitability a key focus for investors moving forward.`,
+  },
+  {
+    id: "weekly-funding-report-sep-14-19-2026",
+    title: "Weekly Funding Report: Indian Startups Raise $61.8M [Sep 14 - Sep 19]",
+    date: "19-09-2026",
+    category: "Funding / Startups",
+    image: "/images/business-insights/funding-sep14-19.png",
+    excerpt: "Indian startups raised $61.8 million across 17 deals this week, marking a sharp 82% drop compared to the previous week's funding volume.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Startup funding in India experienced a sharp pullback this week (Sep 14 - Sep 19), with 17 Indian startups raising a collective $61.8 million across one growth-stage deal, 14 early-stage deals, and two undisclosed rounds. This represents a steep 82% drop from the $356.8 million raised across 23 deals in the previous week.
+
+The single growth-stage deal accounted for the bulk of the week's capital: Bengaluru-based AI interactive content startup Flam secured a massive $40 million Series B round led by QED Investors, with high-profile participation from Shah Rukh Khan and existing investors.
+
+Early-stage deals brought in $21.8 million across 14 transactions, led by deeptech and semiconductor investments. Notable early-stage rounds included AI-native semiconductor verification startup VerifAIX ($5 million) and beauty quick-commerce startup Firi ($3 million). E-commerce remained the most active sector in terms of deal volume, recording eight transactions. 
+
+Geographically, Bengaluru reclaimed the top spot with seven deals, followed closely by Delhi-NCR with six. The week also witnessed 15 key executive appointments and one M&A deal, with Unstop acquiring talent assessment platform PerspectAI.`,
+  },
+  {
     id: "rebel-foods-fy26-revenue-losses-narrow",
     title: "Rebel Foods Reports Rs 1,952 Cr Revenue in FY26, Losses Narrow 16%",
     date: "18-09-2026",
