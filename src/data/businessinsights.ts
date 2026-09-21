@@ -33,6 +33,46 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "moneyview-ipo-price-band-rs-1092-cr",
+    title: "Moneyview Fixes IPO Price Band at Rs 32-34; Eyes Rs 1,092 Cr",
+    date: "21-09-2026",
+    category: "IPO / FinTech",
+    image: "/images/business-insights/moneyview-ipo.png",
+    excerpt: "Digital lending platform Moneyview has set its IPO price band, targeting a valuation of nearly Rs 6,000 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Accel and Tiger Global-backed digital lending platform Moneyview has officially fixed the price band for its highly anticipated IPO at Rs 32-34 per share. At the upper end of this band, the company will command an implied market capitalization of nearly Rs 6,000 crore (Rs 5,985 crore).
+
+The IPO is set to open for public subscription on September 24 and close on September 28, with the anchor book opening a day prior. Moneyview is aiming to raise Rs 1,091.6 crore through the issue, which comprises a fresh issue of Rs 750 crore and an Offer For Sale (OFS) of up to 10.04 crore shares.
+
+This finalized structure comes shortly after the startup decided to halve the size of its fresh issue (originally proposed at Rs 1,500 crore in its draft papers). Existing heavy-hitting investors like Accel (which holds the largest stake at 21.89%) and Tiger Global (13.79%), along with founders Puneet Agarwal and Sanjay Aggarwal, will be participating in the OFS.
+
+From the fresh proceeds, Moneyview plans to deploy Rs 325 crore to support loan disbursals under default loss guarantee arrangements, while Rs 250 crore will be injected into its lending subsidiary, Whizdm Finance, to strengthen its capital base.
+
+Financially, Moneyview is entering the public markets from a position of strength. The company reported a 43.3% year-on-year jump in FY26 revenue to Rs 3,351.2 crore, and a profit of Rs 242.7 crore. Growth accelerated further in Q1 FY27, with revenue jumping 50.2% and profit surging a massive 158.8% to Rs 173.8 crore.`,
+  },
+  {
+    id: "disha-curelink-raises-series-a-general-catalyst",
+    title: "Disha (Formerly Curelink) Raises Series A Led by General Catalyst",
+    date: "21-09-2026",
+    category: "HealthTech / Startups",
+    image: "/images/business-insights/disha-series-a.png",
+    excerpt: "AI-powered health coaching platform Disha has raised Rs 43.88 crore in a Series A round led by General Catalyst.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Disha (formerly known as Curelink), an AI-powered health coaching platform providing personalized diet, fitness, and chronic-care support, has raised Rs 43.88 crore in its Series A funding round. 
+
+The round was led by major global venture firm General Catalyst, which contributed Rs 38.20 crore, alongside participation from existing backer Elevation Capital. This new injection of capital elevates Disha's post-money valuation by 52%, taking it from Rs 190 crore in its previous round to an estimated Rs 288 crore.
+
+The platform is designed to provide 24/7 coaching in Hindi, English, and Hinglish across 15 different chronic conditions. It has scaled impressively, currently claiming over 70 lakh sign-ups, 3 lakh active users, and processing over 1.4 crore messages. 
+
+According to regulatory filings, Disha plans to utilize the fresh capital to further develop and enhance its proprietary AI models and technology infrastructure. It also plans to expand business operations and strengthen its capital base.
+
+Following this allotment, General Catalyst holds a 13.33% stake, while Elevation Capital holds 9.96%. Founders Aman Singla and Divyansh Jain retain the largest stakes at 31.10% each. Prominent angel investors on the cap table include Paytm's Vijay Shekhar Sharma and ShareChat's Ankush Sachdeva. 
+
+Financially, Disha doubled its revenue to Rs 4.91 crore in FY25, while simultaneously narrowing its losses by 22.5% to Rs 4.45 crore.`,
+  },
+  {
     id: "curefoods-fy26-revenue-loss-cloud-kitchen",
     title: "Curefoods Reports Rs 916 Cr Revenue and Rs 192 Cr Loss in FY26",
     date: "19-09-2026",
