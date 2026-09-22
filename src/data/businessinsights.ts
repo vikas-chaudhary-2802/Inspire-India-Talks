@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "cardekho-parent-converts-public-company-ipo",
+    title: "Exclusive: CarDekho Parent to Convert into Public Company Ahead of IPO",
+    date: "22-09-2026",
+    category: "IPO / AutoTech",
+    image: "/images/business-insights/cardekho-ipo.jpg",
+    excerpt: "CarDekho Group is officially converting its parent entity, Girnar Software, into a public company as it gears up for a highly anticipated Rs 3,000 crore IPO.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Jaipur-based CarDekho Group—the automotive powerhouse behind platforms like CarDekho, InsuranceDekho, BikeDekho, and Rupyy—is officially paving the way for its initial public offering (IPO). 
+
+According to regulatory filings, the company's board has passed a special resolution to convert its parent entity from a private limited company (Girnar Software Private Limited) to a public limited company (Girnar Software Limited)—a standard procedural move that directly precedes a public market listing.
+
+Founded in 2008 by Amit Jain and Anurag Jain, the group has evolved into a massive ecosystem spanning auto classifieds, used-car retail, financing, insurance, and mobility. 
+
+Market reports indicate that CarDekho is planning to raise a colossal Rs 3,000 crore through its upcoming IPO (comprising both a fresh issue and an OFS), targeting a valuation in the range of Rs 13,000 to Rs 15,000 crore. The startup has reportedly appointed major bankers including Axis Bank, IIFL, Goldman Sachs, and Nomura to manage the issue.
+
+The group's financials are robust. In its latest available filings (FY25), CarDekho Group's consolidated operating revenue grew 24% YoY to Rs 2,795 crore. Furthermore, its rapidly expanding fleet management business, Carrum (launched in 2024 in partnership with Uber), has deployed over 3,000 vehicles and is operating at an annualized revenue run rate of Rs 300 crore.`,
+  },
+  {
+    id: "auxilo-fy26-revenue-profit-education-nbfc",
+    title: "Auxilo Reports Rs 676 Cr Revenue and Rs 117 Cr Profit in FY26",
+    date: "22-09-2026",
+    category: "EdTech / Finance",
+    image: "/images/business-insights/auxilo-fy26.jpg",
+    excerpt: "Education-focused NBFC Auxilo reported a 28% YoY growth in FY26, bringing revenue to Rs 676 crore while maintaining stable profitability.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Mumbai-based education-focused NBFC Auxilo has continued its impressive growth momentum, reporting a 28% year-on-year increase in its operating revenue for the fiscal year ended March 2026. After crossing the Rs 500 crore mark in FY25, Auxilo’s revenue reached Rs 676 crore in FY26.
+
+Despite a significant jump in finance and employee costs, the company’s net profit remained largely stable at Rs 117 crore (compared to Rs 112 crore in FY25).
+
+Auxilo specializes in providing education loans to students pursuing higher studies in India and abroad, covering tuition fees, travel, and pre-visa expenses. Unsurprisingly, interest income remained the core engine of the business, generating Rs 610 crore in FY26 (a 28% increase). 
+
+The company's primary expenditures lay in finance costs, which rose 36% to Rs 384.7 crore. Employee benefit expenses also surged 47% to Rs 82.5 crore, reflecting its continued aggressive expansion.
+
+Auxilo, which competes with players like Avanse Financial and Grayquest, has raised over $200 million to date from prominent backers like Tata Capital, ICICI Bank, and Balrampur Chini Mills.`,
+  },
+  {
     id: "moneyview-ipo-price-band-rs-1092-cr",
     title: "Moneyview Fixes IPO Price Band at Rs 32-34; Eyes Rs 1,092 Cr",
     date: "21-09-2026",
