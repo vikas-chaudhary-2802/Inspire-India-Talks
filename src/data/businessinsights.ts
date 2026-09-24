@@ -33,6 +33,42 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "rps-ventures-sells-stake-meesho-900-cr",
+    title: "RPS Ventures Sells 0.83% Stake in Meesho for Rs 900 Cr Through Block Deals",
+    date: "24-09-2026",
+    category: "E-commerce / Finance",
+    image: "/images/business-insights/meesho-block-deal.png",
+    excerpt: "RPS Ventures offloaded 3.86 crore shares in Meesho for around Rs 900 crore through multiple block deals on the BSE, capitalizing on massive demand from global and domestic institutions.",
+    readTime: "2 min read",
+    featured: false,
+    content: `RPS Ventures, an early investor in e-commerce giant Meesho, has successfully offloaded 3.86 crore shares for approximately Rs 900 crore through multiple massive block deals on the BSE.
+
+According to stock exchange data, RPS Ventures (a fund founded by former SoftBank Vision Fund managing partner Kabir Misra) sold the shares at Rs 233 per share, representing roughly a 0.83% stake in the Bengaluru-based company. Following the transaction, RPS Ventures' holding is estimated to have decreased from 1.12% to around 0.29%.
+
+The secondary transaction saw massive demand from a mix of premier domestic and foreign institutional investors. The Government of Singapore emerged as the absolute largest buyer, acquiring 1.32 crore shares worth approximately Rs 307.5 crore. This was closely followed by Mirae Asset Mutual Fund, which purchased 77.21 lakh shares worth Rs 179.9 crore. Other notable buyers included Societe Generale, BNP Paribas, Fidelity, Citigroup Global Markets, and Morgan Stanley.
+
+This latest move is part of a massive ongoing secondary sell-off by Meesho's early investors taking some chips off the table. Earlier this month, SoftBank sold a 1.73% stake for Rs 1,650.4 crore, while Peak XV Partners, Elevation Capital, and Y Combinator also offloaded major stakes in August.
+
+Financially, Meesho is displaying exceptional momentum. The platform reported a massive 48% year-on-year growth in operating revenue to Rs 3,713 crore in Q1 FY27, while successfully narrowing its net loss by 54% to Rs 133 crore. Following these massive block deals, Meesho's total market capitalization stood at Rs 1,09,341 crore.`,
+  },
+  {
+    id: "ema-enterprise-ai-raises-77m-series-b",
+    title: "Enterprise AI Startup Ema Raises $77 Mn in Series B Led by Creaegis",
+    date: "24-09-2026",
+    category: "Artificial Intelligence",
+    image: "/images/business-insights/ema-series-b.jpg",
+    excerpt: "Ema, an enterprise AI startup founded by former Google and Coinbase executive Surojit Chatterjee, has raised $77 million in a Series B round.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Enterprise AI startup Ema has officially raised $77 million in a highly anticipated Series B funding round led by Creaegis. The round also saw participation from heavy-hitting existing investors, including Accel, S32, Prosus Ventures, Hitachi Ventures, and Wipro Ventures.
+
+Founded just in 2023 by former Google and Coinbase executive Surojit Chatterjee, Ema is building "AI employees" specifically designed for enterprise functions like human resources, information technology, and finance. According to the company, these AI employees are already deployed across some of the world’s largest organizations, handling millions of complex workflows daily.
+
+This massive new injection of capital brings Ema's total funding to an impressive $140 million. Just earlier this year, in March 2024, the startup had raised a $25 million initial funding round.
+
+The fresh capital will be aggressively deployed to expand Ema's go-to-market operations, accelerate adoption among large global enterprises, and scale its AI platform to cover even more business functions. Chatterjee noted that the company is built on the core thesis that AI agents will fundamentally change how enterprises use software—by actually performing complex tasks rather than simply enabling human employees to perform them.`,
+  },
+  {
     id: "cardekho-parent-converts-public-company-ipo",
     title: "Exclusive: CarDekho Parent to Convert into Public Company Ahead of IPO",
     date: "22-09-2026",
