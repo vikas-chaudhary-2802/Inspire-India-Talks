@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "oziva-spends-246-cr-marketing-for-463-cr-revenue",
+    title: "Oziva Spends Rs 246 Cr on Marketing for Rs 463 Cr Revenue in FY26",
+    date: "25-09-2026",
+    category: "FMCG / Startups",
+    image: "/images/business-insights/oziva-fy26-marketing.jpg",
+    excerpt: "HUL-owned nutrition and wellness brand Oziva recorded strong 80% revenue growth in FY26, but its losses widened 4.4X due to a massive jump in advertising spend.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Hindustan Unilever-owned plant-based nutrition brand Oziva posted a robust 80% surge in revenue from operations for the fiscal year ending March 2026, reaching Rs 463.4 crore compared to Rs 257.8 crore in FY25. 
+
+However, this aggressive top-line growth came at a massive cost to profitability. According to its RoC filings, Oziva's overall losses widened 4.4X from Rs 4.2 crore in FY25 to Rs 18.5 crore in FY26. 
+
+The primary driver of this loss was a massive spike in customer acquisition and brand-building costs. Oziva's advertising and promotional expenditure more than doubled year-on-year to hit Rs 246.2 crore. To put this in perspective, marketing alone accounted for over 51% of the company's total expenses (which stood at Rs 482 crore). 
+
+The steep rise in costs extended beyond marketing. Cost of materials rose 63% to Rs 116 crore, employee benefit expenses nearly doubled to Rs 45.4 crore, and transportation costs increased 57% to Rs 36.9 crore. Consequently, Oziva's EBITDA margin stood at a negative 3.6%. On a unit level, the startup spent Rs 1.04 to earn a single rupee of operating revenue in FY26.
+
+Notably, months after the close of FY26 (in February), Hindustan Unilever officially acquired the remaining 49% stake in Oziva for Rs 824 crore, converting it into a wholly owned subsidiary. HUL had previously acquired a 51% stake in December 2022. The latest transaction valued Oziva at around Rs 1,682 crore.`,
+  },
+  {
+    id: "k12-techno-services-fresh-esops-20-mn",
+    title: "Exclusive: K12 Techno Services Grants Fresh ESOPs Worth $20 Mn",
+    date: "25-09-2026",
+    category: "EdTech / Startups",
+    image: "/images/business-insights/k12-techno-esops.jpg",
+    excerpt: "Education services company K12 Techno Services has granted fresh employee stock options worth around Rs 193 crore to its employees, taking its total ESOP pool to $88 million.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Education services firm K12 Techno Services, renowned for operating the popular Orchids International school chain, has significantly expanded its employee wealth-creation program by granting over Rs 190 crore (approximately $20.1 million) worth of fresh Employee Stock Options (ESOPs) under its ESOP Scheme 2026.
+
+According to regulatory filings, the company’s board passed a special resolution to grant 6,16,902 ESOPs at an exercise price of Rs 3,122.68 per option. With this massive new grant, the total value of K12 Techno's ESOP pool has swelled to approximately Rs 838 crore ($88 million).
+
+Founded in 2010, the Bengaluru-based company provides a comprehensive suite of academic, technology, and administrative solutions to schools. While its flagship business remains Orchids The International School, it currently partners with more than 900 schools across India.
+
+The company has been making significant waves in the EdTech and education services sector recently. In July 2026, Vitruvian Partners acquired a nearly 16% stake in K12 Techno Services for roughly Rs 1,159 crore. The transaction, which included both fresh capital and a secondary share purchase (providing a partial exit for Peak XV Partners), valued the company between Rs 7,100 to Rs 7,250 crore. Other major backers include Kedaara Capital, Navneet Learning, Sofina Ventures, Kenro Capital, and Venturi Partners. 
+
+Financially, K12 Techno is on a strong trajectory. The company reported a significant jump in operating income to Rs 523.1 crore in FY26 (up from Rs 391.9 crore in FY25), while sharply narrowing its losses from Rs 57.7 crore to Rs 24.9 crore.`,
+  },
+  {
     id: "rps-ventures-sells-stake-meesho-900-cr",
     title: "RPS Ventures Sells 0.83% Stake in Meesho for Rs 900 Cr Through Block Deals",
     date: "24-09-2026",
