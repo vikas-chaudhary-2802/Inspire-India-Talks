@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "accel-360one-offload-stake-bluestone-bulk-deals",
+    title: "Accel, 360 ONE Offload 4.07% Stake in BlueStone for Rs 513 Cr via Bulk Deals",
+    date: "26-09-2026",
+    category: "D2C / Startups",
+    image: "/images/business-insights/bluestone-bulk-deals.png",
+    excerpt: "Venture capital firm Accel and investment firm 360 ONE have sold a combined 4.07% stake in omnichannel jewellery retailer BlueStone for around Rs 513 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `In a major secondary transaction, prominent venture capital firm Accel and investment firm 360 ONE have sold a combined 4.07% stake in omnichannel jewelry retailer BlueStone for approximately Rs 513 crore. 
+
+According to BSE data, the bulk and block deals involved Accel India III (Mauritius) offloading 28 lakh shares (a 1.84% stake) and funds managed by 360 ONE selling around 33.98 lakh shares (a 2.23% stake). The shares were sold at a price of Rs 827.60 apiece. Following the transaction, Accel's holding in BlueStone declined from 10.55% to 8.71%.
+
+The shares saw extremely strong demand and were rapidly picked up by a mix of heavy-hitting domestic and overseas institutional investors. Mirae Asset Mutual Fund emerged as a top buyer, acquiring around 20.8 lakh shares. Nippon India Mutual Fund, SBI Life Insurance, and Bajaj Life Insurance each acquired around 9.5 lakh shares. Other institutional buyers included Bandhan Mutual Fund, Goldman Sachs, Citigroup Global Markets Singapore, and the Kuwait Investment Authority. 
+
+This marks the second major stake sale by Accel and 360 ONE in BlueStone this year. Earlier in June, they had sold shares worth around Rs 243 crore alongside IvyCap Ventures.
+
+These secondary sell-offs align with BlueStone’s increasingly robust financial performance. The jewelry retailer recently announced its third consecutive profitable quarter. In Q1 FY27, BlueStone posted a consolidated net profit of Rs 5.96 crore (a dramatic turnaround from a net loss of Rs 34.74 crore in the same quarter the previous year) and saw its total income surge 49% year-on-year to Rs 751.81 crore.`,
+  },
+  {
+    id: "edtech-startup-arivihan-raising-series-a",
+    title: "Exclusive: Edtech Startup Arivihan Raising Rs 96 Cr at Rs 570 Cr Valuation",
+    date: "26-09-2026",
+    category: "EdTech / AI",
+    image: "/images/business-insights/arivihan-series-a.jpg",
+    excerpt: "AI Edtech startup Arivihan is set to raise Rs 96 crore in a Series A round co-led by existing investors Accel and Prosus at a Rs 570 crore valuation.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Indore-based AI Edtech startup Arivihan is reportedly finalizing a Rs 95.86 crore ($10 million) Series A funding round, co-led by prominent existing investors Accel and Prosus. This marks the two-year-old firm's second major fundraise in the past 15 months.
+
+According to regulatory filings, Arivihan's board has officially approved the issuance of 4,648 Series A CCPS at an issue price of Rs 2,06,248.06 per share. Accel and Prosus are slated to lead the round with equal investments of Rs 47.48 crore each. Several notable angel investors, including Rajesh Sawhney (Founder and CEO of GSF Accelerator) and Gaurav Kapur, are also participating.
+
+This new injection of capital has caused Arivihan's valuation to surge nearly 3.3X, reaching an estimated Rs 570 crore (up from Rs 171 crore during its previous pre-Series A round). Post-allotment, Accel India and Prosus will hold significant stakes of 23.54% and 18.57%, respectively.
+
+Founded in 2024, Arivihan is an AI-powered educational platform that focuses heavily on providing personalized learning experiences for students in tier-II cities and rural areas. The startup offers targeted coaching, rapid doubt-solving, and structured study plans tailored for Class 12, CBSE, and NEET aspirants. 
+
+Arivihan plans to deploy the fresh capital to expand its geographical reach, support working capital requirements, and accelerate its overall growth trajectory. Financially, the startup demonstrated exceptional early traction in FY25, when its revenue jumped nearly 14.8X to Rs 3.14 crore from just Rs 21.29 lakh in FY24.`,
+  },
+  {
     id: "oziva-spends-246-cr-marketing-for-463-cr-revenue",
     title: "Oziva Spends Rs 246 Cr on Marketing for Rs 463 Cr Revenue in FY26",
     date: "25-09-2026",
