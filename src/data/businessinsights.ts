@@ -33,6 +33,31 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "weekly-funding-report-sep-21-26-2026",
+    title: "Weekly Funding Report: Indian Startups Raise $188.49M [Sep 21 - Sep 26]",
+    date: "28-09-2026",
+    category: "Funding / Startups",
+    image: "/images/business-insights/funding-sep21-26.png",
+    excerpt: "Indian startups raised $188.49 million across 17 deals this week, bolstered by two major growth-stage transactions.",
+    readTime: "2 min read",
+    featured: false,
+    content: `The Indian startup ecosystem saw a solid rebound in funding activity this week (Sep 21 - Sep 26), with 17 startups raising a collective $188.49 million across two growth-stage deals, 12 early-stage deals, and three undisclosed rounds. 
+
+This represents a notable increase in capital inflow compared to the sharp dip seen in the previous week, largely driven by significant growth-stage activity. E-commerce and DeepTech emerged as the most active sectors, alongside major developments in FinTech and Artificial Intelligence. 
+
+The week also saw several high-impact ecosystem news items:
+- Private equity firm Samara Capital acquired stakes in Associated Road Carriers (ARC) and Calyx Container Terminals to build an integrated logistics platform.
+- Early-stage VC firm Lavni Ventures successfully closed its second deep-tech impact fund at its Rs 200 crore target corpus.
+- Nykaa and L'Oréal's corporate venture capital fund, BOLD, announced a strategic partnership to jointly invest in emerging Indian beauty and personal care startups.
+
+On the IPO front, there were highly significant movements across the board:
+- The National Stock Exchange (NSE) made its massive stock market debut, though the listing was relatively muted with a mere 0.84% premium over its IPO price of Rs 1,785.
+- Used-car retailing giant Spinny confidentially pre-filed its draft IPO papers with SEBI, reportedly aiming to raise around Rs 2,500-3,000 crore.
+- AceVector (the parent company of Snapdeal and Unicommerce) officially filed its RHP for an IPO featuring a Rs 287 crore fresh issue, after turning free cash flow positive in FY26.
+
+Finally, in secondary market action, Mastercard officially exited its investment in merchant commerce platform Pine Labs, selling its entire 4.31% stake for Rs 933.5 crore through bulk deals.`,
+  },
+  {
     id: "accel-360one-offload-stake-bluestone-bulk-deals",
     title: "Accel, 360 ONE Offload 4.07% Stake in BlueStone for Rs 513 Cr via Bulk Deals",
     date: "26-09-2026",
