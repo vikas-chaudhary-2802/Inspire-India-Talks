@@ -33,6 +33,46 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "sc-declines-stay-upi-mdr-rollout",
+    title: "SC Declines Stay on UPI MDR Rollout, Seeks Response from Centre, RBI, NPCI on Plea",
+    date: "29-09-2026",
+    category: "FinTech / Policy",
+    image: "/images/business-insights/upi-mdr-sc.jpg",
+    excerpt: "The Supreme Court has refused to grant an interim stay on the October 15 rollout of the new Merchant Discount Rate (MDR) framework for specified UPI transactions.",
+    readTime: "2 min read",
+    featured: false,
+    content: `In a major development for India's digital payments ecosystem, the Supreme Court has officially declined to stay the impending rollout of the new Merchant Discount Rate (MDR) framework for specified UPI merchant transactions above Rs 2,000, set to take effect on October 15.
+
+A bench comprising Chief Justice of India Surya Kant, alongside Justices Joymalya Bagchi and V Mohana, heard a plea challenging the Centre's September 14 notification introducing the charge. The bench directed the Centre, the Reserve Bank of India (RBI), and the National Payments Corporation of India (NPCI) to file formal responses within four weeks, seeking a clear explanation regarding the basis and legal character of the charge.
+
+Under the new MDR framework, a 0.4% charge will apply to specified person-to-merchant (P2M) UPI transactions above Rs 2,000, which will be capped at Rs 300 for transactions of Rs 75,000 and above. Certain sectors, including railways, telecom, insurance, fuel, and agricultural inputs, will attract a flat MDR of Rs 5 on transactions above Rs 2,000. 
+
+Crucially, standard UPI payments to merchants of up to Rs 2,000 and all person-to-person (P2P) transactions will continue to remain completely free. Small merchants receiving up to Rs 1 lakh per month through UPI are also given zero-MDR treatment.
+
+According to the Finance Ministry, this new framework is expected to affect only around 4% of merchant UPI transactions, leaving approximately 96% completely unaffected. The ministry also firmly clarified that the MDR is neither a tax nor a government charge, and that banks are responsible for ensuring that merchants do not pass this MDR on to customers.
+
+Despite the ongoing legal challenge, the lack of an interim stay means the framework will be implemented as scheduled on October 15, officially ending the zero-MDR regime for large merchant UPI transactions that has been in place since 2020.`,
+  },
+  {
+    id: "d2c-fashion-the-indian-garage-co-growth-tapers-fy26",
+    title: "D2C Fashion Brand 'The Indian Garage Co' Growth Tapers Down in FY26",
+    date: "29-09-2026",
+    category: "D2C / Fashion",
+    image: "/images/business-insights/tigc-fy26.png",
+    excerpt: "The Indian Garage Co (TIGC) saw its operating revenue grow 15% to Rs 234.6 crore in FY26, much slower than the 2X growth recorded the previous year.",
+    readTime: "2 min read",
+    featured: false,
+    content: `As competition in India's D2C fashion market intensifies with brands like Snitch, Rare Rabbit, and Bewakoof scaling rapidly, The Indian Garage Co (TIGC) is experiencing a noticeable slowdown. 
+
+The Aditya Birla Digital (TMRW)-backed brand saw its operating revenue grow by 15% in FY26 to Rs 234.6 crore (up from Rs 204.2 crore in FY25). This is a stark contrast to the massive 2X growth it recorded in the previous fiscal year. However, as top-line growth tapered, losses unfortunately widened, increasing 27% to Rs 28.7 crore.
+
+According to its RoC filings, the primary driver for this widening loss was an aggressive spike in marketing expenditure as the company battled for consumer attention. Advertising and promotional expenses more than doubled, jumping to Rs 29.3 crore in FY26 from Rs 14 crore in FY25. 
+
+Other major costs included material expenses (rising 13% to Rs 117.5 crore) and employee benefits (rising 24% to Rs 21 crore). Consequently, on a unit level, the company spent Rs 1.18 to earn a single rupee of operating revenue in FY26.
+
+Aditya Birla Group's TMRW had previously invested around Rs 155 crore in TIGC in October 2023 and currently holds a 51% majority stake. TIGC's latest financial numbers underscore a challenging phase for scaled D2C fashion brands in India, where aggressive customer acquisition costs can quickly erode unit economics, highlighting the critical need for strong retention and inventory discipline.`,
+  },
+  {
     id: "weekly-funding-report-sep-21-26-2026",
     title: "Weekly Funding Report: Indian Startups Raise $188.49M [Sep 21 - Sep 26]",
     date: "28-09-2026",
