@@ -33,6 +33,48 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "itc-completes-100-percent-acquisition-yoga-bar",
+    title: "ITC Completes 100% Acquisition of Yoga Bar Parent Sproutlife",
+    date: "30-09-2026",
+    category: "FMCG / M&A",
+    image: "/images/business-insights/itc-yoga-bar.png",
+    excerpt: "FMCG giant ITC has fully acquired Sproutlife Foods, the parent company of the popular D2C health food brand Yoga Bar, following a final Rs 645 crore secondary purchase.",
+    readTime: "2 min read",
+    featured: false,
+    content: `FMCG behemoth ITC has officially completed the 100% acquisition of Sproutlife Foods, the parent company of the popular D2C health and nutrition brand Yoga Bar.
+
+According to recent exchange filings, ITC acquired the remaining 13,445 equity shares of Sproutlife via a secondary purchase for approximately Rs 645 crore. This transaction increased ITC's shareholding from roughly 47.5% to a complete 100%, officially making Sproutlife a wholly owned subsidiary of ITC as of late September. The transaction was executed entirely through cash consideration.
+
+This acquisition perfectly aligns with ITC's aggressive strategy to strengthen its "future-ready" portfolio in the rapidly expanding health foods segment. Positioned as a digital-first brand, Yoga Bar has built a massive presence across D2C and e-commerce channels, while rapidly growing its offline retail footprint. 
+
+Financially, Yoga Bar has been on an absolute tear. The company recorded exceptional growth in recent years, with its turnover more than doubling to Rs 452 crore in FY26, up from Rs 200 crore in FY25 (and just Rs 108 crore in FY24). 
+
+ITC’s relationship with Yoga Bar began in May 2023 when it initially acquired a 39.42% stake for Rs 175 crore. The giant then gradually increased its holding before executing this final buyout. 
+
+This deal is part of a much wider acquisition push by legacy FMCG companies desperately attempting to capture the new-age digital-first consumer market. Just recently, HUL expanded its wellness portfolio by acquiring Minimalist and OZiva, while Marico has brought brands like Cosmix into its D2C fold.`,
+  },
+  {
+    id: "jedlik-motors-ev-startup-urban-pods",
+    title: "EV Startup Jedlik Motors Building Enclosed Electric Pods for Urban Commuters",
+    date: "30-09-2026",
+    category: "EV / Startups",
+    image: "/images/business-insights/jedlik-motors.png",
+    excerpt: "Chennai-based startup Jedlik Motors is developing the e-POD, a fully enclosed electric two-wheeler blending scooter maneuverability with car-like comfort.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Chennai-based EV startup Jedlik Motors is making waves with its development of the "e-POD"—a fully enclosed electric two-wheeler designed to combine the tight maneuverability of a scooter with the comfort, safety, and weather protection of a car. 
+
+Founded by Raguram SK, the company is currently at the MVP stage with a working prototype. The e-POD is specifically designed for urban commuters facing dense traffic and unpredictable weather. It is slated to feature air conditioning, pushback seats, an infotainment system, and around 600 liters of boot space. 
+
+One of the most innovative features is its "crab walking" steering mechanism, designed to allow incredibly tight turns and easier navigation in congested urban environments. The startup is targeting an on-road price of Rs 2.5 lakh, though they are actively exploring a Battery-as-a-Service (BaaS) model that could drop the upfront cost to Rs 1.5 lakh with a monthly subscription of Rs 2,000 to Rs 2,500.
+
+Jedlik Motors is also building a B2B version tailored for food delivery, quick commerce, and large industrial campuses, and is already in early conversations with giants like Mahindra, Tata Motors, Rapido, and Ashok Leyland. 
+
+To support these ambitions, the startup is developing its own autonomous driving capabilities, motors, controllers, and steer-by-wire systems. Over 90% of component designs are developed in-house at its Chennai facility. 
+
+Jedlik Motors plans to officially launch the e-POD by June 2027, starting with a pilot in Bengaluru. The company has secured early angel funding and government grants and is currently seeking Rs 7 crore in a pre-seed round to support its next phase of rapid development.`,
+  },
+  {
     id: "sc-declines-stay-upi-mdr-rollout",
     title: "SC Declines Stay on UPI MDR Rollout, Seeks Response from Centre, RBI, NPCI on Plea",
     date: "29-09-2026",
