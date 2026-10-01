@@ -33,6 +33,44 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "kuku-clocks-1484-cr-revenue-1100-cr-marketing-fy26",
+    title: "Kuku Clocks Rs 1,484 Cr Revenue and Rs 89 Cr PBT in FY26; Spends Rs 1,100 Cr on Marketing",
+    date: "01-10-2026",
+    category: "Audio / Entertainment",
+    image: "/images/business-insights/kuku-fm-fy26.jpg",
+    excerpt: "Audio platform Kuku FM recorded a massive 6X revenue surge to Rs 1,484 crore in FY26, fueled by an aggressive Rs 1,105 crore marketing push ahead of its IPO.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Audio and video content platform Kuku FM has reported staggering financial numbers for FY26, highlighting an incredibly aggressive path to profitability as it prepares for a massive Rs 3,500 crore IPO.
+
+According to its Registrar of Companies (RoC) filings, parent company Kuku Technologies saw its operating revenue balloon more than six-fold, surging to an incredible Rs 1,484.2 crore in FY26, up from just Rs 241.5 crore in FY25. Subscriptions remained the absolute core of the business, contributing over 99% (Rs 1,475.4 crore) of the operating revenue. 
+
+This hockey-stick growth was heavily fueled by an unprecedented marketing push. Kuku splurged a massive Rs 1,105 crore on marketing and advertising in FY26, nearly four times the Rs 284.8 crore spent in the previous fiscal year. 
+
+Despite the aggressive Rs 1,105 crore marketing spend—and a 3.5X rise in total expenditure to Rs 1,421.7 crore—the massive revenue leap allowed Kuku to absorb the costs and swing into profitability. The company posted a net profit of Rs 182.7 crore in FY26 (compared to a massive loss of Rs 152.6 crore in FY25) and a Profit Before Tax (PBT) of Rs 88.6 crore.
+
+A major driver of this growth is Kuku TV, its microdrama platform launched in 2024. The company currently produces over 150 microdramas a month. To sustain this output while managing costs ahead of its IPO, Kuku is actively building a 1,000-member AI-led content production unit, noting that 60-70% of its content already utilizes AI tools across writing, dubbing, and post-production.`,
+  },
+  {
+    id: "niyos-income-jumps-78-to-178-cr-in-fy26",
+    title: "Niyo’s Income Jumps 78% to Rs 178 Cr in FY26",
+    date: "01-10-2026",
+    category: "FinTech / Travel",
+    image: "/images/business-insights/niyo-fy26.jpg",
+    excerpt: "Travel fintech platform Niyo saw its income grow 78% year-on-year to Rs 178 crore in FY26 while successfully cutting its losses by 58%.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Travel fintech platform Niyo has reported robust financial growth for the fiscal year ending March 2026. According to the company's latest press release, its total income jumped 78% year-on-year, reaching Rs 178 crore compared to Rs 100 crore in FY25. 
+
+Alongside the impressive top-line growth, Niyo successfully slashed its losses by 58%, bringing them down to Rs 33 crore in FY26 from Rs 78 crore the previous year. The company attributed this significant improvement to enhanced operational efficiency, specifically highlighting the integration of AI across customer service, marketing, and product development.
+
+While operating expenses did rise 20% to Rs 201 crore (with employee expenses increasing 17% to Rs 92 crore), the higher costs were primarily tied to the expansion of Kanji Forex, which operates under Niyo’s own AD-II license. Despite this spending, the company's EBITDA loss nearly halved to Rs 32 crore.
+
+Niyo is aggressively expanding its offerings beyond its core travel card business. The platform is now generating revenue through a diversified portfolio that includes forex cash, cross-border remittances, flight and hotel bookings, international eSIMs, and insurance. 
+
+Looking ahead, Niyo CFO Gourav Kumar stated that the company is heavily focused on extracting more value from its existing customer base and pushing toward absolute profitability. Backed by marquee investors like Accel and Lightrock, Niyo expects to maintain an annual growth rate of over 50% in the coming years.`,
+  },
+  {
     id: "itc-completes-100-percent-acquisition-yoga-bar",
     title: "ITC Completes 100% Acquisition of Yoga Bar Parent Sproutlife",
     date: "30-09-2026",
