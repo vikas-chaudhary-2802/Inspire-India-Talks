@@ -33,6 +33,84 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "ipv-leads-7-cr-seed-round-cybersecurity-startup-zaperon",
+    title: "IPV Leads Rs 7 Cr Seed Round in Cybersecurity Startup Zaperon",
+    date: "03-10-2026",
+    category: "Cybersecurity / Funding",
+    image: "/images/business-insights/zaperon-ipv-seed.png",
+    excerpt: "Cybersecurity startup Zaperon has raised Rs 7 crore in a seed funding round led by Inflection Point Ventures (IPV) to launch enterprise-grade AI security frameworks.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Zaperon, a Delhi-based cybersecurity startup, has successfully raised Rs 7 crore in a seed funding round led by Inflection Point Ventures (IPV). 
+
+The startup plans to deploy this fresh capital to advance its core product capabilities, officially launch enterprise-grade AI security frameworks, and aggressively expand its footprint in both India and the US. 
+
+Co-founded in 2021 by Vineet Gupta and Sachin Aggarwal, Zaperon offers a holistic, platform-centric approach to enterprise security. The platform is designed to allow organizations to seamlessly secure their entire IT landscape through a single, unified console. By bringing together identity security, data security, and AI governance, Zaperon enables enterprises to strictly control how users, applications, and AI agents access and interact with sensitive data.
+
+Zaperon aims to replace highly fragmented, legacy security controls with consistent, identity- and context-aware policies deployed across digital and AI environments. Its enterprise client base already spans critical sectors including banking, financial services, healthcare, and manufacturing.
+
+This seed round highlights a massive surge in the Indian cybersecurity ecosystem. According to market data, Indian cybersecurity startups raised $89 million across 17 funding rounds in H1 2026, nearly double the $47 million raised in H1 2025, with major recent deals including QNu Labs, Mitigata, and CloudSEK.`,
+  },
+  {
+    id: "otpless-elevates-manas-poddar-cbo",
+    title: "After CEO, COO Elevations, OTPless Elevates Manas Poddar as CBO",
+    date: "03-10-2026",
+    category: "Startups / Appointments",
+    image: "/images/business-insights/otpless-manas-cbo.png",
+    excerpt: "Bengaluru-based identity and access management startup OTPless has elevated early team member Manas Poddar to Chief Business Officer as it expands into broader identity infrastructure.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based identity and access management startup OTPless has officially elevated early team member Manas Poddar to the role of Chief Business Officer (CBO). The move comes as the company aims to aggressively expand its core authentication business into a broader identity infrastructure play. 
+
+As CBO, Poddar will oversee revenue generation, enterprise sales, and critical strategic partnerships. Poddar joined OTPless in 2023 as one of its earliest core team members and has spearheaded the business vertical since. Prior to joining the startup, he worked at BharatPe (2020–2022), where he was part of the technical team deeply involved in the PMC Bank revival and the foundational groundwork for Unity Small Finance Bank.
+
+This strategic appointment closely follows the recent elevations of OTPless co-founders Satyam Nathani and Tanmay Sagar to CEO and COO, respectively, on September 18. Both Nathani and Sagar also share a history at BharatPe as founding members.
+
+OTPless provides next-generation authentication and identity solutions to consumer businesses through technologies like Silent Network Authentication, WhatsApp Authentication, Device Intelligence, and Passkeys. 
+
+The startup claims to have rapidly scaled to authenticate over 300 million users and boasts Rs 36 crore in annualized revenue—a massive 2.5X year-on-year growth. The lean 12-member startup also reported profitability for the past two quarters. Its massive client base includes major names like Meesho, Zepto, Navi, PhysicsWallah, and Shiprocket.`,
+  },
+  {
+    id: "teachmint-revenue-jumps-28x-to-205-cr-fy26",
+    title: "Teachmint Revenue Jumps 2.8X to Rs 205 Cr in FY26",
+    date: "02-10-2026",
+    category: "EdTech / Startups",
+    image: "/images/business-insights/teachmint-fy26.png",
+    excerpt: "Edtech startup Teachmint continued its strong growth trajectory in FY26, with operating revenue crossing the Rs 200 crore mark while simultaneously narrowing its losses.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Edtech startup Teachmint has continued its exceptionally strong growth trajectory into FY26, with its operating revenue officially crossing the Rs 200 crore mark while simultaneously narrowing its financial losses.
+
+According to audited consolidated financial filings with the Ministry of Corporate Affairs, Teachmint's operating revenue jumped 2.8X to Rs 205.3 crore in FY26, a massive leap from the Rs 74.2 crore reported in FY25. 
+
+The surge in revenue was primarily driven by massive demand for "Teachmint X," the company's AI-powered connected classroom device. Teachmint X combines an AI teaching assistant with a digital interactive board. The platform empowers teachers to plan lessons, create quizzes, assign homework, and grade student submissions, all aligned with the curriculum. It acts as a single, unified platform connecting teachers and students for classroom planning, engagement, and tracking progress.
+
+The company stated that Teachmint X is gaining rapid traction not just in India, but in international markets including the Middle East, SAARC countries, and Southeast Asia. The company was recently recognized as India's No. 1 interactive flat panel brand by market share (for Jan–June 2026) by global market research firm DISCIEN.
+
+On the profitability front, Teachmint's loss before share-based expenses fell by an impressive 34.2% to Rs 28.9 crore in FY26, compared to Rs 43.9 crore in FY25. The company benefited heavily from improved operating leverage; while revenue grew 2.8X, operating expenses (excluding the cost of goods sold) increased by a mere 11.6% during the fiscal year. 
+
+Teachmint plans to aggressively expand its network across domestic and overseas markets while continuing to deepen the integration of AI across everyday teaching workflows.`,
+  },
+  {
+    id: "seeds-fincap-raises-100-cr-series-b",
+    title: "Seeds Fincap Raises Rs 100 Cr in Series B Led by Michael & Susan Dell Foundation",
+    date: "02-10-2026",
+    category: "FinTech / NBFC",
+    image: "/images/business-insights/seeds-fincap-series-b.png",
+    excerpt: "Gurugram-based NBFC Seeds Fincap has raised more than Rs 100 crore in a Series B funding round to expand into new markets and strengthen its branch network.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Gurugram-based Non-Banking Financial Company (NBFC) Seeds Fincap has officially raised over Rs 100 crore (approximately $10.4 million) in a highly anticipated Series B funding round. 
+
+The round was led by the Michael & Susan Dell Foundation, with strong participation from existing investors Z47 (formerly Matrix Partners India) and Lok Capital, alongside Norinchukin Capital and Alteria Capital. This follows the company's Rs 50 crore fundraise last year and an $8.5 million Series A round in July 2024.
+
+Founded in 2021 by Subhash Chandra Acharya, Avishek Sarkar, and Sumeet Dhall, Seeds Fincap focuses on providing credit to underserved individuals and MSME borrowers. The startup offers loans ranging from Rs 50,000 to Rs 10 lakh, utilizing a unique cash-flow-based approach to accurately assess borrower viability. This approach specifically targets nano enterprises and small businesses whose cash flows are often overlooked by traditional credit assessments.
+
+The company plans to deploy this fresh capital to aggressively expand into new geographic markets, strengthen its physical branch network, and enhance its technology and risk management capabilities. Seeds Fincap is ambitiously targeting Rs 1,000 crore in Assets Under Management (AUM) by March 2027.
+
+Financially, Seeds Fincap is on very solid ground, having closed both FY25 and FY26 profitably. The company disbursed around Rs 620 crore in FY26, bringing its total AUM to Rs 722 crore as of August 2026. It currently operates a robust network of 164 branches serving more than 70,000 active members.`,
+  },
+  {
     id: "kuku-clocks-1484-cr-revenue-1100-cr-marketing-fy26",
     title: "Kuku Clocks Rs 1,484 Cr Revenue and Rs 89 Cr PBT in FY26; Spends Rs 1,100 Cr on Marketing",
     date: "01-10-2026",
