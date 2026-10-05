@@ -33,6 +33,48 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "bhavish-aggarwal-pledges-ola-electric-stake-rights-issue",
+    title: "Bhavish Aggarwal Pledges 4.32% Ola Electric Stake to Fund Rights Issue",
+    date: "05-10-2026",
+    category: "EV / Corporate",
+    image: "/images/business-insights/ola-bhavish-rights-issue.png",
+    excerpt: "Ola Electric promoter Bhavish Aggarwal has pledged a 4.32% stake in the EV maker to fund his participation in the company’s upcoming Rs 1,000 crore rights issue.",
+    readTime: "2 min read",
+    featured: false,
+    content: `In a significant corporate move, Ola Electric promoter Bhavish Aggarwal has officially pledged a 4.32% stake in the electric two-wheeler maker. According to a filing with the National Stock Exchange (NSE), this pledge has been created strictly to fund Aggarwal’s own subscription to the company’s upcoming rights issue.
+
+The filing clarified that no shares are being outright sold as part of this transaction; rather, Aggarwal is using a portion of his existing holdings as collateral to secure funds to reinvest back into the company. 
+
+Ola Electric’s board recently approved a major rights issue of up to Rs 1,000 crore on September 28, subsequently filing its Draft Letter of Offer with the exchanges. The exact amount Aggarwal is raising against the pledged shares, and his specific investment amount in the rights issue, has not been publicly disclosed. 
+
+This financial maneuvering comes at a critical time for Ola Electric. The company is actively looking to bolster its balance sheet amid mounting business pressures. In Q1 FY27, Ola's operating revenue declined 45% year-on-year to Rs 455 crore, down from Rs 828 crore in the same quarter last year. EV registrations also fell 25% to 43,908 units during the period, although the company successfully narrowed its net loss by 21.1% to Rs 336 crore.
+
+This rights issue follows a recent Rs 780 crore qualified institutional placement (QIP) that took place in June. As competition in the electric two-wheeler space fiercely intensifies—with legacy players like TVS Motor and Bajaj Auto, alongside Ather Energy, turning up the heat—Ola Electric is utilizing every financial tool available to support its manufacturing and expansion plans. 
+
+Currently, the company's total market capitalization sits around Rs 17,162 crore.`,
+  },
+  {
+    id: "nykaa-expects-30-percent-gmv-growth-q2-fy27",
+    title: "Nykaa Expects Around 30% GMV Growth in Q2 FY27",
+    date: "05-10-2026",
+    category: "E-commerce / Fashion",
+    image: "/images/business-insights/nykaa-gmv-growth-q2-fy27.png",
+    excerpt: "Beauty and fashion retailer Nykaa projects its consolidated GMV to grow close to 30% YoY in Q2 FY27, driven by strong momentum in both its beauty and fashion verticals.",
+    readTime: "2 min read",
+    featured: false,
+    content: `FSN E-Commerce Ventures, the parent company of the popular beauty and fashion retailer Nykaa, is signaling strong momentum heading into the new quarter. According to its latest quarterly business update, the company expects its consolidated Gross Merchandise Value (GMV) to grow close to 30% year-on-year for the quarter ending September 2026 (Q2 FY27).
+
+Breaking down the numbers, Nykaa expects its consolidated Net Sales Value (NSV) to grow in the early thirties, while net revenue growth is confidently projected to land in the late twenties. 
+
+This growth is being heavily driven by continuous strong performance in its core beauty business, as well as a rapidly scaling fashion vertical. The beauty segment alone is expected to post NSV and net revenue growth in the late twenties. Nykaa also aggressively expanded its retail footprint, adding 14 net new stores during the quarter, bringing its total physical store count to 338.
+
+Meanwhile, Nykaa's fashion vertical is seeing exceptional acceleration. The company expects NSV for fashion to grow in the late forties, with net revenue in the early forties. New customer acquisition remains a key driver here. The fashion platform added over 250 new brands during the quarter and noted that its exclusive partnership with Nike is seeing encouraging early traction through exclusive product drops.
+
+This update follows a stellar Q1 FY27, where Nykaa reported a 29% year-on-year growth in operating revenue (Rs 2,782 crore) and an impressive 3.3X surge in profit to Rs 80 crore. 
+
+Looking forward, Nykaa has also strategically partnered with BOLD, the corporate venture capital arm of L'Oréal, to jointly invest in emerging high-growth Indian beauty and personal care startups, offering them both capital and access to Nykaa’s extensive distribution network.`,
+  },
+  {
     id: "ipv-leads-7-cr-seed-round-cybersecurity-startup-zaperon",
     title: "IPV Leads Rs 7 Cr Seed Round in Cybersecurity Startup Zaperon",
     date: "03-10-2026",
