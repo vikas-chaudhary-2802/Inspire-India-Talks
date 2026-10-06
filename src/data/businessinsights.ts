@@ -33,6 +33,50 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "mamaearth-parent-honasa-eyes-30-percent-nsv-growth-q2",
+    title: "Mamaearth Parent Honasa Eyes Over 30% NSV Growth in Q2 FY27",
+    date: "06-10-2026",
+    category: "D2C / FMCG",
+    image: "/images/business-insights/honasa-mamaearth-q2-growth.jpg",
+    excerpt: "Honasa Consumer, the parent company of beauty brand Mamaearth, projects a massive 30% year-on-year growth in Net Sales Value (NSV) for Q2 FY27, driven by strong offline expansion.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Honasa Consumer, the parent powerhouse behind major D2C brands like Mamaearth and The Derma Co., is signaling exceptionally strong financials for the ongoing fiscal year. 
+
+According to a quarterly update filed with the stock exchanges, the beauty and personal care giant expects its Net Sales Value (NSV) to grow in the early-thirties (roughly over 30%) year-on-year during the second quarter of FY27 (ending September 2026).
+
+Mamaearth, which remains Honasa's flagship and largest brand, is expected to post high-teens YoY growth in NSV this quarter. The company attributes this sustained momentum to a massive expansion in its offline footprint and steadily increasing brand affinity. 
+
+Interestingly, Honasa’s portfolio of younger brands—including The Derma Co., Aqualogica, BBlunt, Dr. Sheth's, and Staze—is driving a massive secondary growth engine, collectively expected to record mid-forties YoY growth in NSV. 
+
+Honasa noted that the offline channel continues to lead its broader growth narrative. Both general trade and modern trade have posted incredibly strong numbers, driven by deeper direct distribution and highly effective execution at the point of sale. Meanwhile, its legacy online business continues to safely maintain its growth momentum.
+
+On the profitability front, Honasa projects that it will maintain an early double-digit operating margin profile for Q2 FY27. Following the release of these highly optimistic growth projections, Honasa Consumer’s shares jumped roughly 5% to Rs 465 per share, pushing the company’s market capitalization up to roughly Rs 15,175 crore.`,
+  },
+  {
+    id: "fireside-leads-110-cr-series-b-beyond-appliances",
+    title: "Fireside Leads Rs 110 Cr Series B Round in Beyond Appliances",
+    date: "06-10-2026",
+    category: "Startups / Funding",
+    image: "/images/business-insights/beyond-appliances-series-b.png",
+    excerpt: "Smart kitchen technology company Beyond Appliances has raised Rs 110 crore ($11.4 million) in a Series B funding round led by Fireside Ventures to scale its intelligent appliances.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based smart kitchen technology startup Beyond Appliances has officially raised Rs 110 crore (approximately $11.4 million) in a significant Series B funding round. The round was led by Fireside Ventures, with strong participation from existing investor Dharana Capital.
+
+This marks rapid progression for the hardware startup, which previously secured $4 million in a Series A round (also led by Fireside) in August last year, and a $2 million seed round in November 2024. 
+
+Co-founded in 2024 by Eshwar K Vikas and Rakesh Patil, Beyond Appliances develops connected, intelligent kitchen appliances tailored for modern Indian households. Its expanding portfolio currently includes Android-powered chimneys, "Plug-N-Play" chimneys, smart hobs, and advanced cooktops. 
+
+The fresh capital injection will be deployed directly towards intensive research and development (R&D) and the establishment of a brand new manufacturing plant to scale the production of next-generation kitchen tech. 
+
+According to the company, it has already doubled its marketplace market share over the past year. Furthermore, the brand is seeing robust organic traction, reporting that 15% of its total revenue now comes purely through customer referrals. 
+
+While strong online, Beyond Appliances is also rapidly expanding its physical footprint. It currently operates offline retail channels and experience centers across Delhi, Mumbai, Bengaluru, and Hyderabad. Over the next three years, the brand aims to expand to 10 additional cities and ambitiously cross the Rs 500 crore Annual Recurring Revenue (ARR) milestone.
+
+This funding underscores a massive surge in India’s smart home and consumer tech ecosystem, alongside peers like Upliance.ai (which recently raised from Khosla Ventures), EDT, and Curaa.`,
+  },
+  {
     id: "bhavish-aggarwal-pledges-ola-electric-stake-rights-issue",
     title: "Bhavish Aggarwal Pledges 4.32% Ola Electric Stake to Fund Rights Issue",
     date: "05-10-2026",
