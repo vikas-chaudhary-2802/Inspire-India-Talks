@@ -33,6 +33,50 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "firstcry-backed-swara-baby-gets-sebi-nod-1000-cr-ipo",
+    title: "FirstCry-Backed Swara Baby Products Gets SEBI Nod for Rs 1,000 Cr IPO",
+    date: "07-10-2026",
+    category: "IPO / Manufacturing",
+    image: "/images/business-insights/swara-baby-ipo.jpg",
+    excerpt: "Swara Baby Products, India’s largest hygiene contract manufacturer backed by FirstCry, has received SEBI approval for a massive Rs 1,000 crore IPO.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Swara Baby Products, a leading contract manufacturer of disposable hygiene products, has officially received approval from the Securities and Exchange Board of India (SEBI) for its highly anticipated Rs 1,000 crore initial public offering (IPO).
+
+The massive IPO comprises a fresh issue of Rs 500 crore and an Offer for Sale (OFS) of Rs 500 crore. As part of the OFS, FirstCry's parent company, Brainbees Solutions (which acts as a corporate promoter), will offload shares worth Rs 300 crore, while Anadya Bon Merchari LLP will sell shares worth Rs 200 crore.
+
+Founded in 2018, Swara Baby manufactures baby diapers, adult diapers, sanitary napkins, and panty liners. FirstCry is naturally one of its major clients, alongside marquee names like Piramal Pharma and Himalaya Wellness. The company also sells products under its own proprietary brands, including 'Cuddles' (baby diapers) and 'Shield' (adult diapers).
+
+According to its Draft Red Herring Prospectus (DRHP), Swara Baby is a dominant force in the industry. It was India's largest hygiene contract manufacturer by value in FY25, commanding a 37% share of the baby diaper contract manufacturing market and an estimated 36% of the adult diaper segment.
+
+Financially, the company has shown incredibly robust performance. Swara Baby's operating revenue grew 23% to Rs 1,163.9 crore in FY26 (up from Rs 942.97 crore in FY25), while its profit increased by 18% to Rs 95.58 crore. 
+
+The company plans to utilize roughly Rs 198.2 crore from the fresh proceeds to aggressively set up a new manufacturing facility in Madhya Pradesh. An additional Rs 100 crore will be used for debt repayment, and Rs 27.5 crore will be invested directly into its subsidiaries (Solis Hygiene, Swara Hygiene, and KAEHPL). The remaining funds are earmarked for future acquisitions and general corporate purposes.`,
+  },
+  {
+    id: "chiratae-leads-10-mn-round-photonic-quantum-startup-quanfluence",
+    title: "Chiratae Ventures Leads $10 Mn Round in Photonic Quantum Startup Quanfluence",
+    date: "07-10-2026",
+    category: "DeepTech / Quantum Computing",
+    image: "/images/business-insights/quanfluence-funding.png",
+    excerpt: "Bengaluru-based photonic quantum technology startup Quanfluence has raised $10 million in a funding round led by Chiratae Ventures to build a four-qubit quantum computer.",
+    readTime: "2 min read",
+    featured: false,
+    content: `In a major boost for India's deep-tech ecosystem, Bengaluru-based photonic quantum technology startup Quanfluence has successfully raised $10 million in a fresh funding round. The round was led by Chiratae Ventures, with strong participation from Rainmatter by Zerodha and existing investor Pi Ventures.
+
+The startup had previously raised $2 million in a seed round led by Pi Ventures in December 2024. 
+
+Founded in 2021 by Sujoy Chakravarty, Ravi Mehta, Biman Chattopadhyay, Anil Prabhakar, Aditi Vaidya, and Sandeep Goyal, Quanfluence is building photonic quantum computing technology specifically designed to tackle high-dimensional optimization problems. 
+
+Unlike conventional quantum computing systems that require incredibly complex, bulky, and expensive sub-zero cooling infrastructure, Quanfluence’s unique technology combines optics and hardware to operate at room temperature. Its optical Ising machine utilizes light waves and FPGAs for optimization processing, which the startup claims can be up to 100 times faster than classical computing for specific workloads.
+
+According to a press release, the fresh funds will be immediately deployed to build and officially launch a four-qubit quantum computer in the near term. The company’s long-term goal is to target a larger prototype featuring around 100 qubits by 2029, and eventually develop a fault-tolerant, general-purpose quantum computer over the next five to six years.
+
+Currently, Quanfluence is actively testing an advanced version of its system capable of processing 10-25 million permutations for complex optimization problems in areas like financial risk management, logistics, and delivery route planning.
+
+The quantum computing sector in India has been gaining massive traction recently, heavily supported by the government's Rs 6,000+ crore National Quantum Mission. Other startups in the space, such as QpiAI and QuBeats, have also attracted significant institutional interest and funding.`,
+  },
+  {
     id: "mamaearth-parent-honasa-eyes-30-percent-nsv-growth-q2",
     title: "Mamaearth Parent Honasa Eyes Over 30% NSV Growth in Q2 FY27",
     date: "06-10-2026",
