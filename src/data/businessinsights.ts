@@ -33,6 +33,50 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "tpg-backed-newquest-offloads-115-cr-shadowfax-stake-bulk-deal",
+    title: "TPG-Backed NewQuest Offloads Rs 115 Cr Shadowfax Stake in Bulk Deal",
+    date: "08-10-2026",
+    category: "Logistics / Markets",
+    image: "/images/business-insights/shadowfax-newquest-stake-sale.jpg",
+    excerpt: "TPG-backed NewQuest Asia Fund IV has sold 40 lakh shares of logistics giant Shadowfax Technologies in a bulk deal worth Rs 114.8 crore, continuing its partial exit.",
+    readTime: "2 min read",
+    featured: false,
+    content: `TPG-backed NewQuest Asia Fund IV has sold another 40 lakh shares of newly-listed logistics giant Shadowfax Technologies in a massive bulk deal worth Rs 114.8 crore. 
+
+According to exchange data, NewQuest Asia Fund IV (Singapore) offloaded the shares at Rs 287 per share, representing approximately 0.68% of Shadowfax's paid-up equity capital. 
+
+This transaction actually marks the fourth consecutive time the private equity investor has offloaded Shadowfax shares in just the past three months. Previously, NewQuest sold 1.25 crore shares worth around Rs 300.6 crore in August, followed by another massive sale of 80 lakh shares for nearly Rs 200 crore in early September, and a subsequent sale of 40 lakh shares for Rs 113.6 crore on September 30. 
+
+With this latest transaction, NewQuest has now sold a total of 2.85 crore Shadowfax shares since July, effectively reducing its overall stake by around 4.86 percentage points. As of June 2026, NewQuest held an 11.53% stake in the logistics company.
+
+Founded in 2015 by Abhishek Bansal and Vaibhav Khandelwal, Shadowfax provides highly optimized, tech-enabled logistics services to major e-commerce, quick-commerce, and D2C companies. The company went public earlier this year at an IPO price of Rs 124 per share and has delivered incredible returns since.
+
+The logistics firm has been reporting exceptionally strong financial performance to back up its market valuation. Shadowfax's consolidated net profit surged more than eightfold to Rs 65.4 crore in Q1 FY27 (up from just Rs 8 crore in the year-ago period), while its operating revenue rose an impressive 65% year-on-year to Rs 1,358 crore. 
+
+Shadowfax currently operates across more than 16,000 pincodes and is aggressively expanding its quick-commerce network to dominate the last-mile delivery market. As of this report, the company boasts a total market capitalization of Rs 16,895 crore.`,
+  },
+  {
+    id: "green-sm-parent-infuses-153-cr-indian-subsidiary-ev-ride-hailing",
+    title: "Green SM Parent Infuses Rs 153 Cr in Indian Subsidiary to Scale EV Ride-Hailing",
+    date: "08-10-2026",
+    category: "EV / Mobility",
+    image: "/images/business-insights/green-sm-india-infusion.jpg",
+    excerpt: "Vietnam-based electric mobility startup Green SM has infused Rs 152.65 crore into its Indian subsidiary to build its all-electric fleet and expand its ride-hailing network.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Vietnam-based electric mobility startup Green SM has infused Rs 152.65 crore into its Indian subsidiary through a massive rights issue, signaling aggressive expansion plans for the country's EV ride-hailing market. 
+
+This latest capital infusion closely follows an earlier Rs 85 crore investment made into the Indian subsidiary in June 2026, taking the parent company's total investment in India to nearly Rs 238 crore in just a few months.
+
+According to regulatory filings, the board of GREEN SM INDIA PRIVATE LIMITED formally approved the allotment of 15.27 crore equity shares at Rs 10 per share to its parent entity (GSM Green and Smart Mobility Joint Stock Company). The fresh capital will be deployed entirely to expand existing operations, rapidly build out its EV fleet, and scale its ride-hailing network across major Indian metros.
+
+Green SM is the dedicated electric mobility arm of the massive Vietnamese conglomerate Vingroup. It entered the Indian market in June 2026 with the launch of 'Green SM Limo', a premium, fully electric taxi service initially focused on the Delhi-NCR market. 
+
+Strategically, Green SM is moving fast to capture the massive void left by BluSmart, which shut down its ride-hailing operations in 2025. Mirroring BluSmart's highly praised operational structure, Green SM utilizes an all-electric fleet with a strict company-managed model. This strongly contrasts with the traditional, often fragmented aggregator models utilized by established incumbents like Ola, Uber, and Rapido. 
+
+Founded just over a year ago in April 2023, Green SM has already expanded from Vietnam into Laos, Indonesia, the Philippines, Kazakhstan, and now India.`,
+  },
+  {
     id: "firstcry-backed-swara-baby-gets-sebi-nod-1000-cr-ipo",
     title: "FirstCry-Backed Swara Baby Products Gets SEBI Nod for Rs 1,000 Cr IPO",
     date: "07-10-2026",
