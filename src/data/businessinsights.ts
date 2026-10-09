@@ -33,6 +33,48 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "gst-council-removes-arrest-powers-raises-prosecution-threshold",
+    title: "GST Council Removes Arrest Powers, Raises Prosecution Threshold to Rs 5 Cr",
+    date: "09-10-2026",
+    category: "Policy / Economy",
+    image: "/images/business-insights/gst-council-policy-reforms.jpg",
+    excerpt: "The GST Council has proposed sweeping reforms to simplify compliance, including removing arrest provisions under GST and raising the prosecution threshold.",
+    readTime: "2 min read",
+    featured: false,
+    content: `In a massive win for businesses across the country, the GST Council has recommended a series of sweeping reforms aimed at simplifying tax compliance and reducing the heavy-handed involvement of tax officials.
+
+The critical decisions were finalized at the 57th GST Council meeting held on October 8, 2026. One of the most significant changes is the Council's recommendation to completely remove the arrest provisions under the GST framework. Furthermore, the Council has moved to raise the prosecution threshold from Rs 1 crore up to Rs 5 crore, and proposed drastically reducing the general penalty from Rs 25,000 to just Rs 10,000.
+
+The government is also taking aim at the infamously slow GST refund process. The strict timeline for issuing an acknowledgment or deficiency memo will be slashed from 15 days down to 10 days. Notably, for eligible refund claims related to zero-rated supplies and inverted duty structures, 90% of the claimed amount will now be sanctioned provisionally through an automated, risk-based system—completely eliminating the need for officer intervention.
+
+Small and medium e-commerce sellers also received a massive boost. Sellers using e-commerce platforms will now have an easier route to register in other states, as they will be allowed to use the e-commerce operator's warehouse as their "principal place of business" (subject to certain conditions).
+
+Finally, the Council tightened the rules around goods moving between states; physical interception will now be strictly restricted to cases based on specific intelligence and must be explicitly authorized by a senior tax officer. 
+
+While these process reforms are expected to go into effect from April 1, 2027, the Council notably did not announce any GST rate changes during this session.`,
+  },
+  {
+    id: "exclusive-gramiyaa-raises-capital-series-a-110-cr-valuation",
+    title: "Exclusive: Gramiyaa Raises Fresh Capital in Series A Round at Rs 110 Cr Valuation",
+    date: "09-10-2026",
+    category: "D2C / Startups",
+    image: "/images/business-insights/gramiyaa-series-a.jpg",
+    excerpt: "Bengaluru-based cold-pressed oil brand Gramiyaa has successfully raised Rs 18.65 crore in a Series A funding round, pushing its valuation to Rs 110 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based D2C cold-pressed oil brand Gramiyaa has officially raised Rs 18.65 crore in a Series A funding round, signaling continued investor interest in the health-focused consumer goods sector.
+
+The round was led by new investor Optiscape Network Holdings, alongside participation from existing backers Homegrown Ventures and Campus Fund. This marks a solid progression for the startup, which previously raised Rs 7.2 crore in a pre-Series A round in March 2025.
+
+According to regulatory filings, Gramiyaa’s board allotted 32,968 Series A CCPS at Rs 5,657 per share. Optiscape Network Holdings led the charge with a Rs 9 crore investment, while Homegrown Ventures and Campus Fund contributed Rs 4.5 crore and Rs 4 crore, respectively. Additional investors including Sarya Global Holdings and Rasagna Pulapaka also participated. 
+
+Following this fresh capital injection, Gramiyaa’s valuation surged 49% to hit Rs 110 crore, up from Rs 74 crore in its pre-Series A round.
+
+Founded in 2016 by Sibi Manivannan, Gramiyaa specializes in producing traditional, in-house cold-pressed oils. Their product portfolio includes groundnut, coconut, sesame, mustard, virgin coconut, and olive oils. The startup employs an omnichannel approach, selling directly through its website while also maintaining a strong presence on quick commerce and e-commerce platforms like Amazon, Blinkit, Zepto, Swiggy Instamart, and BigBasket.
+
+Following this allotment, Homegrown Ventures remains the largest external shareholder with a 17.34% stake. While the company is yet to file its FY26 financials, Gramiyaa reported robust top-line growth in FY25, with revenue jumping 72.7% YoY to Rs 19 crore, though losses also widened.`,
+  },
+  {
     id: "tpg-backed-newquest-offloads-115-cr-shadowfax-stake-bulk-deal",
     title: "TPG-Backed NewQuest Offloads Rs 115 Cr Shadowfax Stake in Bulk Deal",
     date: "08-10-2026",
