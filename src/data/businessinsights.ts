@@ -33,6 +33,46 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "zetwerk-sets-ipo-price-band-eyes-5012-cr",
+    title: "Zetwerk Sets IPO Price Band at Rs 143-151; Eyes Rs 5,012 Cr from Issue",
+    date: "12-10-2026",
+    category: "IPO / Manufacturing",
+    image: "/images/business-insights/zetwerk-ipo-price-band.png",
+    excerpt: "Manufacturing unicorn Zetwerk has fixed its IPO price band at Rs 143-151 per share, seeking to raise around Rs 5,012 crore at a valuation of Rs 25,583 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Manufacturing platform unicorn Zetwerk has officially fixed the price band for its massive initial public offering (IPO) at Rs 143–151 per share. 
+
+The Bengaluru-based company aims to raise approximately Rs 5,012 crore through the public issue, valuing the business at around Rs 25,583 crore at the upper end of the price band. The IPO will officially open for public subscription on October 15 and close on October 19, with the anchor investor book opening on October 14. Listing on the stock exchanges is scheduled for October 23.
+
+According to its Red Herring Prospectus (RHP), the public issue consists of a fresh issue of shares worth Rs 2,830 crore (increased from Rs 2,600 crore in its previous draft) and an Offer for Sale (OFS) of 14.45 crore shares by founders and marquee early investors. 
+
+Promoters Amrit Pratik Acharya and Srinath Ramakkrushnan will each sell 1.42 crore shares, while existing investors Lightspeed Venture Partners, Peak XV Partners, and Accel will also partially offload their holdings. 
+
+Zetwerk plans to deploy Rs 1,300 crore from the fresh issue to repay or prepay existing borrowings at the company level, while an additional Rs 860 crore will go towards debt repayment across nine of its subsidiaries. The remainder will fund future acquisitions and strategic expansions.
+
+Founded in 2017, Zetwerk operates a technology-led contract manufacturing platform connecting businesses with global manufacturing suppliers across high-growth verticals like aerospace, defense, electronics, energy, and industrial automation. On the financial front, Zetwerk reported revenue from continuing operations of Rs 15,913 crore in FY26, up from Rs 11,332 crore in FY25, while narrowing its losses significantly in Q1 FY27.`,
+  },
+  {
+    id: "hero-electronix-tessolve-semiconductor-raises-75-mn",
+    title: "Hero Electronix’s Tessolve Semiconductor Raises $75 Mn Led by Vector Line Capital",
+    date: "12-10-2026",
+    category: "Semiconductor / DeepTech",
+    image: "/images/business-insights/tessolve-semiconductor-funding.jpg",
+    excerpt: "Semiconductor engineering leader Tessolve, a Hero Electronix venture, has secured $75 million in funding led by US-based Vector Line Capital to fuel global acquisitions.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Tessolve Semiconductor, a prominent Hero Electronix venture, has raised $75 million in a fresh funding round led by US-based strategic investment firm Vector Line Capital.
+
+The proceeds will be deployed to aggressively drive future growth, finance strategic global acquisitions to expand capabilities, widen its service portfolio, and strengthen its international presence.
+
+Founded by Srini Chinamilli, Tessolve is a turnkey semiconductor engineering company providing full-stack solutions spanning chip architecture, silicon design, validation, testing, and embedded systems. With an engineering workforce of over 3,500 specialists across 10 countries and nine state-of-the-art testing laboratories globally, Tessolve is a trusted partner to top foundries, IP providers, and EDA giants.
+
+The company caters to hyperscalers, global semiconductor firms, chip startups, and system manufacturers in high-growth segments like Artificial Intelligence (AI), high-performance computing (HPC), automotive electronics, and data centers. Impressively, Tessolve works with 18 of the world's top 20 semiconductor companies. 
+
+The company also disclosed that it is currently in advanced discussions to close multiple cross-border acquisitions over the next few quarters to solidify its market position.`,
+  },
+  {
     id: "gst-council-removes-arrest-powers-raises-prosecution-threshold",
     title: "GST Council Removes Arrest Powers, Raises Prosecution Threshold to Rs 5 Cr",
     date: "09-10-2026",
