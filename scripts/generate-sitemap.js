@@ -32,19 +32,41 @@ if (!existsSync(distDir)) {
 
 /**
  * Splits the top-level `{ ... }` object blocks out of an array literal,
- * ignoring braces that appear inside `//` line comments (so commented-out
- * template blocks are skipped). Same approach as generate-og-data.js.
+ * ignoring quoted text and comments. Nested source objects stay in their
+ * containing story, and URL slashes are not mistaken for line comments.
  */
 function extractObjectBlocks(arrayContent) {
   const blocks = [];
   let depth = 0;
   let blockStart = -1;
+  let quote = null;
+  let escaped = false;
   for (let i = 0; i < arrayContent.length; i++) {
     const char = arrayContent[i];
+
+    if (quote) {
+      if (escaped) escaped = false;
+      else if (char === '\\') escaped = true;
+      else if (char === quote) quote = null;
+      continue;
+    }
+
+    if (char === '"' || char === "'" || char === '`') {
+      quote = char;
+      continue;
+    }
+
     if (char === '/' && arrayContent[i + 1] === '/') {
       while (i < arrayContent.length && arrayContent[i] !== '\n') i++;
       continue;
     }
+    if (char === '/' && arrayContent[i + 1] === '*') {
+      i += 2;
+      while (i < arrayContent.length && !(arrayContent[i] === '*' && arrayContent[i + 1] === '/')) i++;
+      i++;
+      continue;
+    }
+
     if (char === '{') {
       if (depth === 0) blockStart = i;
       depth++;
@@ -73,9 +95,20 @@ function getArrayContent(file, exportName) {
 }
 
 function extractField(block, fieldName) {
-  const re = new RegExp(`${fieldName}\\s*:\\s*["'\`]([\\s\\S]*?)["'\`]\\s*[,}]`);
-  const m = block.match(re);
-  return m ? m[1].trim() : '';
+  const re = new RegExp(`(?:^|[{,])\\s*(?:"${fieldName}"|'${fieldName}'|${fieldName})\\s*:\\s*(["'\`])((?:\\\\[\\s\\S]|(?!\\1)[\\s\\S])*?)\\1(?=\\s*[,}])`);
+  const match = block.match(re);
+  if (!match) return '';
+
+  // Queue records use JSON strings; existing TypeScript can also use JS escapes.
+  if (match[1] === '"') {
+    try { return JSON.parse(`"${match[2]}"`).trim(); } catch { /* Decode JS-only escapes below. */ }
+  }
+  const escapes = { n: '\n', r: '\r', t: '\t', b: '\b', f: '\f', v: '\v', 0: '\0' };
+  return match[2].replace(/\\(?:u([0-9a-fA-F]{4})|x([0-9a-fA-F]{2})|(\r\n|[\s\S]))/g, (_, unicode, hex, char) => {
+    if (unicode || hex) return String.fromCharCode(parseInt(unicode || hex, 16));
+    if (char === '\n' || char === '\r' || char === '\r\n') return '';
+    return escapes[char] ?? char;
+  }).trim();
 }
 
 // Convert "DD-MM-YYYY" -> "YYYY-MM-DD"; return '' if not parseable.

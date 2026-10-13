@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "reviewedOn": "2026-10-13",
+  "publication": "Inspire India Talks",
+  "language": "English",
+  "timezone": "Asia/Kolkata",
+  "preparationTime": "09:00",
+  "targetWebsitePublicationTime": "10:00",
+  "publicationMode": "Automatic publication through the existing GitHub main branch and Vercel integration; prepare at 09:00 and begin deployment at 10:00 IST",
+  "sources": [
+    {
+      "id": "yourstory",
+      "name": "YourStory Success Stories",
+      "url": "https://yourstory.com/category/success-stories",
+      "roles": ["founder_discovery"],
+      "bestFor": "Founder origins, women founders, regional ventures and deeptech",
+      "accessObserved": "Sample articles readable without a paid login",
+      "notes": "Check byline and original reporting. Some articles have an AI byline. Corroborate company-reported metrics."
+    },
+    {
+      "id": "30stades",
+      "name": "30 Stades",
+      "url": "https://30stades.com/enterprise",
+      "additionalUrls": ["https://30stades.com/"],
+      "roles": ["founder_discovery"],
+      "bestFor": "Rural businesses, agripreneurs, crafts and family enterprises",
+      "accessObserved": "Sample interviews readable without a paid login",
+      "notes": "Check the homepage as well as Enterprise. Attribute interviewee-reported sales, prices and production figures."
+    },
+    {
+      "id": "thebetterindia",
+      "name": "The Better India Startup",
+      "url": "https://thebetterindia.com/startup",
+      "roles": ["founder_discovery"],
+      "bestFor": "Practical inventions, regional founders and social enterprises",
+      "accessObserved": "Sample articles readable; automated retrieval can fail intermittently",
+      "notes": "Follow credits to the original reporting. A new publication date does not make older metrics current."
+    },
+    {
+      "id": "startuppedia",
+      "name": "Startup Pedia Startup Stories",
+      "url": "https://startuppedia.in/startup-stories",
+      "roles": ["founder_discovery"],
+      "bestFor": "Young founders, women founders, small businesses and emerging SaaS",
+      "accessObserved": "Sample articles readable without a paid login",
+      "notes": "Prefer attributable founder interviews. Distinguish original reporting from rewritten older coverage."
+    },
+    {
+      "id": "blume",
+      "name": "Blume Commentary",
+      "url": "https://blume.vc/commentaries",
+      "roles": ["founder_discovery", "business_insight"],
+      "bestFor": "Founding decisions, pivots, enterprise sales, pricing and Indian market theses",
+      "accessObserved": "Public articles readable; linked full reports may have separate access requirements",
+      "notes": "Publishes periodically. Identify investor and portfolio-company perspectives; do not treat them as independent confirmation."
+    },
+    {
+      "id": "accel",
+      "name": "Accel News",
+      "url": "https://www.accel.com/news",
+      "roles": ["founder_discovery"],
+      "bestFor": "Early portfolio discovery, founder journeys and investor recollections",
+      "accessObserved": "Sample investor account readable without a paid login",
+      "notes": "Filter global coverage for relevant Indian founders and disclose the investor relationship."
+    },
+    {
+      "id": "entrackr",
+      "name": "Entrackr News",
+      "url": "https://entrackr.com/news",
+      "additionalUrls": ["https://entrackr.com/"],
+      "roles": ["business_insight"],
+      "bestFor": "Funding, IPOs, acquisitions, appointments and startup developments",
+      "accessObserved": "Sample article body readable; login prompts present",
+      "notes": "Use for discovery, then verify the underlying announcement or filing and explain a commercial mechanism."
+    },
+    {
+      "id": "fintrackr",
+      "name": "Entrackr Fintrackr",
+      "url": "https://entrackr.com/fintrackr/",
+      "roles": ["business_insight"],
+      "bestFor": "Revenue mix, expenses, profitability and capital efficiency",
+      "accessObserved": "Sample article body readable without a paid login",
+      "notes": "Check Entrackr's homepage too. Preserve fiscal periods and distinguish operating revenue, total income, profit and cash flow. Attribute filings indirectly if not personally inspected."
+    },
+    {
+      "id": "inc42",
+      "name": "Inc42",
+      "url": "https://inc42.com/features/",
+      "additionalUrls": ["https://inc42.com/buzz/", "https://inc42.com/tag/daily-brief/"],
+      "roles": ["business_insight", "founder_discovery"],
+      "bestFor": "Business-model comparisons, monetization, category competition and startup news",
+      "accessObserved": "Metered or subscription access; some article text accessible",
+      "notes": "Do not rely on inaccessible article bodies or bypass access restrictions. Identify BrandLabs or sponsored content."
+    },
+    {
+      "id": "economic-times",
+      "name": "Economic Times Startups",
+      "url": "https://economictimes.indiatimes.com/tech/startups",
+      "roles": ["business_insight"],
+      "bestFor": "Management interviews, ecosystem developments, markets and policy context",
+      "accessObserved": "Mixed access; some articles expose only a synopsis",
+      "notes": "Use accessible full articles and primary documents. A synopsis is not enough evidence for a detailed insight."
+    },
+    {
+      "id": "mint",
+      "name": "Mint Companies",
+      "url": "https://www.livemint.com/companies",
+      "roles": ["business_insight"],
+      "bestFor": "Distribution, retail economics, corporate strategy, manufacturing and results",
+      "accessObserved": "Mixed public and Premium access; sampled article readable",
+      "notes": "Trace stories that credit other publishers back to the original source."
+    },
+    {
+      "id": "peak-xv",
+      "name": "Peak XV Insights",
+      "url": "https://www.peakxv.com/insights",
+      "roles": ["business_insight"],
+      "bestFor": "Operating systems, organization design, product and scaling case studies",
+      "accessObserved": "Sample article readable without a paid login",
+      "notes": "Evergreen supplement rather than a daily breaking-news feed. Preserve the essay date and investor perspective."
+    },
+    {
+      "id": "startup-india",
+      "name": "Startup India Showcase",
+      "url": "https://www.startupindia.gov.in/content/sih/en/startup_india_showcase.html",
+      "roles": ["founder_discovery"],
+      "bestFor": "Additional startup candidates, sectors, company websites and founder identities",
+      "accessObserved": "Public introduction accessible; profile tools may require login",
+      "notes": "The portal says profile information is self-declared. Use for discovery, not independent financial verification."
+    },
+    {
+      "id": "nse",
+      "name": "NSE Corporate Announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements",
+      "roles": ["primary_verification"],
+      "bestFor": "Listed-company announcements, results, transactions and management changes",
+      "accessObserved": "Public index accessible; individual document retrieval may vary",
+      "notes": "Read the specific dated filing and preserve its units and reporting period."
+    },
+    {
+      "id": "sebi",
+      "name": "SEBI Public Issue Filings",
+      "url": "https://www.sebi.gov.in/filings/public-issues.html",
+      "roles": ["primary_verification"],
+      "bestFor": "IPO prospectuses, company history, financials and issue structure",
+      "accessObserved": "Public filing index accessible",
+      "notes": "Use the latest relevant document. Distinguish DRHP, RHP, approval and listing; separate fresh issue from offer for sale."
+    }
+  ],
+  "primaryVerificationPolicy": {
+    "funding": "Company and lead-investor announcements; distinguish proposed, allotted and closed rounds and equity from debt or secondary sales",
+    "companyFinancials": "Company annual reports, investor relations and accessible filed financial statements; retain fiscal periods and source attribution",
+    "policy": "The regulator's actual dated circular or order and its effective date",
+    "founderBackground": "Founder or company biography and attributable interviews; unknown birth details or quotations must remain omitted",
+    "independence": "Two outlets repeating the same announcement are one evidence chain"
+  },
+  "dailySelectionPolicy": {
+    "founder": "Choose a founder not already profiled. Use a specific origin or decision angle and re-check current company status and any metrics on the day of drafting.",
+    "businessInsight": "Prefer developments from the previous 24-48 hours; extend across weekends or use a clearly dated evergreen case when needed. Explain the business mechanism and one practical implication.",
+    "freshness": "Record both article publication date and underlying event or financial-period date. Do not present old metrics as current.",
+    "novelty": "Check founder aliases, company, event and angle across all four editorial data files, saved social drafts and prior daily chat outputs.",
+    "writing": "Original English prose; no copying article bodies or inventing quotations, private interviews or exclusive reporting.",
+    "sources": "Cite the specific supporting articles and primary documents, not just these discovery index pages.",
+    "access": "If a source is unavailable or paywalled, switch to an accessible source and report any unresolved limitation."
+  },
+  "candidateQueue": [
+    {
+      "company": "Procol",
+      "founders": ["Gaurav Baheti", "Sumit Mendiratta"],
+      "angle": "Customer discovery and the move from commodity auctions to enterprise procurement software",
+      "discoveryUrl": "https://blume.vc/commentaries/how-procol-took-procurement-from-whatsapp-to-ai-agents",
+      "discoveryDate": "2026-10-07",
+      "archiveMatchOnReviewDate": false,
+      "status": "Candidate; verify facts and current status before drafting"
+    },
+    {
+      "company": "QwikPrint",
+      "founders": ["Pranav Senthil", "Subeshwar P"],
+      "angle": "Turning printing queues into a self-service product",
+      "discoveryUrl": "https://thebetterindia.com/startup/self-service-printing-kiosks-qwikprint-startup-chennai-india-12659397",
+      "discoveryDate": "2026-10-11",
+      "companyUrl": "https://www.qwikprint.in/about-us",
+      "archiveMatchOnReviewDate": false,
+      "status": "Candidate; underlying reporting is from May 2026, so re-check metrics"
+    },
+    {
+      "company": "Praeco",
+      "founders": ["Debasish Pramanik", "Shubham Waghmare", "Himani Chaudhari"],
+      "angle": "Building a product around time lost searching scattered regulatory information",
+      "discoveryUrl": "https://startuppedia.in/startup-stories/praeco-is-making-indias-scattered-regulatory-information-easier-to-find-and-understand-12583507",
+      "discoveryDate": "2026-10-07",
+      "archiveMatchOnReviewDate": false,
+      "status": "Candidate; verify facts and current status before drafting"
+    }
+  ]
+}

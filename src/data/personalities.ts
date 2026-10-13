@@ -1,3 +1,5 @@
+import type { ContentSource } from "./editorialTypes";
+
 export interface Personality {
   id: string;
   name: string;
@@ -14,6 +16,7 @@ export interface Personality {
   authorName?: string;
   authorLinkedin?: string;
   addedAt?: string;
+  sources?: ContentSource[];
 }
 
 export interface Category {

@@ -8,6 +8,7 @@ import { businessinsights } from "@/data/businessinsights";
 import { events } from "@/data/events";
 import { ArrowLeft, ArrowRight, Calendar, Clock, Facebook, Linkedin, Instagram } from "lucide-react";
 import NewsletterSheet from "@/components/NewsletterSheet";
+import ArticleSources from "@/components/ArticleSources";
 
 const PersonalityDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -44,7 +45,12 @@ const PersonalityDetail = () => {
 
   // Reading time from the story length.
   const wordCount = (person.story ?? "").split(/\s+/).filter(Boolean).length;
-  const readMins = Math.max(3, Math.round(wordCount / 200));
+  const readMins = Math.max(1, Math.ceil(wordCount / 200));
+  const facts = [
+    { label: "Born", value: person.born },
+    { label: "Profession", value: person.profession },
+    { label: "Known For", value: person.knownFor },
+  ].filter(({ value }) => value?.trim());
 
   // Published date, shown DD-MM-YYYY to match the rest of the paper.
   const dateStr = person.addedAt
@@ -180,18 +186,16 @@ const PersonalityDetail = () => {
             </figure>
 
             {/* Fact box — Born / Profession / Known For */}
-            <div className="mt-8 border-t border-b border-border grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-border">
-              {[
-                { label: "Born", value: person.born },
-                { label: "Profession", value: person.profession },
-                { label: "Known For", value: person.knownFor },
-              ].map(({ label, value }) => (
-                <div key={label} className="py-5 sm:px-6 first:sm:pl-0">
-                  <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-primary mb-1.5">{label}</p>
-                  <p className="font-serif text-sm md:text-base text-foreground/90 leading-snug">{value}</p>
-                </div>
-              ))}
-            </div>
+            {facts.length > 0 && (
+              <div className={`mt-8 border-t border-b border-border grid grid-cols-1 ${facts.length === 3 ? "sm:grid-cols-3" : facts.length === 2 ? "sm:grid-cols-2" : ""} divide-y sm:divide-y-0 sm:divide-x divide-border`}>
+                {facts.map(({ label, value }) => (
+                  <div key={label} className="py-5 sm:px-6 first:sm:pl-0">
+                    <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-primary mb-1.5">{label}</p>
+                    <p className="font-serif text-sm md:text-base text-foreground/90 leading-snug">{value}</p>
+                  </div>
+                ))}
+              </div>
+            )}
 
             {/* Body */}
             <div className="mt-10">
@@ -233,6 +237,8 @@ const PersonalityDetail = () => {
                   </Fragment>
                 );
               })}
+
+              <ArticleSources sources={person.sources} />
 
               {person.authorName && (
                 <p className="mt-10 pt-6 border-t border-border text-sm text-muted-foreground italic">

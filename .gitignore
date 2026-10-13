@@ -39,3 +39,6 @@ vite.config.js.timestamp-*.mjs
 # Scratch / temp files
 temp_*.txt
 *.tmp
+
+# Unpublished daily editorial packages and deployment receipts
+.daily-editorial/

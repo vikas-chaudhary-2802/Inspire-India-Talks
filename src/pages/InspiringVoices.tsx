@@ -9,6 +9,7 @@ const FoundersStories = () => {
 
   const leadStory = stories[0];
   const gridStories = stories.slice(1);
+  const leadReadMins = Math.max(1, Math.ceil((leadStory?.story ?? "").split(/\s+/).filter(Boolean).length / 200));
 
   return (
     <Layout>
@@ -50,17 +51,17 @@ const FoundersStories = () => {
               <span className="text-primary text-[10px] font-bold uppercase tracking-widest mb-3">Feature</span>
               <Link to={`/personality/${leadStory.id}`} className="group">
                 <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.1] mb-6 group-hover:text-primary transition-colors">
-                  {leadStory.name} built India's most profitable broker by raising nothing
+                  {leadStory.name}
                 </h2>
                 <p className="text-xl text-foreground/80 font-serif leading-relaxed mb-6">
-                  In an era measured by funding rounds, {leadStory.name} made frugality the entire strategy.
+                  {leadStory.title}{leadStory.knownFor && `. ${leadStory.knownFor}`}
                 </p>
                 <div className="flex items-center gap-2 text-[11px] uppercase tracking-wider text-muted-foreground font-medium">
                   <span>By Editorial Desk</span>
                   <span>•</span>
                   <span>{leadStory.addedAt ? new Date(leadStory.addedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : 'Jul 29, 2026'}</span>
                   <span>•</span>
-                  <span>12 min read</span>
+                  <span>{leadReadMins} min read</span>
                 </div>
               </Link>
             </div>

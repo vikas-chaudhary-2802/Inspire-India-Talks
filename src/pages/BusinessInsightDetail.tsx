@@ -8,6 +8,7 @@ import { events } from "@/data/events";
 import { highlightKeywords } from "@/lib/highlight";
 import { ArrowLeft, ArrowRight, Calendar, Clock, Facebook, Linkedin, Instagram } from "lucide-react";
 import NewsletterSheet from "@/components/NewsletterSheet";
+import ArticleSources from "@/components/ArticleSources";
 
 const BusinessInsightDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -150,6 +151,8 @@ const BusinessInsightDetail = () => {
                   {highlightKeywords(para)}
                 </motion.p>
               ))}
+
+              <ArticleSources sources={article.sources} />
 
               <div className="mt-12 border-t border-border pt-8">
                 <p className="font-serif text-xl font-bold text-foreground">Enjoyed this article?</p>

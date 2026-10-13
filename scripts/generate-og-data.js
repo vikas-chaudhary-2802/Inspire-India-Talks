@@ -22,7 +22,6 @@ if (!existsSync(join(ROOT, 'dist'))) {
 const content = readFileSync(srcPath, 'utf8');
 
 // Extract each personality object block from the array
-const personalityBlocks = [];
 const arrayMatch = content.match(/export\s+const\s+personalities\s*:\s*Personality\[\]\s*=\s*\[([\s\S]*)\];/);
 
 if (!arrayMatch) {
@@ -32,37 +31,72 @@ if (!arrayMatch) {
 
 const arrayContent = arrayMatch[1];
 
-// Match each object block { ... }
-// We use a state-machine approach to handle nested brackets in achievements arrays
-let depth = 0;
-let blockStart = -1;
+/** Keep URLs, quoted braces and nested source objects inside their story block. */
+function extractObjectBlocks(arrayContent) {
+    const blocks = [];
+    let depth = 0;
+    let blockStart = -1;
+    let quote = null;
+    let escaped = false;
 
-for (let i = 0; i < arrayContent.length; i++) {
-    const char = arrayContent[i];
+    for (let i = 0; i < arrayContent.length; i++) {
+        const char = arrayContent[i];
 
-    // Skip line comments
-    if (char === '/' && arrayContent[i + 1] === '/') {
-        while (i < arrayContent.length && arrayContent[i] !== '\n') i++;
-        continue;
-    }
+        if (quote) {
+            if (escaped) escaped = false;
+            else if (char === '\\') escaped = true;
+            else if (char === quote) quote = null;
+            continue;
+        }
 
-    if (char === '{') {
-        if (depth === 0) blockStart = i;
-        depth++;
-    } else if (char === '}') {
-        depth--;
-        if (depth === 0 && blockStart !== -1) {
-            personalityBlocks.push(arrayContent.substring(blockStart, i + 1));
-            blockStart = -1;
+        if (char === '"' || char === "'" || char === '`') {
+            quote = char;
+            continue;
+        }
+
+        if (char === '/' && arrayContent[i + 1] === '/') {
+            while (i < arrayContent.length && arrayContent[i] !== '\n') i++;
+            continue;
+        }
+        if (char === '/' && arrayContent[i + 1] === '*') {
+            i += 2;
+            while (i < arrayContent.length && !(arrayContent[i] === '*' && arrayContent[i + 1] === '/')) i++;
+            i++;
+            continue;
+        }
+
+        if (char === '{') {
+            if (depth === 0) blockStart = i;
+            depth++;
+        } else if (char === '}') {
+            depth--;
+            if (depth === 0 && blockStart !== -1) {
+                blocks.push(arrayContent.substring(blockStart, i + 1));
+                blockStart = -1;
+            }
         }
     }
+
+    return blocks;
 }
 
+const personalityBlocks = extractObjectBlocks(arrayContent);
+
 function extractField(block, fieldName) {
-    // Match field: "value" or field: 'value' — handles multi-line by using [\s\S]
-    const regex = new RegExp(`${fieldName}\\s*:\\s*["'\`]([\\s\\S]*?)["'\`]\\s*[,}]`);
+    const regex = new RegExp(`(?:^|[{,])\\s*(?:"${fieldName}"|'${fieldName}'|${fieldName})\\s*:\\s*(["'\`])((?:\\\\[\\s\\S]|(?!\\1)[\\s\\S])*?)\\1(?=\\s*[,}])`);
     const match = block.match(regex);
-    return match ? match[1].trim() : '';
+    if (!match) return '';
+
+    // Queue records use JSON strings; existing TypeScript can also use JS escapes.
+    if (match[1] === '"') {
+        try { return JSON.parse(`"${match[2]}"`).trim(); } catch { /* Decode JS-only escapes below. */ }
+    }
+    const escapes = { n: '\n', r: '\r', t: '\t', b: '\b', f: '\f', v: '\v', 0: '\0' };
+    return match[2].replace(/\\(?:u([0-9a-fA-F]{4})|x([0-9a-fA-F]{2})|(\r\n|[\s\S]))/g, (_, unicode, hex, char) => {
+        if (unicode || hex) return String.fromCharCode(parseInt(unicode || hex, 16));
+        if (char === '\n' || char === '\r' || char === '\r\n') return '';
+        return escapes[char] ?? char;
+    }).trim();
 }
 
 const ogData = personalityBlocks.map(block => {

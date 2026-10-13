@@ -14,10 +14,11 @@
 //      and reference it as "/images/business-insights/your-file.jpg".
 //
 // Required: id, title, date, image, excerpt, content
-// Optional: category, featured, readTime
+// Optional: category, featured, readTime, sources
 // =====================================================================
 import { businesslegacy } from "./businesslegacy";
 import { businessstartups } from "./businessstartups";
+import type { ContentSource } from "@/data/editorialTypes";
 
 export interface BusinessInsight {
   id: string;
@@ -29,6 +30,7 @@ export interface BusinessInsight {
   category?: string;
   featured?: boolean;
   readTime?: string;
+  sources?: ContentSource[];
 }
 
 export const businessinsights: BusinessInsight[] = [

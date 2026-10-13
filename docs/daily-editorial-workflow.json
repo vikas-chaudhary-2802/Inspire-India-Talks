@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "language": "English",
+  "timezone": "Asia/Kolkata",
+  "prepareAt": "09:00",
+  "publishAt": "10:00",
+  "publicationTiming": "Deployment starts at 10:00 IST; public availability follows Vercel build completion",
+  "repository": "vikas-chaudhary-2802/Inspire-India-Talks",
+  "remote": "origin",
+  "productionBranch": "main",
+  "website": "https://www.inspireindiatalks.com",
+  "sourceRegistry": "docs/daily-editorial-sources.json",
+  "stagingDirectory": ".daily-editorial",
+  "packagePathPattern": ".daily-editorial/YYYY-MM-DD.json",
+  "receiptPathPattern": ".daily-editorial/YYYY-MM-DD.published.json",
+  "packageShape": {
+    "publicationDate": "YYYY-MM-DD in Asia/Kolkata",
+    "founder": {
+      "id": "unique-lowercase-kebab-slug",
+      "name": "Verified founder name",
+      "title": "Verified designation and company",
+      "category": "Entrepreneurs & Founders",
+      "categorySlug": "entrepreneurs",
+      "image": "/images/founder-stories/existing-local-image.jpg",
+      "born": "Only verified details, otherwise empty string",
+      "profession": "Verified professional description",
+      "knownFor": "Short factual standfirst",
+      "quote": "Only a verified attributable quotation, otherwise empty string",
+      "story": "350-500 words of original English prose, paragraphs separated by blank lines",
+      "achievements": ["Verified milestones"],
+      "addedAt": "YYYY-MM-DD matching publicationDate",
+      "sources": [
+        {
+          "title": "Specific supporting source title",
+          "url": "https://specific-source-page",
+          "publishedAt": "Underlying source publication date when known",
+          "accessedAt": "YYYY-MM-DD"
+        }
+      ]
+    },
+    "insight": {
+      "id": "unique-lowercase-kebab-slug",
+      "title": "Concrete business insight headline",
+      "date": "DD-MM-YYYY matching publicationDate",
+      "category": "Business category for Business Insights; do not use Business Legacy or a label starting with Startups",
+      "image": "/images/business-insights/existing-local-image.jpg",
+      "excerpt": "Short factual standfirst",
+      "content": "200-300 words of original English prose explaining a commercial mechanism and practical implication",
+      "readTime": "Reading time derived from word count",
+      "sources": [
+        {
+          "title": "Specific supporting source title",
+          "url": "https://specific-source-page",
+          "publishedAt": "Underlying source publication date when known",
+          "accessedAt": "YYYY-MM-DD"
+        }
+      ]
+    }
+  },
+  "preparation": [
+    "Read the source registry, editorial archive and prior daily output; select one unprofiled founder and one distinct timely business insight.",
+    "Verify facts against accessible specific sources; each article needs at least two distinct source links. Record reporting dates and financial periods. Unknown birth details and quotations remain empty.",
+    "Use existing local suitable assets or attributable official media. Do not create a fictional founder portrait. If no suitable photo is available, use the existing brand image /logo.png as a disclosed editorial placeholder.",
+    "Write the dated package atomically, with sources after core fields. Record source attribution and image provenance in a separate dated research note inside .daily-editorial.",
+    "Run the helper with --input <package> --check-only before marking the pair ready. Do not modify article arrays, commit or push during preparation."
+  ],
+  "publication": [
+    "Load the current IST date's validated package. If it is missing or incomplete, report the failure; never publish an old package as today's pair.",
+    "If a receipt exists, verify its public URLs and SHA; do not duplicate a pair already published.",
+    "Check that the checkout is on main and has no unrelated tracked changes or staged files. Leave video-edits and other unrelated untracked files untouched.",
+    "Fetch origin and require a clean fast-forward to origin/main. Never reset, stash, switch another user's branch, force-push or overwrite unrelated work automatically.",
+    "Apply the helper to the package. Validate the resulting two records, image files, direct citations, generated OG entries and sitemap URLs.",
+    "Run the full production build and the focused publishing/metadata regression tests. A failed check blocks publication.",
+    "Stage only the two editorial data files and the exact images associated with the pair. Inspect the staged diff. Commit the pair in one scoped commit and push main to origin/main.",
+    "Monitor Vercel status for the exact pushed SHA, then verify the two custom-domain article pages and their listing entries. Only then write the publication receipt and report success with both URLs.",
+    "If deployment fails after push, report the pushed SHA and actual status; do not publish a second pair or claim completion. A retry should resume verification of that SHA."
+  ],
+  "runtime": {
+    "node": "/Users/vikaschaudhary/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
+    "helper": "scripts/apply-daily-editorial.js",
+    "build": "npm run build using the configured Node runtime",
+    "tests": "npm run test:editorial using the configured Node runtime"
+  }
+}

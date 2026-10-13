@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
+    "test:editorial": "node --test scripts/apply-daily-editorial.test.js scripts/generate-business-insights-og-data.test.js scripts/generate-founder-metadata.test.js",
     "test:watch": "vitest"
   },
   "dependencies": {
