@@ -33,6 +33,46 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "qualcomm-exits-shadowfax-157-cr-stake-sale",
+    title: "Qualcomm Exits Shadowfax with Rs 157 Cr Stake Sale",
+    date: "13-10-2026",
+    category: "Logistics / Markets",
+    image: "/images/business-insights/qualcomm-shadowfax-exit.png",
+    excerpt: "Qualcomm Ventures has sold Rs 157.28 crore worth of shares in logistics giant Shadowfax Technologies via an open market transaction, marking a complete exit.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Qualcomm Ventures has officially sold Rs 157.28 crore worth of shares in logistics provider Shadowfax Technologies through an open market bulk transaction on the BSE. 
+
+According to exchange data, Qualcomm Asia Pacific Pte Ltd, an affiliate of the US-based chipmaker, offloaded 57.13 lakh shares—representing a 0.98% stake—at an average price of Rs 275.30 per share. 
+
+This follows an earlier stake sale in August, where Qualcomm sold 75 lakh shares (1.28% stake) for Rs 183.85 crore at Rs 245.13 per share. Across both transactions, Qualcomm has realized approximately Rs 341 crore from its investment in Shadowfax. As of the end of June 2026, Qualcomm held a 2.26% stake in the logistics firm.
+
+The exit comes amid a flurry of secondary sell-offs by early backers taking advantage of Shadowfax's strong post-listing performance. Recently, TPG-backed NewQuest Asia Fund IV also offloaded multiple tranches of shares, selling around 2.85 crore shares since July.
+
+Founded in 2015 by Abhishek Bansal and Vaibhav Khandelwal, Shadowfax provides tech-enabled logistics across 16,000 pincodes for leading e-commerce, quick-commerce, and D2C brands. The firm delivered stellar earnings in Q1 FY27, with consolidated net profit surging over eightfold to Rs 65.4 crore on an operating revenue of Rs 1,358 crore. Shadowfax is currently trading around Rs 296 per share with a market capitalization exceeding Rs 17,390 crore.`,
+  },
+  {
+    id: "mesa-school-of-business-raises-110-cr-equity-debt",
+    title: "Mesa School of Business Raises Rs 110 Cr in Equity and Debt",
+    date: "13-10-2026",
+    category: "EdTech / Higher Education",
+    image: "/images/business-insights/mesa-school-of-business-funding.jpg",
+    excerpt: "Startup-focused business school Mesa School of Business has raised Rs 110 crore in Series A equity and venture debt at a valuation of Rs 385 crore.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based startup-focused business school and edtech company Mesa School of Business has raised Rs 110 crore in a fresh funding round, valuing the institution at Rs 385 crore. 
+
+The fundraise comprises approximately Rs 85 crore in Series A equity funding co-led by Dharana Capital and existing investor Elevation Capital, alongside Rs 25 crore in venture debt from InnoVen Capital and Alteria Capital. Mesa is also backed by prominent startup founders, including Kunal Shah (CRED), Vidit Aatrey (Meesho), Abhiraj Bhal (Urban Company), and Vijay Shekhar Sharma (Paytm).
+
+The capital will be deployed to expand its AI-first curriculum, launch and scale new programs, and forge deeper hiring partnerships across the startup ecosystem.
+
+Co-founded in 2023 by Ankit Agarwal and Varun Limaye, Mesa offers residential programs designed to train students for leadership roles in an AI-driven economy. Every student builds and operates a live micro-business while using AI tools to design and ship technology products. 
+
+Mesa has expanded from an initial postgraduate cohort to over 550 students across three programs: a one-year PGP in Startup Leadership, a four-year undergraduate business degree, and Forge (a one-year program for fresh graduates). Over 100 founders have taught on campus, and students have executed over 200 real-world projects with tech companies. 
+
+Graduates from its first cohorts recorded an average CTC of Rs 26 lakh (with the top 25% averaging Rs 36.5 lakh) across startups like Zomato, Zepto, Urban Company, and Scapia. In addition, its in-house incubation residency, Mesa Startup Lab, currently houses over 50 student ventures that have raised over Rs 25 crore in funding.`,
+  },
+  {
     id: "zetwerk-sets-ipo-price-band-eyes-5012-cr",
     title: "Zetwerk Sets IPO Price Band at Rs 143-151; Eyes Rs 5,012 Cr from Issue",
     date: "12-10-2026",
