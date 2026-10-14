@@ -39,6 +39,43 @@ export const categories: Category[] = [
 ];
 
 export const personalities: Personality[] = [
+  {
+    "id": "gaurav-baheti-procol",
+    "name": "Gaurav Baheti",
+    "title": "Founder & CEO, Procol",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/logo.png",
+    "born": "",
+    "profession": "Entrepreneur and procurement software founder",
+    "knownFor": "Building Procol from commodity bidding into enterprise procurement software, with customer discovery guiding its changes",
+    "quote": "",
+    "story": "When Gaurav Baheti took on a procurement design assignment for Future Group, he encountered an everyday business problem: buyers negotiated with suppliers over calls and WhatsApp, while the basis for decisions often remained undocumented. The opportunity was to make that process easier to follow.\n\nIn 2018, he founded Procol with Sumit Mendiratta, a former Zomato colleague. They initially built a bidding platform for food commodities. Their research in Delhi's wholesale markets helped them understand how buyers compared suppliers and negotiated deals before translating those practices into software.\n\nGrowth brought a difficult choice. According to investor Blume's profile published on 7 October 2026, earning through trade finance would have taken Procol toward lending. The founders chose enterprise software instead. They closed the commodity business and reduced their team, while rebuilding the product and learning longer enterprise sales cycles.\n\nProcol's current company website identifies Baheti as founder and CEO. Its stated mission remains rooted in improving transactions between businesses and suppliers. That continuity gives the story a useful thread: the product has changed, but the underlying work still involves helping organisations coordinate purchasing. The company describes customer and supplier success as central to its approach, alongside listening to changing industry needs.\n\nToday, its autonomous sourcing product brings AI into specific tasks within that workflow. Procol says Clara can group similar purchase requests, prepare supplier questionnaires, suggest counteroffers using historical purchase data, and rank suppliers for allocation. The product page also describes editable outputs, human review and an audit trail. These are company descriptions of product capabilities, rather than an independent guarantee of results for every customer.\n\nThat is a meaningful kind of persistence: staying with the customer's problem while changing how it is solved over the years.\n\nFor founders, the practical lesson is to examine what customers repeatedly need help doing. Procol's journey offers a concrete case of moving from facilitating one transaction to supporting the process around it. The current product also suggests why enterprise adoption demands more than a demonstration: purchasing teams need ways to adjust a recommendation, review an award and understand the record behind a decision. Building those controls into the workflow can make a new technology easier to evaluate and use.",
+    "achievements": [
+      "Co-founded Procol with Sumit Mendiratta in 2018",
+      "Led the transition from commodity bidding to enterprise procurement software",
+      "Procol describes AI sourcing workflows with human review and audit trails"
+    ],
+    "addedAt": "2026-10-14",
+    "sources": [
+      {
+        "title": "Blume: How Procol Took Procurement From WhatsApp to AI Agents",
+        "url": "https://blume.vc/commentaries/how-procol-took-procurement-from-whatsapp-to-ai-agents",
+        "publishedAt": "2026-10-07",
+        "accessedAt": "2026-10-14"
+      },
+      {
+        "title": "Procol: Founder and company background",
+        "url": "https://www.procol.ai/about/",
+        "accessedAt": "2026-10-14"
+      },
+      {
+        "title": "Procol: Autonomous sourcing capabilities and human review",
+        "url": "https://www.procol.ai/autonomous-sourcing-software/",
+        "accessedAt": "2026-10-14"
+      }
+    ]
+  },
   // ===== ENTREPRENEURS & FOUNDERS =====
   {
     id: "vidit-aatrey",

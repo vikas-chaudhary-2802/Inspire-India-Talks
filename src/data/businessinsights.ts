@@ -35,6 +35,36 @@ export interface BusinessInsight {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "clueso-content-maintenance-business-insight-2026",
+    "title": "Clueso: The Business Case for Keeping Training Content Current",
+    "date": "14-10-2026",
+    "image": "/logo.png",
+    "excerpt": "Clueso's $10 million Series A highlights an operational opportunity: reducing the recurring cost of keeping customer education and employee training accurate as businesses change.",
+    "content": "Every software release creates another job: explaining the change. If a training video shows an outdated screen, a customer may need support instead of completing the task independently.\n\nClueso's $10 million Series A, announced on 13 October 2026 and led by Dharana Capital, highlights this gap. The company says its platform can capture software workflows, generate business videos and refresh content as products or processes change.\n\nThe commercial opportunity is reducing repeat work. Connecting reusable footage, editable narration and distribution can make a small change cheaper to communicate across onboarding, customer education and internal training. The buyer's useful metric is the total cost of keeping an explanation accurate.\n\nClueso says customers have reported productivity improvements exceeding fivefold and an 80% reduction in video production costs. The announcement provides company-reported customer outcomes; it does not establish independently audited benchmarks.\n\nOur editorial takeaway is to evaluate one frequently changing workflow first. Measure the staff hours needed to create, review, update and distribute its instructions before and after a pilot. Include software fees, integration work and human review. Faster production has limited value if incorrect steps require extra support or if updates never reach the places employees actually use.\n\nThis is also where implementation matters. Someone must own the source process, confirm each change and approve the finished explanation. Integrations need to fit existing access and publication controls.\n\nMake documentation maintenance part of the product release process. Track how quickly approved instructions reach users, then check whether related support requests decline.",
+    "category": "Enterprise AI / Operations",
+    "readTime": "2 min read",
+    "sources": [
+      {
+        "title": "Clueso company-issued Series A announcement",
+        "url": "https://www.globenewswire.com/news-release/2026/10/13/3379717/0/en/clueso-raises-10m-series-a-to-build-the-agentic-video-platform-for-businesses.html",
+        "publishedAt": "2026-10-13",
+        "accessedAt": "2026-10-14"
+      },
+      {
+        "title": "Entrackr: Clueso Series A reporting",
+        "url": "https://entrackr.com/news/ai-video-platform-clueso-raises-10-mn-in-series-a-round-led-by-dharana-capital-12672619",
+        "publishedAt": "2026-10-13",
+        "accessedAt": "2026-10-14"
+      },
+      {
+        "title": "Clueso: Product-video maintenance workflow",
+        "url": "https://www.clueso.io/blog/why-product-videos-take-so-long",
+        "publishedAt": "2026-10-12",
+        "accessedAt": "2026-10-14"
+      }
+    ]
+  },
+  {
     id: "qualcomm-exits-shadowfax-157-cr-stake-sale",
     title: "Qualcomm Exits Shadowfax with Rs 157 Cr Stake Sale",
     date: "13-10-2026",
