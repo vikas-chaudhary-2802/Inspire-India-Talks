@@ -40,11 +40,15 @@ function fixture(t) {
             image: '/images/founder.jpg', born: '', profession: 'Entrepreneur', knownFor: 'Building Example', quote: '',
             story: `${Array(375).fill('founder').join(' ')}\n\nHe said "build carefully". Literal backticks \` and \${process.exit(99)} stay text.`,
             achievements: ['Built a company'], authorName: 'Inspire India Talks', addedAt: date, sources,
+            imageAlt: 'Fresh Founder at the Example office', imageCaption: 'Fresh Founder at the Example office.',
+            imageCredit: 'Example company', imageSourceUrl: 'https://example.com/company/team',
         },
         insight: {
             id: 'fresh-insight', title: 'A practical business insight', date: date.split('-').reverse().join('-'), image: '/images/insight.jpg',
             excerpt: 'A short explanation of the business mechanism.', content: `${Array(220).fill('business').join(' ')}\n\nQuotes "and" braces { } remain data.`,
             category: 'Business / Strategy', featured: false, readTime: '2 min read', sources,
+            imageAlt: 'Example team demonstrating its product', imageCaption: 'The Example team demonstrates its product.',
+            imageCredit: 'Example company', imageSourceUrl: 'https://example.com/company/product',
         },
     };
     const snapshot = () => Object.fromEntries(Object.keys(originals).map((file) => [file, readFileSync(join(root, 'src', 'data', file), 'utf8')]));
@@ -92,6 +96,41 @@ test('a missing image rejects the pair before either file is changed', (t) => {
     const f = fixture(t);
     f.payload.insight.image = '/images/missing.jpg';
     expectRejected(f, /existing image/);
+});
+
+test('logo placeholders and unsupported image formats reject before either file is changed', (t) => {
+    for (const record of ['founder', 'insight']) {
+        const f = fixture(t);
+        writeFileSync(join(f.root, 'public', 'logo.png'), 'fixture logo');
+        f.payload[record].image = '/logo.png';
+        expectRejected(f, /researched photo.*placeholder/);
+        writeFileSync(join(f.root, 'public', 'images', 'illustration.svg'), '<svg/>');
+        f.payload[record].image = '/images/illustration.svg';
+        expectRejected(f, /raster image/);
+    }
+});
+
+test('both records require nonempty photo alt, caption, credit and source before writes', (t) => {
+    for (const record of ['founder', 'insight']) {
+        for (const field of ['imageAlt', 'imageCaption', 'imageCredit', 'imageSourceUrl']) {
+            const f = fixture(t);
+            delete f.payload[record][field];
+            expectRejected(f, new RegExp(`${record}\\.${field} must be a nonempty string`));
+        }
+        const f = fixture(t);
+        f.payload[record].imageCredit = '   ';
+        expectRejected(f, /imageCredit must be a nonempty string/);
+    }
+});
+
+test('photo source URLs must be valid HTTPS links without credentials before writes', (t) => {
+    for (const record of ['founder', 'insight']) {
+        const f = fixture(t);
+        for (const url of ['not a URL', 'http://example.com/photo', 'https://user:secret@example.com/photo']) {
+            f.payload[record].imageSourceUrl = url;
+            expectRejected(f, /imageSourceUrl must be a valid HTTPS URL/);
+        }
+    }
 });
 
 test('a partially existing pair and collisions in other feeds fail without changes', (t) => {
@@ -156,6 +195,13 @@ test('application safely serializes quoted content, retains next records, and is
     assert.equal(insight.content, f.payload.insight.content);
     assert.equal(Object.keys(founder).at(-1), 'sources');
     assert.equal(Object.keys(insight).at(-1), 'sources');
+    const photoFields = ['imageAlt', 'imageCaption', 'imageCredit', 'imageSourceUrl'];
+    assert.deepEqual(Object.keys(founder).slice(-5, -1), photoFields);
+    assert.deepEqual(Object.keys(insight).slice(-5, -1), photoFields);
+    for (const field of photoFields) {
+        assert.equal(founder[field], f.payload.founder[field]);
+        assert.equal(insight[field], f.payload.insight[field]);
+    }
     assert.equal(founder.extraCode, undefined);
     assert.equal(insight.extraCode, undefined);
     assert.equal(founder.sources[0].unknown, undefined);
@@ -167,6 +213,10 @@ test('application safely serializes quoted content, retains next records, and is
     assert.equal(JSON.parse(repeated.stdout).status, 'already applied');
     assert.deepEqual(f.snapshot(), after);
 
+    const caption = f.payload.insight.imageCaption;
+    f.payload.insight.imageCaption += ' Changed caption.';
+    expectRejected(f, /conflict with the supplied records/);
+    f.payload.insight.imageCaption = caption;
     f.payload.insight.content += ' Changed body.';
     expectRejected(f, /conflict with the supplied records/);
     f.payload.insight.sources[0].url = 'http://example.com/report';

@@ -171,7 +171,7 @@ const PersonalityDetail = () => {
               <div className="relative w-full bg-muted border border-border">
                 <img
                   src={person.image}
-                  alt={person.name}
+                  alt={person.imageAlt?.trim() || person.name}
                   className="w-full h-auto"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
@@ -181,7 +181,16 @@ const PersonalityDetail = () => {
                 />
               </div>
               <figcaption className="mt-2 text-xs text-muted-foreground border-l-2 border-primary pl-2">
-                {person.name} — {person.title}
+                {person.imageCaption?.trim() || `${person.name} — ${person.title}`}
+                {person.imageCredit?.trim() && (
+                  <span className="mt-1 block">
+                    Photo: {/^https?:\/\//i.test(person.imageSourceUrl ?? "") ? (
+                      <a href={person.imageSourceUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-primary">
+                        {person.imageCredit}
+                      </a>
+                    ) : person.imageCredit}
+                  </span>
+                )}
               </figcaption>
             </figure>
 
@@ -292,7 +301,7 @@ const PersonalityDetail = () => {
                       <div className="h-20 w-28 shrink-0 overflow-hidden bg-muted border border-border">
                         <img
                           src={r.image}
-                          alt={r.name}
+                          alt={r.imageAlt?.trim() || r.name}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           style={{ objectPosition: "center 25%" }}
                           onError={(e) => {

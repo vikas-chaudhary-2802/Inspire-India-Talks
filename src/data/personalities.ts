@@ -1,6 +1,6 @@
-import type { ContentSource } from "./editorialTypes";
+import type { ContentSource, EditorialImageMetadata } from "./editorialTypes";
 
-export interface Personality {
+export interface Personality extends EditorialImageMetadata {
   id: string;
   name: string;
   title: string;
@@ -45,7 +45,7 @@ export const personalities: Personality[] = [
     "title": "Founder & CEO, Procol",
     "category": "Entrepreneurs & Founders",
     "categorySlug": "entrepreneurs",
-    "image": "/logo.png",
+    "image": "/images/founder-stories/gaurav-baheti-procol.webp",
     "born": "",
     "profession": "Entrepreneur and procurement software founder",
     "knownFor": "Building Procol from commodity bidding into enterprise procurement software, with customer discovery guiding its changes",
@@ -57,6 +57,10 @@ export const personalities: Personality[] = [
       "Procol describes AI sourcing workflows with human review and audit trails"
     ],
     "addedAt": "2026-10-14",
+    "imageAlt": "Gaurav Baheti, founder and CEO of Procol",
+    "imageCaption": "Gaurav Baheti, founder and CEO of Procol.",
+    "imageCredit": "Procol",
+    "imageSourceUrl": "https://www.procol.ai/about/",
     "sources": [
       {
         "title": "Blume: How Procol Took Procurement From WhatsApp to AI Agents",

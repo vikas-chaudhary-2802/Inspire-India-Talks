@@ -126,7 +126,7 @@ const BusinessInsightDetail = () => {
               <div className="relative w-full bg-muted border border-border">
                 <img
                   src={article.image}
-                  alt={article.title}
+                  alt={article.imageAlt?.trim() || article.title}
                   className="w-full h-auto"
                   onError={(e) => {
                     (e.currentTarget as HTMLImageElement).style.display = "none";
@@ -134,7 +134,16 @@ const BusinessInsightDetail = () => {
                 />
               </div>
               <figcaption className="mt-2 text-xs text-muted-foreground border-l-2 border-primary pl-2">
-                {article.title}
+                {article.imageCaption?.trim() || article.title}
+                {article.imageCredit?.trim() && (
+                  <span className="mt-1 block">
+                    Photo: {/^https?:\/\//i.test(article.imageSourceUrl ?? "") ? (
+                      <a href={article.imageSourceUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-primary">
+                        {article.imageCredit}
+                      </a>
+                    ) : article.imageCredit}
+                  </span>
+                )}
               </figcaption>
             </figure>
 
@@ -190,7 +199,7 @@ const BusinessInsightDetail = () => {
                       <div className="h-20 w-28 shrink-0 overflow-hidden bg-muted border border-border">
                         <img
                           src={r.image}
-                          alt={r.title}
+                          alt={r.imageAlt?.trim() || r.title}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           onError={(e) => {
                             (e.currentTarget as HTMLImageElement).style.display = "none";

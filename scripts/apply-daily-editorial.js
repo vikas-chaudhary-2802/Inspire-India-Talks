@@ -170,11 +170,25 @@ function sourcesFor(value, label) {
 function requireImage(value, label) {
     requireString(value, label);
     if (!value.startsWith('/') || value.startsWith('//') || /[\\?#\0]/.test(value) || value.split('/').includes('..')) throw new Error(`${label} must be a local path under public/`);
+    if (value.toLowerCase() === '/logo.png') throw new Error(`${label} must use a researched photo instead of the /logo.png placeholder`);
+    if (!/\.(?:jpe?g|png|webp)$/i.test(value)) throw new Error(`${label} must use a JPG, JPEG, PNG or WebP raster image`);
     const publicRoot = realpathSync(resolve(ROOT, 'public'));
     const imagePath = resolve(publicRoot, `.${value}`);
     if (!existsSync(imagePath) || !statSync(imagePath).isFile()) throw new Error(`${label} does not name an existing image under public/: ${value}`);
     const imageRelative = relative(publicRoot, realpathSync(imagePath));
     if (imageRelative === '..' || imageRelative.startsWith(`..${sep}`) || imageRelative.startsWith(sep)) throw new Error(`${label} must remain inside public/`);
+}
+
+function photoMetadataFor(input, label) {
+    const accepted = {};
+    for (const key of ['imageAlt', 'imageCaption', 'imageCredit', 'imageSourceUrl']) {
+        accepted[key] = requireString(input[key], `${label}.${key}`);
+    }
+    let url;
+    try { url = new URL(accepted.imageSourceUrl); } catch { throw new Error(`${label}.imageSourceUrl must be a valid HTTPS URL`); }
+    if (url.protocol !== 'https:' || !url.hostname || url.username || url.password) throw new Error(`${label}.imageSourceUrl must be a valid HTTPS URL without credentials`);
+    // The publishing research must still verify the photo's subject and credit.
+    return accepted;
 }
 
 function requireWordCount(value, label, min, max) {
@@ -197,6 +211,7 @@ function acceptFounder(input, date) {
     accepted.addedAt = input.addedAt;
     requireImage(accepted.image, 'founder.image');
     requireWordCount(accepted.story, 'founder.story', 350, 500);
+    Object.assign(accepted, photoMetadataFor(input, 'founder'));
     accepted.sources = sourcesFor(input.sources, 'founder.sources');
     return accepted;
 }
@@ -215,6 +230,7 @@ function acceptInsight(input, date) {
     if (input.readTime !== undefined) accepted.readTime = requireString(input.readTime, 'insight.readTime');
     requireImage(accepted.image, 'insight.image');
     requireWordCount(accepted.content, 'insight.content', 200, 300);
+    Object.assign(accepted, photoMetadataFor(input, 'insight'));
     accepted.sources = sourcesFor(input.sources, 'insight.sources');
     return accepted;
 }

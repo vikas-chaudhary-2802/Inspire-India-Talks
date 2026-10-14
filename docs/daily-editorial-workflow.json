@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "language": "English",
   "timezone": "Asia/Kolkata",
   "prepareAt": "09:00",
@@ -27,8 +27,14 @@
       "knownFor": "Short factual standfirst",
       "quote": "Only a verified attributable quotation, otherwise empty string",
       "story": "350-500 words of original English prose, paragraphs separated by blank lines",
-      "achievements": ["Verified milestones"],
+      "achievements": [
+        "Verified milestones"
+      ],
       "addedAt": "YYYY-MM-DD matching publicationDate",
+      "imageAlt": "Accurate English description of the verified photo subject",
+      "imageCaption": "Verified identification of the photographed person, team or company scene",
+      "imageCredit": "Official company or named photographer credit",
+      "imageSourceUrl": "HTTPS page providing the photo and its identity or press provenance",
       "sources": [
         {
           "title": "Specific supporting source title",
@@ -47,6 +53,10 @@
       "excerpt": "Short factual standfirst",
       "content": "200-300 words of original English prose explaining a commercial mechanism and practical implication",
       "readTime": "Reading time derived from word count",
+      "imageAlt": "Accurate English description of the verified photo subject",
+      "imageCaption": "Verified identification of the photographed person, team or company scene",
+      "imageCredit": "Official company or named photographer credit",
+      "imageSourceUrl": "HTTPS page providing the photo and its identity or press provenance",
       "sources": [
         {
           "title": "Specific supporting source title",
@@ -60,8 +70,8 @@
   "preparation": [
     "Read the source registry, editorial archive and prior daily output; select one unprofiled founder and one distinct timely business insight.",
     "Verify facts against accessible specific sources; each article needs at least two distinct source links. Record reporting dates and financial periods. Unknown birth details and quotations remain empty.",
-    "Use existing local suitable assets or attributable official media. Do not create a fictional founder portrait. If no suitable photo is available, use the existing brand image /logo.png as a disclosed editorial placeholder.",
-    "Write the dated package atomically, with sources after core fields. Record source attribution and image provenance in a separate dated research note inside .daily-editorial.",
+    "Find and visually inspect a genuine photograph for each article from an official company/founder page, press media kit or appropriately licensed source. Verify the subject identity and provide local image, imageAlt, imageCaption, imageCredit and HTTPS imageSourceUrl. Logos and fabricated portraits do not satisfy this requirement. If a suitable sourced photo cannot be obtained, keep the package unready and report the specific image limitation.",
+    "Write the dated package atomically, with sources after core fields and image metadata. Record photo source page, original asset URL, identity, credit, access date, dimensions, checksum and usage context in the separate dated research note inside .daily-editorial.",
     "Run the helper with --input <package> --check-only before marking the pair ready. Do not modify article arrays, commit or push during preparation."
   ],
   "publication": [
@@ -69,7 +79,7 @@
     "If a receipt exists, verify its public URLs and SHA; do not duplicate a pair already published.",
     "Check that the checkout is on main and has no unrelated tracked changes or staged files. Leave video-edits and other unrelated untracked files untouched.",
     "Fetch origin and require a clean fast-forward to origin/main. Never reset, stash, switch another user's branch, force-push or overwrite unrelated work automatically.",
-    "Apply the helper to the package. Validate the resulting two records, image files, direct citations, generated OG entries and sitemap URLs.",
+    "Apply the helper to the package. Validate the resulting two records, genuine local photos and their image metadata/source credits, direct citations, generated OG entries and sitemap URLs.",
     "Run the full production build and the focused publishing/metadata regression tests. A failed check blocks publication.",
     "Stage only the two editorial data files and the exact images associated with the pair. Inspect the staged diff. Commit the pair in one scoped commit and push main to origin/main.",
     "Monitor Vercel status for the exact pushed SHA, then verify the two custom-domain article pages and their listing entries. Only then write the publication receipt and report success with both URLs.",

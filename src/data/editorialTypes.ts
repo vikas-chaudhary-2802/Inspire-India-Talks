@@ -4,3 +4,10 @@ export interface ContentSource {
   publishedAt?: string;
   accessedAt?: string;
 }
+
+export interface EditorialImageMetadata {
+  imageAlt?: string;
+  imageCaption?: string;
+  imageCredit?: string;
+  imageSourceUrl?: string;
+}
