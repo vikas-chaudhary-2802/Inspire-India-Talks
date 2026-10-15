@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "language": "English",
   "timezone": "Asia/Kolkata",
   "prepareAt": "09:00",
@@ -72,10 +72,11 @@
     "Verify facts against accessible specific sources; each article needs at least two distinct source links. Record reporting dates and financial periods. Unknown birth details and quotations remain empty.",
     "Find and visually inspect a genuine photograph for each article from an official company/founder page, press media kit or appropriately licensed source. Verify the subject identity and provide local image, imageAlt, imageCaption, imageCredit and HTTPS imageSourceUrl. Logos and fabricated portraits do not satisfy this requirement. If a suitable sourced photo cannot be obtained, keep the package unready and report the specific image limitation.",
     "Write the dated package atomically, with sources after core fields and image metadata. Record photo source page, original asset URL, identity, credit, access date, dimensions, checksum and usage context in the separate dated research note inside .daily-editorial.",
-    "Run the helper with --input <package> --check-only before marking the pair ready. Do not modify article arrays, commit or push during preparation."
+    "Run the helper with --input <package> --check-only before marking the pair ready. Do not modify article arrays, commit or push during preparation.",
+    "Prepare a separate dated LinkedIn draft for the same insight, with original English copy, commercial takeaway, actual event date, full website article URL, verified local photo/caption/credit and every named company/person’s verified LinkedIn identity. Do not post during preparation or change the website package contract. If the website is already published, prepare only the missing social draft for that exact insight."
   ],
   "publication": [
-    "Resolve today’s IST date explicitly and inspect current-date package, research, pending-push record and published receipt before choosing content. If a receipt exists, verify the published pair and remain quiet when healthy. Never publish an older date’s package as today’s pair.",
+    "Resolve today’s IST date explicitly and inspect current-date package, research, pending-push record, website receipt and LinkedIn receipts. A healthy website receipt completes the website phase; continue LinkedIn if its verified receipt is absent. Remain quiet only when both phases are healthy. Never publish an older date’s package as today’s pair.",
     "If a pending-push record exists, resume its exact SHA and pair; do not prepare or commit a replacement. If no pending or published record exists and today’s package/research is absent or invalid, perform the full preparation workflow in this publishing run: fresh research, novelty checks, verified English drafts, real local credited photos, atomic current-date package and research notes, and helper --check-only. Repair or choose accessible sources/photos within scope until the pair validates. Report a failure only if an actual unresolved verification, image, repository or deployment limitation remains; a missing 9 AM package alone is a recovery trigger, not a final failure.",
     "Check that the checkout is on main and has no unrelated tracked changes or staged files. Leave video-edits and other unrelated untracked files untouched.",
     "Fetch origin and require a clean fast-forward to origin/main. Never reset, stash, switch another user's branch, force-push or overwrite unrelated work automatically.",
@@ -83,7 +84,8 @@
     "Run the full production build and the focused publishing/metadata regression tests. A failed check blocks publication.",
     "Stage only the two editorial data files and the exact images associated with the pair. Inspect the staged diff. Commit the pair in one scoped commit and push main to origin/main.",
     "Monitor Vercel status for the exact pushed SHA, then verify the two custom-domain article pages and their listing entries. Only then write the publication receipt and report success with both URLs.",
-    "If deployment fails after push, report the pushed SHA and actual status; do not publish a second pair or claim completion. A retry should resume verification of that SHA."
+    "If deployment fails after push, report the pushed SHA and actual status; do not publish a second pair or claim completion. A retry should resume verification of that SHA.",
+    "After verified website publication, follow the LinkedIn phase below. A LinkedIn failure preserves the successful website receipt and retries only the missing social step; website completion alone does not complete this daily release."
   ],
   "runtime": {
     "node": "/Users/vikaschaudhary/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node",
@@ -103,10 +105,43 @@
     ],
     "missingPreparation": "Prepare in the publishing run using the same full editorial and photo contract.",
     "invalidPreparation": "Repair the unpublished package after checking no existing IDs, pending SHA or published receipt.",
-    "alreadyPublished": "Verify receipt and stay quiet when both URLs and photos are healthy; do not duplicate.",
+    "alreadyPublished": "Verify the website receipt and skip the completed website phase. Continue missing or unfinished LinkedIn work; remain quiet only when both receipts are verified. Never duplicate either release.",
     "pendingPush": "Resume exact recorded SHA, matching local package and IDs; never create another pair.",
     "preparationFailed": "Save a dated preparation failure note with the concrete reason, attempted sources/photo retrievals and unfinished step. Publishing may retry independently.",
     "notifications": "Notify on verified publication, newly actionable failure or required user action; stay quiet on healthy repeat checks.",
     "localExecution": "Local scheduled work requires this computer on, Codex running and the workspace available; catch-up checks reduce dependence on a single wake-up but are not a cloud scheduler."
+  },
+  "linkedin": {
+    "enabled": true,
+    "authorizedOn": "2026-10-15",
+    "pageName": "Inspire India Talks",
+    "pageUrl": "https://www.linkedin.com/company/inspire-india-talks/",
+    "pageId": "107532325",
+    "adminPostsUrl": "https://www.linkedin.com/company/107532325/admin/page-posts/published/",
+    "cadence": "Exactly one business insight per IST date, immediately after verified website publication; the existing 11 AM and noon catch-up runs retry unfinished phases.",
+    "language": "English",
+    "draftPathPattern": ".daily-editorial/YYYY-MM-DD.linkedin-draft.json",
+    "pendingPathPattern": ".daily-editorial/YYYY-MM-DD.linkedin-pending.json",
+    "receiptPathPattern": ".daily-editorial/YYYY-MM-DD.linkedin-published.json",
+    "failurePathPattern": ".daily-editorial/YYYY-MM-DD.linkedin-failed.json",
+    "scope": "Publish the same daily business insight as the official Page with a genuine photograph, article link and real mentions. No private messages, other accounts, paid promotion or unrelated posts.",
+    "content": "Write an original social summary with a commercial takeaway, actual underlying event date, full live article URL and the same verified photo, accurate caption and credit. Preserve attribution and financial definitions; do not invent facts or quotations.",
+    "mentions": "List every company and person named in the post; verify exact public professional identity, select real mention autocomplete entries, and verify genuine mention entities before posting and clickable links after publication. Plain @text and profile URLs do not replace mentions. If a required tag remains unavailable or ambiguous, save a specific LinkedIn-only failure and do not publish an incomplete tagged post.",
+    "identity": "Require actual Page-admin posting access and confirm composer author Inspire India Talks with Page ID 107532325. Never post as a personal profile or another Page.",
+    "idempotency": "Key drafts, pending and published receipts by IST date, insight ID and original website publication SHA. Inspect recent Page posts for the article URL and matching copy before posting. After an uncertain Post click, reconcile the Page feed before any retry; never click Post again blindly.",
+    "pending": "Atomically save Page identity, article URL, insight ID, website SHA, exact final copy hash, photo checksum, verified mention identities and attempt time before the Post click.",
+    "verification": "Open the actual post permalink; verify official author, complete English copy, genuine photo, full article link and each required clickable mention. Save screenshot proof and an atomic published receipt with actual verified timestamp, permalink, hashes and mention URLs. Only then report success.",
+    "recovery": "Website success remains intact if LinkedIn authentication, admin access, required mentions, photo upload or post verification fails. Record the actual failure and resume only LinkedIn at catch-up. A healthy website receipt alone must never suppress unfinished social work.",
+    "access": "Use an available purpose-built connected publishing tool, otherwise the authenticated browser through cua_repl. Current access was verified in the signed-in Vikas Chaudhary Chrome profile on 15 October 2026; recheck on every run. Local tasks require the computer, Codex and authenticated browser/Page access available.",
+    "testedBrowserProcedure": [
+      "Find the authenticated Chrome profile by its signed-in identity and official Page-admin access; browser IDs may change after a browser-control restart. Do not hardcode a browser ID.",
+      "Inspect the official Page’s published posts for duplicates before opening Start a post. Confirm composer author Inspire India Talks.",
+      "If the UI renders inside an iframe, inspect its actual DOM attributes and scope locators to the observed frame. On 15 October 2026 the Page-admin composer used iframe[src^=\"/preload/\"].",
+      "Verify contenteditable replacement actually occurred. In the tested composer, ordinary fill and cursor-before operations were unreliable. Clear the focused editor with native Select All and Backspace, then paste the complete verified draft. Read back the whole draft.",
+      "Use fresh accessibility state to select each exact company/person name in the existing copy, type @Name, inspect the suggestions and select the matching verified company or professional affiliation. Check genuine mention entity attributes and final paragraph breaks. On 15 October all six mention occurrences across five entities were selected and verified.",
+      "When a website link preview exists, remove that media preview while retaining the text URL before adding the genuine photo. Start a caught filechooser wait, then click the observed Add media/upload control, upload the exact local photo, add accurate alternative text and complete Next. Catch chooser errors so browser controls do not restart. Visually inspect the photo attachment.",
+      "Compare the final composer text with the verified draft, inspect all mention entities, save the pending receipt and click Post once. Follow the actual success permalink and verify clickable profile/Page links. LinkedIn may shorten the article URL; follow the observed short link through its ordinary external-link notice to verify the destination.",
+      "Save the verified social receipt and screenshot only after the actual permalink, official author, complete copy, photo, tags and article link are confirmed."
+    ]
   }
 }
