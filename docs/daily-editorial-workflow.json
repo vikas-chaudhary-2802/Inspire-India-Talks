@@ -1,10 +1,10 @@
 {
-  "version": 2,
+  "version": 3,
   "language": "English",
   "timezone": "Asia/Kolkata",
   "prepareAt": "09:00",
   "publishAt": "10:00",
-  "publicationTiming": "Deployment starts at 10:00 IST; public availability follows Vercel build completion",
+  "publicationTiming": "Prepare at 09:00 IST; target deployment at 10:00 IST. If preparation is missing, the publishing job prepares and validates the pair in that run. Catch-up checks at 11:00 and 12:00 IST resume only unfinished work. Public availability follows successful deployment.",
   "repository": "vikas-chaudhary-2802/Inspire-India-Talks",
   "remote": "origin",
   "productionBranch": "main",
@@ -75,8 +75,8 @@
     "Run the helper with --input <package> --check-only before marking the pair ready. Do not modify article arrays, commit or push during preparation."
   ],
   "publication": [
-    "Load the current IST date's validated package. If it is missing or incomplete, report the failure; never publish an old package as today's pair.",
-    "If a receipt exists, verify its public URLs and SHA; do not duplicate a pair already published.",
+    "Resolve today’s IST date explicitly and inspect current-date package, research, pending-push record and published receipt before choosing content. If a receipt exists, verify the published pair and remain quiet when healthy. Never publish an older date’s package as today’s pair.",
+    "If a pending-push record exists, resume its exact SHA and pair; do not prepare or commit a replacement. If no pending or published record exists and today’s package/research is absent or invalid, perform the full preparation workflow in this publishing run: fresh research, novelty checks, verified English drafts, real local credited photos, atomic current-date package and research notes, and helper --check-only. Repair or choose accessible sources/photos within scope until the pair validates. Report a failure only if an actual unresolved verification, image, repository or deployment limitation remains; a missing 9 AM package alone is a recovery trigger, not a final failure.",
     "Check that the checkout is on main and has no unrelated tracked changes or staged files. Leave video-edits and other unrelated untracked files untouched.",
     "Fetch origin and require a clean fast-forward to origin/main. Never reset, stash, switch another user's branch, force-push or overwrite unrelated work automatically.",
     "Apply the helper to the package. Validate the resulting two records, genuine local photos and their image metadata/source credits, direct citations, generated OG entries and sitemap URLs.",
@@ -90,5 +90,23 @@
     "helper": "scripts/apply-daily-editorial.js",
     "build": "npm run build using the configured Node runtime",
     "tests": "npm run test:editorial using the configured Node runtime"
+  },
+  "publishRetryAt": [
+    "11:00",
+    "12:00"
+  ],
+  "recoveryPolicy": {
+    "targetPublicationAt": "10:00",
+    "retryAt": [
+      "11:00",
+      "12:00"
+    ],
+    "missingPreparation": "Prepare in the publishing run using the same full editorial and photo contract.",
+    "invalidPreparation": "Repair the unpublished package after checking no existing IDs, pending SHA or published receipt.",
+    "alreadyPublished": "Verify receipt and stay quiet when both URLs and photos are healthy; do not duplicate.",
+    "pendingPush": "Resume exact recorded SHA, matching local package and IDs; never create another pair.",
+    "preparationFailed": "Save a dated preparation failure note with the concrete reason, attempted sources/photo retrievals and unfinished step. Publishing may retry independently.",
+    "notifications": "Notify on verified publication, newly actionable failure or required user action; stay quiet on healthy repeat checks.",
+    "localExecution": "Local scheduled work requires this computer on, Codex running and the workspace available; catch-up checks reduce dependence on a single wake-up but are not a cloud scheduler."
   }
 }
