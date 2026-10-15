@@ -79,8 +79,8 @@ const Index = () => {
                 </span>
               </div>
               <Link to={`/personality/${mainStory.id}`} className="group block">
-                <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.1] mb-6 group-hover:text-primary transition-colors">
-                  {mainStory.name} {mainStory.title.toLowerCase().includes('founder') ? '' : '— ' + mainStory.title}
+                <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.1] text-balance mb-6 group-hover:text-primary transition-colors">
+                  {mainStory.name.replace(/\s+([A-Z]\.?)$/, '\u00a0$1')} {mainStory.title.toLowerCase().includes('founder') ? '' : '— ' + mainStory.title}
                 </h2>
                 <div className="aspect-[16/9] mb-6 overflow-hidden bg-muted">
                   <img

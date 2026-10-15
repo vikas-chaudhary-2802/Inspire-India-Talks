@@ -50,8 +50,8 @@ const FoundersStories = () => {
             <div className="lg:col-span-5 flex flex-col justify-center">
               <span className="text-primary text-[10px] font-bold uppercase tracking-widest mb-3">Feature</span>
               <Link to={`/personality/${leadStory.id}`} className="group">
-                <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.1] mb-6 group-hover:text-primary transition-colors">
-                  {leadStory.name}
+                <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-[1.1] text-balance mb-6 group-hover:text-primary transition-colors">
+                  {leadStory.name.replace(/\s+([A-Z]\.?)$/, '\u00a0$1')}
                 </h2>
                 <p className="text-xl text-foreground/80 font-serif leading-relaxed mb-6">
                   {leadStory.title}{leadStory.knownFor && `. ${leadStory.knownFor}`}
