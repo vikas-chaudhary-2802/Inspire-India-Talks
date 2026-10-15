@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "pranav-senthil-subeshwar-qwikprint",
+    "name": "Pranav Senthil & Subeshwar P",
+    "title": "Co-founders, QwikPrint",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/qwikprint-kiosk-exhibition-2026.jpg",
+    "born": "",
+    "profession": "Entrepreneurs and self-service printing founders",
+    "knownFor": "Building QwikPrint's self-service printing kiosks around document uploads, print preferences and collection",
+    "quote": "",
+    "story": "Pranav Senthil and Subeshwar P found a business problem in a familiar student routine: getting a document printed. The file might already be on a phone, yet collecting a few pages could still mean finding an open shop and joining a queue. They built QwikPrint around making that final step easier.\n\nIn a May 2026 interview with The New Indian Express, Pranav described crowded printing shops on his college campus. Subeshwar recalled struggling to print a medical insurance bill when he needed it urgently. Their question was practical: how could people access a printer directly, without depending on someone behind a counter? The report dates QwikPrint's launch to June 2025.\n\nThe company's current website explains the product as a self-service kiosk. A customer scans the machine's QR code, uploads a document, selects print preferences, and uses an OTP or dynamic QR code to collect the pages. Options include colour, copies and single- or double-sided printing. The interface brings several small decisions into one process that people can complete using their own device.\n\nBuilding the machine was harder than building the software. In the newspaper interview, the founders described difficulty finding manufacturers willing to make a small number of prototypes. Suppliers preferred larger production orders. They also had to earn the confidence of universities, suppliers and prospective franchise partners. Those challenges made the business depend on more than a working web application.\n\nQwikPrint's present partnership offering shows the operating work behind the idea. Its franchise model asks partners to provide space, electricity and internet access, and to refill paper and consumables. The company says it manages the platform, payment processing, support and system monitoring. A separate space-partner model offers hardware deployment for locations such as colleges, offices and hostels. These are the company's described arrangements, rather than a promise of returns for every location.\n\nThe founders' story offers a useful way to look for opportunities: follow an ordinary task through to completion. The upload screen is only one part of a printing service. The customer also needs an accessible location, an available machine and a finished document. QwikPrint brings those requirements together in a physical product. For another builder, the starting question is equally concrete: where does a simple task become inconvenient, and what would remove that difficulty?",
+    "achievements": [
+      "Co-founded QwikPrint, launched in June 2025 according to a May 2026 newspaper interview",
+      "Developed a self-service kiosk workflow for document upload, print choices and collection",
+      "Built franchise and space-partner offerings for kiosk deployment"
+    ],
+    "authorName": "Inspire India Talks",
+    "addedAt": "2026-10-15",
+    "imageAlt": "A green QwikPrint printing kiosk displayed at a startup exhibition",
+    "imageCaption": "QwikPrint's self-service printing kiosk displayed at a startup exhibition.",
+    "imageCredit": "QwikPrint",
+    "imageSourceUrl": "https://www.qwikprint.in/franchise",
+    "sources": [
+      {
+        "title": "The New Indian Express: QwikPrint founders on the origin and hardware challenges",
+        "url": "https://www.newindianexpress.com/cities/chennai/2026/May/20/printing-atms-chennai-based-entreprenuers-build-printing-kiosks-to-ease-the-struggle-of-crowded-xerox-shops",
+        "publishedAt": "2026-05-20",
+        "accessedAt": "2026-10-15"
+      },
+      {
+        "title": "QwikPrint: Founder background and company mission",
+        "url": "https://www.qwikprint.in/about-us",
+        "accessedAt": "2026-10-15"
+      },
+      {
+        "title": "QwikPrint: Current self-service printing workflow",
+        "url": "https://www.qwikprint.in/",
+        "accessedAt": "2026-10-15"
+      },
+      {
+        "title": "QwikPrint: Franchise and space-partner operating models",
+        "url": "https://www.qwikprint.in/franchise",
+        "accessedAt": "2026-10-15"
+      }
+    ]
+  },
+  {
     "id": "gaurav-baheti-procol",
     "name": "Gaurav Baheti",
     "title": "Founder & CEO, Procol",
