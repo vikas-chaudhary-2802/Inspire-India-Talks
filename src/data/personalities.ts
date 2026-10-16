@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "revant-himatsingka-only-whats-needed",
+    "name": "Revant Himatsingka",
+    "title": "Founder, Only What’s Needed",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/revant-himatsingka-own-2026.jpeg",
+    "born": "",
+    "profession": "Entrepreneur and consumer health advocate",
+    "knownFor": "Turning his public scrutiny of food marketing into Only What’s Needed, a consumer food brand built around visible labels and open product decisions.",
+    "quote": "",
+    "story": "Revant Himatsingka built an audience by asking people to look more closely at food labels. In October 2026, he described a new challenge: building a food company under the same scrutiny he had applied to established brands. His venture, Only What’s Needed (OWN), makes him responsible for both the criticism and the product decisions.\n\nAt YourStory’s TechSparks event on 15 October 2026, Himatsingka described moving from public advocacy into building a food brand. YourStory reported that he had spent 13 years in the United States before leaving his job; later, he declined paid food-brand promotions because he wanted to create alternatives for his audience. OWN became that alternative. The decision changed his role from commentator to operator: a public claim about ingredients now sits beside the company’s own product and testing choices.\n\nOWN’s current website says the company began by asking its community what it should build first. Thousands of responses favoured whey protein, so the team chose that category. The company says future choices, from ingredients to testing, will also be shaped with customers. It describes its approach as co-creation rather than relying only on decisions made inside a boardroom. These are the company’s stated practices, not independently audited customer research.\n\nThe company’s packaging and information design extend the same idea. OWN says it places nutrition and ingredient information on the front of the pack, uses a QR code for translations, and presents ingredients in a visual breakdown. Its product page describes batch testing across seven safety and quality parameters. These details matter commercially because they put product evidence close to the purchase decision, where a consumer can inspect it before choosing.\n\nThat creates a demanding operating model. A founder who has built trust through public scrutiny must make sure sourcing, testing, packaging and customer communication support the same standard. The company’s own story acknowledges that mistakes need to be corrected openly. Consistency across each batch and each claim is therefore part of the brand promise, not a back-office detail.\n\nHimatsingka’s shift offers a lesson for founders who build from an existing audience: attention can introduce a product, but it cannot replace product discipline. Community input can help identify what to make, while clear evidence can make a claim easier to assess. The harder work is ensuring the delivered product continues to meet the expectation that brought customers in.",
+    "achievements": [
+      "Founded Only What’s Needed, a consumer food brand focused on protein products and transparent product information",
+      "Turned a public consumer-education platform into a product business",
+      "The company says customers helped choose whey protein as its first product"
+    ],
+    "authorName": "Inspire India Talks",
+    "addedAt": "2026-10-16",
+    "imageAlt": "Revant Himatsingka, founder of Only What’s Needed",
+    "imageCaption": "Revant Himatsingka, founder of Only What’s Needed. Photo from the company’s founder-author page.",
+    "imageCredit": "Only What’s Needed",
+    "imageSourceUrl": "https://onlywhatsneeded.in/blog/author/revant/",
+    "sources": [
+      {
+        "title": "YourStory: Revant Himatsingka’s shift from food activism to founding Only What’s Needed",
+        "url": "https://yourstory.com/2026/10/if-i-make-a-mistake-i-am-done-how-food-pharmer-is-turning-food-activism-into-startup",
+        "publishedAt": "2026-10-15",
+        "accessedAt": "2026-10-16"
+      },
+      {
+        "title": "Only What’s Needed: Our Story and customer-led product decisions",
+        "url": "https://onlywhatsneeded.in/pages/our-story",
+        "accessedAt": "2026-10-16"
+      },
+      {
+        "title": "Only What’s Needed: Founder-authored journal and company timeline",
+        "url": "https://onlywhatsneeded.in/blog/author/revant/",
+        "accessedAt": "2026-10-16"
+      },
+      {
+        "title": "Only What’s Needed: Product testing and whey product information",
+        "url": "https://onlywhatsneeded.in/product/whey-protein-3",
+        "accessedAt": "2026-10-16"
+      }
+    ]
+  },
+  {
     "id": "pranav-senthil-subeshwar-qwikprint",
     "name": "Pranav Senthil & Subeshwar P",
     "title": "Co-founders, QwikPrint",

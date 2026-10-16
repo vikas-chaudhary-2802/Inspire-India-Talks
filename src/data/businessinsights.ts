@@ -35,6 +35,40 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "zluri-infotech-operational-data-advisory-insight-2026",
+    "title": "Zluri and Infotech: Turning IT Data Into More Useful Advice",
+    "date": "16-10-2026",
+    "image": "/images/business-insights/ritish-reddy-zluri-2026.webp",
+    "excerpt": "Infotech’s completed Zluri acquisition links software discovery and identity governance with its CIO advisory platform. The commercial test is whether operational data leads to clearer, measurable decisions.",
+    "content": "On 14 October 2026, Infotech announced that it had completed its acquisition of Bengaluru-founded Zluri and launched CIO Analytics globally. The transaction’s price was not disclosed. Zluri’s application discovery and identity governance products are set to become modules in the new platform, which combines operational IT data with Infotech’s research, benchmarks, AI-assisted services and analyst expertise.\n\nThe commercial mechanism is a tighter connection between advice and the systems a client actually uses. Traditional advisory work can start with interviews, surveys or files that describe an organisation at a particular moment. Application and access data can add a current view of which software is in use, who has access and where spending sits. Infotech says API connections reduce manual discovery work, leaving analysts more time for interpretation and action planning. That is the company’s stated model; the announcement does not yet establish customer outcomes from the combination.\n\nFor Zluri, the deal places its software inside a wider advisory relationship. Infotech says it serves more than 30,000 IT leaders globally, while Zluri says it will continue supporting existing customers as a standalone division. Whether the combination creates durable value depends on integration, customer adoption and the quality of the recommendations that follow from the data.\n\nThe practical lesson for a CIO evaluating data-linked advice is to test the decision loop, not the dashboard. Choose one costly or risky area, such as unused software licences or excessive access. Define a baseline, document what data is collected, and measure whether recommendations lead to verified savings or reduced exposure. Better visibility is useful when it changes a decision and the result can be checked.",
+    "category": "Enterprise Technology",
+    "readTime": "2 min read",
+    "imageAlt": "Ritish Reddy, co-founder and CEO of Zluri",
+    "imageCaption": "Ritish Reddy, co-founder and CEO of Zluri. Portrait published on Zluri’s official website.",
+    "imageCredit": "Zluri",
+    "imageSourceUrl": "https://www.zluri.com/our-story",
+    "sources": [
+      {
+        "title": "Infotech: Acquisition completion and launch of CIO Analytics",
+        "url": "https://www.infotech.com/about/press-releases/infotech-launches-api-driven-advisory-acquires-zluri-to-expand-cio-analytics-platform",
+        "publishedAt": "2026-10-14",
+        "accessedAt": "2026-10-16"
+      },
+      {
+        "title": "Zluri: Acquisition announcement and product integration details",
+        "url": "https://www.zluri.com/blog/infotech-acquires-bengaluru-based-zluri-to-expand-saas-management-and-identity-governance-capabilities",
+        "publishedAt": "2026-10-14",
+        "accessedAt": "2026-10-16"
+      },
+      {
+        "title": "TechTarget: Infotech launches CIO Analytics platform and acquires Zluri",
+        "url": "https://www.techtarget.com/it-strategy/news/366652103/Infotech-launches-CIO-Analytics-platform-acquires-Zluri",
+        "publishedAt": "2026-10-14",
+        "accessedAt": "2026-10-16"
+      }
+    ]
+  },
+  {
     "id": "scimplify-supplier-qualification-business-insight-2026",
     "title": "Scimplify: Why Supplier Qualification Can Be a Manufacturing Advantage",
     "date": "15-10-2026",
