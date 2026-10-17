@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "urban-company-insthelp-density-unit-economics-2026",
+    "title": "Urban Company’s InstaHelp: Can Density Outrun Discounts?",
+    "date": "17-10-2026",
+    "image": "/images/business-insights/urban-company-service-professional-2026.png",
+    "excerpt": "In Q2 FY27, Urban Company linked a lower InstaHelp loss per order to local demand density, even as introductory pricing pulled down average order value.",
+    "content": "Urban Company’s Q2 FY27 results, announced on 16 October 2026 for the quarter ended 30 September, show the economics behind its quick home-help service InstaHelp. The company reported 6.2 million orders, up 63% sequentially, and net transaction value of ₹71 crore. The service’s adjusted EBITDA loss was ₹174 crore. Average net order value fell from ₹138 in Q1 to ₹114 in Q2, which the company attributed to competitive intensity and introductory pricing.\n\nThe more revealing movement was loss per order: Urban Company reported an improvement from ₹346 to ₹279. It attributed the change primarily to densification—more bookings within a micro-market, shorter travel between jobs and lower support cost per order. This is a useful operating mechanism for a local service marketplace. When demand is geographically concentrated, a worker can spend more paid time serving customers and less time travelling, while dispatch and customer support costs are spread across more completed jobs.\n\nBut improving unit economics is not the same as reaching profitability. InstaHelp remained loss-making on an adjusted EBITDA basis in Q2, and lower order values suggest that introductory pricing was still part of the growth mix. The results do not establish how quickly the service can reduce those losses as promotions change.\n\nFor operators, the practical test is to track contribution per order by neighbourhood alongside repeat use, travel time and discounting. Expanding into a new area may add orders but weaken density; adding supply without enough repeat demand can do the same. Local growth is valuable when bookings cluster tightly enough to lower the cost of each fulfilled service.",
+    "category": "Business Strategy",
+    "readTime": "2 min read",
+    "imageAlt": "Urban Company home-service professional wearing a branded black polo shirt",
+    "imageCaption": "A home-service professional pictured on Urban Company’s official investor-relations site.",
+    "imageCredit": "Urban Company",
+    "imageSourceUrl": "https://investorrelations.urbancompany.com/",
+    "sources": [
+      {
+        "title": "Urban Company: Shareholders’ Letter and Results, Q2 FY27",
+        "url": "https://uc-investor-reports.s3.ap-southeast-1.amazonaws.com/Urban_Company_Shareholders%27_Letter_and_Results_Q2_FY27.pdf",
+        "publishedAt": "2026-10-16",
+        "accessedAt": "2026-10-17"
+      },
+      {
+        "title": "Economic Times: Urban Company Q2 results, revenue and loss",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/urban-company-q2-results-loss-widens-to-rs-182-crore-revenue-rises-41/articleshow/134992492.cms",
+        "publishedAt": "2026-10-16",
+        "accessedAt": "2026-10-17"
+      },
+      {
+        "title": "Urban Company Investor Relations: Financial reports",
+        "url": "https://investorrelations.urbancompany.com/financials",
+        "accessedAt": "2026-10-17"
+      }
+    ]
+  },
+  {
     "id": "zluri-infotech-operational-data-advisory-insight-2026",
     "title": "Zluri and Infotech: Turning IT Data Into More Useful Advice",
     "date": "16-10-2026",

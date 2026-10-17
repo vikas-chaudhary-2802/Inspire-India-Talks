@@ -40,6 +40,54 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "shweta-suman-swadeza-semiconductor-tools-bihar",
+    "name": "Shweta Suman",
+    "title": "Founder & CEO, Swadeza",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/shweta-suman-swadeza-2026.jpg",
+    "born": "",
+    "profession": "Deep-tech entrepreneur",
+    "knownFor": "Building Swadeza’s FORGE semiconductor design and verification tools from Bihar.",
+    "quote": "",
+    "story": "Shweta Suman is building semiconductor design software from Bihar, an unusual base for a company working in a field associated with global chip centres. Her venture, Swadeza, is developing FORGE, a set of tools intended to support chip verification and physical design. The company’s own product pages describe an on-premises approach, allowing teams to work with design data within their own environments.\n\nSuman studied engineering at Birla Institute of Technology, Mesra, and returned to Bihar before starting the company. In interviews, she has framed the decision around building a deep-technology venture from her home state rather than moving to an established technology hub. That choice gives the company a clear identity, but it also places practical demands on hiring, customer access and the trust required to sell complex tools to chip designers.\n\nThe problem Swadeza is addressing is real but demanding. Semiconductor teams use specialised electronic design automation software to check whether a design works as intended and can be manufactured. Large customers already depend on established toolchains, so a new entrant must prove reliability, fit with existing workflows and support over long product cycles. Swadeza’s proposition is that a locally built, AI-assisted suite can make parts of that work more accessible while keeping customer design data on premises. The company’s product descriptions are statements of its intended capabilities; independent customer outcomes have not been established in the public material reviewed.\n\nAt SEMICON India 2026, held from 17 to 19 September, Swadeza presented its FORGE platform in the startup area. The company says its DV-FORGE verification product has been delivered, while PD-FORGE is in closed testing and a broader release is planned for the fourth quarter of 2026. Those milestones indicate that the venture is moving from a platform pitch toward product validation, though public sources do not disclose customer numbers or revenue.\n\nSuman’s story is therefore less about a single breakthrough than about the long work of earning a place in a technical market. A first demonstration can attract attention; repeatable performance, integration and responsive support are what make a tool part of an engineering team’s process. Building in Bihar may widen who sees deep tech as possible, but commercial credibility will ultimately come from how well Swadeza solves customers’ design problems.",
+    "achievements": [
+      "Founded Swadeza, a Bihar-based semiconductor design software venture",
+      "Presented the FORGE platform at SEMICON India 2026",
+      "The company says DV-FORGE has been delivered and PD-FORGE is in closed testing"
+    ],
+    "authorName": "Inspire India Talks",
+    "addedAt": "2026-10-17",
+    "imageAlt": "Shweta Suman, founder and CEO of Swadeza, pictured against a semiconductor wafer backdrop",
+    "imageCaption": "Shweta Suman, founder and CEO of Swadeza. Image published with YourStory’s profile of the company.",
+    "imageCredit": "Swadeza via YourStory",
+    "imageSourceUrl": "https://yourstory.com/2026/09/swadeza-bihar-ai-semiconductor-forge-chip-design",
+    "sources": [
+      {
+        "title": "YourStory: Swadeza brings semiconductor design tools to Bihar",
+        "url": "https://yourstory.com/2026/09/swadeza-bihar-ai-semiconductor-forge-chip-design",
+        "publishedAt": "2026-09-25",
+        "accessedAt": "2026-10-17"
+      },
+      {
+        "title": "The Ascendants: Shweta Suman’s semiconductor venture in Bihar",
+        "url": "https://ascendants.in/the-ascendants/swadeza-venture-shweta-suman-bihar-startup-success-story/",
+        "publishedAt": "2026-10-09",
+        "accessedAt": "2026-10-17"
+      },
+      {
+        "title": "Swadeza: FORGE product suite and development status",
+        "url": "https://swadeza.com/",
+        "accessedAt": "2026-10-17"
+      },
+      {
+        "title": "SEMICON India 2026: Exhibitor directory, Swadeza Venture Private Limited",
+        "url": "https://expo.semi.org/india2026/Public/EventMap.aspx?EventId=184&MapID=634&MapItBooth=H7002&MapItBoothID=696188",
+        "accessedAt": "2026-10-17"
+      }
+    ]
+  },
+  {
     "id": "revant-himatsingka-only-whats-needed",
     "name": "Revant Himatsingka",
     "title": "Founder, Only What’s Needed",
