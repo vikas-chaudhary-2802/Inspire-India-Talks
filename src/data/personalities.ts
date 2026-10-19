@@ -40,6 +40,49 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "jagat-kalyan-taruwar-banana-fibre-bihar-2026",
+    "name": "Jagat Kalyan, Satyam Kumar and Nitish Kumar Verma",
+    "title": "Co-founders, Taruwar Agro Industries",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/taruwar-jagat-kalyan-2026.webp",
+    "born": "",
+    "profession": "Entrepreneurs building a banana-fibre and agro-products business in Bihar",
+    "knownFor": "Turning harvested banana stems into fibre products and other saleable materials through a local processing venture in Hajipur.",
+    "quote": "",
+    "story": "In many banana-growing fields, harvesting the fruit leaves behind a bulky stem that farmers must clear. Jagat Kalyan, Satyam Kumar and Nitish Kumar Verma began asking whether that residue could support a business of its own. Their answer became Taruwar Agro Industries, a venture based in Hajipur, Bihar, that extracts fibre from banana stems and converts it into products.\n\nThe three friends met while pursuing management studies. A September 2026 YourStory profile reports that they spent months examining local resources before choosing banana plants as a raw material. The founders’ calculation joined two practical needs: farmers could earn from a part of the crop that had little value after harvest, while a local unit could process it into material for manufacturing. YourStory dates the venture’s launch to 2021; Taruwar’s own website identifies Kalyan as CEO and Kumar as a director, with Verma leading production.\n\nThe work begins after the fruit has been harvested. Taruwar buys banana plants and uses machinery to extract the fibre. The company says it makes folders, yoga mats, baskets and prayer mats from the material. The leftover pulp goes into vermicompost, while sap is processed into a plant-nutrition liquid. This use of more than one part of the plant gives the operation several potential products, though each needs its own buyers, quality standards and route to market.\n\nThe model also depends on logistics and farmer participation. YourStory reports that stems can be delivered to the processing unit and that the company worked to explain their value to growers. A bulky, perishable residue is useful only if it can be collected at a cost that leaves room for processing and sale. That makes local sourcing central to the economics, not simply part of the sustainability story.\n\nThe founders initially relied on personal savings and family support, according to the same report. YourStory says Taruwar recorded about ₹2.5 crore in revenue in FY26 and had not taken external investment at the time of its reporting. That is reported revenue, not profit. The company has also added makhana and other agro-products to its catalogue, so its current business extends beyond banana fibre.\n\nTaruwar’s journey is a case study in building around an overlooked input. It shows the importance of testing the entire chain—from collection and processing to product demand—before treating agricultural residue as a reliable raw material. For entrepreneurs exploring local resources, the useful question is not only what can be made, but whether supply, conversion and repeat buyers can work together at a sustainable cost.",
+    "achievements": [
+      "Launched Taruwar Agro in 2021 with co-founders Satyam Kumar and Nitish Kumar Verma, according to YourStory",
+      "Built a banana-stem fibre processing and product operation in Hajipur, Bihar",
+      "YourStory reported approximately ₹2.5 crore in revenue for FY26; this is revenue, not profit"
+    ],
+    "authorName": "Inspire India Talks",
+    "addedAt": "2026-10-19",
+    "imageAlt": "Jagat Kalyan, CEO of Taruwar Agro, at a display of banana-fibre products and agro-products.",
+    "imageCaption": "Jagat Kalyan, CEO of Taruwar Agro, pictured with products made and sold by the company. Photo: YourStory.",
+    "imageCredit": "YourStory",
+    "imageSourceUrl": "https://yourstory.com/2026/09/taruwar-agro-banana-waste",
+    "sources": [
+      {
+        "title": "YourStory: Taruwar Agro and the banana-stem fibre business built by three friends from Bihar",
+        "url": "https://yourstory.com/2026/09/taruwar-agro-banana-waste",
+        "publishedAt": "2026-09-17",
+        "accessedAt": "2026-10-19"
+      },
+      {
+        "title": "Taruwar Agro: Company overview and current leadership roles",
+        "url": "https://taruwar.com/about-taruwar-agro-industries/",
+        "accessedAt": "2026-10-19"
+      },
+      {
+        "title": "The Better India: Taruwar Agro’s banana-fibre products and waste-processing approach",
+        "url": "https://thebetterindia.com/367817/bihar-college-friends-turn-banana-tree-waste-into-useful-products-with-startup-taruwar-agro/",
+        "publishedAt": "2024-10-07",
+        "accessedAt": "2026-10-19"
+      }
+    ]
+  },
+  {
     "id": "shweta-suman-swadeza-semiconductor-tools-bihar",
     "name": "Shweta Suman",
     "title": "Founder & CEO, Swadeza",

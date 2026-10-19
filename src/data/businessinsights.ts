@@ -35,6 +35,38 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "araku-coffee-premium-demand-channel-mix-2026",
+    "title": "Araku Coffee’s Premium Bet: Can New Channels Protect Value?",
+    "date": "19-10-2026",
+    "image": "/images/business-insights/araku-coffee-farmers-2026.jpg",
+    "excerpt": "An 18 October report on Araku Coffee describes a trade-off: selling less coffee at higher value can still pressure revenue. E-commerce and institutional sales may widen demand, but each channel has to preserve the premium.",
+    "content": "Araku Coffee is trying to persuade more Indian consumers to pay for home-grown specialty coffee. In a report published on 18 October 2026, Fortune India described a commercial tension: selling lower volumes at higher value had affected revenue. The company has responded by investing in e-commerce and expanding business-to-business sales to institutions and premium coffee chains, alongside its cafés and consumer business.\n\nThe mechanism is channel mix. A premium brand needs customers willing to pay for quality and origin, but a narrow route to market limits how many of those customers it can reach. Direct online sales can expose more buyers to small lots and product detail; institutional and café partnerships can create repeat demand at larger volumes. Fortune India reported that some of Araku’s nano-lots sold out quickly, with much of that demand coming from business-to-consumer buyers. That is evidence of interest in limited releases, not proof that every product or channel will scale the same way.\n\nAraku’s official history describes a cooperative model that processes coffee and sells through its own brand as well as other roasters. That structure links farmer returns, quality control and market access, while the consumer brand carries the cost of educating buyers about origin and production.\n\nFor specialty food businesses, the practical test is to track realised price, sell-through time, repeat purchase and channel costs together. Premium pricing creates value only when enough customers return and distribution does not consume the margin. A strong origin story can open the door; consistent quality and accessible routes to purchase determine whether the premium becomes a durable business.",
+    "category": "Food & Beverage",
+    "readTime": "2 min read",
+    "imageAlt": "A coffee-growing couple in Araku Valley with a basket of coffee cherries and an Araku coffee tin.",
+    "imageCaption": "Coffee growers pictured in Araku Valley on the official Araku Coffee story page.",
+    "imageCredit": "Araku Coffee",
+    "imageSourceUrl": "https://www.arakucoffee.com/en/pages/notre-histoire",
+    "sources": [
+      {
+        "title": "Fortune India: How Araku Coffee is trying to get Indians to pay a premium for home-grown specialty coffee",
+        "url": "https://www.fortuneindia.com/business-news/its-farmer-first-strategy-has-put-indian-specialty-coffee-on-the-global-map-araku-coffee-is-now-trying-to-get-indians-to-pay-a-premium/165454",
+        "publishedAt": "2026-10-18",
+        "accessedAt": "2026-10-19"
+      },
+      {
+        "title": "Araku Coffee: Official history and farmer-cooperative model",
+        "url": "https://www.arakucoffee.com/en/pages/notre-histoire",
+        "accessedAt": "2026-10-19"
+      },
+      {
+        "title": "ARAKU Coffee: Company background and seed-to-cup model",
+        "url": "https://www.arakucoffee.in/pages/about",
+        "accessedAt": "2026-10-19"
+      }
+    ]
+  },
+  {
     "id": "urban-company-insthelp-density-unit-economics-2026",
     "title": "Urban Company’s InstaHelp: Can Density Outrun Discounts?",
     "date": "17-10-2026",
