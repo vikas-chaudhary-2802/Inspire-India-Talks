@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "even-healthcare-outcome-focused-hospital-expansion-2026",
+    "title": "Even Healthcare’s Hospital Bet Tests Outcome-Based Care Economics",
+    "date": "20-10-2026",
+    "image": "/images/business-insights/even-healthcare-hospital-2026.jpg",
+    "excerpt": "After announcing a $50 million Series B on 19 October, Even Healthcare plans five more Bengaluru hospitals. The expansion tests whether coordinated, outcome-focused care can scale alongside the fixed costs of hospital operations.",
+    "content": "On 19 October 2026, Bengaluru-based Even Healthcare announced a $50 million Series B led by existing investor Khosla Ventures, with Alpha Wave participating. The company said the capital will fund five additional hospitals in Bengaluru over the next six months. This is a funding announcement and expansion plan, not evidence that the new sites are already operating or profitable.\n\nThe commercial question is whether an outcome-focused care model can work when a company owns more of the delivery system. Even began with memberships and partner hospitals; it now operates hospitals as well. In a 19 October interview with TechCrunch, co-founder Mayank Banerjee said doctors receive fixed salaries rather than pay linked to the number of procedures, with bonuses tied to patient-reported outcomes. The company also works with insurers and follows members before and after hospital care.\n\nThis changes the operating equation. Preventive consultations and follow-up may cost money today while reducing expensive admissions or readmissions later. Running hospitals gives Even more control over coordination and costs, but adds leases, equipment, staffing and utilisation risk. Moneycontrol reported that Even plans to place hospitals within five kilometres of its Bengaluru members, a density strategy that could make continuity easier if enough members use the facilities.\n\nFor healthcare operators, the useful measures are not just patient volume or new locations. Track clinical outcomes alongside cost per episode, occupancy, repeat use and the share of members served across settings. The expansion will test whether better coordination can support both patient outcomes and sustainable hospital economics.",
+    "category": "Healthcare & Healthtech",
+    "readTime": "2 min read",
+    "imageAlt": "Exterior of Even Hospitals’ Race Course Road hospital in Bengaluru.",
+    "imageCaption": "Even Hospitals’ Race Course Road facility in Bengaluru. Photo credit: Even Healthcare, via TechCrunch.",
+    "imageCredit": "Even Healthcare via TechCrunch",
+    "imageSourceUrl": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
+    "sources": [
+      {
+        "title": "TechCrunch: Khosla Ventures doubles down on Even Healthcare to challenge India’s hospital economics",
+        "url": "https://techcrunch.com/2026/10/19/khosla-ventures-doubles-down-on-even-healthcare-to-challenge-indias-hospital-economics/",
+        "publishedAt": "2026-10-19",
+        "accessedAt": "2026-10-20"
+      },
+      {
+        "title": "Moneycontrol: Even Healthcare raises $50 mn in funding led by Khosla Ventures",
+        "url": "https://www.moneycontrol.com/news/business/startup/even-healthcare-raises-50-mn-in-funding-led-by-khosla-ventures-14055446.html",
+        "publishedAt": "2026-10-19",
+        "accessedAt": "2026-10-20"
+      },
+      {
+        "title": "Even Hospitals: Official Race Course Road hospital page",
+        "url": "https://even.in/hospitals/",
+        "accessedAt": "2026-10-20"
+      }
+    ]
+  },
+  {
     "id": "araku-coffee-premium-demand-channel-mix-2026",
     "title": "Araku Coffee’s Premium Bet: Can New Channels Protect Value?",
     "date": "19-10-2026",

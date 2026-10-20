@@ -40,6 +40,48 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "ehsan-quddusi-orchardly-kashmir-agritech-2026",
+    "name": "Ehsan Quddusi",
+    "title": "Co-founder & CEO, Orchardly",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/orchardly-founders-2026.webp",
+    "born": "",
+    "profession": "Technology entrepreneur building agricultural decision tools for temperate horticulture",
+    "knownFor": "Co-founding Orchardly, a Srinagar agritech company combining orchard advice with soil testing, inputs, services and market access.",
+    "quote": "",
+    "story": "An apple orchard is not a uniform field. A slope that holds moisture differently, or a patch with its own disease pressure, can need different attention from a neighbouring plot. Ehsan Quddusi saw the cost of treating these differences as if they did not matter. In Kashmir, many growers were deciding when to irrigate, spray, prune or harvest from calendars and general advice rather than from information specific to their land.\n\nQuddusi, a technology professional, began working on a way to improve those decisions. In 2021, he co-founded Orchardly in Srinagar with Izhan and Uzair Javeed, whose families have long been involved in farming. The partnership joined software and local agricultural knowledge. A July 2026 YourStory profile describes how visits to orchards shaped the product: the founders found that nearby plots could still differ by elevation, soil, microclimate and canopy, making generic recommendations less useful.\n\nOrchardly began with digital advice for growers, including local weather and crop guidance. The company’s current account of its work describes a wider system that combines soil testing, agronomy, agricultural inputs, physical stores, produce procurement and traceability. Its central business choice is to connect information with services that help a farmer act on it. Advice alone can be hard to monetise; linking it to testing, supplies and market access gives the company other ways to earn while keeping the grower relationship active across a season.\n\nThe expansion brings a practical challenge. Each added service requires people, operations and quality control, and a software recommendation is only valuable if it fits conditions in a real orchard. Orchardly’s founders describe field feedback as part of product development. The model’s next test is whether this mix of digital tools and local infrastructure can be repeated beyond its home region without losing the crop-specific expertise that makes it useful.\n\nOrchardly says it now works with more than 15,000 farmers across ten districts of Jammu and Kashmir. That is a company-reported reach figure, not an independently verified count of paying or active customers. The company also says it is extending its work from apples to other temperate crops. Its website identifies Quddusi as co-founder and CEO, and lists Izhan and Uzair Javeed as co-founders.\n\nThe story offers a grounded lesson for agritech builders: a digital product may open the relationship, but durable value often depends on what happens after the recommendation. Local data, trusted advice and the means to act on it have to work together. Orchardly is attempting to build that chain in Kashmir’s orchards; proving that each link can operate reliably and economically at greater scale remains the work ahead.",
+    "achievements": [
+      "Co-founded Orchardly in Srinagar in 2021 with Izhan and Uzair Javeed, according to YourStory",
+      "Built a business that links digital orchard guidance with soil testing, agronomy, agricultural inputs and market access",
+      "Orchardly says it works with 15,000+ farmers across ten districts of Jammu and Kashmir; the figure is company-reported"
+    ],
+    "addedAt": "2026-10-20",
+    "imageAlt": "YourStory founder Shradha Sharma and Orchardly co-founders Ehsan Quddusi, Uzair Javeed and Izhan Javeed standing together in an apple orchard in Kashmir.",
+    "imageCaption": "From left: Shradha Sharma, Ehsan Quddusi, Uzair Javeed and Izhan Javeed in a Kashmir orchard. Photo: YourStory.",
+    "imageCredit": "YourStory",
+    "imageSourceUrl": "https://yourstory.com/2026/07/orchardly-kashmir-apple-startup",
+    "sources": [
+      {
+        "title": "YourStory: The $2 Million Startup Building an Operating System for India’s Apple Industry",
+        "url": "https://yourstory.com/2026/07/orchardly-kashmir-apple-startup",
+        "publishedAt": "2026-07-31",
+        "accessedAt": "2026-10-20"
+      },
+      {
+        "title": "Orchardly: Official company story and leadership",
+        "url": "https://orchardly.co/about",
+        "accessedAt": "2026-10-20"
+      },
+      {
+        "title": "The Indian Express: Real-time weather alerts, tests and tips for Kashmir apple growers",
+        "url": "https://indianexpress.com/article/cities/srinagar/real-time-weather-alerts-tests-tips-kashmir-gets-an-app-for-apples-8171016/",
+        "publishedAt": "2022-09-20",
+        "accessedAt": "2026-10-20"
+      }
+    ]
+  },
+  {
     "id": "jagat-kalyan-taruwar-banana-fibre-bihar-2026",
     "name": "Jagat Kalyan, Satyam Kumar and Nitish Kumar Verma",
     "title": "Co-founders, Taruwar Agro Industries",
