@@ -35,6 +35,40 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "truist-hyderabad-gcc-supplier-consolidation-2026",
+    "title": "Truist’s Hyderabad GCC Makes Supplier Consolidation the Real Test",
+    "date": "22-10-2026",
+    "image": "/images/business-insights/steve-hagerman-truist-2026.png",
+    "excerpt": "Infosys and Truist are bringing capabilities from multiple India-based suppliers into a Hyderabad centre. Its business value will depend on end-to-end ownership and performance, not headcount alone.",
+    "content": "On 21 October 2026, People Matters reported that Infosys and Truist expected to mark the onboarding of more than 1,000 colleagues into Truist’s expanding Hyderabad Global Capability Centre later that month. The underlying Infosys announcement, dated 19 October, says Truist is bringing capabilities previously delivered through multiple India-based suppliers into a more integrated operating model. It does not disclose the contract value or a breakdown of roles and transfers.\n\nThe commercial mechanism is supplier consolidation followed by a build-operate-transfer (BOT) transition. Infosys is helping Truist assemble teams and combine technology, data, operations and AI capabilities; the bank’s stated aim is to build a centre it can eventually operate as a self-sustaining capability hub. In a 19 October interview, Moneycontrol reported that Truist’s Hyderabad centre had already grown to more than 1,400 employees over six months. That headcount is not a measure of net new jobs or cost savings, and the companies have not published a financial return for the arrangement.\n\nFor a bank, grouping related work can reduce coordination across vendors and keep product, engineering and operations teams closer to business decisions. But the transition also carries costs: knowledge must move, controls must remain intact, and teams need clear ownership as responsibilities shift. A practical way to judge a GCC is to track complete business domains transferred, service quality, delivery speed and the cost of operating each function—not just the number of people onboarded. The value of a centre depends on what it can own end to end.",
+    "category": "Corporate Strategy / Global Capability Centres",
+    "readTime": "2 min read",
+    "imageAlt": "Steve Hagerman, Truist’s Chief Technology and Operations Officer, in an official company newsroom headshot.",
+    "imageCaption": "Steve Hagerman, Chief Technology & Operations Officer at Truist. Photo credit: Truist Financial Corporation.",
+    "imageCredit": "Truist Financial Corporation",
+    "imageSourceUrl": "https://media.truist.com/Steve-Hagerman",
+    "sources": [
+      {
+        "title": "People Matters: Infosys onboards over 1,000 employees as Truist expands Hyderabad GCC",
+        "url": "https://www.peoplematters.in/amp/news/business/infosys-onboards-over-1000-employees-as-truist-expands-hyderabad-gcc-52842",
+        "publishedAt": "2026-10-21",
+        "accessedAt": "2026-10-22"
+      },
+      {
+        "title": "Infosys: Strategic collaboration with Truist to build a Hyderabad global capability centre",
+        "url": "https://www.infosys.com/newsroom/press-releases/2026/collaboration-build-global-capability-center-india.html",
+        "publishedAt": "2026-10-19",
+        "accessedAt": "2026-10-22"
+      },
+      {
+        "title": "Moneycontrol: Truist’s Hyderabad GCC scales past 1,400 employees",
+        "url": "https://www.moneycontrol.com/news/business/infosys-helps-scale-truist-s-hyderabad-gcc-to-1-400-employees-further-expansion-planned-14055505.html",
+        "publishedAt": "2026-10-19",
+        "accessedAt": "2026-10-22"
+      }
+    ]
+  },
+  {
     "id": "even-healthcare-outcome-focused-hospital-expansion-2026",
     "title": "Even Healthcare’s Hospital Bet Tests Outcome-Based Care Economics",
     "date": "20-10-2026",

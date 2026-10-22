@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "sanjay-sharma-aye-finance-microenterprise-credit-2026",
+    "name": "Sanjay Sharma",
+    "title": "Co-founder & Managing Director, Aye Finance",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/sanjay-sharma-aye-2026.jpg",
+    "born": "",
+    "profession": "Entrepreneur and non-bank lender focused on financing Indian micro-enterprises",
+    "knownFor": "Co-founding Aye Finance and building a cluster-based approach to underwriting small businesses with limited formal credit records.",
+    "quote": "",
+    "story": "Sanjay Sharma’s work at Aye Finance began with a question about how a lender could assess a small business that had little formal paperwork. In 2013, after working in financial services, he returned to India to explore a more socially useful way to apply his experience. He joined forces with Vikram Jetley, and the two began by studying the businesses they hoped to serve.\n\nThe founders’ early research was hands-on. Entrepreneur India reported in 2019 that Sharma and Jetley met 350 micro-enterprises across five Indian cities. YourStory’s 2020 account describes interviews with more than 300 businesses across five cities and six manufacturing clusters. Rather than treat the difference in counts as a single audited survey, both reports point to the same discovery process: the founders spent time in local markets, looking at how businesses operated and what information lenders could realistically use.\n\nThe research drew attention to clusters such as shoe manufacturing in Delhi, brass casting in Aligarh, sporting goods in Meerut and lac bangles in Jaipur. Many micro-enterprises lacked conventional financial statements or a long credit history. Aye’s response was to assess businesses in the context of their trade clusters and cash flows, using customer profiles, operating patterns and other data alongside conventional documents. The model was designed to make smaller working-capital loans assessable at a cost a lender could support.\n\nYourStory reported that Aye Finance made its first loan in March 2014 to a small women’s footwear manufacturer in Delhi. It was a working-capital loan to a business with six workers that had not previously borrowed from a formal bank or non-bank lender. In a 2019 interview, Sharma described the goal as combining disciplined financial modelling with a focus on micro-enterprises. Those are his and the company’s descriptions of the method; they should not be confused with proof that every loan will perform as expected.\n\nThe business has since expanded beyond its initial customer and geography. Its FY2025–26 directors’ report says Aye Finance was listed on the NSE and BSE on 16 February 2026. For the financial year ended 31 March 2026, the report records ₹1,814.73 crore in revenue from operations, ₹193.63 crore in profit after tax and ₹7,043.80 crore in assets under management. Aye’s April 2026 exchange-filed provisional update separately reported ₹5,169 crore of disbursements in FY26 and a 4.77% gross NPA ratio in the fourth quarter. Revenue, profit, AUM and annual disbursements measure different things.\n\nSharma’s founding bet was that careful local observation could help a lender understand businesses that standard credit files left opaque. The next test is operational: maintaining repayment quality while extending that assessment across a broad network. Aye Finance’s current scale shows how far the approach has travelled; its own filings also make clear that disciplined underwriting remains central to the business.",
+    "achievements": [
+      "Co-founded Aye Finance in 2014 with Vikram Jetley after researching micro-enterprises across Indian business clusters.",
+      "Led Aye Finance as it became a listed lender in February 2026; company-reported FY26 AUM was ₹7,043.80 crore as of 31 March 2026."
+    ],
+    "addedAt": "2026-10-22",
+    "imageAlt": "Sanjay Sharma, Managing Director of Aye Finance, pictured in the company’s annual report.",
+    "imageCaption": "Sanjay Sharma, Managing Director of Aye Finance, in the company’s FY2024–25 annual report. Photo credit: Aye Finance Limited.",
+    "imageCredit": "Aye Finance Limited",
+    "imageSourceUrl": "https://www.ayefin.com/wp-content/uploads/2025/09/Aye-Finance-Limited-AR-2024-25_Cover-to-Cover_V6_Interactive.pdf",
+    "sources": [
+      {
+        "title": "YourStory: How Aye Finance began lending to micro-enterprises",
+        "url": "https://yourstory.com/smbstory/msme-lending-startup-aye-finance-micro-enterprise-financing",
+        "publishedAt": "2020-12-23",
+        "accessedAt": "2026-10-22"
+      },
+      {
+        "title": "Entrepreneur India: Sanjay Sharma on building an MSME lending startup",
+        "url": "https://india.entrepreneur.com/growth-strategies/sanjay-sharma-on-building-a-successful-msme-lending-startup/344068",
+        "publishedAt": "2019-12-19",
+        "accessedAt": "2026-10-22"
+      },
+      {
+        "title": "Aye Finance FY2025–26 Directors’ Report (hosted by The Economic Times)",
+        "url": "https://economictimes.indiatimes.com/aye-finance-ltd/directorsreport/companyid-1965321.cms",
+        "accessedAt": "2026-10-22"
+      },
+      {
+        "title": "Aye Finance: FY26 provisional business performance filed with NSE",
+        "url": "https://nsearchives.nseindia.com/corporate/AYEFINANCE_06042026115948_AYE_Press_Release.pdf",
+        "publishedAt": "2026-04-06",
+        "accessedAt": "2026-10-22"
+      }
+    ]
+  },
+  {
     "id": "ehsan-quddusi-orchardly-kashmir-agritech-2026",
     "name": "Ehsan Quddusi",
     "title": "Co-founder & CEO, Orchardly",
