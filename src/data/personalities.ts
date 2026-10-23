@@ -64,7 +64,6 @@ export const personalities: Personality[] = [
       {
         "title": "IIT Madras GDC: Modulus Housing founders on their journey from student prototype to business",
         "url": "https://gdciitm.org/wp-content/uploads/2026/01/GDC-Newsletter-13-1.pdf",
-        "publishedAt": "2026-01-01",
         "accessedAt": "2026-10-23"
       },
       {
