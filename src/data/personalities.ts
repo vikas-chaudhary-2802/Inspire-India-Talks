@@ -40,6 +40,58 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "shreeram-ravichandran-modulus-housing-2026",
+    "name": "Shreeram Ravichandran",
+    "title": "Co-founder & CEO, Modulus Housing",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/modulus-housing-cofounders-2026.jpg",
+    "born": "",
+    "profession": "Civil engineer and construction-technology entrepreneur",
+    "knownFor": "Co-founding Modulus Housing, which applies factory-made, foldable modular systems to distributed low-rise infrastructure.",
+    "quote": "",
+    "story": "Shreeram Ravichandran’s company, Modulus Housing, takes a factory-first approach to a sector where work is usually organized around individual building sites. The Chennai venture designs foldable, portable and reusable cabins, then coordinates production through a network of manufacturing partners. Its aim is to make small, distributed infrastructure faster to deploy while retaining the repeatability of engineered products.\n\nThe idea grew out of a real disruption. In a January 2026 interview published by IIT Madras’s GDC, the co-founders recalled how the 2015 Chennai floods made them question how quickly people could regain shelter after a disaster. Shreeram Ravichandran and Gobinath Pandurangan were civil engineering students at IIT Madras. The experience pushed them to explore a foldable shelter, but a prototype alone could not make a viable company. They needed to learn which customers had a recurring need, what a deployable structure had to do in practice, and how it could be manufactured reliably.\n\nSupport from IIT Madras’s innovation ecosystem helped the team move from a student project toward a business. The GDC account describes customer discovery and mentorship as important in refining the model. Modulus was incorporated in 2018 as Debrique Creative Labs Private Limited and was incubated with the IIT Madras Incubation Cell. Its current product profile spans healthcare, agriculture, education, housing and site infrastructure, using a patented telescopic mechanism and cloud manufacturing, according to the IIT Madras Research Park directory.\n\nThat design choice changes the operating problem. Instead of treating every site as a one-off construction project, Modulus seeks to standardize more work in factories and partner facilities, then assemble structures where they are needed. This can make sense for customers who need repeatable low-rise buildings across dispersed locations. It also places pressure on design coordination, partner quality, logistics and installation: a standardized product only helps if the network can deliver consistently.\n\nThe company’s development has attracted institutional backing. In December 2025, Modulus announced a ₹70 crore Series A led by Kalaari Capital, Hero and Samarthya, with additional investors participating, according to contemporaneous reporting by ETB2B and Entrepreneur India. The reported funding was intended for market expansion, research and development, and scaling the partner-factory ecosystem. Those plans indicate the company’s next challenge: expanding production capacity while keeping specifications and delivery dependable.\n\nModulus is an example of engineering applied to a practical coordination problem. Its founders’ original insight was not simply that buildings could be folded; it was that parts of low-rise construction might be made more repeatable. Whether that approach scales will depend on customer adoption and execution across the manufacturing network, rather than the novelty of the mechanism alone.",
+    "achievements": [
+      "Co-founded Modulus Housing, incorporated in Chennai in 2018, with Gobinath Pandurangan.",
+      "Helped develop a factory-first modular construction model spanning healthcare, agriculture, education, housing and site infrastructure."
+    ],
+    "addedAt": "2026-10-23",
+    "imageAlt": "Modulus Housing co-founders Shreeram Ravichandran and Gobinath Pandurangan standing together.",
+    "imageCaption": "Shreeram Ravichandran and Gobinath Pandurangan, co-founders of Modulus Housing. Forbes profile image.",
+    "imageCredit": "Forbes / Modulus Housing",
+    "imageSourceUrl": "https://www.forbes.com/profile/modulus-housing/",
+    "sources": [
+      {
+        "title": "IIT Madras GDC: Modulus Housing founders on their journey from student prototype to business",
+        "url": "https://gdciitm.org/wp-content/uploads/2026/01/GDC-Newsletter-13-1.pdf",
+        "publishedAt": "2026-01-01",
+        "accessedAt": "2026-10-23"
+      },
+      {
+        "title": "IIT Madras Research Park: Modulus Housing profile and founder biographies",
+        "url": "https://respark.iitm.ac.in/Modulus-Housing",
+        "accessedAt": "2026-10-23"
+      },
+      {
+        "title": "Kalaari Capital: Modulus Housing portfolio and leadership profile",
+        "url": "https://kalaari.com/portfolio/modulus-housing",
+        "accessedAt": "2026-10-23"
+      },
+      {
+        "title": "ETB2B: Modulus Housing raises ₹70 crore Series A",
+        "url": "https://b2b.economictimes.indiatimes.com/amp/news/entrepreneur/modulus-housing-secures-70-crore-in-series-a-funding-led-by-kalaari-capital/125712489",
+        "publishedAt": "2025-12-02",
+        "accessedAt": "2026-10-23"
+      },
+      {
+        "title": "Forbes: Modulus Housing founder profile",
+        "url": "https://www.forbes.com/profile/modulus-housing/",
+        "publishedAt": "2026-05-27",
+        "accessedAt": "2026-10-23"
+      }
+    ]
+  },
+  {
     "id": "sanjay-sharma-aye-finance-microenterprise-credit-2026",
     "name": "Sanjay Sharma",
     "title": "Co-founder & Managing Director, Aye Finance",

@@ -35,6 +35,38 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "himadri-capacity-expansion-commercial-execution-2026",
+    "title": "Himadri’s ₹1,613 Crore Expansion: Capacity Is Only the First Milestone",
+    "date": "23-10-2026",
+    "image": "/images/business-insights/himadri-anurag-choudhary-2026.png",
+    "excerpt": "Himadri’s announced investments span LFP, speciality chemicals, carbon nanotubes and carbon black. The business test is converting planned capacity into qualified products and repeat demand.",
+    "content": "On 22 October 2026, Himadri Speciality Chemical said it planned ₹1,613 crore of capacity investments across four areas: ₹1,125 crore in lithium iron phosphate (LFP), ₹248 crore in speciality chemicals, ₹70 crore in carbon nanotubes and ₹170 crore in super-speciality carbon black. PTI, carried by Rediff, said the projects combine greenfield and brownfield work and are expected to be completed by the fourth quarter of the next financial year. These are proposed investments, not completed capacity or realized sales.\n\nThe commercial mechanism is portfolio extension. Himadri is using an established chemicals business to enter battery materials while also expanding adjacent specialty products. Shared process capabilities, customer relationships or infrastructure may support the move, but the announcement alone does not establish those synergies or their returns. Each new line still needs commissioning, consistent quality, customer qualification and enough utilization to cover its capital and operating costs.\n\nThat makes execution the useful business lens. Track project milestones against the stated schedule, then look for evidence of commercial qualification, production volumes and segment contribution. Capacity headlines describe what a company intends to build; they do not show whether customers will buy at attractive economics. For operators considering diversification, the lesson is to evaluate the conversion chain from capital committed to commissioned assets, qualified products and repeat orders. Himadri’s roadmap is ambitious; the commercial result will be measured after those steps, not at the announcement.",
+    "category": "Corporate Strategy / Chemicals & Energy Transition",
+    "readTime": "2 min read",
+    "imageAlt": "Anurag Choudhary, Chairman and Managing Director and CEO of Himadri Speciality Chemical Ltd, seated in his office.",
+    "imageCaption": "Anurag Choudhary, Chairman and Managing Director and CEO of Himadri Speciality Chemical Ltd. Photo credit: Himadri Speciality Chemical Ltd.",
+    "imageCredit": "Himadri Speciality Chemical Ltd",
+    "imageSourceUrl": "https://www.himadri.com/CMD.php",
+    "sources": [
+      {
+        "title": "PTI via Rediff: Himadri announces ₹1,613 crore capacity expansion",
+        "url": "https://money.rediff.com/news/market/himadri-chemicals-rs-1-613-cr-expansion-for-energy-transition/56659220261022",
+        "publishedAt": "2026-10-22",
+        "accessedAt": "2026-10-23"
+      },
+      {
+        "title": "Himadri Speciality Chemical: FY2026–27 Q2 investor presentation and performance documents",
+        "url": "https://www.himadri.com/home/performance",
+        "accessedAt": "2026-10-23"
+      },
+      {
+        "title": "Himadri Speciality Chemical: Chairman and Managing Director profile and official portrait",
+        "url": "https://www.himadri.com/CMD.php",
+        "accessedAt": "2026-10-23"
+      }
+    ]
+  },
+  {
     "id": "truist-hyderabad-gcc-supplier-consolidation-2026",
     "title": "Truist’s Hyderabad GCC Makes Supplier Consolidation the Real Test",
     "date": "22-10-2026",
