@@ -43,6 +43,7 @@ const FoundersStories = () => {
                     src={leadStory.image}
                     alt={leadStory.name}
                     className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-700"
+                    style={leadStory.id === "shreeram-ravichandran-modulus-housing-2026" ? { objectPosition: "center top" } : undefined}
                   />
                 </Link>
               </div>
