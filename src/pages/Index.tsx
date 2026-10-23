@@ -87,6 +87,7 @@ const Index = () => {
                     src={mainStory.image}
                     alt={mainStory.name}
                     className="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
+                    style={mainStory.id === "shreeram-ravichandran-modulus-housing-2026" ? { objectPosition: "center top" } : undefined}
                   />
                 </div>
                 <p className="text-xl md:text-2xl text-foreground/80 font-serif leading-relaxed mb-4">
