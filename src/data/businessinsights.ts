@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "godrej-properties-q2-cash-conversion-2026",
+    "title": "Godrej Properties’ Q2: Why Cash Collections Matter Alongside Bookings",
+    "date": "24-10-2026",
+    "image": "/images/business-insights/pirojsha-godrej-2026.webp",
+    "excerpt": "Godrej Properties reported stronger collections but lower Q2 profit. The divergence shows why bookings, cash receipts and accounting earnings must be read separately.",
+    "content": "Godrej Properties’ results for the quarter ended September 30, 2026 show why developers need to be read through both operating and accounting measures. In the company’s October 23 press release, Q2 FY27 booking value was ₹8,008 crore. First-half bookings reached ₹16,659 crore, up 7% year on year. Customer collections rose 31% in the quarter to ₹5,318 crore, and reported operating cash flow was ₹1,584 crore. The same release reported Q2 total income of ₹2,575 crore, up 38%, while net profit fell 62% to ₹154 crore and EBITDA declined 72% to ₹171 crore. These are reported company figures; bookings are not recognized revenue, and collections are not profit.\n\nThe commercial mechanism is timing. A booking records a customer commitment; cash arrives according to payment schedules; accounting income and profit depend on project progress, expenses and recognition rules. A strong collection quarter can improve liquidity even when reported earnings are weaker, while construction outflows and future delivery obligations still need funding.\n\nFor operators and partners, the useful test is conversion across the chain: bookings into collections, collections into completed projects, and completed work into sustainable margins and cash generation. Compare these measures over several periods and read management guidance as a plan, not an achieved result. In real estate, a headline sales figure describes demand at one stage; execution and cash discipline determine whether that demand becomes durable business performance.",
+    "category": "Business Strategy / Real Estate",
+    "readTime": "2 min read",
+    "imageAlt": "Pirojsha Godrej, chairperson of Godrej Properties, in an official company portrait.",
+    "imageCaption": "Pirojsha Godrej, Chairperson of Godrej Properties. Photo credit: Godrej Properties.",
+    "imageCredit": "Godrej Properties",
+    "imageSourceUrl": "https://www.godrejproperties.com/know-us/leadership/pirojsha-godrej",
+    "sources": [
+      {
+        "title": "NSE: Godrej Properties press release for financial results for the quarter and half year ended September 30, 2026",
+        "url": "https://nsearchives.nseindia.com/corporate/GODREJPROP_23102026122944_SEIntimationPR.pdf",
+        "publishedAt": "2026-10-23",
+        "accessedAt": "2026-10-24"
+      },
+      {
+        "title": "Business Standard: Godrej Properties’ Q2FY27 results and collections",
+        "url": "https://www.business-standard.com/companies/news/godrej-properties-q2fy27-results-net-profit-falls-62-to-154-crore-126102400024_1.html",
+        "publishedAt": "2026-10-24",
+        "accessedAt": "2026-10-24"
+      },
+      {
+        "title": "Godrej Properties: Official leadership profile of Pirojsha Godrej and portrait",
+        "url": "https://www.godrejproperties.com/know-us/leadership/pirojsha-godrej",
+        "accessedAt": "2026-10-24"
+      }
+    ]
+  },
+  {
     "id": "himadri-capacity-expansion-commercial-execution-2026",
     "title": "Himadri’s ₹1,613 Crore Expansion: Capacity Is Only the First Milestone",
     "date": "23-10-2026",

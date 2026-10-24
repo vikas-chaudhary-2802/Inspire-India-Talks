@@ -40,6 +40,54 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "dream-hives-assam-mead-2026",
+    "name": "Kaustoov Gopal Goswami and Dhrubajyoti Deka",
+    "title": "Co-founders, Dream Hives Private Limited (AS01)",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/dream-hives-founders-2026.jpg",
+    "born": "",
+    "profession": "Entrepreneurs building a honey-based mead venture in Assam.",
+    "knownFor": "Turning a pandemic-era honey surplus into AS01, a mead made with ingredients associated with Assam.",
+    "quote": "",
+    "story": "Dream Hives took shape after the founders confronted a familiar small-producer problem: a good local ingredient could not always find a reliable market. During the second Covid-19 lockdown in 2021, online sales stalled and a stock of honey remained unsold. Kaustoov Gopal Goswami and Dhrubajyoti Deka, who had been working on community beekeeping around the buffer areas of Assam’s Manas National Park, began looking for a way to turn that surplus into a higher-value product.\n\nThe answer was mead, an alcoholic drink made by fermenting honey. Their company, Dream Hives Private Limited, developed AS01 around Assam’s ingredients, including tea and Bhoot Jolokia, also known as King Chilli. The idea connects a regional supply base to a category more commonly associated with European history and craft-beverage markets. The founders’ approach is not simply to sell honey in a different package; fermentation, flavour development, licensing, bottling and distribution add new operating steps and new consumer expectations.\n\nThe founders came to the venture from different paths. Deka had earlier started Brahmaputra Fables, an online marketplace for handicrafts from the Northeast. Goswami had worked in renewable energy, including in wildlife-conservation areas. YourStory reported that they met at a startup event in Delhi in 2018 and later worked together on the beekeeping initiative. Their partnership brought together a founder already building a route to market for regional products and a collaborator focused on community-oriented work.\n\nDream Hives’ sourcing model, as described by Deka to YourStory in June 2025, drew honey from beekeepers in Assam’s Baksa and Rangia areas, tea from small growers, and King Chilli from Morigaon. That local sourcing gives the product a clear identity, but also makes coordination across suppliers, consistent quality and seasonal availability important. The company was also reported to have a production facility at Guwahati Biotech Park and an excise manufacturing licence. The capacity and launch schedule in that story were company-reported plans at the time, not verified current output.\n\nThe venture received a ₹3 lakh award at the Startup MahaRathi Challenge in April 2025, a milestone documented in contemporaneous coverage. Early product testing and this recognition helped put a regional beverage idea before a wider startup audience. They do not, by themselves, establish sustained retail demand or profitability. Publicly accessible reporting reviewed for this profile did not establish Dream Hives’ current sales, revenue or valuation, so those figures are left unstated.\n\nThe business question remains practical: can the founders turn a distinctive, locally sourced drink into repeat purchases while managing the costs and regulatory requirements of alcoholic-beverage production? That will depend on distribution and customer retention as much as the product story. For founders working with agricultural inputs, Dream Hives illustrates both the opportunity in processing local surplus and the execution required after the first bottle is made.",
+    "achievements": [
+      "Co-founded Dream Hives Private Limited in Assam in 2021 after an unsold honey surplus prompted a search for value-added products.",
+      "Developed AS01 mead using locally sourced honey and regional ingredients including Assam tea and King Chilli, as reported by YourStory in June 2025.",
+      "Dream Hives received a ₹3 lakh award in the agritech category at the Startup MahaRathi Challenge in April 2025."
+    ],
+    "addedAt": "2026-10-24",
+    "imageAlt": "Dream Hives co-founders Dhrubajyoti Deka and Kaustoov Gopal Goswami, shown in a YourStory feature image.",
+    "imageCaption": "Dream Hives co-founders Dhrubajyoti Deka and Kaustoov Gopal Goswami. Photo source: YourStory feature image, credited in the article to Dream Hives.",
+    "imageCredit": "Dream Hives via YourStory",
+    "imageSourceUrl": "https://yourstory.com/2025/05/guwahati-startup-is-bringing-mead-to-indian-consumers-local-flavour",
+    "sources": [
+      {
+        "title": "YourStory: This startup from Guwahati is bringing mead to Indian consumers with a distinctly local flavour",
+        "url": "https://yourstory.com/2025/05/guwahati-startup-is-bringing-mead-to-indian-consumers-local-flavour",
+        "publishedAt": "2025-06-05",
+        "accessedAt": "2026-10-24"
+      },
+      {
+        "title": "YourStory: This Assamese startup is giving a lifeline to northeast Indian handicrafts by taking them global",
+        "url": "https://yourstory.com/socialstory/2019/06/brahmaputra-fables-assamese-startup-handicrafts",
+        "publishedAt": "2019-06-21",
+        "accessedAt": "2026-10-24"
+      },
+      {
+        "title": "Startup Mahakumbh 2025: Exhibitor Directory, Dream Hives profile",
+        "url": "https://startupmahakumbh.org/exhibitor_directory/SM_2025_Exhibitor_Directory.pdf?v=1754431531",
+        "publishedAt": "2025-04-03",
+        "accessedAt": "2026-10-24"
+      },
+      {
+        "title": "Atal Innovation Mission: Sustainable Development Goals Coffee Table Book, Dream Hives founder profile",
+        "url": "https://aim.gov.in/pdf/sdg-coffee-table-book.pdf",
+        "accessedAt": "2026-10-24"
+      }
+    ]
+  },
+  {
     "id": "shreeram-ravichandran-modulus-housing-2026",
     "name": "Shreeram Ravichandran",
     "title": "Co-founder & CEO, Modulus Housing",
