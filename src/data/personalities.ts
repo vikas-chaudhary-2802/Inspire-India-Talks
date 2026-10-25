@@ -40,6 +40,48 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "vijay-kanchetla-rajesh-zele-mumbaisemi-2026",
+    "name": "Vijay Kumar Kanchetla and Rajesh H. Zele",
+    "title": "Co-founders, MumbaiSemi",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/mumbaisemi-founders-2026.webp",
+    "born": "",
+    "profession": "Semiconductor researchers building a reconfigurable satellite-navigation radio-frequency chip company.",
+    "knownFor": "Taking IIT Bombay research on a programmable navigation receiver chip into a Mumbai semiconductor startup.",
+    "quote": "",
+    "story": "A navigation receiver depends on a small but demanding task: separating faint satellite signals from surrounding noise and passing usable data to the device’s processor. At IIT Bombay, researcher Vijay Kumar Kanchetla and Professor Rajesh H. Zele worked on that radio-frequency challenge for India’s NavIC system. Their research eventually became the foundation for MumbaiSemi, a fabless chip-design company incubated at the institute’s SINE centre.\n\nThe work began as a government-backed project to develop a receiver chip for NavIC, according to Kanchetla’s account to YourStory. He said the team spent nearly six years on the research and completed two silicon iterations before feedback from industry encouraged the researchers to pursue commercialisation. MumbaiSemi was founded in 2024, and the company is now building its business around DhruvaPro, a reconfigurable RF integrated circuit for the front end of navigation receivers.\n\nThe product is designed to process signals from several satellite constellations, including NavIC, GPS, Galileo, GLONASS and BeiDou. In the receiver chain, the RF chip filters unwanted signals, amplifies and converts the desired signal, then digitises it for downstream processing. MumbaiSemi’s proposition is that a programmable chip can let receiver makers support multiple frequency bands without changing the chip hardware each time. The company says the design has been fabricated and tested in silicon; the research-to-product transition is therefore further along than a simulation, though that alone does not establish volume production or commercial adoption.\n\nMoving from a research result to an industrial component changes the work. Buyers in vehicle tracking, freight and logistics need a complete receiver module, including a digital baseband chip and compatible interfaces. Kanchetla told YourStory that customers want something they can plug into existing systems, so integration and reliability are part of the product, not merely engineering details. MumbaiSemi has completed multiple pilots, but the company was still pre-revenue in the October 2026 report. Its near-term test is converting pilots into repeatable deployments and paid orders.\n\nIIT Bombay recognised the underlying work with its 2024 Dr P. K. Patwardhan Technology Development Award to Zele and Kanchetla. The institute’s account and the company’s presentation at the 2026 Bharat Innovates showcase reflect the long path from campus research to market-facing hardware. MumbaiSemi’s story is less about a single chip launch than about assembling the commercial capabilities around one: customer qualification, module integration, manufacturing partners and capital for long development cycles. Those steps will determine whether a locally designed navigation component can become a dependable supplier business.",
+    "achievements": [
+      "Co-founded MumbaiSemi, an IIT Bombay SINE-incubated fabless chip-design startup founded in 2024.",
+      "Developed DhruvaPro, a reconfigurable GNSS receiver RF chip designed to support NavIC and other global navigation satellite systems.",
+      "Shared the 2024 Dr P. K. Patwardhan Technology Development Award at IIT Bombay for the DhruvaPro work."
+    ],
+    "addedAt": "2026-10-25",
+    "imageAlt": "MumbaiSemi co-founders Rajesh H. Zele, left, and Vijay Kumar Kanchetla, right, in a YourStory Tech30 portrait.",
+    "imageCaption": "MumbaiSemi co-founders Rajesh Zele and Vijay Kanchetla. Photo: YourStory / Tech30.",
+    "imageCredit": "YourStory / Tech30",
+    "imageSourceUrl": "https://yourstory.com/2026/10/tech30-mumbaisemi-high-quality-rf-chips",
+    "sources": [
+      {
+        "title": "YourStory: MumbaiSemi aims to become a global supplier of high-quality RF chips",
+        "url": "https://yourstory.com/2026/10/tech30-mumbaisemi-high-quality-rf-chips",
+        "publishedAt": "2026-10-15",
+        "accessedAt": "2026-10-25"
+      },
+      {
+        "title": "IIT Bombay: Dr P. K. Patwardhan Technology Development Award 2024 — Prof. Rajesh Zele and Dr Vijay Kanchetla",
+        "url": "https://rnd.iitb.ac.in/node/2518",
+        "publishedAt": "2024-09-15",
+        "accessedAt": "2026-10-25"
+      },
+      {
+        "title": "IIT Bombay: Department of Electrical Engineering profile for Prof. Rajesh H. Zele",
+        "url": "https://www.ee.iitb.ac.in/people/faculty/rajesh-h-zele/",
+        "accessedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
     "id": "dream-hives-assam-mead-2026",
     "name": "Kaustoov Gopal Goswami and Dhrubajyoti Deka",
     "title": "Co-founders, Dream Hives Private Limited (AS01)",

@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "idfc-first-q2-fy27-fcnr-liquidity-funding-mix-2026",
+    "title": "IDFC FIRST Bank’s Q2: How FCNR Deposits Change the Funding Mix",
+    "date": "25-10-2026",
+    "image": "/images/business-insights/idfc-first-v-vaidyanathan-2026.png",
+    "excerpt": "IDFC FIRST Bank reported a sharp Q2 profit increase and raised ₹34,390 crore in FCNR(B) deposits. The longer-tenor funding can improve liquidity and cost, while changing reported margin measures.",
+    "content": "For the quarter ended September 30, 2026, IDFC FIRST Bank reported profit after tax of ₹1,045 crore, up 196.5% year on year. The more revealing operating detail may be the funding mix: the bank said it mobilised ₹34,390 crore of FCNR(B) deposits during Q2, largely with three-to-five-year tenors. It described the fully loaded cost, including priority-sector lending benefits, as about one percentage point below comparable domestic fixed deposits.\n\nThat can provide a bank with longer-dated liquidity and a lower funding cost. But the balance-sheet effect complicates headline comparisons. IDFC FIRST said the inflows expanded the balance sheet by ₹24,885 crore as its IBU branch extended loans backed by those deposits. The additional balances were optically dilutive to net interest margin, even as the bank expected the funding to support net interest income and returns over time. Average CASA was 48.4%, down from 50.1%, with the bank attributing the change primarily to the FCNR(B) mobilisation.\n\nThe practical lesson for operators is to read deposit growth with its tenor, currency, cost and deployment plan. A low-cost deposit is valuable only when its maturity and foreign-exchange exposure are managed and the funds earn an adequate return after hedging, liquidity and capital costs. Growth in customer balances, net interest margin and profit describe different parts of that equation. In Q2 FY27, IDFC FIRST’s reported core operating profit excluding trading gains rose 38.5% to ₹2,527 crore, while the quarter’s PAT reflected the combined effect of funding, lending and expenses. The quality of the new funding will be tested by how sustainably the bank converts it into earnings.",
+    "category": "Banking / Business Strategy",
+    "readTime": "2 min read",
+    "imageAlt": "V. Vaidyanathan, Managing Director and CEO of IDFC FIRST Bank, in an official bank portrait.",
+    "imageCaption": "V. Vaidyanathan, Managing Director & CEO of IDFC FIRST Bank. Photo credit: IDFC FIRST Bank.",
+    "imageCredit": "IDFC FIRST Bank",
+    "imageSourceUrl": "https://www.idfcfirst.bank.in/about-us/about-md-and-ceo",
+    "sources": [
+      {
+        "title": "IDFC FIRST Bank: Q2 FY27 press release for results for the quarter and half year ended September 30, 2026",
+        "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/news-media/press-release/IDFC-FIRST-Bank-Q2-FY27-Results-PAT-up-196-5-percent-YoY-at-rs-1045-Crore.pdf",
+        "publishedAt": "2026-10-24",
+        "accessedAt": "2026-10-25"
+      },
+      {
+        "title": "Moneycontrol: IDFC First Bank Q2 net profit jumps to Rs 1,044.6 crore",
+        "url": "https://www.moneycontrol.com/news/business/earnings/idfc-first-bank-q2-net-profit-jumps-to-rs-1-044-6-crore-14059216.html",
+        "publishedAt": "2026-10-24",
+        "accessedAt": "2026-10-25"
+      },
+      {
+        "title": "IDFC FIRST Bank: Official profile of Managing Director and CEO V. Vaidyanathan",
+        "url": "https://www.idfcfirst.bank.in/about-us/about-md-and-ceo",
+        "accessedAt": "2026-10-25"
+      }
+    ]
+  },
+  {
     "id": "godrej-properties-q2-cash-conversion-2026",
     "title": "Godrej Properties’ Q2: Why Cash Collections Matter Alongside Bookings",
     "date": "24-10-2026",
