@@ -45,7 +45,7 @@ export const personalities: Personality[] = [
     "title": "Co-founders, MumbaiSemi",
     "category": "Entrepreneurs & Founders",
     "categorySlug": "entrepreneurs",
-    "image": "/images/founder-stories/mumbaisemi-founders-2026.webp",
+    "image": "/images/founder-stories/mumbaisemi-rajesh-zele-2026.jpg",
     "born": "",
     "profession": "Semiconductor researchers building a reconfigurable satellite-navigation radio-frequency chip company.",
     "knownFor": "Taking IIT Bombay research on a programmable navigation receiver chip into a Mumbai semiconductor startup.",
@@ -57,10 +57,10 @@ export const personalities: Personality[] = [
       "Shared the 2024 Dr P. K. Patwardhan Technology Development Award at IIT Bombay for the DhruvaPro work."
     ],
     "addedAt": "2026-10-25",
-    "imageAlt": "MumbaiSemi co-founders Rajesh H. Zele, left, and Vijay Kumar Kanchetla, right, in a YourStory Tech30 portrait.",
-    "imageCaption": "MumbaiSemi co-founders Rajesh Zele and Vijay Kanchetla. Photo: YourStory / Tech30.",
-    "imageCredit": "YourStory / Tech30",
-    "imageSourceUrl": "https://yourstory.com/2026/10/tech30-mumbaisemi-high-quality-rf-chips",
+    "imageAlt": "Prof. Rajesh H. Zele, co-founder of MumbaiSemi and IIT Bombay professor, in a company-provided portrait.",
+    "imageCaption": "Prof. Rajesh H. Zele, co-founder of MumbaiSemi. Photo provided by MumbaiSemi.",
+    "imageCredit": "MumbaiSemi",
+    "imageSourceUrl": "https://www.mumbaisemi.com/#about",
     "sources": [
       {
         "title": "YourStory: MumbaiSemi aims to become a global supplier of high-quality RF chips",
