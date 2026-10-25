@@ -145,9 +145,9 @@
     ]
   },
   "imageBrandingPolicy": {
-    "watermarks": "Never use a photograph with a third-party publisher or competitor logo/watermark embedded in the image. Never erase, obscure, crop out, or otherwise hide a watermark. Replace it with a genuine clean photo from the company/founder/official institution or an appropriately licensed unbranded source, and verify identity and provenance.",
+    "watermarks": "Do not erase, obscure, crop out, or otherwise hide a watermark. Prefer a professional editorial-quality photo supplied by the company, founder, or official institution, or an appropriately licensed unbranded image. Do not substitute a casual, low-resolution, awkwardly cropped, or otherwise unprofessional image just to avoid a watermark. If the only verifiable photo is a professional-quality image carrying its publisher credit, preserve it unchanged and show an accurate linked credit; if no image meets the quality and provenance bar, hold publication and report the limitation.",
     "attribution": "Keep accurate linked photo credits and titled citations for reporting that supports factual claims, including competitor publications when used. Do not remove or disguise source attribution to conceal the reporting origin; cross-check key claims against primary sources where possible.",
-    "fallback": "If no suitable clean, properly sourced image is available, keep the package unready and report the image limitation.",
+    "fallback": "If no suitable professional-quality, properly sourced image is available, keep the package unready and report the image limitation. Never lower visual standards or manipulate branding to force publication.",
     "competitorReporting": "Treat competitor coverage such as YourStory as a discovery lead. Before publication, verify important facts against official company/founder materials, filings, university or research records, and independent noncompetitor reporting wherever available. Prefer claims supported by primary sources; omit claims that cannot be independently supported, or choose a different subject. Keep accurate citations for sources actually relied on; never hide or misstate attribution."
   }
 }
