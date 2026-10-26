@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "tech-mahindra-finastra-cash-management-acquisition-2026",
+    "title": "Tech Mahindra’s Finastra Deal Moves a Banking Partner Into Product Ownership",
+    "date": "26-10-2026",
+    "image": "/images/business-insights/mohit-joshi-tech-mahindra-2026.jpg",
+    "excerpt": "The October 23 acquisition gives Tech Mahindra ownership of Finastra cash-management software it previously implemented, shifting the opportunity from services delivery to product stewardship.",
+    "content": "On 23 October 2026, Tech Mahindra said it had acquired Finastra’s Cash Management product suite: Fusion Cash Management, Fusion Virtual Accounts and Fusion Liquidity Management. The company also said the transaction includes associated intellectual property and capabilities, and that product engineering and customer-success employees will move to Tech Mahindra. Deal terms, acquired revenue and customer numbers were not disclosed.\n\nThe strategic change is a shift in position. In August 2024, Tech Mahindra said it would be Finastra’s exclusive global implementation partner for the Cash Management platform. That put it close to bank deployments and customer requirements; the acquisition now makes it the owner of the products as well. This can align software roadmaps with implementation experience, but it also transfers responsibility for product investment, support and continuity. Tech Mahindra says existing customers should retain platform access and ongoing services.\n\nFor banks, the immediate question will be how reliably releases, integrations and support continue through the transition. For Tech Mahindra, the commercial test is whether product ownership helps retain users and supports new deployments without weakening service delivery. Ownership alone does not establish recurring revenue or margins; the companies have not disclosed those numbers. The practical lesson for services firms considering product acquisitions is to value the customer relationship, engineering team and long-term support obligations alongside the intellectual property. A software product becomes a durable business only if customers keep using it and new clients keep adopting it.",
+    "category": "Financial Services",
+    "readTime": "2 min read",
+    "imageAlt": "Mohit Joshi, Managing Director and CEO of Tech Mahindra, in a formal portrait.",
+    "imageCaption": "Mohit Joshi, Managing Director and CEO of Tech Mahindra. Photo credit: Mahindra & Mahindra Ltd.",
+    "imageCredit": "Mahindra & Mahindra Ltd.",
+    "imageSourceUrl": "https://www.mahindra.com/mohit-joshi",
+    "sources": [
+      {
+        "title": "Tech Mahindra Acquires Finastra’s Cash Management Product Suite",
+        "url": "https://www.techmahindra.com/insights/press-releases/tech-mahindra-acquires-finastras-cash-management-product-suite/",
+        "publishedAt": "2026-10-23",
+        "accessedAt": "2026-10-26"
+      },
+      {
+        "title": "Digital Banking Products & Platforms | Tech Mahindra",
+        "url": "https://www.techmahindra.com/industries/banking-financial-services/banking-products/",
+        "accessedAt": "2026-10-26"
+      },
+      {
+        "title": "Finastra and Tech Mahindra Sign Strategic Partnership to Accelerate Digital Transformation for Corporate Banks",
+        "url": "https://www.techmahindra.com/insights/press-releases/finastra-and-tech-mahindra-sign-strategic-partnership-accelerate-digital-transformation/",
+        "publishedAt": "2024-08-01",
+        "accessedAt": "2026-10-26"
+      }
+    ]
+  },
+  {
     "id": "idfc-first-q2-fy27-fcnr-liquidity-funding-mix-2026",
     "title": "IDFC FIRST Bank’s Q2: How FCNR Deposits Change the Funding Mix",
     "date": "25-10-2026",

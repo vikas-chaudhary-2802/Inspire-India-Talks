@@ -40,6 +40,47 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "mohit-yadav-bolt-earth-2026",
+    "name": "Mohit Yadav",
+    "title": "Founder & CEO, Bolt.Earth",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/mohit-yadav-bolt-earth-2026.png",
+    "born": "",
+    "profession": "Indian technology entrepreneur and founder of Bolt.Earth",
+    "knownFor": "Building Bolt.Earth from connected vehicle devices into a distributed electric-vehicle charging network.",
+    "quote": "",
+    "story": "An electric vehicle can be ready to travel and still be stranded by a missing place to charge. Mohit Yadav’s company-building story begins with the less visible layer of mobility: connected technology and access to infrastructure.\n\nYadav is Founder and CEO of Bolt.Earth. The company’s leadership profile says he studied computer science engineering at BITS Pilani and spent over a decade in technology before starting the company with co-founder Jyotiranjan Harichandan in 2017. Bolt.Earth’s own timeline says it began as REVOS, building connected IoT devices. The starting focus was vehicle software; the business later moved toward the places where electric vehicles need power.\n\nThe company says it launched a peer-to-peer charging network and a scan-pay-charge app in 2020. Rather than relying only on a fleet of centrally owned stations, the model invites homes and businesses with chargers to make them discoverable to other drivers. In a 2024 conversation with Prime Venture Partners, Yadav discussed the host side of this approach: making individual and business charging points available and potentially monetisable. This matters in a market where parking places and chargers are distributed across housing, work and travel locations. The network still has to solve practical issues such as uptime, compatible equipment, customer support and whether hosts earn enough to keep chargers available.\n\nBolt.Earth’s company timeline records a 2023 rebrand from REVOS, more than 20,000 charging points across 500-plus cities in 2022, and a $5 million Series A+ round in 2024. These are company-reported milestones. The timeline also records new fast-charging products in 2025, extending the business beyond software and network access into equipment. Each move adds a different operating challenge: quality control for hardware, software that keeps locations and payments reliable, and a network dense enough to be useful.\n\nOn its current leadership and press pages, Bolt.Earth reports more than 100,000 deployed chargers across 2,200-plus cities. These are company figures, not audited performance data. The scale claim describes reach; the business test is whether drivers can consistently find an available compatible charger and whether hosts and partners have a reason to maintain it.\n\nYadav’s founder story is therefore less about one product launch than a series of shifts in where the bottleneck sits: from connected devices, to charger discovery and access, to fast hardware. Bolt.Earth’s distributed model offers one answer to building infrastructure across many locations. Reliability and partner economics will determine how useful that network becomes in daily travel.",
+    "achievements": [
+      "Founded Bolt.Earth (originally REVOS) in 2017 with co-founder Jyotiranjan Harichandan.",
+      "Helped develop a peer-to-peer EV charging network and scan-pay-charge app launched in 2020, according to the company.",
+      "Led the company through its 2023 rebrand and expansion into fast-charging hardware, according to its published timeline."
+    ],
+    "addedAt": "2026-10-26",
+    "imageAlt": "Bolt.Earth founder and CEO Mohit Yadav speaking at an event, holding a microphone and phone.",
+    "imageCaption": "Mohit Yadav, Founder & CEO of Bolt.Earth, speaking at an event. Photo credit: Bolt.Earth.",
+    "imageCredit": "Bolt.Earth",
+    "imageSourceUrl": "https://bolt.earth/media-corner/press-kit/leadership-team",
+    "sources": [
+      {
+        "title": "Bolt.Earth: Our Story",
+        "url": "https://bolt.earth/our-story",
+        "accessedAt": "2026-10-26"
+      },
+      {
+        "title": "Bolt.Earth Leadership Team: Mohit Yadav, Founder & CEO",
+        "url": "https://bolt.earth/media-corner/press-kit/leadership-team",
+        "accessedAt": "2026-10-26"
+      },
+      {
+        "title": "How Bolt.Earth Is Charging 1,300+ Indian Cities — Part 1",
+        "url": "https://www.primevp.in/content/podcast/how-boltearth-is-charging-1300-indian-cities-part-1-with-mohit-yadav-co-founder-bolt-earth",
+        "publishedAt": "2024-01-25",
+        "accessedAt": "2026-10-26"
+      }
+    ]
+  },
+  {
     "id": "vijay-kanchetla-rajesh-zele-mumbaisemi-2026",
     "name": "Vijay Kumar Kanchetla and Rajesh H. Zele",
     "title": "Co-founders, MumbaiSemi",
