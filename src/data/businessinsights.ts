@@ -35,6 +35,45 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "makemytrip-myra-travel-booking-assistance-2026",
+    "title": "MakeMyTrip’s Myra: Put AI Assistance Inside the Booking Journey",
+    "date": "27-10-2026",
+    "image": "/images/business-insights/rajesh-magow-makemytrip-2026.jpg",
+    "excerpt": "Q2 FY27 results show how embedded travel assistance can support bookings and automate service, while the reported conversion gap still needs causal testing.",
+    "content": "On 26 October 2026, MakeMyTrip discussed Myra, its AI travel assistant, in its Q2 FY27 earnings call. The quarter ended on 30 September 2026. Management said Myra handled more than 90,000 daily conversations during the quarter, resolved over 53% of post-booking flight and hotel queries, and assisted an average of more than 3,000 completed bookings a day. It also reported that customers using Myra converted at about 1.7 times the rate of those who did not. These are company-reported operating measures, not audited causal findings.\n\nThe commercial mechanism is placement. Myra is available inside the booking journey, where a traveller may need an answer before committing or help after purchase. Timely guidance can support booking completion; automating routine post-booking questions may also reduce service effort. The two outcomes should be measured separately: assisted bookings are not automatically incremental bookings, and resolved queries are not the same as conversion.\n\nThere is a selection effect to consider. As MakeMyTrip’s CEO explained on the call, customers invoking Myra were already in the regular consumer flow and asked clarifying questions along the way. Their higher conversion may reflect stronger purchase intent as well as the assistant’s contribution. A business testing conversational help should compare similar users with and without the feature, then track incremental completed bookings, query-resolution quality, service cost per booking, cancellations and refunds. Conversation volume alone is a weak commercial scorecard. The practical lesson is to put assistance close to the decision, but judge it on verified lift and operating savings rather than engagement alone.",
+    "category": "Artificial Intelligence",
+    "readTime": "2 min read",
+    "imageAlt": "Rajesh Magow, MakeMyTrip co-founder and Group CEO, in a company portrait.",
+    "imageCaption": "Rajesh Magow, Co-founder and Group CEO of MakeMyTrip. Photo credit: MakeMyTrip.",
+    "imageCredit": "MakeMyTrip",
+    "imageSourceUrl": "https://www.makemytrip.com/about-us",
+    "sources": [
+      {
+        "title": "MakeMyTrip Q2 FY27 Earnings Call Transcript",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/10/26/makemytrip-mmyt-q2-2027-earnings-call-transcript/",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-27"
+      },
+      {
+        "title": "MakeMyTrip Limited Announces Fiscal 2027 Second Quarter Results",
+        "url": "https://www.sec.gov/Archives/edgar/data/1495153/000119312526430976/mmyt-ex99_1.htm",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-27"
+      },
+      {
+        "title": "MakeMyTrip Limited — Q2 FY27 Press Releases",
+        "url": "https://investors.makemytrip.com/us/investors/press-releases",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-27"
+      },
+      {
+        "title": "MakeMyTrip Leadership: Rajesh Magow",
+        "url": "https://www.makemytrip.com/about-us",
+        "accessedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
     "id": "tech-mahindra-finastra-cash-management-acquisition-2026",
     "title": "Tech Mahindra’s Finastra Deal Moves a Banking Partner Into Product Ownership",
     "date": "26-10-2026",

@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "sudhanshu-bhatia-matiks-2026",
+    "name": "Sudhanshu Bhatia",
+    "title": "Co-founder, Matiks",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/matiks-cofounders-2026.jpg",
+    "born": "",
+    "profession": "Indian mobile-gaming entrepreneur and co-founder of Matiks",
+    "knownFor": "Building Matiks, a competitive mobile-gaming platform for mental maths, memory, logic and puzzles.",
+    "quote": "",
+    "story": "Math is often presented as a lesson to finish. Sudhanshu Bhatia saw the possibility of making it a contest people would return to by choice. That idea became Matiks, a Bengaluru mobile-gaming company built around mental maths, logic, memory and puzzles.\n\nBhatia began exploring the concept while working on anti-money-laundering strategy at American Express, according to an October 2026 interview with TechCrunch. He had practised competitive mental math and saw that the format already had a contest culture. The broader opportunity, as he described it, was to make maths and puzzles feel social and replayable rather than like solitary practice. He developed the idea with college friends Mohan Kumar and Sushant Timmapur, whom Matiks and TechCrunch identify as co-founders.\n\nThe product makes that ambition concrete. Players can choose from Math, Puzzle, Memory and Logic, practise against bots, and then compete with other players. Challenges, quests, points and streaks add visible milestones around each game. The structure borrows from mobile gaming: a short session, a clear objective and a reason to return. The educational adjacency is obvious, but Matiks presents itself as a gaming company; its central promise is competition, not a formal learning outcome.\n\nThe company is now testing how a game session can support a business. TechCrunch reported on 26 October 2026 that Matiks had begun testing a subscription that unlocks analysis and practice features, alongside in-game purchases for challenge skips, streak protection and experience boosts. The company announced a $10 million pre-Series A round led by General Catalyst, with Ronnie Screwvala and existing investors participating. TechCrunch reported that Matiks had raised more than $13.5 million in total. Funding is capital raised, not revenue.\n\nScale is another part of the current picture. Matiks told TechCrunch that daily users grew from 22,000 earlier in 2026 to more than 300,000 by September, and that monthly active users reached 2.2 million in September. These are company-reported figures. They signal reach, but do not by themselves establish retention, paid conversion or unit economics.\n\nThe harder company-building problem is turning competitive habit into durable participation. Matiks has built repeat-play mechanics and is experimenting with both subscriptions and in-game purchases. As it enters new markets, it will need to preserve the fun of play while making paid features worthwhile. Bhatia’s original question was whether maths could be enjoyable; the business test is whether the game can keep earning a place in people’s routines.",
+    "achievements": [
+      "Co-founded Matiks with Mohan Kumar and Sushant Timmapur.",
+      "Helped build a mobile-gaming product spanning mental maths, memory, logic and puzzle competitions.",
+      "Matiks announced a $10 million pre-Series A funding round in October 2026; the funding amount is not company revenue."
+    ],
+    "addedAt": "2026-10-27",
+    "imageAlt": "Three Matiks co-founders seated together in a monochrome studio portrait.",
+    "imageCaption": "Matiks’ three co-founders in a company-supplied portrait. Photo credit: Matiks.",
+    "imageCredit": "Matiks",
+    "imageSourceUrl": "https://techcrunch.com/2026/10/26/matiks-raises-10m-to-expand-its-math-and-puzzle-gaming-platform/",
+    "sources": [
+      {
+        "title": "Matiks Raises $10M to Expand Its Math and Puzzle Gaming Platform",
+        "url": "https://techcrunch.com/2026/10/26/matiks-raises-10m-to-expand-its-math-and-puzzle-gaming-platform/",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-27"
+      },
+      {
+        "title": "Matiks Announces $10 Million Funding Round",
+        "url": "https://www.linkedin.com/feed/update/urn:li:activity:7520489164383911936/",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-27"
+      },
+      {
+        "title": "Matiks: Math and Brain Games — Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.matiks.app",
+        "accessedAt": "2026-10-27"
+      },
+      {
+        "title": "Sudhanshu Bhatia — LinkedIn Profile and Founder Posts",
+        "url": "https://www.linkedin.com/in/acclivitous26/",
+        "accessedAt": "2026-10-27"
+      }
+    ]
+  },
+  {
     "id": "mohit-yadav-bolt-earth-2026",
     "name": "Mohit Yadav",
     "title": "Founder & CEO, Bolt.Earth",
