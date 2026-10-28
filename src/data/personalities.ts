@@ -40,6 +40,54 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "amritanshu-jain-simplismart-2026",
+    "name": "Amritanshu Jain",
+    "title": "Co-founder & CEO, Simplismart",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/amritanshu-jain-simplismart-2026.jpeg",
+    "born": "",
+    "profession": "AI infrastructure entrepreneur and co-founder of Simplismart",
+    "knownFor": "Building software that helps companies configure and operate AI model inference in production.",
+    "quote": "",
+    "story": "Amritanshu Jain’s work at Simplismart starts with a problem many engineering teams encounter after an AI model leaves a notebook: making it reliable, responsive and affordable in a live product. The company he co-founded builds software for configuring and operating that production layer.\n\nJain studied at BITS Pilani, where he and his roommate, Devansh Ghatak, discussed starting a company, according to an alumni profile published by the university. Before Simplismart, Jain worked at Oracle Cloud AI on language services for healthcare, the same profile says. Their experience building machine-learning systems exposed a gap between a model that performs in development and the infrastructure work needed to deploy and manage it at scale.\n\nThe founders began with tools for teams to build, deploy and manage machine-learning workloads. Simplismart’s product has since focused more tightly on inference: the computing process that produces a model’s output. Its platform lets customers tune serving configurations to the needs of different workloads and manage deployments across cloud and private infrastructure. A voice agent may need a fast response; a batch document job may care more about throughput and cost. The company’s view is that a single benchmark cannot capture both needs.\n\nThat positioning also shapes the company’s capital choices. In its October 2026 funding announcement, Simplismart said it builds software that can turn existing GPU fleets into managed AI services rather than operating its own fleet. The company announced a $14 million Series B on 27 October, led by Dallas Venture Capital, with NVIDIA, Accel, Shastra VC and Micromax participating. This is funding, not revenue. Simplismart separately reported that its annualized revenue run rate had grown 14 times over the preceding six months; that figure is a company-reported run rate, not audited revenue or contracted ARR.\n\nThe business challenge is now broader than optimizing an individual model. Simplismart says cloud providers use its software to package their GPU capacity into services customers can operate under their own brands. The company is also working toward scheduling that could match changing workloads with available compute while respecting response-time and data-residency requirements.\n\nJain’s journey points to a practical lesson for deep-tech founders: a working model is only the starting product. Reliability, latency, utilization and deployment control determine whether customers can use it in production. Simplismart’s next test is to make that operating layer valuable across more applications and providers as AI demand grows.",
+    "achievements": [
+      "Co-founded Simplismart to build software for deploying and managing AI and machine-learning workloads.",
+      "Helped develop the company’s focus on workload-specific inference and orchestration software.",
+      "Simplismart announced a $14 million Series B on 27 October 2026; this is funding, not revenue."
+    ],
+    "addedAt": "2026-10-28",
+    "imageAlt": "Amritanshu Jain, Simplismart co-founder and CEO, in a professional company portrait.",
+    "imageCaption": "Amritanshu Jain, Co-founder and CEO of Simplismart. Photo credit: Simplismart.",
+    "imageCredit": "Simplismart",
+    "imageSourceUrl": "https://simplismart.ai/blog/nvidia-backs-our-14m-series-b",
+    "sources": [
+      {
+        "title": "The Journey of the Creators of SimpliSmart — BITS Pilani",
+        "url": "https://www.bits-pilani.ac.in/the-journey-of-the-creators-of-simplismart/",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "NVIDIA Backs Our $14M Series B — Simplismart",
+        "url": "https://simplismart.ai/blog/nvidia-backs-our-14m-series-b",
+        "publishedAt": "2026-10-27",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Nvidia Backs Indian Startup Helping Companies Run AI Models With Fewer GPUs — TechCrunch",
+        "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+        "publishedAt": "2026-10-27",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Powering Infrastructure for Open Source AI: Our Investment in Simplismart — Accel",
+        "url": "https://www.accel.com/news/powering-infrastructure-for-open-source-ai-our-investment-in-simplismart",
+        "publishedAt": "2024-10-17",
+        "accessedAt": "2026-10-28"
+      }
+    ]
+  },
+  {
     "id": "sudhanshu-bhatia-matiks-2026",
     "name": "Sudhanshu Bhatia",
     "title": "Co-founder, Matiks",

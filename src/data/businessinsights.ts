@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "simplismart-inference-cost-latency-2026",
+    "title": "AI Inference Economics: Meet the Workload’s Cost and Latency Target",
+    "date": "28-10-2026",
+    "image": "/images/business-insights/amritanshu-jain-simplismart-inference-2026.jpeg",
+    "excerpt": "A customer example shared by Simplismart shows why production AI serving should be tuned to a workload’s latency and cost limits together.",
+    "content": "AI inference is often presented as a race for the fastest response or the lowest cost. A business needs a configuration that meets both its service promise and its unit economics.\n\nIn an update published on 27 October 2026, Simplismart described a customer example with Ema. The target was roughly 200 milliseconds of latency at about nine cents per million tokens. One configuration cost five cents but took 350 milliseconds; another reached 100 milliseconds at 12 cents. Simplismart said it delivered a configuration at seven cents and 180 milliseconds. These are company-reported figures from a customer case, not independently audited benchmarks.\n\nThe commercial mechanism is workload-specific tuning. Batching, caching, numerical precision and GPU allocation can alter throughput, response time and cost together. Selecting a setup by one metric can create a poor trade: a cheaper endpoint may be too slow for a voice interaction, while the fastest option may make each customer session uneconomic. The relevant question is whether a system meets a defined service level at a sustainable cost per task.\n\nFor a company deploying AI, set latency and quality thresholds first, then test configurations against representative traffic and measure total serving cost. Separate real-time requests from jobs that can wait. Revisit the settings as usage changes. This turns infrastructure spend into a product decision: performance should match what the customer needs, not a generic leaderboard.",
+    "category": "Artificial Intelligence",
+    "readTime": "2 min read",
+    "imageAlt": "Amritanshu Jain, Simplismart co-founder and CEO, in a professional company portrait.",
+    "imageCaption": "Amritanshu Jain, Co-founder and CEO of Simplismart. Photo credit: Simplismart.",
+    "imageCredit": "Simplismart",
+    "imageSourceUrl": "https://simplismart.ai/blog/nvidia-backs-our-14m-series-b",
+    "sources": [
+      {
+        "title": "NVIDIA Backs Our $14M Series B — Simplismart",
+        "url": "https://simplismart.ai/blog/nvidia-backs-our-14m-series-b",
+        "publishedAt": "2026-10-27",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Nvidia Backs Indian Startup Helping Companies Run AI Models With Fewer GPUs — TechCrunch",
+        "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+        "publishedAt": "2026-10-27",
+        "accessedAt": "2026-10-28"
+      },
+      {
+        "title": "Simplismart — AI Inference and Deployment Platform",
+        "url": "https://simplismart.ai/",
+        "accessedAt": "2026-10-28"
+      }
+    ]
+  },
+  {
     "id": "makemytrip-myra-travel-booking-assistance-2026",
     "title": "MakeMyTrip’s Myra: Put AI Assistance Inside the Booking Journey",
     "date": "27-10-2026",
