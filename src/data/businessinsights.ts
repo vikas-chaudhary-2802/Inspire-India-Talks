@@ -35,6 +35,40 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "wework-india-occupancy-capacity-economics-2026",
+    "title": "Why WeWork India Separates Mature-Centre Occupancy from Portfolio Growth",
+    "date": "29-10-2026",
+    "image": "/images/business-insights/wework-india-workspace-q2fy27-2026.webp",
+    "excerpt": "WeWork India’s Q2 FY27 update shows why flexible-workspace operators need to read new-centre ramp-up alongside mature-site utilisation.",
+    "content": "On 26 October 2026, WeWork India Management released its results and operating update for the quarter ended 30 September. The company reported Q2 FY27 revenue of ₹768.7 crore, up 31.6% year over year, and said operational desk capacity was 145.3 thousand, 26.9% higher. Membership reached 121.7 thousand, up 32.5%. These figures are on an IGAAP-equivalent basis, as stated in its investor-relations materials.\n\nAn occupancy split gives more useful operating context than capacity alone: portfolio occupancy was 83.7%, while mature centres stood at 87.7%. The four-percentage-point gap is consistent with newer sites still ramping, though the disclosure does not show centre-level payback or how long each location takes to mature. It is a reason to read portfolio and mature-centre metrics together, not proof that every new centre will reach the mature rate.\n\nWorkspace operators take on rent, fit-out and operating obligations before every desk is filled. If memberships grow faster than desk supply, that can support utilisation; if new locations take longer to fill, the portfolio average can soften even as established centres remain busy. The useful management question is therefore not only how many desks were opened, but how quickly cohorts build occupancy and what margin they contribute after rent and service costs.\n\nFor buyers and investors assessing flexible-workspace growth, compare new-centre ramp with mature-site economics, then look for cash flow or disclosed returns to test the expansion story. A strong quarter headline alone is not a unit-economics measure.",
+    "category": "Commercial Real Estate",
+    "readTime": "2 min read",
+    "imageAlt": "A furnished WeWork India workspace with open desks, meeting tables, lounge seating and large windows.",
+    "imageCaption": "A furnished workspace shown on WeWork India’s official site. Photo credit: WeWork India.",
+    "imageCredit": "WeWork India",
+    "imageSourceUrl": "https://wework.co.in/",
+    "sources": [
+      {
+        "title": "Q2 FY 2027 Financial Information — WeWork India",
+        "url": "https://wework.co.in/investors-relations/financial-information/",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Investor Presentation on H1 & Q2 FY27 Earnings — WeWork India",
+        "url": "https://wework.co.in/investors-relations/WeWork%20-%20Investor%20Presentation-q2-27.pdf",
+        "publishedAt": "2026-10-26",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "WeWork India H1 Net Profit Rises 150%, Revenue Up 30.1% — The Economic Times",
+        "url": "https://cssm.etimg.com/markets/stocks/earnings/wework-india-h1-net-profit-rises-150-revenue-up-30-1/articleshow/135232036.cms",
+        "publishedAt": "2026-10-27",
+        "accessedAt": "2026-10-29"
+      }
+    ]
+  },
+  {
     "id": "simplismart-inference-cost-latency-2026",
     "title": "AI Inference Economics: Meet the Workload’s Cost and Latency Target",
     "date": "28-10-2026",

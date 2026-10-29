@@ -40,6 +40,51 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "vaibhav-aggarwal-nyave-2026",
+    "name": "Vaibhav Aggarwal",
+    "title": "Founder & CEO, Nyave (Yogkshem Technology)",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/vaibhav-aggarwal-nyave-2026.jpg",
+    "born": "",
+    "profession": "Entrepreneur building a pre-filing verification platform for Special Leave Petitions",
+    "knownFor": "Founding Nyave to help Advocates-on-Record check procedural readiness before Supreme Court filing.",
+    "quote": "",
+    "story": "Vaibhav Aggarwal’s move from enterprise technology into a legal workflow company began with a narrow question: could a potential procedural problem be found before a Special Leave Petition is filed? He has described the trigger as his own experience navigating Supreme Court process. Rather than retell private details, the verifiable story lies in the product choice that followed: Nyave, a pre-filing verification platform built by Yogkshem Technology.\n\nAggarwal’s career was not a straight line from law school into legal technology. Nyave’s official biography says he earned a B.E. from Thapar University, then spent five years at InMobi, where he reached Senior Manager and worked across India, Southeast Asia, the Middle East and Africa, and China. The company says he left that role to build Nyave full time. That experience gives him a background in large, multi-region software operations; it does not, by itself, establish that the product has been adopted or shown measurable impact.\n\nThe problem Nyave has chosen is concrete. Supreme Court rules and the Court’s SLP form set out prescribed information and documents; preparing a filing therefore means more than drafting arguments. The company says its tool checks Special Leave Petitions before filing and is aimed at Advocates-on-Record. This is a product boundary worth noticing: Nyave presents a procedural preparation workflow, not an automated substitute for legal judgment or a claim that a petition will succeed.\n\nThe company’s development has also followed a defined sequence. Yogkshem Technology was incorporated on April 22, 2026, according to Nyave’s About page. It identifies itself as bootstrapped and shows a beta launch on September 15, 2026. Its public-facing pages describe the product as early-stage; no independently audited customer, accuracy, or revenue figures were located for this profile, so none are used here.\n\nAggarwal’s public description of the idea emphasizes fixing the bottleneck where it begins. That choice matters commercially as well as technically. A narrowly defined compliance step can be easier to explain and evaluate than a broad promise to digitize legal work. The hard test will be whether practitioners trust its checks, can fit them into their existing filing process, and see enough time saved to return. Nyave’s first milestone is therefore not simply an AI feature: it is earning a place in a consequential workflow while leaving professional decisions with the people responsible for them.\n\nFor founders, the case is a reminder that domain familiarity does not excuse overclaiming. It can instead help make a product’s boundary clearer. Nyave is attempting a focused check around a document-heavy process; the market will decide whether that focus becomes a durable, useful tool.",
+    "achievements": [
+      "Founded Yogkshem Technology and launched Nyave, a pre-filing verification platform for Special Leave Petitions.",
+      "Nyave’s official site records a beta launch on 15 September 2026."
+    ],
+    "addedAt": "2026-10-29",
+    "imageAlt": "Vaibhav Aggarwal, founder and CEO of Nyave, in a clean professional portrait.",
+    "imageCaption": "Vaibhav Aggarwal, Founder and CEO of Nyave. Photo credit: Nyave.",
+    "imageCredit": "Nyave",
+    "imageSourceUrl": "https://nyave.in/founder.html",
+    "sources": [
+      {
+        "title": "Nyave: Founder and Company Background",
+        "url": "https://nyave.in/founder.html",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Vaibhav Aggarwal on the Procedural Bottleneck Nyave Addresses",
+        "url": "https://in.linkedin.com/in/aggarwal-vaibhav",
+        "publishedAt": "2026-10-27",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Supreme Court Rules",
+        "url": "https://www.sci.gov.in/supreme-court-rules/",
+        "accessedAt": "2026-10-29"
+      },
+      {
+        "title": "Special Leave Petition Forms and Mandatory Checklists",
+        "url": "https://www.sci.gov.in/forms/",
+        "accessedAt": "2026-10-29"
+      }
+    ]
+  },
+  {
     "id": "amritanshu-jain-simplismart-2026",
     "name": "Amritanshu Jain",
     "title": "Co-founder & CEO, Simplismart",
