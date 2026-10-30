@@ -1,0 +1,11 @@
+{
+  "duration": 66.73333333333333,
+  "sample_rate": 48000,
+  "mix_peak_dbfs": -1.600000279326729,
+  "voice_rms_dbfs": -19.405139765784092,
+  "music_rms_dbfs": -31.643194701829213,
+  "music": "Original 112 BPM electric piano / synth groove, automatic speech ducking",
+  "base_music_gain_db": -11.5,
+  "speech_duck_db": 2.5,
+  "outro_music_gain_db": -5.5
+}

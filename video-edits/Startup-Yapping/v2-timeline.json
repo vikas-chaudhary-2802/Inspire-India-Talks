@@ -1,0 +1,41 @@
+{
+  "brand": "Startup Yapping",
+  "duration": 66.73333333333333,
+  "output": "/Users/vikaschaudhary/Desktop/Inspire-India-Talks - Code/video-edits/Startup-Yapping/Startup-Yapping-Enhanced-Reel-V2.mp4",
+  "animation_windows": [
+    {
+      "name": "funding",
+      "start": 91,
+      "end": 231,
+      "file": "funding-reality.mp4",
+      "start_seconds": 3.033333333333333,
+      "end_seconds": 7.7
+    },
+    {
+      "name": "investors",
+      "start": 281,
+      "end": 458,
+      "file": "investors.mp4",
+      "start_seconds": 9.366666666666667,
+      "end_seconds": 15.266666666666667
+    },
+    {
+      "name": "traction",
+      "start": 781,
+      "end": 947,
+      "file": "traction.mp4",
+      "start_seconds": 26.033333333333335,
+      "end_seconds": 31.566666666666666
+    },
+    {
+      "name": "accelerator",
+      "start": 1394,
+      "end": 1499,
+      "file": "accelerator.mp4",
+      "start_seconds": 46.46666666666667,
+      "end_seconds": 49.96666666666667
+    }
+  ],
+  "transitions": "0.2s moving video wipes at cutaway entrances/exits",
+  "original_speech_preserved": true
+}

@@ -168,11 +168,11 @@ const PersonalityDetail = () => {
 
             {/* Hero image */}
             <figure className="mt-8">
-              <div className="relative w-full bg-muted border border-border">
+              <div className="relative mx-auto w-full max-w-3xl overflow-hidden rounded-xl border border-border bg-muted shadow-sm">
                 <img
                   src={person.image}
                   alt={person.imageAlt?.trim() || person.name}
-                  className="w-full h-auto"
+                  className="mx-auto block max-h-[680px] w-full object-contain"
                   onError={(e) => {
                     (e.target as HTMLImageElement).src = `https://ui-avatars.com/api/?name=${encodeURIComponent(
                       person.name

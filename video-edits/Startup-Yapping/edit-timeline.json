@@ -1,0 +1,70 @@
+{
+  "brand": "Startup Yapping",
+  "source": "/Users/vikaschaudhary/Downloads/IMG_2085.mov",
+  "format": "1080x1920, 30 fps, SDR Rec.709",
+  "speech_language": "Hinglish",
+  "captions": "Concise English translations",
+  "main_duration": 64.53333333333333,
+  "duration": 66.73333333333333,
+  "source_ranges": [
+    {
+      "in": 17.8,
+      "out": 20.333333333333332
+    },
+    {
+      "in": 21.566666666666666,
+      "out": 21.966666666666665
+    },
+    {
+      "in": 22.5,
+      "out": 28.933333333333334
+    },
+    {
+      "in": 29.533333333333335,
+      "out": 32.36666666666667
+    },
+    {
+      "in": 32.9,
+      "out": 35.96666666666667
+    },
+    {
+      "in": 36.2,
+      "out": 42.4
+    },
+    {
+      "in": 42.8,
+      "out": 48.7
+    },
+    {
+      "in": 49.333333333333336,
+      "out": 53.53333333333333
+    },
+    {
+      "in": 55.266666666666666,
+      "out": 67.33333333333333
+    },
+    {
+      "in": 67.8,
+      "out": 72.2
+    },
+    {
+      "in": 73.06666666666666,
+      "out": 87.0
+    },
+    {
+      "in": 89.1,
+      "out": 91.66666666666667
+    }
+  ],
+  "graphics": {
+    "investors": [
+      9.366666666666667,
+      15.266666666666667
+    ],
+    "traction": [
+      26.046666666666667,
+      31.566666666666666
+    ]
+  },
+  "audio": "Original voice; original synthesized 110 BPM music and effects"
+}

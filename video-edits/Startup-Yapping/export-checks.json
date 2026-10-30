@@ -1,0 +1,19 @@
+{
+  "duration": 66.733333,
+  "video_duration": 66.73333333333333,
+  "audio_duration": 66.733,
+  "width": 1080,
+  "height": 1920,
+  "frames_declared": 2002,
+  "fps": "30",
+  "format": "yuv420p",
+  "audio_rate": 48000,
+  "audio_channels": 2,
+  "file_bytes": 66901351,
+  "frames_decoded": 2002,
+  "audio_integrated_lufs": -15.6,
+  "audio_true_peak_dbfs": -0.8,
+  "color_space": "SDR Rec.709",
+  "speech_spot_checks": "Opening funding hook and final comment CTA verified",
+  "visual_check": "Nine sampled frames checked, including motion graphics and end card"
+}

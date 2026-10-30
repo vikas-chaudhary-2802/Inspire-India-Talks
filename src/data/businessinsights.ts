@@ -35,6 +35,29 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "traya-nears-600-cr-revenue-fy26-loss-29-cr",
+    title: "Traya Nears Rs 600 Cr Revenue in FY26, Posts Rs 29 Cr Loss",
+    date: "30-10-2026",
+    category: "HealthTech / D2C",
+    image: "/images/business-insights/traya-fy26-revenue.png",
+    excerpt: "Personalised haircare startup Traya surged 72.6% in operating revenue to reach Rs 585 crore in FY26, approaching the Rs 600 crore mark while navigating heavy advertising expenses.",
+    readTime: "2 min read",
+    featured: false,
+    content: `What began as an attempt to solve chronic hair loss and the deep emotional anxieties surrounding it among India's youth has transformed Traya into a powerhouse approaching Rs 600 crore in annual business.
+
+According to its consolidated annual financial statements filed with the Ministry of Corporate Affairs, Traya's revenue from operations surged 72.6% year-on-year to Rs 585 crore in FY26, up from Rs 339 crore in FY25. With gains from the sale of investments contributing an additional Rs 8 crore, the company's total income reached Rs 593 crore for the fiscal year ending March 2026.
+
+Founded in 2019 by husband-and-wife duo Altaf Saiyed and Saloni Anand, Traya addresses hair loss holistically by diagnosing root causes across genetics, diet, hormones, stress, and gut health. Its customized, multi-therapy regimen brings together Ayurveda, modern dermatology, and clinical nutrition, supplemented by regular consultations with assigned hair coaches and doctors. The sale of these tailored hair treatment kits constitutes the company's sole operating revenue stream.
+
+On the expenditure side, aggressive brand marketing and performance advertising continued to command the lion's share of costs. Advertising expenses nearly doubled to Rs 275 crore in FY26, representing approximately 44% of total outlays. 
+
+Meanwhile, procurement and raw material costs rose 68.7% to Rs 140 crore, and employee benefit expenses stood at Rs 81 crore. Propelled by customer acquisition and fulfillment costs, total expenses climbed 70.2% to Rs 623 crore.
+
+Consequently, Traya closed the fiscal year with a net loss of Rs 29 crore, slightly widening from Rs 23.5 crore in FY25. On a unit economics basis, the company spent Rs 1.06 for every single rupee of operating revenue earned, while EBITDA margin and return on capital employed (ROCE) stood at -6.19% and -44.7%, respectively.
+
+To date, Traya has raised roughly Rs 96 crore from institutional investors including Xponentia Capital, Fireside Ventures, Kae Capital, and Whiteboard Capital, and is currently in advanced talks to raise an additional Rs 300 crore from Verlinvest to fuel future growth and profitability milestones.`,
+  },
+  {
     "id": "wework-india-occupancy-capacity-economics-2026",
     "title": "Why WeWork India Separates Mature-Centre Occupancy from Portfolio Growth",
     "date": "29-10-2026",

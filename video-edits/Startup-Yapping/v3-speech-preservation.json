@@ -1,0 +1,13 @@
+{
+  "source_audio_duration": 93.82266666666666,
+  "preserved_source_audio_samples": 4503488,
+  "sample_rate": 48000,
+  "internal_audio_cuts": 0,
+  "speech_speed": 1.0,
+  "source_offset_seconds": 0,
+  "speech_gain": 0.8998761284680113,
+  "speech_continuity_max_error": 0,
+  "original_order": "Greeting, experience, complete funding conditions and outcome, accelerator advice, comment prompt, goodbye",
+  "main_video_duration": 93.83333333333333,
+  "final_duration": 96.03333333333333
+}

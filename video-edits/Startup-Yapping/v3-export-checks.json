@@ -1,0 +1,23 @@
+{
+  "duration": 96.033333,
+  "video_duration": 96.03333333333333,
+  "audio_duration": 96.033,
+  "declared_frames": 2881,
+  "fps": "30",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "audio_rate": 48000,
+  "audio_channels": 2,
+  "file_bytes": 97605789,
+  "internal_speech_cuts": 0,
+  "source_speech_seconds": 93.82266666666666,
+  "decoded_frames": 2881,
+  "largest_frame_gap": 0.03333333333334565,
+  "audio_integrated_lufs": -16.7,
+  "audio_true_peak_dbfs": -1.6,
+  "speech_preservation": "Complete original 93.822666s narration from offset0, original order and speed, zero internal speech cuts",
+  "independent_waveform_check": "All4503488originalspeechframes retained; zero expected PCM mismatches after constant gain; final AAC/fullmix correlation0.999967",
+  "visual_review": "Full-width landscape room, restored greeting andexperience, contextcaptions, three wideanimatedcutaways, completegoodbye"
+}

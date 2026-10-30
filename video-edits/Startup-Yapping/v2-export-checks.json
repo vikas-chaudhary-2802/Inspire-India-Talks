@@ -1,0 +1,23 @@
+{
+  "duration": 66.733333,
+  "video_duration": 66.73333333333333,
+  "audio_duration": 66.733,
+  "video_frames": 2002,
+  "fps": "30",
+  "resolution": [
+    1080,
+    1920
+  ],
+  "format": "yuv420p",
+  "audio_sample_rate": 48000,
+  "audio_channels": 2,
+  "file_bytes": 53798644,
+  "decoded_frames": 2002,
+  "largest_frame_gap": 0.03333333333334565,
+  "audio_integrated_lufs": -16.5,
+  "audio_true_peak_dbfs": -1.7,
+  "animated_cutaways": 4,
+  "video_transition_wipes": 8,
+  "speech_intelligibility": "Opening and closing verified with mixed-versus-voice-only ASR",
+  "visual_check": "Animation captions and entrance/exit wipes verified"
+}

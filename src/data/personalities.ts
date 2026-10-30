@@ -40,6 +40,55 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "meena-bindra-biba",
+    name: "Meena Bindra",
+    title: "Founder, Biba Apparels",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/meena-bindra-biba.png",
+    born: "",
+    profession: "Fashion Entrepreneur & Founder",
+    knownFor: "Pioneering organized ready-to-wear ethnic fashion in India and building Biba from a home-based experiment into an iconic national brand.",
+    quote: "Entrepreneurship does not always begin with ambition; sometimes it begins with noticing a small problem and deciding to solve it.",
+    story: `Every enduring enterprise begins with a moment of sharp observation. The story of Meena Bindra demonstrates how powerful business ideas often arise from everyday inconveniences rather than grand corporate boardrooms.
+
+In India during the 1980s, buying a salwar-kameez was an exhausting test of patience. Women had to purchase unstitched fabric from crowded bazaars, find a reliable tailor, wait weeks for stitching, and all too often receive garments that failed to fit properly. Meena Bindra, who possessed an innate eye for fabrics, colours, and traditional prints, began asking a simple question: If Western shirts and trousers could be bought off the rack, why couldn't Indian women enjoy the convenience of ready-to-wear ethnic clothing?
+
+For nearly two decades, Bindra had dedicated her life to her family as a homemaker and the wife of an Indian Naval officer, adapting continuously to frequent postings across the country. But when her two sons grew up and left for boarding school, she found herself with time and creative energy. Rather than letting this empty-nest phase pass idly, she decided to start something of her own.
+
+In 1988, at the age of 39, armed with encouragement from her husband and a modest bank loan of Rs 8,000, Bindra began designing salwar-kameez sets from her home in Delhi. She collaborated with local tailors and block printers, focusing on vibrant prints, breathable cottons, and comfortable silhouettes. 
+
+Her first batch of forty suits was displayed at a home sale for fellow naval wives and friends. Every single piece sold out within hours. Word-of-mouth spread quickly, and soon repeat customers were lining up for what they affectionately called "Mrs. Bindra's suits."
+
+Recognizing the immense demand, Bindra named her venture "Biba"—a Punjabi term of endearment for a well-mannered, graceful young woman. In the late 1980s and 1990s, organized ready-to-wear ethnic fashion was virtually unheard of. Retailers were skeptical, and relatives questioned why an officer's wife would enter the messy business of garment manufacturing. Yet, customer loyalty proved that she was solving a genuine, widespread consumer need.
+
+A pivotal turning point arrived in the late 1990s when her younger son, Siddharth Bindra, joined the business. Up until then, Biba functioned primarily as a supplier brand through department stores like Shoppers Stop and Pantaloons. Siddharth envisioned Biba as an independent retail brand. In 2004, Biba took a bold leap and opened its first Exclusive Brand Outlet (EBO) in Mumbai. 
+
+The move transformed Biba into a national phenomenon. Over the next two decades, Biba expanded to hundreds of stores across prime malls and high streets, adding children's wear, accessories, and Rangriti—a value-fashion label catering to younger demographics in tier-2 and tier-3 cities.
+
+In 2024, Meena Bindra chronicled her pathbreaking journey in her memoir, 'A Stitch in Time: The Biba Story'. Her story stands as a beacon for aspiring entrepreneurs everywhere: proving that you don't need venture capital pedigree, formal business degrees, or youthful age to build a household empire—just keen observation, resilience, and belief in solving a real problem.`,
+    achievements: [
+      "Founded Biba Apparels in 1988 with an Rs 8,000 loan, pioneering ready-to-wear ethnic wear in India",
+      "Transformed a home-based tailoring setup into a nationwide fashion empire with hundreds of standalone stores",
+      "Successfully diversified into children's fashion, accessories, and value-fashion brand Rangriti",
+      "Penned her inspiring entrepreneurial memoir 'A Stitch in Time: The Biba Story' in 2024"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-10-30",
+    imageAlt: "Meena Bindra, Founder of Biba Apparels",
+    imageCaption: "Meena Bindra, who turned a small home-based initiative into Biba, one of India's most beloved ethnic fashion brands.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/uncategorized/a-stitch-in-time-the-inspiring-journey-of-meena-bindra-founder-of-biba/",
+    sources: [
+      {
+        title: "The Founders Stories: A Stitch in Time - The Inspiring Journey of Meena Bindra, Founder of Biba",
+        url: "https://thefoundersstories.com/uncategorized/a-stitch-in-time-the-inspiring-journey-of-meena-bindra-founder-of-biba/",
+        publishedAt: "2026-02-05",
+        accessedAt: "2026-10-30"
+      }
+    ]
+  },
+  {
     "id": "vaibhav-aggarwal-nyave-2026",
     "name": "Vaibhav Aggarwal",
     "title": "Founder & CEO, Nyave (Yogkshem Technology)",
