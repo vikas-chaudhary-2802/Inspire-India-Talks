@@ -35,6 +35,27 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "boba-bhai-revenue-losses-jump-two-fold-fy26",
+    title: "Boba Bhai Revenue and Losses Jump Over Two-Fold in FY26",
+    date: "31-10-2026",
+    category: "QSR / Food & Beverage",
+    image: "/images/business-insights/boba-bhai-fy26.jpg",
+    excerpt: "Bengaluru-based tea and beverage chain Boba Bhai more than doubled its operating revenue to Rs 68 crore in FY26, while losses expanded to Rs 21.8 crore amid rapid network expansion.",
+    readTime: "2 min read",
+    featured: false,
+    content: `Bengaluru-based quick-service tea and beverage chain Boba Bhai more than doubled its top-line revenue during the fiscal year ending March 2026 (FY26), driven by aggressive network expansion across key urban hubs.
+
+According to financial statements filed with the Ministry of Corporate Affairs and reviewed by Entrackr, Boba Bhai's revenue from operations surged 139% to Rs 68 crore in FY26, up from Rs 28.44 crore in FY25. Core food and beverage sales formed 99% of total operating income, bringing in Rs 67.26 crore (a 137.1% jump), while scrap sales and other income brought total income to Rs 69 crore.
+
+However, the rapid roll-out of dozens of new outlets also caused overall costs to surge. Boba Bhai's total expenses climbed 2.3X to Rs 90.4 crore in FY26, compared to Rs 39 crore in the prior fiscal year. Procurement of raw materials and ingredients remained the single largest cost head, jumping 138.5% to Rs 25 crore. 
+
+Employee benefit expenses grew more than threefold to Rs 13.5 crore as the startup's team expanded to 188 on-roll employees by March 2026. Marketing and advertising expenses climbed 139.9% to Rs 13 crore, while channel commissions rose 155.9% to Rs 11.44 crore. Other operating expenses accounted for another Rs 31.46 crore.
+
+Consequently, net losses widened 2.2X to Rs 21.8 crore in FY26 from Rs 9.96 crore in FY25. On the operational efficiency front, the startup saw marginal improvement, spending Rs 1.33 to generate every single rupee of operating revenue compared to Rs 1.37 previously, with its EBITDA margin improving to -30.35% from -34.67%. Cash balances stood at Rs 2.85 crore at the end of the year.
+
+Backed by investors like Titan Capital, Boba Bhai raised Rs 40 crore in March 2026. The chain currently operates around 100 outlets across eight cities and has set an aggressive target to enter 10 cities while adding another 150 to 200 stores by the close of FY27, testing its ability to achieve store-level profitability at scale.`,
+  },
+  {
     id: "traya-nears-600-cr-revenue-fy26-loss-29-cr",
     title: "Traya Nears Rs 600 Cr Revenue in FY26, Posts Rs 29 Cr Loss",
     date: "30-10-2026",

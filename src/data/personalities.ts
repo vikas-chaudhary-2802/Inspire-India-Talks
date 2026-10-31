@@ -40,6 +40,49 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "inder-t-jaisinghani-polycab",
+    name: "Inder T. Jaisinghani",
+    title: "Chairman & Managing Director, Polycab India",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/inder-jaisinghani-polycab.jpg",
+    born: "1953",
+    profession: "Industrialist and Chairman & Managing Director of Polycab India",
+    knownFor: "Transforming a small family electrical trading shop in Lohar Chawl into Polycab, India's largest wires and cables manufacturer with a valuation crossing Rs 1 lakh crore.",
+    quote: "In our industry, quality is not a marketing strategy; it is a responsibility.",
+    story: `In the crowded trading lanes of Mumbai’s Lohar Chawl, where narrow storefronts once overflowed with coils of copper wire, switches, and electrical fittings, a teenage boy quietly stepped into a responsibility that would eventually illuminate millions of homes across India. That young boy was Inder T. Jaisinghani, the architect behind Polycab India—today India’s largest manufacturer of wires and cables.
+
+Polycab’s origins were born out of sheer necessity rather than grand corporate calculations. Inder was raised in a modest Sindhi family that operated 'Sind Electric Stores', supplying fans, switches, and fittings to local electricians. In 1968, when Inder was just 15 years old, his father passed away suddenly. Confronted with the unexpected loss of the family's sole breadwinner, Inder made the brave decision to leave his formal schooling behind and step directly behind the shop counter to sustain his family.
+
+Working day in and day out on the trading floor of Lohar Chawl gave Inder an invaluable grounding in electrical commerce. But he quickly observed a structural vulnerability: traders were entirely at the mercy of manufacturers who dictated pricing, supply timelines, and product availability. Convinced that true self-reliance lay only in manufacturing, Inder and his brothers took a bold leap in the mid-1970s, setting up their first wire-making operation inside a humble garage.
+
+With scarce capital, persistence had to substitute for sophisticated industrial equipment. In an era when many suppliers compromised on copper purity and insulation to undercut prices, Inder took an uncompromising stance on safety and durability. Electricians and contractors quickly realized that Jaisinghani's wires did not fail or overheat, building an unmatched word-of-mouth reputation across the trade.
+
+The real inflection point arrived in the late 1980s and early 1990s as economic liberalization kicked off unprecedented infrastructure development across India. Realizing that regional manufacturing was no longer sufficient, Inder boldly scaled production and distribution. In 1996, the business was formally incorporated as Polycab Wires Pvt. Ltd.
+
+Over the subsequent decades, Polycab diversified into high-voltage power cables, communication cables, and fast-moving electrical goods (FMEG) like fans, smart switches, and solar power equipment. When Polycab launched its IPO in 2019, it was oversubscribed by more than 50 times. By 2024, Polycab’s market capitalization surged past Rs 1 lakh crore, transforming the humble Lohar Chawl venture into a global industrial giant while Inder remains the humble, factory-floor-focused leader who built it brick by brick.`,
+    achievements: [
+      "Stepped up at age 15 after his father's demise to protect the family business in Mumbai's Lohar Chawl",
+      "Transitioned from retail trading to manufacturing, starting from a modest garage in the mid-1970s",
+      "Incorporated Polycab in 1996 and scaled it into India's No. 1 wires and cables manufacturer",
+      "Steered Polycab through a blockbuster 2019 IPO, leading the company past a market capitalization of Rs 1 lakh crore"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-10-31",
+    imageAlt: "Inder T. Jaisinghani, Chairman and Managing Director of Polycab India",
+    imageCaption: "Inder T. Jaisinghani, who built Polycab India from a humble trading counter in Lohar Chawl into an industrial empire.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/editors-select/inder-t-jaisinghani-from-lohar-chawl-to-a-%e2%82%b91-lakh-crore-legacy-2/",
+    sources: [
+      {
+        title: "The Founders Stories: Inder T. Jaisinghani: From a Lohar Chawl Shop Counter to Building Polycab’s ₹1 Lakh Crore Electrical Empire",
+        url: "https://thefoundersstories.com/editors-select/inder-t-jaisinghani-from-lohar-chawl-to-a-%e2%82%b91-lakh-crore-legacy-2/",
+        publishedAt: "2026-03-25",
+        accessedAt: "2026-10-31"
+      }
+    ]
+  },
+  {
     id: "meena-bindra-biba",
     name: "Meena Bindra",
     title: "Founder, Biba Apparels",
