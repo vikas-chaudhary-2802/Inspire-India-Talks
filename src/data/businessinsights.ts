@@ -35,6 +35,29 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "tvs-retains-ev-two-wheeler-lead-october-ather-ola",
+    title: "TVS Retains EV Two-Wheeler Lead in October; Ather Grows 3%, Ola Declines 10%",
+    date: "01-11-2026",
+    category: "Electric Vehicles / Auto",
+    image: "/images/business-insights/ev-two-wheeler-october-2026.jpg",
+    excerpt: "India's electric two-wheeler registrations reached 2,23,847 units in October 2026, with TVS Motor extending its lead at 27% market share, while Ola Electric slipped 10%.",
+    readTime: "2 min read",
+    featured: false,
+    content: `India's electric two-wheeler market sustained its strong festive momentum in October 2026, with overall monthly registrations rising to 2,23,847 units from 2,08,705 units in September, according to the government's official Vahan portal.
+
+Legacy auto giant TVS Motor firmly reinforced its market leadership, clocking 60,429 registrations in October—capturing an impressive 27% market share. TVS witnessed an 11.08% month-on-month (MoM) growth from 54,403 units sold in September, powered by the ongoing popularity of its iQube lineup.
+
+Bajaj Auto retained the second spot on the podium with 49,067 registrations and a 21.92% market share, registering modest MoM growth of 0.67% over 48,742 units delivered in September.
+
+Ather Energy held onto third place with 31,796 registrations, representing a 14.2% market share and a 2.75% MoM increase. Ather's volume stability comes hot on the heels of turning profitable in Q2 FY27, where revenue surged 63% year-on-year to Rs 1,464 crore.
+
+Hero MotoCorp followed closely in fourth place with 29,901 units registered, translating to an eye-catching 22.34% MoM leap from 24,440 units, commanding a 13.36% market share as its Vida brand scales up.
+
+In stark contrast, Ola Electric stood as the only player among the top five manufacturers to experience a contraction. Ola settled in fifth position with 12,096 registrations and a 5.4% market share, falling 10.12% MoM from 13,458 units in September.
+
+Further down the rankings, Greaves Electric Mobility secured sixth place with 10,838 units (up 16.3%), followed by River Mobility with 6,796 units (up 20.3%), and BGauss with 5,554 units. Notably, Motovolt Mobility broke into the top 10 with a staggering 168% surge to 1,702 units, while Bounce dropped out of the top rankings after sales plunged 65% to 1,075 units.`,
+  },
+  {
     id: "boba-bhai-revenue-losses-jump-two-fold-fy26",
     title: "Boba Bhai Revenue and Losses Jump Over Two-Fold in FY26",
     date: "31-10-2026",
