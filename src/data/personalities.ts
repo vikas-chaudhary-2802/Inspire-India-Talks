@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "m-a-yusuff-ali-lulu-group",
+    name: "M. A. Yusuff Ali",
+    title: "Chairman & Managing Director, LuLu Group International",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/yusuff-ali-lulu-group.png",
+    born: "1955",
+    profession: "Retail Magnate and Chairman of LuLu Group International",
+    knownFor: "Building LuLu Group into an international retail empire with over 260 hypermarkets across 23 countries, employing over 70,000 people and revolutionizing modern retail for the diaspora.",
+    quote: "Trust is the most valuable capital any business can possess. Money may build stores, but only trust builds institutions.",
+    story: `In the long and varied history of global commerce, the most enduring enterprises are rarely built by ambition alone. They are shaped by patience, discipline, and an almost quiet commitment to understanding people. The story of M. A. Yusuff Ali, founder and Chairman of LuLu Group International, reflects precisely this kind of entrepreneurial journey.
+
+What began as the migration of an eighteen-year-old youth from a modest village in Kerala would gradually evolve into one of the world's most influential retail networks, serving millions of families every single week. Today, LuLu Group operates more than 260 hypermarkets, supermarkets, and shopping malls across the Middle East, Asia, Europe, and Africa, employing over 70,000 people and anchoring daily life for entire communities.
+
+Yusuff Ali was born on 15 November 1955 in the coastal village of Nattika in Kerala’s Thrissur district. His father ran a modest neighbourhood grocery shop, where the young Yusuff Ali first absorbed the fundamental rhythms of commerce. Transactions were not cold, anonymous exchanges but relationships nurtured over years. Customers returned because they trusted the shopkeeper, and that trust was sustained through unwavering honesty, fair pricing, and personal warmth.
+
+In 1973, at age eighteen, Yusuff Ali set sail by ship to Abu Dhabi to join his uncle’s small import and distribution business, the EMKE Group. Arriving in a Gulf region that was just beginning to taste the fruits of oil-driven development, he witnessed rapid urbanization firsthand: construction projects mushrooming across the dunes and hundreds of thousands of expatriate workers arriving from India, Pakistan, the Philippines, and the Levant. Yet, the retail landscape remained fragmented and underserved.
+
+During his formative years in the trade, Yusuff Ali worked across every tier of the business—lifting crates, managing invoices, coordinating imports at the docks, and listening directly to customer requests. He noticed a poignant cultural void: migrant workers and expatriate families desperately missed the comfort of home foods, but local groceries had unreliable supplies and erratic prices. Yusuff Ali realized that retail could serve a higher emotional purpose—it could give people living thousands of miles away from home a profound sense of familiarity and belonging.
+
+The defining turning point came in the early 1990s during the Gulf War. While multinational retail giants panicked and pulled out investments, Yusuff Ali demonstrated unyielding faith in the region. In 1995, he launched the first full-format LuLu Supermarket in Abu Dhabi, consolidating international sourcing, transparent pricing, and unparalleled variety under a single roof. 
+
+The hypermarket model proved revolutionary. LuLu did not simply build storefronts; it built an expansive global supply backbone—establishing direct sourcing networks, cold chains, food processing facilities, and international logistics hubs across Asia, Europe, and Africa. As the Gulf economy boomed, LuLu expanded across the UAE, Oman, Qatar, Kuwait, Bahrain, and Saudi Arabia. Later, Yusuff Ali brought this world-class retail experience home to India, developing colossal, iconic destination malls in Kochi, Thiruvananthapuram, Lucknow, Bengaluru, and Hyderabad.
+
+Beyond commercial triumphs, Yusuff Ali is celebrated as an exceptional humanitarian and community pillar. Whenever crises struck—from the Gujarat earthquake and Indian Ocean tsunami to the devastating Kerala floods—he was among the foremost donors, providing immediate relief and rehabilitation. His leadership bridging Indian and Gulf trade earned him the Padma Shri and Pravasi Bharatiya Samman from the Government of India, as well as Abu Dhabi’s highest civilian honour. His life remains an enduring testament that true entrepreneurial greatness is built not on balance sheets alone, but on the bedrock of human trust and service.`,
+    achievements: [
+      "Built LuLu Group from a small trading shop in Abu Dhabi into a global retail empire spanning 260+ hypermarkets and shopping malls across 23 countries",
+      "Created an international retail network employing over 70,000 people from 40+ nationalities, including one of the largest employers of the Indian diaspora",
+      "Expanded modern retail infrastructure into India with world-class mega malls in Kochi, Thiruvananthapuram, Lucknow, Bengaluru, and Hyderabad",
+      "Honoured with India's prestigious Padma Shri (2008), Pravasi Bharatiya Samman (2005), and Abu Dhabi's highest civilian award"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-02",
+    imageAlt: "M. A. Yusuff Ali, Chairman and Managing Director of LuLu Group International",
+    imageCaption: "M. A. Yusuff Ali, the visionary entrepreneur who built LuLu Group from a modest trading venture into an international retail empire.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/uncategorized/m-a-yusuff-ali-the-boy-who-built-a-%e2%82%b930000-crore-empire/",
+    sources: [
+      {
+        title: "The Founders Stories: M. A. Yusuff Ali – The Migrant Entrepreneur Who Built a Global Retail Empire on Trust",
+        url: "https://thefoundersstories.com/uncategorized/m-a-yusuff-ali-the-boy-who-built-a-%e2%82%b930000-crore-empire/",
+        publishedAt: "2026-03-09",
+        accessedAt: "2026-11-02"
+      }
+    ]
+  },
+  {
     id: "patu-keswani-lemon-tree-hotels",
     name: "Patu Keswani",
     title: "Founder & Chairman, Lemon Tree Hotels",

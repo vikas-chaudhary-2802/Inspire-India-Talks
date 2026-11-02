@@ -35,6 +35,49 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "yulu-reports-281-cr-revenue-97-cr-loss-fy26",
+    title: "Yulu Reports Rs 281 Cr Revenue and Rs 97 Cr Loss in FY26",
+    date: "02-11-2026",
+    category: "Electric Vehicles / Mobility",
+    image: "/images/business-insights/yulu-fy26-financials.jpg",
+    excerpt: "Bengaluru-based EV rental pioneer Yulu Bikes narrowed its annual losses by 23% to Rs 97 crore in FY26, as operational revenue grew 18.6% to Rs 281 crore driven by its booming EV rental business.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Yulu electric bikes and fleet operations",
+    imageCaption: "Yulu Bikes narrowed its FY26 loss to Rs 97 crore on operating revenues of Rs 281 crore, buoyed by strong B2B EV rental demand.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/yulu-reports-rs-281-cr-revenue-and-rs-97-cr-loss-in-fy26-12770548",
+    sources: [
+      {
+        title: "Entrackr: Yulu reports Rs 281 Cr revenue and Rs 97 Cr loss in FY26",
+        url: "https://entrackr.com/fintrackr/yulu-reports-rs-281-cr-revenue-and-rs-97-cr-loss-in-fy26-12770548",
+        publishedAt: "2026-10-31",
+        accessedAt: "2026-11-02"
+      }
+    ],
+    content: `Bengaluru-based shared electric mobility startup Yulu Bikes narrowed its annual net losses by 23% during the fiscal year ended March 2026 (FY26), as sharp operational efficiencies and robust demand across its rental vertical kept expenditure growth contained.
+
+According to consolidated financial statements filed by the company, Yulu's revenue from operations increased 18.6% year-on-year to Rs 281 crore in FY26, compared to Rs 237 crore in FY25. Total income reached Rs 284.5 crore when accounting for treasury and other income.
+
+The core engine of growth remained its electric two-wheeler rental vertical, which caters extensively to gig delivery partners and urban commuters. Rental revenue surged 30.3% to Rs 262 crore from Rs 201 crore in FY25, accounting for more than 93% of the company's total operating revenue. 
+
+Elsewhere across its revenue mix:
+• Delivery services income registered a massive 22-fold leap to Rs 2.6 crore.
+• Franchisee income grew 122.2% to Rs 80 lakh from Rs 36 lakh.
+• In contrast, revenue from the sale of goods declined 59.3% to Rs 9.2 crore, and manpower services dropped 57% to Rs 5.7 crore as the firm focused squarely on high-yield rental operations.
+
+On the expenditure side, Yulu maintained disciplined cost controls, with overall expenses increasing by a modest 7.4% to Rs 377 crore in FY26 from Rs 351 crore in FY25. 
+• Employee benefit expenses formed the single largest cost bucket, rising 6.8% to Rs 94 crore.
+• Battery-as-a-service costs, central to maintaining its swappable EV fleet, edged up 3.6% to Rs 87 crore.
+• Depreciation expenses eased marginally by 1.5% to Rs 65 crore.
+• Technology and infrastructure expenses grew 11.6% to Rs 15 crore, while finance costs rose 40.9% to Rs 15.5 crore.
+• Cost of materials consumed dropped 60% to Rs 8 crore.
+
+As revenue outpaced expense growth, Yulu’s net losses contracted 23% to Rs 97 crore in FY26 from Rs 126 crore in FY25. The company noticeably strengthened its unit economics, needing Rs 1.34 of operating expense to generate every single rupee of operating revenue, an improvement from Rs 1.48 in FY25. Meanwhile, EBITDA margins improved to -5.89% from -15.41% in the preceding fiscal.
+
+Yulu raised 93 million USD in August 2026 and currently deploys a fleet of around 50,000 electric vehicles. Backed by strategic partners such as Bajaj Auto and Magna, Yulu plans to expand into 20 cities over the coming year and scale its fleet to 200,000 EVs by 2028, solidifying its place at the heart of India's electric quick commerce and last-mile logistics revolution.`,
+  },
+  {
     id: "tvs-retains-ev-two-wheeler-lead-october-ather-ola",
     title: "TVS Retains EV Two-Wheeler Lead in October; Ather Grows 3%, Ola Declines 10%",
     date: "01-11-2026",
