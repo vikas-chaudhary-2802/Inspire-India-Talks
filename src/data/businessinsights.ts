@@ -35,6 +35,43 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "vedantu-revenue-grows-17-to-267-cr-fy26-cuts-losses",
+    title: "Vedantu Revenue Grows 17% to Rs 267 Cr in FY26; Cuts Losses Before Exceptional Items",
+    date: "03-11-2026",
+    category: "EdTech / Startups",
+    image: "/images/business-insights/vedantu-fy26-financials.png",
+    excerpt: "Edtech unicorn Vedantu grew its operating revenue by 17.6% to Rs 267 crore in FY26 while reducing losses before exceptional items by 18.6% to Rs 171 crore, supported by disciplined cost control.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Vedantu offline learning center and online master classes",
+    imageCaption: "Vedantu expanded its top-line to Rs 267 crore in FY26 while keeping overheads flat, trimming operational losses to Rs 171 crore.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/vedantu-revenue-grows-17-to-rs-267-cr-in-fy26-cuts-losses-before-exceptional-items-12778184",
+    sources: [
+      {
+        title: "Entrackr: Vedantu revenue grows 17% to Rs 267 Cr in FY26; cuts losses before exceptional items",
+        url: "https://entrackr.com/fintrackr/vedantu-revenue-grows-17-to-rs-267-cr-in-fy26-cuts-losses-before-exceptional-items-12778184",
+        publishedAt: "2026-11-02",
+        accessedAt: "2026-11-03"
+      }
+    ],
+    content: `Bengaluru-based edtech unicorn Vedantu demonstrated notable operational recovery during the fiscal year ending March 2026 (FY26), recording double-digit top-line growth while reining in expenditures and narrowing operational losses.
+
+According to consolidated financial statements reviewed by Entrackr, Vedantu's revenue from operations rose 17.6% year-on-year to Rs 267 crore in FY26, compared to Rs 227 crore in FY25. Including other non-operating income of Rs 3.8 crore, the company recorded total income of Rs 270 crore.
+
+Core tuition and online tutoring fees continued to anchor the platform's cash generation, climbing 16.8% to Rs 222 crore from Rs 190 crore in the preceding fiscal year. Revenue from ancillary educational products—including books, uniforms, and learning kits—jumped 31.8% to Rs 29 crore, while income from specialized e-learning projects contributed Rs 6.3 crore.
+
+Crucially, Vedantu achieved this revenue acceleration while maintaining tight fiscal discipline on expenses. Total expenses for FY26 stood virtually flat at Rs 442 crore, compared to the prior year:
+• Employee benefit costs, which previously constituted the heaviest burn rate, shrank 12.8% to Rs 191 crore from Rs 219.5 crore (including non-cash ESOP charges of Rs 7.2 crore).
+• Outlays on contract resources and outsourced services rose 54.3% to Rs 71 crore, giving the company greater operational elasticity.
+• Depreciation charges declined 5.8% to Rs 65 crore.
+• Marketing and promotional expenditures were maintained conservatively, edging up 7.4% to Rs 29 crore, while IT and technology infrastructure expenses stood at Rs 12 crore.
+
+With top-line growth outpacing costs, Vedantu's net loss before exceptional items and tax contracted 18.6% to Rs 171 crore in FY26 from Rs 210 crore in FY25. The company closed the financial year with healthy cash and bank balances of Rs 77.25 crore and total current assets of Rs 160 crore.
+
+Vedantu's improved fundamentals come at a pivotal juncture for India's edtech ecosystem. In the wake of Byju's dramatic collapse and Unacademy's operational consolidation, the competitive landscape has shifted fundamentally from cash-guzzling customer acquisition towards sustainable unit economics, hybrid learning centers, and measurable student outcomes. Backed by marquee investors including ABC World Asia, Accel, and Omidyar, Vedantu's steady march towards cash sustainability signals a maturing chapter for India's post-pandemic edtech sector.`,
+  },
+  {
     id: "yulu-reports-281-cr-revenue-97-cr-loss-fy26",
     title: "Yulu Reports Rs 281 Cr Revenue and Rs 97 Cr Loss in FY26",
     date: "02-11-2026",

@@ -40,6 +40,49 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "patu-keswani-lemon-tree-hotels",
+    name: "Patu Keswani",
+    title: "Founder & Chairman, Lemon Tree Hotels",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/patu-keswani-lemon-tree.png",
+    born: "1959",
+    profession: "Hospitality Entrepreneur and Chairman of Lemon Tree Hotels",
+    knownFor: "Pioneering organized mid-market hospitality in India and building Lemon Tree Hotels into an empire of over 100 hotels while championing disability inclusion.",
+    quote: "Dignity, opportunity, and purpose can be built into the very architecture of enterprise.",
+    story: `At the dawn of the twenty-first century, as India’s economy was accelerating into a new era of globalization, the nation's hospitality sector was defined by extreme polarization. At one end stood grand, opulent five-star luxury hotels catering to corporate elites and foreign dignitaries. At the other end lay unbranded, unhygienic lodges that compromised on safety, cleanliness, and basic human dignity.
+
+For the burgeoning wave of young Indian professionals, business travellers, and middle-class families, reliable accommodation was an elusive dream. Patanjali "Patu" Keswani observed this gaping market void and made an audacious decision: build a brand that would deliver 60% of the five-star experience at just 30% of the cost.
+
+Keswani was armed with an extraordinary academic and corporate pedigree. An alumnus of IIT Delhi (Electrical Engineering) and IIM Calcutta (MBA), he was selected into the prestigious Tata Administrative Services (TAS) in 1983. Over the next seventeen years, Keswani rose through the ranks at the Tata Group, eventually serving as Senior Vice President at Taj Hotels, followed by a lucrative leadership stint at global management consulting firm A.T. Kearney.
+
+Yet in 2002, at age 39, he walked away from corporate prestige and financial comfort to build Lemon Tree Hotels from scratch. Backed initially by his personal life savings and support from family and friends, Keswani opened his first modest 49-room hotel in Gurugram in May 2004. 
+
+The market response was explosive. Travellers instantly embraced the refreshing, vibrant aesthetic, immaculate cleanliness, and honest pricing. By 2006, marquee private equity giant Warburg Pincus invested in the company, fueling rapid expansion. Over the ensuing two decades, Keswani built a comprehensive multi-tier hospitality platform—spanning Lemon Tree Premier, Red Fox Hotels for budget travellers, and Aurika Hotels & Resorts for upscale leisure—taking the company public in 2018 and acquiring Keys Hotels in 2019. Today, Lemon Tree operates over 100 hotels across more than 60 cities.
+
+Beyond commercial success, Keswani revolutionized corporate purpose in India. Early on, after hiring hearing-impaired staff and witnessing firsthand how steady employment restored independence and dignity to marginalized families, inclusion became the bedrock of Lemon Tree. Today, a significant percentage of Lemon Tree’s workforce consists of persons with disabilities (hearing, speech, and physical impairments) and individuals from underserved backgrounds, winning national accolades and proving that compassionate inclusion can be a powerful driver of business excellence.`,
+    achievements: [
+      "Founded Lemon Tree Hotels in 2002, pioneering modern mid-market business hospitality in India",
+      "Built an empire of over 100 hotels across 60+ cities through brands like Lemon Tree Premier, Red Fox, and Aurika",
+      "Led Lemon Tree Hotels to a successful public listing on the Indian stock exchanges in 2018",
+      "Established an industry-leading diversity program employing hundreds of persons with disabilities across hotel operations"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-03",
+    imageAlt: "Patu Keswani, Chairperson of Lemon Tree Hotels",
+    imageCaption: "Patu Keswani, who redefined Indian mid-market hospitality and inclusive employment through Lemon Tree Hotels.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/uncategorized/patu-keswani-lemon-tree-hotels/",
+    sources: [
+      {
+        title: "The Founders Stories: Patu Keswani – Lemon Tree Hotels",
+        url: "https://thefoundersstories.com/uncategorized/patu-keswani-lemon-tree-hotels/",
+        publishedAt: "2026-03-09",
+        accessedAt: "2026-11-03"
+      }
+    ]
+  },
+  {
     id: "m-a-yusuff-ali-lulu-group",
     name: "M. A. Yusuff Ali",
     title: "Chairman & Managing Director, LuLu Group International",
@@ -83,49 +126,6 @@ Beyond commercial triumphs, Yusuff Ali is celebrated as an exceptional humanitar
         url: "https://thefoundersstories.com/uncategorized/m-a-yusuff-ali-the-boy-who-built-a-%e2%82%b930000-crore-empire/",
         publishedAt: "2026-03-09",
         accessedAt: "2026-11-02"
-      }
-    ]
-  },
-  {
-    id: "patu-keswani-lemon-tree-hotels",
-    name: "Patu Keswani",
-    title: "Founder & Chairman, Lemon Tree Hotels",
-    category: "Entrepreneurs & Founders",
-    categorySlug: "entrepreneurs",
-    image: "/images/founder-stories/patu-keswani-lemon-tree.png",
-    born: "1959",
-    profession: "Hospitality Entrepreneur and Chairman of Lemon Tree Hotels",
-    knownFor: "Pioneering organized mid-market hospitality in India and building Lemon Tree Hotels into an empire of over 100 hotels while championing disability inclusion.",
-    quote: "Dignity, opportunity, and purpose can be built into the very architecture of enterprise.",
-    story: `At the dawn of the twenty-first century, as India’s economy was accelerating into a new era of globalization, the nation's hospitality sector was defined by extreme polarization. At one end stood grand, opulent five-star luxury hotels catering to corporate elites and foreign dignitaries. At the other end lay unbranded, unhygienic lodges that compromised on safety, cleanliness, and basic human dignity.
-
-For the burgeoning wave of young Indian professionals, business travellers, and middle-class families, reliable accommodation was an elusive dream. Patanjali "Patu" Keswani observed this gaping market void and made an audacious decision: build a brand that would deliver 60% of the five-star experience at just 30% of the cost.
-
-Keswani was armed with an extraordinary academic and corporate pedigree. An alumnus of IIT Delhi (Electrical Engineering) and IIM Calcutta (MBA), he was selected into the prestigious Tata Administrative Services (TAS) in 1983. Over the next seventeen years, Keswani rose through the ranks at the Tata Group, eventually serving as Senior Vice President at Taj Hotels, followed by a lucrative leadership stint at global management consulting firm A.T. Kearney.
-
-Yet in 2002, at age 39, he walked away from corporate prestige and financial comfort to build Lemon Tree Hotels from scratch. Backed initially by his personal life savings and support from family and friends, Keswani opened his first modest 49-room hotel in Gurugram in May 2004. 
-
-The market response was explosive. Travellers instantly embraced the refreshing, vibrant aesthetic, immaculate cleanliness, and honest pricing. By 2006, marquee private equity giant Warburg Pincus invested in the company, fueling rapid expansion. Over the ensuing two decades, Keswani built a comprehensive multi-tier hospitality platform—spanning Lemon Tree Premier, Red Fox Hotels for budget travellers, and Aurika Hotels & Resorts for upscale leisure—taking the company public in 2018 and acquiring Keys Hotels in 2019. Today, Lemon Tree operates over 100 hotels across more than 60 cities.
-
-Beyond commercial success, Keswani revolutionized corporate purpose in India. Early on, after hiring hearing-impaired staff and witnessing firsthand how steady employment restored independence and dignity to marginalized families, inclusion became the bedrock of Lemon Tree. Today, a significant percentage of Lemon Tree’s workforce consists of persons with disabilities (hearing, speech, and physical impairments) and individuals from underserved backgrounds, winning national accolades and proving that compassionate inclusion can be a powerful driver of business excellence.`,
-    achievements: [
-      "Founded Lemon Tree Hotels in 2002, pioneering modern mid-market business hospitality in India",
-      "Built an empire of over 100 hotels across 60+ cities through brands like Lemon Tree Premier, Red Fox, and Aurika",
-      "Led Lemon Tree Hotels to a successful public listing on the Indian stock exchanges in 2018",
-      "Established an industry-leading diversity program employing hundreds of persons with disabilities across hotel operations"
-    ],
-    authorName: "Inspire India Talks",
-    addedAt: "2026-11-01",
-    imageAlt: "Patu Keswani, Chairperson of Lemon Tree Hotels",
-    imageCaption: "Patu Keswani, who redefined Indian mid-market hospitality and inclusive employment through Lemon Tree Hotels.",
-    imageCredit: "The Founders Stories",
-    imageSourceUrl: "https://thefoundersstories.com/uncategorized/patu-keswani-lemon-tree-hotels/",
-    sources: [
-      {
-        title: "The Founders Stories: Patu Keswani – Lemon Tree Hotels",
-        url: "https://thefoundersstories.com/uncategorized/patu-keswani-lemon-tree-hotels/",
-        publishedAt: "2026-03-09",
-        accessedAt: "2026-11-01"
       }
     ]
   },
