@@ -35,6 +35,41 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "giva-raises-over-100-mn-funding-multiples-pe",
+    title: "GIVA Raises Over 100 Million USD in Funding Round Led by Multiples PE",
+    date: "04-11-2026",
+    category: "D2C / Jewellery",
+    image: "/images/business-insights/giva-funding-100mn.jpg",
+    excerpt: "Bengaluru-based fine jewellery startup GIVA has secured over 100 million USD in a major funding round led by Multiples Alternate Asset Management, targeting retail expansion to 1,000 stores.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "GIVA founder Ishendra Agarwal with fine jewellery collection",
+    imageCaption: "GIVA raised over 100 million USD in a round led by Multiples PE to accelerate offline store expansion and manufacturing.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/giva-raises-over-100-mn-in-funding-round-led-by-multiples-pe-12779542",
+    sources: [
+      {
+        title: "Entrackr: GIVA raises over $100 Mn in funding round led by Multiples PE",
+        url: "https://entrackr.com/news/giva-raises-over-100-mn-in-funding-round-led-by-multiples-pe-12779542",
+        publishedAt: "2026-11-03",
+        accessedAt: "2026-11-04"
+      }
+    ],
+    content: `Bengaluru-based fine jewellery brand GIVA has raised a landmark funding round of over 100 million USD led by private equity firm Multiples Alternate Asset Management, alongside its co-investors, marking one of the largest capital infusions in India's direct-to-consumer (D2C) jewellery segment this year.
+
+The company plans to deploy the fresh capital to expand its retail footprint, fortify in-house manufacturing capabilities, and accelerate omnichannel distribution. According to company disclosures, GIVA aims to scale its network to more than 1,000 retail outlets over the next three to five years.
+
+Founded in 2019 by Ishendra Agarwal, GIVA initially made waves by democratising everyday fine jewellery through premium 925 sterling silver designs. Over the past few years, the brand has aggressively broadened its portfolio to include 14K and 18K solid gold jewellery as well as certified lab-grown diamonds, tapping into the soaring demand among young professionals and brides seeking contemporary, accessible luxury.
+
+GIVA currently operates over 400 physical stores across Tier I and Tier II cities in India and Sri Lanka, complemented by a thriving D2C digital presence and partnerships across major e-commerce and rapid quick-commerce delivery platforms.
+
+The brand has maintained strong commercial momentum, clocking a compound annual growth rate (CAGR) exceeding 70% over the last three years to conclude FY26 with top-line revenues of approximately Rs 865 crore. Previously in FY25, GIVA's operating revenue jumped 89% year-on-year to Rs 518 crore, while net losses stood at Rs 72 crore as it invested heavily in store rollouts.
+
+With this latest tranche, GIVA has raised over 258 million USD in cumulative equity and debt funding to date. The round follows a 28 million USD debt facility raised earlier this year and a Rs 110 crore Series C extension led by HPV CC1 Ltd in February. 
+
+The mega round positions GIVA for aggressive market capture as India's fine jewellery industry rapidly shifts from unorganised neighborhood jewellers to branded, design-led omnichannel powerhouses, intensifying competition with established rivals such as CaratLane, BlueStone, and Melorra.`,
+  },
+  {
     id: "vedantu-revenue-grows-17-to-267-cr-fy26-cuts-losses",
     title: "Vedantu Revenue Grows 17% to Rs 267 Cr in FY26; Cuts Losses Before Exceptional Items",
     date: "03-11-2026",

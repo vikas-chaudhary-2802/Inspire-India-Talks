@@ -40,6 +40,57 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "gour-mohon-dutta-boroline",
+    name: "Gour Mohon Dutta",
+    title: "Founder, G. D. Pharmaceuticals & Creator of Boroline",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/gour-mohon-dutta-boroline.png",
+    born: "1909 - 1956",
+    profession: "Swadeshi Industrialist, Merchant & Founder of G. D. Pharmaceuticals",
+    knownFor: "Creating Boroline in 1929, India's legendary green-tube antiseptic cream that became a timeless symbol of Swadeshi self-reliance and household trust across generations.",
+    quote: "True enterprise is not built upon spectacle; it is forged by the steady accumulation of trust through everyday usefulness and uncompromising integrity.",
+    story: `Long before modern venture capital, startup incubators, and high-decibel consumer marketing reshaped Indian enterprise, a quiet revolution was ignited in the trading lanes of colonial Calcutta. In an era when British pharmaceutical monopolies dominated pharmacy shelves and foreign creams commanded blind reverence, one Bengali merchant dared to believe that India could formulate a home-grown product of equal, if not superior, clinical excellence. That merchant was Gour Mohon Dutta, and the humble creation he gifted the nation was Boroline—the iconic "green tube of trust."
+
+Born on 21 April 1909 in Sukhchar near Calcutta, Dutta was steeped early in the art of commerce. As a young merchant running G. Dutt & Co. in the bustling Burrabazar market, he traded in imported British cosmetic and medicinal goods. The experience laid bare a stinging colonial contradiction: Indian consumers instinctively placed their faith in imported foreign ointments simply because of their British labels, while domestic Indian products were routinely dismissed without trial.
+
+Simultaneously, the spirited currents of the Swadeshi movement were sweeping across Bengal. For Dutta, Swadeshi was far more than political sloganeering—it was an urgent economic calling. He recognized that true political freedom would remain incomplete without self-reliance in daily necessities and healthcare.
+
+Determined to forge an indigenous alternative, Dutta began experimenting in his home laboratory in the late 1920s, supported tirelessly by his wife, Kamala Bala. His objective was clear: create an antiseptic ointment that could heal dry, cracked winter skin, soothe burns, treat minor cuts, and stave off infections—while remaining deeply affordable for ordinary Indian families. 
+
+After months of meticulous formulation, Dutta combined boric acid (an antiseptic), zinc oxide (a skin soother), lanolin, and white petrolatum. In 1929, he founded G. D. Pharmaceuticals and introduced the ointment as "Boroline"—a portmanteau blending "Boro" (from boric acid) and "Oline" (from the Latin 'oleum', meaning oil).
+
+To make the brand instantly recognizable even to illiterate villagers, Dutta packaged the cream in a rich green tube adorned with a white elephant crest. Symbolizing strength, longevity, and auspicious prosperity, shopkeepers and consumers across Bengal and northern India quickly embraced it affectionately as the "haatiwala cream."
+
+Breaking through colonial prejudices was arduous. British-backed retailers initially hesitated to stock a domestic ointment. But Boroline possessed an unbeatable virtue: it worked consistently. Through frigid North Indian winters and everyday household scrapes, mothers passed the green tube down to their children. Trust was not bought through glitzy billboards, but earned one wound and one cracked heel at a time.
+
+During the Second World War, when acute raw material shortages forced rival cosmetic companies to secretly dilute formulations or reduce tube weights, Dutta refused to cut corners. Instead, G. D. Pharmaceuticals openly printed messages reassuring buyers that the cream’s uncompromising quality and volume remained intact, establishing a standard of radical transparency that deepened consumer loyalty.
+
+When India finally gained independence on 15 August 1947, Dutta celebrated freedom with an extraordinary gesture: G. D. Pharmaceuticals distributed over 100,000 tubes of Boroline completely free of charge to citizens across the country, honoring the Swadeshi ideal that had birthed the enterprise.
+
+Following Dutta’s passing in 1956, his son Murari Mohan Dutta took over the reins, expanding grassroots distribution and weaving Boroline deeply into cultural festivities like Durga Puja. Today, nearly a century after its inception, Boroline remains a proud, debt-free, multi-generational household staple—proving that enduring enterprise is built not on relentless pivots, but on quiet, unshakeable integrity.`,
+    achievements: [
+      "Founded G. D. Pharmaceuticals in 1929 and formulated Boroline, India’s pioneer indigenous antiseptic skincare brand",
+      "Created an iconic visual brand identity with the green tube and white elephant emblem ('haatiwala cream') that transcended literacy barriers",
+      "Celebrated Indian Independence on 15 August 1947 by distributing over 100,000 tubes of Boroline completely free of cost",
+      "Built a debt-free, resilient national institution whose original formulation and brand trust have endured for nearly a century"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-04",
+    imageAlt: "Gour Mohon Dutta, Founder of Boroline and G. D. Pharmaceuticals",
+    imageCaption: "Gour Mohon Dutta, the visionary Swadeshi merchant who formulated Boroline in 1929, creating India’s iconic green tube of trust.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/uncategorized/gour-mohon-dutta-the-merchant-who-gave-india-its-green-tube-of-trust/",
+    sources: [
+      {
+        title: "The Founders Stories: Gour Mohon Dutta – The Boroline Founder Who Sparked India’s Quiet Swadeshi Revolution",
+        url: "https://thefoundersstories.com/uncategorized/gour-mohon-dutta-the-merchant-who-gave-india-its-green-tube-of-trust/",
+        publishedAt: "2026-02-05",
+        accessedAt: "2026-11-04"
+      }
+    ]
+  },
+  {
     id: "patu-keswani-lemon-tree-hotels",
     name: "Patu Keswani",
     title: "Founder & Chairman, Lemon Tree Hotels",
