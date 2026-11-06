@@ -35,6 +35,50 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "physicswallah-q2-fy27-revenue-1242-cr-profit-jumps-2x",
+    title: "PhysicsWallah Revenue Rises 18% to Rs 1,242 Cr in Q2 FY27; Profit Jumps 2.1X",
+    date: "06-11-2026",
+    category: "EdTech / Financials",
+    image: "/images/business-insights/physicswallah-q2-fy27.png",
+    excerpt: "Noida-based edtech major PhysicsWallah recorded an 18.2% YoY growth in Q2 FY27 operational revenue to Rs 1,242 crore, while quarterly net profit surged 2.1X to Rs 144 crore.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "PhysicsWallah founder Alakh Pandey and financial growth metrics",
+    imageCaption: "PhysicsWallah posted Rs 1,242 crore in Q2 FY27 revenue with net profit surging 2.1X to Rs 144 crore, driven by online and offline momentum.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/physicswallah-revenue-rises-18-to-rs-1242-cr-in-q2-fy27-profit-jumps-21x-12783496",
+    sources: [
+      {
+        title: "Entrackr: PhysicsWallah revenue rises 18% to Rs 1,242 Cr in Q2 FY27; profit jumps 2.1X",
+        url: "https://entrackr.com/fintrackr/physicswallah-revenue-rises-18-to-rs-1242-cr-in-q2-fy27-profit-jumps-21x-12783496",
+        publishedAt: "2026-11-04",
+        accessedAt: "2026-11-06"
+      }
+    ],
+    content: `Noida-based edtech powerhouse PhysicsWallah (PW) delivered a stellar financial performance for the second quarter ended September 30, 2026 (Q2 FY27), combining steady top-line expansion with a dramatic surge in bottom-line profitability.
+
+According to consolidated financial filings submitted to the National Stock Exchange (NSE), PhysicsWallah's revenue from operations increased 18.2% year-on-year to Rs 1,242 crore in Q2 FY27, up from Rs 1,051 crore in the corresponding quarter of the previous fiscal. Other non-operating income of Rs 93 crore lifted total income for the quarter to Rs 1,335 crore.
+
+A deep dive into revenue channels reveals balanced execution across digital and physical classrooms:
+• Online Operations: The digital learning platform remained the primary growth engine, bringing in 55.84% of total operating revenue at Rs 693.5 crore—a rapid 26.3% year-on-year climb.
+• Offline Coaching: Physical classroom centers (Vidyapeeth and Pathshala) accounted for 43.56% of top-line revenue, rising 9.1% to Rs 541 crore.
+• Other operating services generated an additional Rs 8 crore.
+
+On the cost management front, PhysicsWallah exercised prudent discipline, keeping expense growth below revenue gains. Total quarterly expenses rose 10.5% to Rs 1,105 crore from Rs 1,000 crore in Q2 FY26:
+• Employee benefit costs, the largest expenditure head, grew 10.4% to Rs 522 crore from Rs 473 crore.
+• Cost of educational materials consumed climbed 22.6% to Rs 195 crore.
+• Depreciation and amortisation expenses rose 7.6% to Rs 113 crore, while finance costs stood at Rs 26 crore.
+• Other administrative and operating costs were limited to Rs 249 crore (a 4.6% increase).
+
+Reflecting strong operational leverage, net profit surged 2.1X (105.7%) to Rs 144 crore in Q2 FY27, up from Rs 70 crore in Q2 FY26.
+
+On a half-yearly basis (H1 FY27), PhysicsWallah demonstrated equally formidable momentum:
+• Operating revenue rose 20.8% to Rs 2,293 crore, compared to Rs 1,898 crore in H1 FY26.
+• Profitability staged a complete turnaround, delivering a net profit of Rs 55.35 crore for H1 FY27 compared to a net loss of Rs 57.30 crore in H1 FY26.
+
+Following the announcement, PhysicsWallah's stock closed at Rs 127.41, giving the edtech market leader a valuation of Rs 37,376 crore. In an industry defined by venture-funded retrenchment and high cash burn, PhysicsWallah continues to showcase how democratised pricing paired with disciplined cost controls can build a self-sustaining educational behemoth.`,
+  },
+  {
     id: "giva-raises-over-100-mn-funding-multiples-pe",
     title: "GIVA Raises Over 100 Million USD in Funding Round Led by Multiples PE",
     date: "04-11-2026",

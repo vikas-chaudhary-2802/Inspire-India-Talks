@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "vineet-goyal-youthville-kohinoor",
+    name: "Vineet Goyal",
+    title: "Joint Managing Director, Kohinoor Group & Founder, Youthville",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/vineet-goyal-youthville.png",
+    born: "1981",
+    profession: "Real Estate Entrepreneur and Co-Living Pioneer",
+    knownFor: "Pioneering organized student co-living in India with Youthville Hostels and driving sustainable urban real estate development as Joint MD of Kohinoor Group.",
+    quote: "Youthville isn't just a place to stay. It's where friendships are formed, dreams are chased, and lives are changed.",
+    story: `While much of India's corporate elite historically measured achievement by prestigious foreign degrees, dollar salaries, and Silicon Valley addresses, Vineet Goyal charted a different compass. For him, success was never about leaving India—it was about building something enduring at home that could empower the next generation. What began as a personal reflection on comfort evolved into a defining mission of social impact: building Youthville.
+
+Raised in Pune—long celebrated as the "Oxford of the East" and a magnetic destination for student migration across India—Vineet witnessed firsthand the anxieties faced by thousands of young scholars arriving each semester. His family foundation at the Kohinoor Group, established in the 1980s by his father Dr. Manohar Gopal Goyal, provided him with a deep grounding in real estate, architecture, and long-term value creation. Alongside his brother Rajesh Goyal, Vineet studied Japanese construction and design practices, absorbing principles of disciplined planning, relentless attention to detail, and operational precision.
+
+Yet Vineet’s true turning point arrived through personal mentorship. A transformative leadership program by life coach T.T. Rangarajan challenged his worldview. "I used to think success was going to the U.S. and living a life of luxury," he recalled. "That was the moment I understood that true success isn't about status—it is about tangible human impact."
+
+That epiphany found direct purpose in India's massive student housing challenge. Over 11 million Indian students migrate interstate every year to pursue higher education. Yet the living options they encountered were notoriously fragmented—cramped hostels, substandard PGs with hidden charges, unhygienic food, and poorly maintained rental flats lacking basic safety.
+
+Rather than treating student housing merely as real estate asset leasing, Vineet viewed it as a national imperative. In 2017, he co-founded Youthville Hostels under the Kohinoor Group umbrella, launching their first flagship property in Pune with around 150 beds. The core proposition was revolutionary for its time: creating a fully managed student residence that offered the comfort and service of a boutique serviced apartment alongside a vibrant, collaborative youth community.
+
+Youthville replaced dingy dormitories with bright, ergonomically designed study spaces, high-speed Wi-Fi, modern dining halls, shared lounges, and dedicated event zones. Everyday logistics—from attendance tracking and maintenance requests to meal preferences—were integrated into a seamless mobile application. More importantly, curated workshops, mentoring sessions, and social events fostered deep bonds of lifelong friendship.
+
+In 2018, Kohinoor Group committed Rs 100 crore to scale the Youthville brand across key educational hubs including Pune and Mumbai. When the COVID-19 pandemic struck and forced educational institutions into lockdowns, threatening the communal living model, Vineet led with quiet resilience. Doubling down on sanitation protocols and digital systems, Youthville navigated the crisis without losing its student-first ethos.
+
+Representing India’s student accommodation ecosystem globally at NATCON in Berlin, Vineet has guided Youthville towards an ambitious target of 18,000 operational beds. Rooted in the Kohinoor Group’s guiding philosophy of "Sada Sukhi Raho" (Always Be Happy), Vineet Goyal continues to prove that meaningful real estate is measured not in square feet, but in the dreams and futures it helps nurture.`,
+    achievements: [
+      "Co-founded Youthville Hostels in 2017, pioneering organized, tech-enabled student co-living spaces in India",
+      "Steered Kohinoor Group's Rs 100 crore expansion into student accommodation across Pune and Mumbai, targeting 18,000 operational beds",
+      "Represented India's emerging student housing sector globally at NATCON in Berlin in 2018",
+      "Transformed traditional real estate development at Kohinoor Group with modern engineering, community spaces, and customer-first design"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-06",
+    imageAlt: "Vineet Goyal, Joint Managing Director of Kohinoor Group and Founder of Youthville",
+    imageCaption: "Vineet Goyal, who is pioneering premium student housing and vibrant co-living communities with Youthville.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/uncategorized/vineet-goyal-redefining-success-and-youthville-journey/",
+    sources: [
+      {
+        title: "The Founders Stories: Vineet Goyal – Redefining Success and Youthville Journey",
+        url: "https://thefoundersstories.com/uncategorized/vineet-goyal-redefining-success-and-youthville-journey/",
+        publishedAt: "2026-02-05",
+        accessedAt: "2026-11-06"
+      }
+    ]
+  },
+  {
     id: "gour-mohon-dutta-boroline",
     name: "Gour Mohon Dutta",
     title: "Founder, G. D. Pharmaceuticals & Creator of Boroline",
