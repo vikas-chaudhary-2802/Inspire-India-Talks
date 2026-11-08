@@ -40,6 +40,48 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "gourisankar-paridaa-windna-2026",
+    "name": "Gourisankar Paridaa",
+    "title": "Founder & CEO, WinDNA Life Sciences",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/gourisankar-paridaa-windna-2026.png",
+    "born": "",
+    "profession": "Founder building a preventive-health and wellness service around genetic and microbiome insights",
+    "knownFor": "Founding WinDNA in Mumbai and designing a service that pairs health reports with clinician-led guidance and follow-up.",
+    "quote": "",
+    "story": "Some health businesses sell a test; WinDNA says it wants to build the steps around what a person does with the result. That difference shapes the company Gourisankar Paridaa founded in Mumbai in 2019. On its official biography, Paridaa describes a 22-year career across diagnostics, pharmaceuticals and nutraceuticals before he started the preventive-health venture. These details and the company’s founding story are company-reported, so this profile focuses on the product and operating choices visible in its published materials.\n\nWinDNA positions itself around genetics, microbiome science and preventive care. Its stated service does not stop at generating a report: the company describes expert interpretation, clinician-led counselling, personalised diet and exercise plans, and 12 months of follow-up. In a consumer market where many test kits promise data, that added layer is the design decision. It asks the business to make findings understandable and to keep support available after a customer has received a result.\n\nThe approach reflects Paridaa’s stated view that earlier health action requires more than a laboratory output. In an article published under his name, he argues for a shift from responding after symptoms to paying attention to risk earlier. That is an attributed founder perspective, not evidence that a particular test can prevent disease. The useful business question is narrower: can an organisation package technical information with qualified interpretation and practical support in a way customers can use?\n\nThe company’s current pages show how it is trying to operationalise that idea. WinDNA says its offering combines genetic and microbiome diagnostics, with reports reviewed by Indian clinicians and an at-home sample collection process. The 2025 Startup Mahakumbh exhibitor directory lists WinDNA Life Sciences among participating health-tech ventures and describes its focus on testing, microbiome services and wellness programmes. Its official biography also credits co-founder and COO Rituparna Mohanty with product, operations and compliance work—functions that must turn a service promise into a consistent customer experience.\n\nThat creates a more demanding growth path than selling a one-time kit. Counselling time, follow-up and privacy controls have costs; they also help define why a customer should trust the service. It is an operating thesis rather than a proven outcome claim. For founders building in health or other high-trust categories, the case is a reminder to design the full journey: how evidence is interpreted, what action is recommended, who answers follow-up questions, and how personal data is handled. A result only begins that work.",
+    "achievements": [
+      "Founded WinDNA in Mumbai in 2019, according to the company’s official biography.",
+      "Built a company-described service combining genetic and microbiome testing with clinician review, counselling, personalised plans and follow-up.",
+      "Leads WinDNA’s Arogya Doot and WinSkill programmes, as described on the company’s official founder page."
+    ],
+    "addedAt": "2026-11-08",
+    "imageAlt": "Gourisankar Paridaa, Founder and CEO of WinDNA, in a company-published portrait.",
+    "imageCaption": "Gourisankar Paridaa, Founder and CEO of WinDNA. Photo credit: WinDNA.",
+    "imageCredit": "WinDNA",
+    "imageSourceUrl": "https://www.windna.in/about",
+    "sources": [
+      {
+        "title": "WinDNA: About and Founders",
+        "url": "https://www.windna.in/about",
+        "accessedAt": "2026-11-08"
+      },
+      {
+        "title": "Gourisankar Paridaa: From Symptoms to Solutions — Rethinking Health in India",
+        "url": "https://www.windna.in/journal/from-symptoms-to-solutions",
+        "publishedAt": "2025-05-01",
+        "accessedAt": "2026-11-08"
+      },
+      {
+        "title": "Startup Mahakumbh 2025: Exhibitor Directory — WinDNA Life Sciences",
+        "url": "https://startupmahakumbh.org/exhibitor_directory/SM_2025_Exhibitor_Directory.pdf?v=1750327412",
+        "publishedAt": "2025-04-03",
+        "accessedAt": "2026-11-08"
+      }
+    ]
+  },
+  {
     id: "vineet-goyal-youthville-kohinoor",
     name: "Vineet Goyal",
     title: "Joint Managing Director, Kohinoor Group & Founder, Youthville",

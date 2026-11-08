@@ -35,6 +35,34 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "sonata-software-margin-conversion-q2-fy27-2026",
+    "title": "Sonata Software’s Q2 Shows Why Revenue Growth Needs a Margin Check",
+    "date": "08-11-2026",
+    "image": "/images/business-insights/sonata-ceo-rajsekhar-2026.webp",
+    "excerpt": "Sonata Software’s Q2 FY27 results separate topline growth from profit conversion, showing why segment margins belong beside revenue in an operating review.",
+    "content": "Sonata Software’s 5 November Q2 FY27 release is a useful reminder that revenue growth does not automatically translate into earnings growth. For the quarter ended 30 September 2026, consolidated revenue rose 15.4% year over year to ₹2,445.2 crore. Reported EBITDA, measured before other income, foreign-exchange and exceptional items, increased 3.9% to ₹179.5 crore, while consolidated profit after tax (PAT) was ₹116.4 crore, 3.2% lower than a year earlier. Sequential comparisons tell a different story: revenue was down 25.4% from June while PAT rose 7.7%.\n\nThe segment detail shows why a single topline can hide different economics. Sonata reported international IT-services revenue growth of 9.3% year over year, but segment EBITDA fell 2.0% and PAT fell 11.4%. In domestic products and services, revenue increased 19%, EBITDA 20%, and PAT 12.2%. Those movements do not establish why margins diverged, but they show that sales growth alone is an incomplete scorecard.\n\nFor a services business, the practical review pairs new revenue with delivery costs, project utilisation, segment margins and cash collection. For a product or distribution line, managers can examine whether stronger sales also improve contribution after support and channel costs. The question is where incremental revenue is converting into earnings—and where it is not—before overall growth is treated as operating leverage. Multi-quarter trends and management explanations should be checked too: deal timing, mix or unusual costs can make one quarter a poor guide.",
+    "category": "Corporate Strategy / Services",
+    "readTime": "2 min read",
+    "imageAlt": "Rajsekhar Datta Roy, Chief Executive Officer of Sonata Software Limited, in an official company portrait.",
+    "imageCaption": "Rajsekhar Datta Roy, CEO of Sonata Software Limited. Photo credit: Sonata Software.",
+    "imageCredit": "Sonata Software",
+    "imageSourceUrl": "https://www.sonata-software.com/executive-leadership",
+    "sources": [
+      {
+        "title": "Sonata Software: Q2 FY27 Earnings Press Release",
+        "url": "https://www.sonata-software.com/newsroom/press-release/sonata-software-q2-fy27-earnings-press-release",
+        "publishedAt": "2026-11-05",
+        "accessedAt": "2026-11-08"
+      },
+      {
+        "title": "LiveMint: Sonata Software Q2 Results",
+        "url": "https://www.livemint.com/market/market-stats/sonata-software-q2-results-s0003476",
+        "publishedAt": "2026-11-06",
+        "accessedAt": "2026-11-08"
+      }
+    ]
+  },
+  {
     id: "physicswallah-q2-fy27-revenue-1242-cr-profit-jumps-2x",
     title: "PhysicsWallah Revenue Rises 18% to Rs 1,242 Cr in Q2 FY27; Profit Jumps 2.1X",
     date: "06-11-2026",
