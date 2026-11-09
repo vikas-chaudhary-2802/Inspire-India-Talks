@@ -40,6 +40,48 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    "id": "aryan-sharma-kushagra-kaushik-pyaas-dairy-2026",
+    "name": "Aryan Sharma and Kushagra Shekhar Kaushik",
+    "title": "Co-founders, PYAAS Dairy",
+    "category": "Entrepreneurs & Founders",
+    "categorySlug": "entrepreneurs",
+    "image": "/images/founder-stories/pyaas-gonda-cowshed-2026.jpg",
+    "born": "",
+    "profession": "Dairy founders building a traceability-led milk business connecting farms in Gonda with households in Lucknow.",
+    "knownFor": "Building PYAAS Dairy around named farm sourcing, batch-level records and local morning delivery.",
+    "quote": "",
+    "story": "Aryan Sharma’s starting point for PYAAS Dairy was a question about an everyday product: after milk reaches a household, can the buyer identify the farm behind it? PYAAS’s official account says Sharma grew up in a dairy-farming family in Gonda, Uttar Pradesh, and found that city milk gave him little information about its origin. He and school friend Kushagra Shekhar Kaushik decided to build a company around making that route visible.\n\nThe founders divide the work between farms and software. The company identifies Sharma as its CEO, responsible for farms, collection and quality, and Kaushik as its CTO, responsible for the app and the batch record. That distinction is more than an org chart: traceability only has value if the physical collection and the digital record stay connected. PYAAS says its QR code opens details for a customer’s batch, including the named farm or farms, collection date and quality readings.\n\nThe operating rules described on the company’s site are specific. It says each collection is checked for fat, solids-not-fat and common adulterants, first at the village and again at its partner processing plant. A failed collection is rejected rather than packed. If a batch must combine milk from more than one farm, PYAAS says the pack lists each farm and its share. These are company-described procedures, not independently audited results, but they show what the founders mean by making a product claim checkable.\n\nPYAAS’s current About page lists four named Sahiwal farms in Gonda, 155 cows, about 1,197 litres of milk a day and delivery across 13 Lucknow localities. The page also says the company is founder-owned and bootstrapped, and records its incorporation on 9 July 2026. The PYAAS app listing, updated on 6 October 2026, describes subscription delivery, order management and QR access to a batch record. The scale figures and operating claims come from the company and should be read as such.\n\nDistribution gives the model a second test. PYAAS says it operates a digital storefront for cooperative brand Parag in Lucknow, bringing those products on the same delivery route at printed MRP. The company is explicit about its limits: fresh milk is Lucknow-only, it uses an FSSAI-licensed partner plant rather than owning a plant, and it has mapped more farms than it has onboarded. Those constraints matter because dairy expansion depends on cold-chain coverage, reliable morning rounds and enough supply near each customer cluster.\n\nThe founders’ proposition is therefore an operating system as much as an app: identify the source, test each collection, preserve the record and deliver within a narrow local radius. Whether that promise can scale will depend on maintaining those steps as the network grows. For businesses selling trust-sensitive goods, the lesson is practical: transparency has to be built into procurement and fulfilment, not added as a label after the product has moved.",
+    "achievements": [
+      "Co-founded PYAAS Dairy, a company incorporated on 9 July 2026, according to its official About page.",
+      "Built a company-described QR batch record that links milk packs to farm, collection and quality information.",
+      "PYAAS reports sourcing from four named Gonda farms and serving 13 Lucknow localities; these are company-reported figures."
+    ],
+    "addedAt": "2026-11-09",
+    "imageAlt": "Sahiwal cattle in their cowshed at Sri Radha Mohan Dairy Farm in Gonda, one of the farms listed by PYAAS.",
+    "imageCaption": "Sahiwal cows at Sri Radha Mohan Dairy Farm in Gonda, one of the farms PYAAS lists in its supply network. Photo credit: PYAAS Dairy.",
+    "imageCredit": "PYAAS Dairy",
+    "imageSourceUrl": "https://www.pyaasdairy.com/about",
+    "sources": [
+      {
+        "title": "PYAAS Dairy: About, Founders and Current Operating Disclosures",
+        "url": "https://www.pyaasdairy.com/about",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "Meet the Founders of PYAAS: Aryan Sharma and Kushagra Shekhar Kaushik",
+        "url": "https://www.pyaasdairy.com/media-and-events/blog/meet-the-founders-of-pyaas-aryan-sharma-and-kushagra-shekhar-kaushik",
+        "publishedAt": "2026-10-06",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "PYAAS: Know Your Milk — Google Play app listing",
+        "url": "https://play.google.com/store/apps/details?id=in.pyaasdairy.app",
+        "publishedAt": "2026-10-06",
+        "accessedAt": "2026-11-09"
+      }
+    ]
+  },
+  {
     "id": "gourisankar-paridaa-windna-2026",
     "name": "Gourisankar Paridaa",
     "title": "Founder & CEO, WinDNA Life Sciences",

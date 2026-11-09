@@ -35,6 +35,40 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    "id": "meesho-kirana-club-retailer-network-acquisition-2026",
+    "title": "Meesho’s Kirana Club Deal Adds a Retailer-Distribution Bet",
+    "date": "09-11-2026",
+    "image": "/images/business-insights/meesho-vidit-aatrey-2026.webp",
+    "excerpt": "Meesho’s 7 November filing confirms two Kirana Club acquisition tranches closed; the commercial test is whether retailer access becomes repeat ordering at viable fulfilment cost.",
+    "content": "On 7 November 2026, Meesho disclosed that it had completed the first and second tranches of its Kirana Club transaction. The filing says Meesho acquired 92.74% of Kirana Club Pte. Ltd. and Retail Pulse Labs Private Limited, directly and indirectly, for ₹186.71 crore. This is a completion update, not confirmation that the entire original transaction is finished: in June, Meesho had disclosed an intended acquisition valued at about ₹202.09 crore in three tranches.\n\nThe exchange filing describes Retail Pulse Labs as a B2B marketplace connecting kirana and small retailers with FMCG brands and distributors, mainly across Tier 2–4 and rural India. It earns through commissions and advertising, according to the disclosure. For FY26, the Indian subsidiary reported ₹16.04 crore in turnover and a ₹1.60 crore loss; the Singapore entity reported turnover of SGD 45,808 and a loss of SGD 837,754. These are target-company figures, not Meesho’s consolidated performance.\n\nThe strategic thesis is distribution access: Meesho’s June announcement said the combination could widen category coverage and improve fulfilment economics by using its supplier and logistics network. That is an expected benefit, not a result already demonstrated. A retailer network can create value only if stores actively order, return for repeat purchases and receive products at viable cost.\n\nFor operators assessing this kind of acquisition, watch active retailer buyers, order frequency, assortment and contribution after fulfilment costs—not registered reach alone. The practical test is whether community access becomes a durable sourcing channel with repeat economics.",
+    "category": "E-commerce & Retail",
+    "readTime": "2 min read",
+    "imageAlt": "Vidit Aatrey, Chairman, Managing Director and CEO of Meesho, in an official company portrait.",
+    "imageCaption": "Vidit Aatrey, Chairman, Managing Director and CEO of Meesho. Photo credit: Meesho.",
+    "imageCredit": "Meesho",
+    "imageSourceUrl": "https://investor.meesho.com/governance/vidit-aatrey",
+    "sources": [
+      {
+        "title": "Meesho Limited: Intimation of Completion of First and Second Tranche of Kirana Club and Retail Pulse Labs Acquisition",
+        "url": "https://nsearchives.nseindia.com/corporate/MEESHO_07112026173212_MLBM_Intimation_under_reg_30_-_KC_acqusition__1_.pdf",
+        "publishedAt": "2026-11-07",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "Meesho Limited: Press Release on the Kirana Club Acquisition",
+        "url": "https://static-assets.meesho.com/investor-relations/1781263303291/AnnouncementunderRegulation30LODR-PressReleaseMediaRelease.pdf",
+        "publishedAt": "2026-06-12",
+        "accessedAt": "2026-11-09"
+      },
+      {
+        "title": "The Economic Times: Meesho to Buy Kirana Club for Rs 202 Crore, Eyes Deeper Retail Play",
+        "url": "https://economictimes.indiatimes.com/tech/technology/meesho-to-buy-kirana-club-for-rs-202-crore-eyes-deeper-kirana-play/articleshow/131683344.cms",
+        "publishedAt": "2026-06-12",
+        "accessedAt": "2026-11-09"
+      }
+    ]
+  },
+  {
     "id": "sonata-software-margin-conversion-q2-fy27-2026",
     "title": "Sonata Software’s Q2 Shows Why Revenue Growth Needs a Margin Check",
     "date": "08-11-2026",
