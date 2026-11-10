@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "kewalchand-p-jain-killer-jeans",
+    name: "Kewalchand P. Jain",
+    title: "Chairman & Managing Director, Kewal Kiran Clothing Limited (Killer Jeans)",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/kewalchand-jain-killer-jeans.jpg",
+    born: "1957",
+    profession: "Apparel Industrialist and Chairman & Managing Director of KKCL",
+    knownFor: "Founding Killer Jeans in 1989 and building Kewal Kiran Clothing Limited into one of India’s premier homegrown denim and lifestyle fashion conglomerates.",
+    quote: "A brand does not succeed because it is cheaper. It succeeds because people believe in what it represents.",
+    story: `In the decades before international fashion giants and fast-fashion conglomerates took over Indian high streets and shopping malls, a quiet revolution was ignited in the bustling textile districts of Mumbai. Long before foreign denim labels established a retail foothold across India, a group of determined brothers set out to dismantle a deep-seated consumer myth: that aspirational, world-class fashion could only originate from western capitals.
+
+At the helm of that disruption stood Kewalchand Pukhraj Jain, Chairman and Managing Director of Kewal Kiran Clothing Limited (KKCL), alongside his brothers Hemant, Dinesh, and Vikas Jain. Together, they transformed a humble garment manufacturing workshop into an enduring national fashion powerhouse, creating Killer Jeans—a brand that captured the rebellious pulse of Indian youth and established the template for indigenous apparel branding.
+
+The journey began in the dense garment markets of Mumbai, where the Jain brothers observed their father’s clothing business from an early age. Learning the intricate economics of yarn sourcing, pattern cutting, and dealer negotiations from the ground up, Kewalchand entered the trade with an artisan's respect for fabric and construction. In 1980, he teamed up with his brother Hemant to establish a partnership firm, Keval Kiran & Company, initially operating as an unbranded garment contract manufacturer.
+
+By the late 1980s, television screens and cinema had made denim the universal uniform of youth rebellion and modern style. In India, however, almost every desirable pair of jeans was an expensive foreign import or an unbranded domestic imitation. The Jain brothers asked a provocative question: why should Indian youth have to look abroad for style when our own craftsmen possessed the skill to produce world-class denim?
+
+In 1989, they took an audacious leap: launching "Killer Jeans." The brand name itself was a shock to India's conservative retail market—bold, unapologetic, and fiercely youthful. While conventional advice urged them to compete on cheaper pricing, the Jain brothers chose the harder, more ambitious path. They positioned Killer as a premium denim brand, pioneering international wash treatments, custom washes, innovative stitching, and ergonomic fits tailored specifically for Indian body types.
+
+Retailers initially hesitated to stock an expensive, home-grown brand. But Killer's provocative marketing campaigns, centered on freedom, grit, and non-conformity, struck an electric chord with a generation coming of age during India's economic liberalization. The brand evolved into a cultural phenomenon—owning a pair of Killer jeans became a badge of modern identity.
+
+Recognizing that longevity required structural discipline, the founders consolidated their businesses into Kewal Kiran Clothing Limited, taking the enterprise public on the Indian stock exchanges in 2006. Over the decades, KKCL diversified its portfolio into a multi-brand powerhouse—adding LawmanPg3 for casual wear, Integriti for contemporary fashion, Easies for semi-formal apparel, and K-Lounge retail outlets across hundreds of Indian cities.
+
+Today, guided by their core principles of consistency, integrity, and innovation, Kewalchand Jain and his brothers prove that enduring brands aren't built on fleeting viral trends, but on unshakeable belief in domestic craftsmanship and authentic consumer connection.`,
+    achievements: [
+      "Launched Killer Jeans in 1989, pioneering India's first iconic homegrown premium denim brand",
+      "Built Kewal Kiran Clothing Limited (KKCL) into a publicly listed fashion powerhouse alongside his brothers",
+      "Expanded brand portfolio across diverse demographic segments with LawmanPg3, Integriti, Easies, and Iti",
+      "Established an expansive retail network of hundreds of exclusive brand outlets (K-Lounge) and multi-brand retail presences across India"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-10",
+    imageAlt: "Kewalchand P. Jain, Chairman and Managing Director of Kewal Kiran Clothing Limited",
+    imageCaption: "Kewalchand P. Jain, the visionary entrepreneur behind Killer Jeans and Kewal Kiran Clothing Limited.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://test.thefoundersstories.com/uncategorized/killer-jeans/",
+    sources: [
+      {
+        title: "The Founders Stories: Killer Jeans – How the Jain Brothers Built India’s First Homegrown Denim Powerhouse",
+        url: "https://test.thefoundersstories.com/uncategorized/killer-jeans/",
+        publishedAt: "2026-03-09",
+        accessedAt: "2026-11-10"
+      }
+    ]
+  },
+  {
     "id": "aryan-sharma-kushagra-kaushik-pyaas-dairy-2026",
     "name": "Aryan Sharma and Kushagra Shekhar Kaushik",
     "title": "Co-founders, PYAAS Dairy",

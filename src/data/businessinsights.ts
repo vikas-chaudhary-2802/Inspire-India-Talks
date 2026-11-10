@@ -35,6 +35,44 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "blue-tokai-crosses-500-cr-revenue-fy26-loss-widens",
+    title: "Blue Tokai Crosses Rs 500 Cr Revenue in FY26; Losses Up 54%",
+    date: "10-11-2026",
+    category: "Food & Beverage / D2C",
+    image: "/images/business-insights/blue-tokai-fy26-financials.jpg",
+    excerpt: "Speciality coffee chain Blue Tokai surged 59.4% in operating revenue to cross Rs 518 crore in FY26, even as rapid cafe expansion widened net losses by 53.7% to Rs 83 crore.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Blue Tokai coffee roasters founders and cafe concept",
+    imageCaption: "Blue Tokai scaled past Rs 500 crore in top-line revenue in FY26 while investing aggressively in store network expansion.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/blue-tokai-crosses-rs-500-cr-revenue-in-fy26-losses-up-54-12798434",
+    sources: [
+      {
+        title: "Entrackr: Blue Tokai crosses Rs 500 Cr revenue in FY26; losses up 54%",
+        url: "https://entrackr.com/fintrackr/blue-tokai-crosses-rs-500-cr-revenue-in-fy26-losses-up-54-12798434",
+        publishedAt: "2026-11-10",
+        accessedAt: "2026-11-10"
+      }
+    ],
+    content: `Gurugram-based speciality coffee chain Blue Tokai Coffee Roasters crossed the landmark Rs 500 crore revenue threshold during the fiscal year ended March 2026 (FY26), propelled by strong footfalls across its rapidly expanding cafe network and growing direct-to-consumer beans sales.
+
+According to consolidated financial statements reviewed by Entrackr, Blue Tokai's revenue from operations surged 59.4% year-on-year to Rs 518 crore in FY26, up from Rs 325 crore in FY25. With other non-operating income contributing Rs 7.5 crore, total income for the fiscal reached Rs 525.5 crore.
+
+Core sales of roasted coffee beans, beverages, and cafe culinary offerings formed the primary revenue pillar, climbing 59.3% to Rs 513 crore compared to Rs 322 crore in the prior fiscal year. Lease income rose 36.2% to Rs 3.5 crore, while service revenues contributed Rs 1 crore.
+
+However, the aggressive pace of physical outlet rollouts and rising operational overheads weighed on the bottom line. Blue Tokai's total expenditure escalated 61.7% to Rs 608 crore in FY26 from Rs 376 crore in FY25:
+• Procurement of raw materials—including green coffee beans and dairy—remained the largest cost center, rising 65.5% to Rs 187 crore.
+• Employee benefit expenses increased 35.9% to Rs 130.5 crore.
+• Rent and property leases jumped 59.6% to Rs 26.65 crore as the chain expanded into high-footfall metro retail hubs.
+• Depreciation charges nearly doubled to Rs 87 crore, while finance costs rose 68.8% to Rs 27 crore.
+• Other administrative and operational expenses expanded 70.5% to Rs 150 crore.
+
+Consequently, net losses widened 53.7% to Rs 83 crore in FY26, compared to Rs 54 crore in FY25. On the operational profitability front, Blue Tokai posted an EBITDA of Rs 23 crore (an EBITDA margin of 4.44%, down from 5.97% in FY25). On a unit economic level, the coffee chain spent Rs 1.17 to generate every single rupee of operating revenue, closing the year with cash and bank balances of Rs 39 crore and total assets of Rs 697 crore.
+
+Blue Tokai operates in an intensely competitive organized cafe market, competing against players like Third Wave Coffee and market incumbent Tata Starbucks, which recorded Rs 1,367 crore in operating revenue during the same period. As Blue Tokai continues to build brand salience, unlocking store-level profitability and optimizing supply chain efficiencies will remain paramount to achieving sustained long-term unit economics.`,
+  },
+  {
     "id": "meesho-kirana-club-retailer-network-acquisition-2026",
     "title": "Meesho’s Kirana Club Deal Adds a Retailer-Distribution Bet",
     "date": "09-11-2026",
