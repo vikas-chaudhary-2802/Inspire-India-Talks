@@ -35,6 +35,45 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "rentomojo-q2-fy27-results-revenue-grows-53-percent",
+    title: "RentoMojo Posts First Post-Listing Quarterly Results: Q2 FY27 Revenue Surges 53%",
+    date: "11-11-2026",
+    category: "E-Commerce / Consumer Tech",
+    image: "/images/business-insights/rentomojo-q2-fy27-results.jpg",
+    excerpt: "Bengaluru-based rental platform RentoMojo reported a 52.7% YoY surge in Q2 FY27 revenue to Rs 142 crore, while profit before tax grew 54% to Rs 24.3 crore in its maiden post-listing results.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "RentoMojo founder Geetansh Bamania and rental appliance offerings",
+    imageCaption: "RentoMojo delivered strong top-line and bottom-line growth in its maiden post-IPO quarterly report for Q2 FY27.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/rentomojo-reports-first-quarterly-results-post-listing-q2-fy27-revenue-grows-53-12800852",
+    sources: [
+      {
+        title: "Entrackr: RentoMojo reports first quarterly results post listing, Q2 FY27 revenue grows 53%",
+        url: "https://entrackr.com/fintrackr/rentomojo-reports-first-quarterly-results-post-listing-q2-fy27-revenue-grows-53-12800852",
+        publishedAt: "2026-11-11",
+        accessedAt: "2026-11-11"
+      }
+    ],
+    content: `Bengaluru-based furniture and appliance rental platform RentoMojo reported robust operational and financial growth in its first quarterly earnings report since listing on the Indian stock exchanges, with revenue from operations growing 52.69% year-on-year in Q2 FY27.
+
+According to consolidated financial statements filed with the National Stock Exchange (NSE), RentoMojo's revenue from operations surged to Rs 142 crore for the quarter ended September 30, 2026, compared to Rs 93 crore in Q2 FY26. Other non-operating income of Rs 1.6 crore brought total income for the quarter to Rs 144 crore.
+
+Founded by Geetansh Bamania, RentoMojo operates a subscription-first rental platform for home appliances and furniture, serving urban millennial households and mobile professionals across India's tier-1 and major metropolitan centers.
+
+On the expenditure side, operational scaling drove total expenses up 53.85% to Rs 120 crore in Q2 FY27, up from Rs 78 crore in the corresponding period last fiscal:
+• Employee benefit expenses stood at Rs 19.5 crore during the quarter.
+• Finance charges, asset depreciation on rental inventory, and operational overheads made up the remaining expenditure.
+
+Despite rising operational expenses, RentoMojo demonstrated strong operating leverage on the profitability front:
+• Profit before tax (PBT) grew 54.19% to Rs 24.3 crore in Q2 FY27 from Rs 15.8 crore in Q2 FY26.
+• Net profit (PAT) for the quarter came in at Rs 18.1 crore.
+
+For the first half of the fiscal year (H1 FY27), the company recorded consolidated operating revenue of Rs 268 crore, up 51.70% from Rs 177 crore in H1 FY26, alongside a half-yearly PBT of Rs 28.5 crore.
+
+RentoMojo debuted on the Indian bourses in September 2026 at a 19% listing premium, supported by immense retail and institutional appetite that saw its Rs 1,256 crore initial public offering (IPO) subscribed 72.87 times. Following the earnings announcement, shares were trading at approximately Rs 615 per share—up over 52% from its IPO issue price of Rs 404—pegging RentoMojo's market capitalization at around Rs 6,459 crore.`,
+  },
+  {
     id: "blue-tokai-crosses-500-cr-revenue-fy26-loss-widens",
     title: "Blue Tokai Crosses Rs 500 Cr Revenue in FY26; Losses Up 54%",
     date: "10-11-2026",

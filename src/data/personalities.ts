@@ -40,6 +40,49 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "reed-hastings-netflix",
+    name: "Reed Hastings",
+    title: "Co-Founder & Executive Chairman, Netflix",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/reed-hastings-netflix.jpg",
+    born: "1960",
+    profession: "Technology Entrepreneur, Innovator & Executive Chairman of Netflix",
+    knownFor: "Co-founding Netflix, revolutionizing global digital entertainment from DVD rentals to streaming and original content, and defining modern corporate culture around freedom and responsibility.",
+    quote: "My job was never to preserve the past. It was to keep betting on the future.",
+    story: `In a dusty classroom in Swaziland during the mid-1980s, with no electricity and only a chalkboard, a young American volunteer found his foundational lessons in leadership, resilience, and adaptability. Long before he dismantled traditional television networks and turned binge-watching into a global lifestyle, Reed Hastings was teaching high school mathematics to African students. Hitchhiking across the continent with ten dollars in his pocket, he discovered that uncertainty and risk did not paralyze him—they energized him.
+
+Born Wilmot Reed Hastings Jr. on October 8, 1960, in Boston, Massachusetts, he developed an analytical mind and a passion for puzzles. After Bowdoin College and his transformative Peace Corps stint, Hastings earned a master’s degree in computer science from Stanford University. In 1991, he founded Pure Software, creating debugging tools for software engineers. The company grew rapidly and went public in 1995, but rapid bureaucratic expansion suffocated creativity. Hastings later reflected: "At Pure Software, I learned how easy it is to suffocate innovation with process." That realization became a vow: if he built another enterprise, corporate culture would champion freedom and accountability over rigid controls.
+
+In 1997, Hastings partnered with Marc Randolph to launch Netflix. Inspired in part by Hastings' frustration over a 40 USD late fee on a rented tape of Apollo 13, the duo reimagined movie rentals by introducing flat-fee subscriptions by mail with no return deadlines and zero late fees. In 2000, amidst the dot-com crash, Hastings offered to sell Netflix to industry giant Blockbuster for 50 million USD. Blockbuster executives laughed off the proposal. That dismissal became one of the most famous miscalculations in corporate history.
+
+Refusing defeat, Hastings sharpened Netflix's algorithmic recommendation engine and expanded automated fulfillment centers across the United States. By 2002, Netflix was profitable and listed on NASDAQ. But Hastings refused to rest on laurels. Recognizing that physical discs were merely a temporary bridge, Netflix executed its most daring strategic pivot in 2007 by launching video streaming.
+
+In 2013, Hastings disrupted Hollywood once again. Rather than relying solely on third-party studio licenses, Netflix debuted House of Cards, releasing all episodes simultaneously and proving that global audiences preferred narrative binge-viewing over weekly broadcast schedules. Global phenomena followed—from Stranger Things and Narcos to Money Heist and Squid Game—demonstrating that compelling storytelling transcended languages and borders.
+
+Beyond entertainment, Hastings redefined organizational theory with Netflix's famous "Freedom and Responsibility" culture memo, advocating high talent density, context over control, and radical candor. Having built Netflix past 230 million global subscribers, Hastings stepped into the Executive Chairman role in 2023, while continuing his philanthropic crusade in education reform and joining pioneering frontiers like artificial intelligence.`,
+    achievements: [
+      "Co-founded Netflix in 1997, transforming it from a DVD-by-mail service into the world’s leading digital entertainment streaming platform",
+      "Pioneered the streaming video revolution in 2007 and on-demand binge-watching with original productions starting with House of Cards in 2013",
+      "Scaled Netflix to over 230 million paid subscribers across more than 190 countries globally",
+      "Formulated the legendary 'Freedom and Responsibility' culture manifesto, widely cited across Silicon Valley and business schools worldwide"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-11",
+    imageAlt: "Reed Hastings, Co-Founder and Executive Chairman of Netflix",
+    imageCaption: "Reed Hastings, who revolutionized global entertainment by betting relentlessly on streaming, original storytelling, and organizational freedom.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/uncategorized/reed-hastings-the-teacher-who-reimagined-entertainment/",
+    sources: [
+      {
+        title: "The Founders Stories: Reed Hastings: The Teacher Who Reimagined Entertainment",
+        url: "https://thefoundersstories.com/uncategorized/reed-hastings-the-teacher-who-reimagined-entertainment/",
+        publishedAt: "2026-03-03",
+        accessedAt: "2026-11-11"
+      }
+    ]
+  },
+  {
     id: "kewalchand-p-jain-killer-jeans",
     name: "Kewalchand P. Jain",
     title: "Chairman & Managing Director, Kewal Kiran Clothing Limited (Killer Jeans)",
