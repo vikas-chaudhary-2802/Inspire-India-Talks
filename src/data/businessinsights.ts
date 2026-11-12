@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "unacademy-gaurav-munjal-executive-chairman-akhilendra-kumar-ceo",
+    title: "Unacademy Restructures Leadership: Gaurav Munjal Becomes Executive Chairman, Akhilendra Kumar Elevated to CEO",
+    date: "12-11-2026",
+    category: "EdTech / Corporate Strategy",
+    image: "/images/business-insights/unacademy-gaurav-munjal-akhilendra-kumar.jpg",
+    excerpt: "In a major leadership realignment following its acquisition by upGrad, Unacademy co-founder Gaurav Munjal transitions to Executive Chairman while Chief Business Officer Akhilendra Kumar takes charge as CEO.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Unacademy leadership transition with Gaurav Munjal and new CEO Akhilendra Kumar",
+    imageCaption: "Gaurav Munjal transitions to Executive Chairman as Akhilendra Kumar steps up as CEO amidst Unacademy's consolidation under upGrad.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/unacademys-gaurav-munjal-moves-to-executive-chairman-cbo-akhilendra-kumar-becomes-ceo-12801626",
+    sources: [
+      {
+        title: "Entrackr: Unacademy’s Gaurav Munjal moves to Executive Chairman, CBO Akhilendra Kumar becomes CEO",
+        url: "https://entrackr.com/news/unacademys-gaurav-munjal-moves-to-executive-chairman-cbo-akhilendra-kumar-becomes-ceo-12801626",
+        publishedAt: "2026-11-11",
+        accessedAt: "2026-11-12"
+      }
+    ],
+    content: `Bengaluru-based edtech major Unacademy has announced a major executive leadership reshuffle, with co-founder and long-time Chief Executive Officer Gaurav Munjal moving to the role of Executive Chairman, and Chief Business Officer (CBO) Akhilendra Kumar being elevated to Chief Executive Officer.
+
+Announcing the transition, Munjal shared that while he will step away from day-to-day administrative helm, he will remain actively involved in strategic company operations alongside Kumar, while also dedicating attention to upGrad's forthcoming initial public offering (IPO). Kumar, who has served at Unacademy for nearly five years driving business operations, steps into the top executive seat during a pivotal phase for the platform.
+
+The leadership transition unfolds approximately two months after higher education and skilling conglomerate upGrad finalized its acquisition of Unacademy in September 2026. The all-stock transaction valued Unacademy at slightly over 200 million USD—representing a dramatic correction from its peak bull-market valuation of 3.4 billion USD in 2021.
+
+The acquisition provided upGrad a formidable gateway into India's highly competitive test preparation sector—encompassing UPSC, IIT-JEE, NEET, and GATE—while integrating Unacademy’s extensive digital educator ecosystem with upGrad's portfolio of executive degrees, skilling, and study-abroad programs.
+
+At the time of the merger, Munjal reported that Unacademy was operating at an annualized topline of approximately Rs 400 crore, with key core business verticals achieving profitability or operating near break-even, supported by a healthy treasury cushion of around Rs 900 crore. Concurrently, upGrad registered a 7% year-on-year increase in FY26 gross revenue to Rs 2,070 crore (total income of Rs 1,732 crore under Ind-AS accounting), alongside a provisional profit of Rs 38.8 crore for the 11-month period ended February 2026.
+
+As part of upGrad's post-acquisition rationalization, operations across subsidiaries are being centralized. Medical test prep subsidiary PrepLadder has shifted its operational base from Chandigarh to Bengaluru, uniting Unacademy, PrepLadder, Airlearn, and Graphy under a consolidated Bengaluru tech corridor to optimize shared resources and drive sustainable unit economics.`,
+  },
+  {
     id: "rentomojo-q2-fy27-results-revenue-grows-53-percent",
     title: "RentoMojo Posts First Post-Listing Quarterly Results: Q2 FY27 Revenue Surges 53%",
     date: "11-11-2026",

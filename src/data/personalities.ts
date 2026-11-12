@@ -40,6 +40,51 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "dr-carolyn-m-rubin-consulting-empowerfuse",
+    name: "Dr. Carolyn M. Rubin",
+    title: "Founder, Carolyn M. Rubin Consulting & Creator, EmpowerFuse",
+    category: "She Talks",
+    categorySlug: "she-talks",
+    image: "/images/founder-stories/dr-carolyn-m-rubin.png",
+    born: "",
+    profession: "Healthcare Executive, Leadership Consultant & Keynote Speaker",
+    knownFor: "Pioneering human-centred leadership across healthcare systems, founding Carolyn M. Rubin Consulting, and creating EmpowerFuse to elevate purpose and emotional alignment in leaders.",
+    quote: "Leadership is not only measured by what one accomplishes; it is measured by who becomes stronger, braver, and more aligned because they have encountered your presence.",
+    story: `There are leadership journeys measured by high-profile corporate titles, and then there are those defined by a quieter, deeper architecture of purpose, emotional alignment, and transformative human impact. The path of Dr. Carolyn M. Rubin embodies the latter—a lifelong commitment to challenging whether corporate performance and efficiency alone can ever constitute genuine, lasting leadership.
+
+For more than three decades, Dr. Rubin navigated the intense operational complexities of modern healthcare systems. Leading large-scale organizational integration, institutional turnarounds, and cross-functional teams with steady composure, she mastered the administrative disciplines of governance and clinical execution. Yet amidst the benchmarks and metrics, she uncovered an unspoken systemic vulnerability across corporate corridors: accomplished professionals were continuously expected to perform, adapt, and produce, while receiving little support for their own internal growth, emotional clarity, and psychological endurance.
+
+Leaders appeared successful on the surface yet wrestled with silent fatigue; organizational teams executed tasks efficiently while harboring deep uncertainty about their greater mission. Dr. Rubin recognized that this was not a deficit in operational skills, but a profound absence of human-centred leadership.
+
+Guided by the conviction that true leadership must nourish both the human spirit and operational excellence, she established Carolyn M. Rubin Consulting in 2014. Her mission was to create intentional spaces where leaders could move beyond mechanical outcomes to cultivate presence, emotional intelligence, and authentic alignment. As she observed, true impact is found not merely in what a leader delivers, but in who becomes stronger, braver, and more self-assured in their presence.
+
+Choosing this entrepreneurial path meant stepping away from the predictable stability of institutional executive roles. For Dr. Rubin, purpose rarely coincides with mere comfort. Her insights matured into broader platforms like EmpowerFuse, created to spark meaningful conversations, cultivate resilience, and help emerging professionals break through self-doubt.
+
+Throughout what she terms "the unseen middle"—those demanding phases of institution-building where effort is high and external applause is absent—Dr. Rubin learned to redefine strength itself. Early in her career, she equated resilience with solitary endurance: carrying the burden alone and absorbing immense organizational pressure. Over time, her philosophy shifted fundamentally: true strength is not about becoming indispensable, but about empowering others to unlock their own capabilities and multiply collective conviction.
+
+Today, through keynote speaking, executive advisory, and media initiatives, Dr. Carolyn M. Rubin continues to champion relational leadership. Her message to leaders worldwide remains both timeless and transformative: leadership is fundamentally an imprint—one that must heal, elevate, and inspire others to step boldly into their potential.`,
+    achievements: [
+      "Over three decades of executive leadership and transformation across complex healthcare institutions",
+      "Founded Carolyn M. Rubin Consulting in 2014, advancing human-centred leadership development and emotional intelligence worldwide",
+      "Created EmpowerFuse, an international platform for leadership empowerment, transformative dialogue, and mentorship",
+      "Honored internationally as a keynote speaker, executive coach, and champion of empathetic, purpose-driven organizational culture"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-12",
+    imageAlt: "Dr. Carolyn M. Rubin, Founder of Carolyn M. Rubin Consulting and EmpowerFuse",
+    imageCaption: "Dr. Carolyn M. Rubin, acclaimed healthcare executive and leadership consultant reimagining human-centred leadership and organizational alignment.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/uncategorized/dr-carolyn-m-rubin-the-quiet-architecture-of-influence-reimagining-of-human-centred-leadership/",
+    sources: [
+      {
+        title: "The Founders Stories: Dr. Carolyn M. Rubin: The Quiet Architecture of Influence & Reimagining of Human-Centred Leadership",
+        url: "https://thefoundersstories.com/uncategorized/dr-carolyn-m-rubin-the-quiet-architecture-of-influence-reimagining-of-human-centred-leadership/",
+        publishedAt: "2026-05-23",
+        accessedAt: "2026-11-12"
+      }
+    ]
+  },
+  {
     id: "reed-hastings-netflix",
     name: "Reed Hastings",
     title: "Co-Founder & Executive Chairman, Netflix",
