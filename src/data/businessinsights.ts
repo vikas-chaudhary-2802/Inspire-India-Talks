@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "paytm-rbi-in-principle-nod-wallet-licence-ppsl",
+    title: "Paytm Secures RBI's In-Principle Approval for Fresh Wallet Licence via PPSL",
+    date: "13-11-2026",
+    category: "Fintech / Banking & Regulations",
+    image: "/images/business-insights/paytm-rbi-wallet-licence.png",
+    excerpt: "One 97 Communications' subsidiary Paytm Payments Services Limited has secured in-principle authorisation from the RBI to issue prepaid payment instruments, marking a major step toward reviving its digital wallet business.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Paytm founder Vijay Shekhar Sharma and digital wallet ecosystem",
+    imageCaption: "Paytm moves a major step closer to reviving its iconic digital wallet offering under Paytm Payments Services Limited following RBI's in-principle approval.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/paytm-gets-rbis-in-principle-nod-for-wallet-licence-12806445",
+    sources: [
+      {
+        title: "Entrackr: Paytm gets RBI’s in-principle nod for wallet licence",
+        url: "https://entrackr.com/news/paytm-gets-rbis-in-principle-nod-for-wallet-licence-12806445",
+        publishedAt: "2026-11-13",
+        accessedAt: "2026-11-13"
+      }
+    ],
+    content: `In a major regulatory milestone for fintech giant One 97 Communications, its wholly owned subsidiary Paytm Payments Services Limited (PPSL) has received in-principle authorization from the Reserve Bank of India (RBI) to issue and operate prepaid payment instruments (PPIs), including digital wallets.
+
+Disclosed through an official regulatory exchange filing, Paytm confirmed that the central bank granted approval on November 13, 2026, under the provisions of the Payment and Settlement Systems Act, 2007. The in-principle nod marks a critical turning point for the fintech pioneer as it seeks to reinstate its consumer wallet offering under a newly ringfenced operational architecture.
+
+Under the terms of the authorization, PPSL is required to complete an extensive system audit, encompassing rigorous cybersecurity compliance checks, and submit the audit report to the RBI within six months. Meeting these criteria remains mandatory, as failure to comply within the prescribed window will lead to the automatic lapse of the in-principle clearance. The company can formally recommence issuing new prepaid instruments and wallets only upon receiving the final Certificate of Authorisation from the regulator.
+
+Paytm formally submitted its application for a fresh PPI licence via PPSL in July 2026, signaling its intent to reintroduce the digital wallet following the RBI's cancellation of Paytm Payments Bank Limited’s (PPBL) banking licence in April 2026. The company had highlighted to investors in its June quarter earnings presentation that restoring a native wallet is central to delivering an all-inclusive digital payments suite for millions of daily consumers and retail merchants.
+
+Historically, Paytm’s digital wallet served as the bedrock of India's cashless payments boom, particularly following the 2016 demonetization. However, regulatory restrictions placed on PPBL in early 2024 barred users from topping up wallets, ultimately leading to the licence revocation on April 24, 2026, over operational non-compliances.
+
+Securing the RBI's in-principle approval provides Paytm with a clear, compliant path to resurrecting one of India's most recognized consumer fintech products, reinforcing merchant ecosystem stickiness and re-establishing trust in its core consumer offerings.`,
+  },
+  {
     id: "unacademy-gaurav-munjal-executive-chairman-akhilendra-kumar-ceo",
     title: "Unacademy Restructures Leadership: Gaurav Munjal Becomes Executive Chairman, Akhilendra Kumar Elevated to CEO",
     date: "12-11-2026",

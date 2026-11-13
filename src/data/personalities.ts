@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "james-dyson-dyson-cyclone-innovation",
+    name: "Sir James Dyson",
+    title: "Founder & Chief Engineer, Dyson Ltd.",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/james-dyson.jpg",
+    born: "1947",
+    profession: "Inventor, Industrial Designer & Billionaire Engineer",
+    knownFor: "Inventing the world’s first bagless dual-cyclone vacuum cleaner after 5,126 failed prototypes, founding Dyson Ltd., and revolutionizing household technology through relentless engineering innovation.",
+    quote: "Enjoy failure and learn from it. You can never learn from success.",
+    story: `In a modest workshop in the English countryside during the late 1970s, an inventor stood surrounded by cardboard cutouts, plastic tubes, and industrial machinery, testing his latest creation. It sputtered, choked on dust, and failed. It was prototype number 3,412. Most people would have abandoned the pursuit years earlier. Sir James Dyson simply took notes, rebuilt the chamber, and began prototype 3,413.
+
+Born on May 2, 1947, in Cromer, Norfolk, James Dyson grew up understanding adversity early after the tragic loss of his father during his childhood. At the Royal College of Art, he immersed himself in design and engineering, combining artistic form with mechanical precision. But his career-defining epiphany arrived from a mundane domestic frustration: vacuuming his own home.
+
+Dyson noticed that traditional vacuum cleaners suffered from an inherent mechanical flaw. As dust entered the disposable paper bag, tiny pores became clogged, restricting airflow and causing suction to drop rapidly. For decades, multi-billion-dollar appliance manufacturers accepted this decline as normal—partly because selling replacement vacuum bags was a lucrative recurring revenue stream. Dyson refused to accept flawed design as inevitable.
+
+Inspired by massive centrifugal cyclone towers used in industrial sawmills to clear sawdust without filters, Dyson wondered: could this physics principle be miniaturized for the living room?
+
+Turning that insight into reality consumed five grueling years of relentless trial and error. Between 1978 and 1983, Dyson constructed 5,127 prototypes. The family fell deeply into debt, sustained primarily by his wife Deirdre’s salary as an art teacher. When prototype 5,127 finally cracked continuous, bagless cyclone suction, a second wall emerged: corporate rejection. Major European manufacturers refused to license the technology, unwilling to cannibalize their profitable consumable bag markets.
+
+Undeterred, Dyson found his breakthrough in Japan, licensing the technology for the bright pink "G-Force" vacuum cleaner in the mid-1980s. Winning international acclaim and design honors, the Japanese royalties gave Dyson the financial runway to launch Dyson Ltd. in Wiltshire in 1991. In 1993, he debuted the DC01—featuring a clear plastic bin so users could witness the cyclone separation at work. Within 18 months, the DC01 became the best-selling vacuum cleaner in the United Kingdom.
+
+Over the ensuing decades, Dyson transformed Dyson Ltd. from an appliance maker into an engineering laboratory, pioneering digital high-speed motors, bladeless fans, Supersonic hair care technology, air purifiers, and advanced robotics. Backing his philosophy that engineering education is a societal pillar, he established the James Dyson Foundation and the Dyson Institute of Engineering and Technology, where undergraduate engineers learn debt-free while drawing salaries on active engineering projects.
+
+Today, Sir James Dyson stands as a global beacon of inventive grit, proving that breakthrough innovation does not stem from grand boardroom theories, but from the relentless patience to fail thousands of times until you uncover what truly works.`,
+    achievements: [
+      "Invented the dual-cyclone bagless vacuum cleaner, testing 5,127 prototypes over five years before achieving success",
+      "Founded Dyson Ltd. in 1991, scaling it into a global engineering and consumer technology powerhouse",
+      "Pioneered groundbreaking innovations across digital high-speed motors, bladeless air multipliers, and Supersonic hair technologies",
+      "Founded the James Dyson Foundation and the accredited Dyson Institute of Engineering and Technology to nurture future engineering minds"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-13",
+    imageAlt: "Sir James Dyson, Founder and Chief Engineer of Dyson Ltd.",
+    imageCaption: "Sir James Dyson, the British inventor who built 5,126 failed prototypes before pioneering the world's first bagless cyclone vacuum and revolutionizing household appliances.",
+    imageCredit: "The Founders Stories",
+    imageSourceUrl: "https://thefoundersstories.com/editors-select/the-man-who-failed-5126-times-before-the-world-listened/",
+    sources: [
+      {
+        title: "The Founders Stories: The Man Who Failed 5,126 Times Before the World Listened",
+        url: "https://thefoundersstories.com/editors-select/the-man-who-failed-5126-times-before-the-world-listened/",
+        publishedAt: "2026-01-20",
+        accessedAt: "2026-11-13"
+      }
+    ]
+  },
+  {
     id: "dr-carolyn-m-rubin-consulting-empowerfuse",
     name: "Dr. Carolyn M. Rubin",
     title: "Founder, Carolyn M. Rubin Consulting & Creator, EmpowerFuse",
