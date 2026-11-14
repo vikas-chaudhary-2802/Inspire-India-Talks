@@ -40,6 +40,51 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "mayank-banerjee-matilde-giglio-alessandro-ialongo-even-healthcare",
+    name: "Mayank Banerjee, Matilde Giglio, and Alessandro Davide Ialongo",
+    title: "Co-Founders, Even Healthcare",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/even-healthcare-founders.png",
+    born: "",
+    profession: "Healthcare Entrepreneurs & Managed Care Innovators",
+    knownFor: "Co-founding Even Healthcare, pioneering provider-led managed healthcare in India, and raising 50 million USD Series B led by Khosla Ventures to build captive hospital networks.",
+    quote: "Healthcare should not be an adversarial fight between insurers and hospitals. When care delivery and payment alignment live under one roof, patients finally win.",
+    story: `For decades, India's private healthcare system has operated under an adversarial friction point: insurers maximize profit by denying or questioning claims, while private hospitals maximize revenue by prescribing more beds, tests, and procedures. Caught squarely in the middle is the patient, facing soaring out-of-pocket expenses, bureaucratic claim rejections, and fragmented primary care.
+
+In 2020, three entrepreneurs—Mayank Banerjee, Matilde Giglio, and Alessandro Davide Ialongo—set out to dismantle this misaligned paradigm by launching Bengaluru-based Even Healthcare.
+
+Their core insight was as fundamental as it was disruptive: true healthcare reform cannot happen merely by building another digital insurance brokerage or claims-processing software layer. Instead, it requires adopting a full-stack "managed care" model—similar to pioneering global systems like Kaiser Permanente—where health coverage and direct medical delivery are integrated under a unified provider umbrella.
+
+In the initial years, Even built a trusted subscription-based health membership covering unlimited outpatient consultations, diagnostic tests, and secondary care, scaling to over 2.5 lakh members across 10 Indian cities. Yet the founders quickly recognized the limitations of being just a payer. When patients were referred to independent third-party hospitals for inpatient surgeries, quality control, pricing transparency, and bedside patient experience remained out of their hands.
+
+To solve this, Banerjee, Giglio, and Ialongo orchestrated a bold, contrarian strategic pivot: shifting Even from an asset-light health plan into a vertically integrated, hospital-led healthcare provider. Instead of partnering with external hospital chains, Even began investing directly in owning and operating physical micro-hospitals and dedicated clinics in high-density urban clusters.
+
+In October 2026, Even solidified institutional backing for this capital-intensive, high-conviction model by securing a 50 million USD Series B financing round led by iconic Silicon Valley venture firm Khosla Ventures, alongside participation from Alpha Wave. The fresh capital was earmarked to accelerate physical infrastructure—expanding from two operational facilities to add four new micro-hospitals across Bengaluru by the close of FY27.
+
+By owning the physical hospital footprint, Even aligns economic incentives with preventive patient wellness: keeping patients healthy lowers hospitalization costs, enabling the company to capture stronger unit economics while providing seamless, cashless, stress-free clinical care. Through relentless execution, Mayank Banerjee, Matilde Giglio, and Alessandro Ialongo are showing that the future of Indian healthcare lies in combining technology-enabled subscriptions with compassionate, doctor-led clinical ownership.`,
+    achievements: [
+      "Co-founded Even Healthcare in 2020, pioneering managed care and integrated health membership in India",
+      "Scaled member base past 2.5 lakh users across 10 major Indian cities",
+      "Successfully executed a strategic pivot from traditional health insurance distribution to owning and operating proprietary micro-hospitals",
+      "Raised 50 million USD Series B round in 2026 led by Khosla Ventures and Alpha Wave to expand captive hospital infrastructure"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-14",
+    imageAlt: "Even Healthcare co-founders Mayank Banerjee, Matilde Giglio, and Alessandro Davide Ialongo",
+    imageCaption: "Mayank Banerjee, Matilde Giglio, and Alessandro Davide Ialongo, co-founders of Even Healthcare, which secured 50 million USD Series B led by Khosla Ventures.",
+    imageCredit: "FounderStory.in",
+    imageSourceUrl: "https://www.founderstory.in/story/managed-care-startup-even-raises-50m-series-b-led-by-khosla-ventures-to-scale-hospital-network",
+    sources: [
+      {
+        title: "FounderStory.in: Managed care startup Even raises $50M Series B led by Khosla Ventures to scale hospital network",
+        url: "https://www.founderstory.in/story/managed-care-startup-even-raises-50m-series-b-led-by-khosla-ventures-to-scale-hospital-network",
+        publishedAt: "2026-10-19",
+        accessedAt: "2026-11-14"
+      }
+    ]
+  },
+  {
     id: "james-dyson-dyson-cyclone-innovation",
     name: "Sir James Dyson",
     title: "Founder & Chief Engineer, Dyson Ltd.",

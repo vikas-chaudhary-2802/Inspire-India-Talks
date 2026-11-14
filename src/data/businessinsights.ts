@@ -35,6 +35,37 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "softbank-sells-1-65-percent-stake-meesho-rs-1885-cr-block-deal",
+    title: "SoftBank Sells 1.65% Stake in Meesho for Rs 1,885 Cr Through Block Deal",
+    date: "14-11-2026",
+    category: "E-commerce / Investments",
+    image: "/images/business-insights/softbank-meesho-block-deal.png",
+    excerpt: "Japanese tech conglomerate SoftBank offloaded a 1.65% stake in e-commerce giant Meesho for approximately Rs 1,885 crore via a secondary block deal, with major institutional funds including Fidelity and Societe Generale stepping in.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Meesho founders Vidit Aatrey and Sanjeev Barnwal with e-commerce logistics artwork",
+    imageCaption: "SoftBank offloaded 7.64 crore shares in Meesho for Rs 1,885 crore in a secondary block deal, bringing its shareholding to approximately 5.19%.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/softbank-sells-165-stake-in-meesho-for-rs-1885-cr-through-block-deal-12807590",
+    sources: [
+      {
+        title: "Entrackr: SoftBank sells 1.65% stake in Meesho for Rs 1,885 Cr through block deal",
+        url: "https://entrackr.com/news/softbank-sells-165-stake-in-meesho-for-rs-1885-cr-through-block-deal-12807590",
+        publishedAt: "2026-11-13",
+        accessedAt: "2026-11-14"
+      }
+    ],
+    content: `Japanese investment conglomerate SoftBank has trimmed its holding in Bengaluru-based e-commerce major Meesho, offloading a 1.65% equity stake for approximately Rs 1,885 crore through a large secondary market block deal.
+
+According to National Stock Exchange (NSE) transaction disclosures, SoftBank's investment affiliate SVF II Meerkat (DE) LLC sold 7.64 crore equity shares of Meesho at an average price of Rs 246.75 per share, realizing a total transaction value of Rs 1,885.17 crore.
+
+The block deal drew robust institutional participation from prominent global and domestic asset managers. International asset managers Fidelity and Societe Generale led the buying consortium, picking up 1.88 crore and 1.47 crore shares respectively, alongside allocations to Morgan Stanley Asia Singapore, Goldman Sachs Bank Europe, the Government of Singapore, and Norway's sovereign wealth fund Norges Bank. Domestic institutional investors—including HDFC Mutual Fund, Motilal Oswal Mutual Fund, Aditya Birla Sun Life Mutual Fund, and Bajaj Allianz Life Insurance—also absorbed sizable blocks.
+
+SoftBank previously held a 6.84% stake in Meesho as of September 2026. Following this latest secondary divestment, its residual stake is estimated at approximately 5.19%. The sale follows a preceding exit tranche in September 2026, where the Japanese investor offloaded a 1.73% stake valued at Rs 1,650 crore.
+
+On the operational performance front, Meesho continues to strengthen its bottom-line fundamentals. The e-commerce platform recorded a 38% year-on-year expansion in Q2 FY27 operating revenue to Rs 4,132 crore, while its consolidated net loss narrowed significantly by 68% to Rs 132 crore, down from Rs 411 crore in Q2 FY26. Following the transaction, Meesho shares closed at Rs 257.07 on the NSE, giving the company a market capitalization of Rs 1,19,049 crore (around 12.5 billion USD).`,
+  },
+  {
     id: "paytm-rbi-in-principle-nod-wallet-licence-ppsl",
     title: "Paytm Secures RBI's In-Principle Approval for Fresh Wallet Licence via PPSL",
     date: "13-11-2026",
