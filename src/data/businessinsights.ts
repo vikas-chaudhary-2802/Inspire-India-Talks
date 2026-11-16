@@ -35,6 +35,37 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "frnd-posts-rs-367-cr-revenue-fy26-profit-jumps-10x",
+    title: "FRND Posts Rs 367 Cr Revenue in FY26; Net Profit Jumps 10X to Rs 19 Cr",
+    date: "16-11-2026",
+    category: "Social Media / Consumer Tech",
+    image: "/images/business-insights/frnd-fy26-financials.jpg",
+    excerpt: "Voice-based social network FRND surged 88% YoY in operating revenue to Rs 367 crore in FY26, while net profit leaped 10X to Rs 19.27 crore, marking its third consecutive profitable fiscal year.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "FRND founders Bhanu Pratap Singh Tanwar and Harshvardhan Chhangani with audio community illustration",
+    imageCaption: "Bengaluru-based audio networking platform FRND scaled revenue by 88% to Rs 367 crore in FY26 while growing net profit nearly ten-fold.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/frnd-posts-rs-367-cr-revenue-in-fy26-profit-jumps-10x-12814582",
+    sources: [
+      {
+        title: "Entrackr: FRND posts Rs 367 Cr revenue in FY26; profit jumps 10X",
+        url: "https://entrackr.com/news/frnd-posts-rs-367-cr-revenue-in-fy26-profit-jumps-10x-12814582",
+        publishedAt: "2026-11-16",
+        accessedAt: "2026-11-16"
+      }
+    ],
+    content: `Bengaluru-headquartered voice-first social networking platform FRND delivered a breakout financial performance in the fiscal year ended March 2026 (FY26), recording an 88% year-on-year surge in revenue to Rs 367 crore, compared to Rs 195 crore in FY25.
+
+Alongside top-line acceleration, the startup achieved a remarkable leap in bottom-line profitability. FRND’s net profit expanded nearly 10 times to Rs 19.27 crore in FY26, up from Rs 2 crore in FY25. Operating earnings demonstrated parallel strength, with EBITDA jumping dramatically to Rs 22.37 crore from Rs 40 lakh in the previous fiscal, underlining expanding operating leverage.
+
+Founded in 2019 by Bhanu Pratap Singh Tanwar and Harshvardhan Chhangani, FRND operates an audio-driven social dating and community app tailored specifically for users across India’s Tier 2 to Tier 4 towns and rural heartlands. The platform enables users to connect via voice chat rooms, livestreamed audio radio, and interactive social games, monetizing through microtransactions where users purchase virtual coins to unlock premium community features and send digital gifts.
+
+A core growth driver has been the platform's vibrant creator ecosystem. FRND disclosed paying Rs 136 crore to community creators and audio hosts in FY26, marking a 72% increase over the previous year. To maintain momentum, advertising and marketing outlays rose to Rs 153 crore from Rs 84 crore in FY25, while the company allocated close to Rs 5 crore toward AI-powered safety, moderation, and fraud-detection infrastructure.
+
+The platform currently commands approximately 4.5 million monthly active users (MAUs), who spend an average of 30 minutes daily on the app. While Bharat remains its core bastion, international markets—including the US and the Middle East and North Africa (MENA) region—contributed 7.2% of total revenue. On the back of strong October 2026 traction, FRND reported an annualized revenue run-rate (ARR) of Rs 600 crore, solidifying its position as a rare consumer social startup delivering sustained multi-year profitability.`,
+  },
+  {
     id: "softbank-sells-1-65-percent-stake-meesho-rs-1885-cr-block-deal",
     title: "SoftBank Sells 1.65% Stake in Meesho for Rs 1,885 Cr Through Block Deal",
     date: "14-11-2026",

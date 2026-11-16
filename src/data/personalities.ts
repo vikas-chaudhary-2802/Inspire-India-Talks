@@ -40,6 +40,59 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "pallav-bihani-boldfit",
+    name: "Pallav Bihani",
+    title: "Founder & CEO, Boldfit",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/pallav-bihani-boldfit.png",
+    born: "1994",
+    profession: "D2C Entrepreneur & Fitness Industry Pioneer",
+    knownFor: "Founding Boldfit in 2018 with just two yoga mats, scaling it bootstrapped into a profitable 300+ crore INR fitness and sportswear powerhouse, and raising 400 crore INR from Bharat Value Fund to build a pan-India retail footprint.",
+    quote: "Real consumer brands aren't built on venture vanity metrics; they are built on high product utility, honest pricing, and relentless unit-level discipline.",
+    story: `When Pallav Bihani started Boldfit from Bengaluru in 2018, the Indian direct-to-consumer (D2C) ecosystem was engulfed in a venture-funded gold rush. Startups were raising massive seed rounds, spending lavishly on digital performance marketing, and bleeding cash in the hope that scale would eventually unlock profitability.
+
+Bihani chose a radically contrarian path: zero external capital, strict financial discipline, and a razor-sharp focus on day-one gross margins.
+
+Armed with a modest personal loan and just two initial products—simple, durable yoga mats—Bihani set out to solve a glaring void in India’s fitness retail market. International sporting goods giants charged prohibitive premium prices, while unorganized domestic alternatives suffered from unreliable quality and zero customer trust. Bihani positioned Boldfit directly in that sweet spot: high-performance fitness gear engineered with international quality standards, priced affordably for ordinary Indian households.
+
+Operating initially on digital marketplaces like Amazon and Flipkart before building out its own direct storefront, Boldfit scaled through organic consumer advocacy and stellar unit economics. The product catalog quickly diversified from basic yoga mats into home gym equipment, joint supports, resistance bands, shaker bottles, activewear, and scientifically formulated nutraceuticals.
+
+Unlike consumer tech startups that burned capital to acquire users, Boldfit maintained steady net profitability at every stage of growth. By FY25, the brand had scaled to over 400 active SKUs, delivering over 304 crore INR in operating revenue with healthy net profit margins and serving more than two crore active fitness enthusiasts across India.
+
+Boldfit’s authentic, performance-first positioning caught the attention of India’s sporting elite. In 2024, star Indian cricketer KL Rahul joined the venture as both a key equity investor and brand ambassador, alongside tennis legend Sania Mirza, infusing the homegrown label with mainstream athletic credibility.
+
+In late 2026, after scaling profitably on its own terms, Boldfit completed a landmark 400 crore INR (approx. 42 million USD) Series B funding round led by the Bharat Value Fund (managed by Pantomath Group’s The Wealth Company Alternates), with continued backing from Bessemer Venture Partners. The capital marked one of the largest growth equity rounds in Indian sports and fitness history, dedicated to accelerating Boldfit’s physical omnichannel expansion, localized manufacturing facilities, and pan-India retail stores.
+
+From two yoga mats in a small warehouse to an omnichannel fitness empire, Pallav Bihani’s journey exemplifies the true essence of Indian entrepreneurship: build products people actually need, respect unit economics from day one, and let customer trust power your scale.`,
+    achievements: [
+      "Founded Boldfit in 2018 with just two yoga mats and bootstrapped it into one of India’s leading D2C fitness and sports brands",
+      "Maintained consistent net profitability while scaling operational revenue beyond 300 crore INR",
+      "Onboarded star cricketer KL Rahul and tennis icon Sania Mirza as strategic investors and brand partners",
+      "Secured 400 crore INR Series B funding from Bharat Value Fund and Bessemer Venture Partners to scale a nationwide offline retail network"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-16",
+    imageAlt: "Boldfit founder Pallav Bihani with investor and brand ambassador KL Rahul",
+    imageCaption: "Boldfit founder Pallav Bihani alongside star Indian cricketer and investor KL Rahul, celebrating the brand's 400 crore INR Series B expansion.",
+    imageCredit: "FounderStory.in",
+    imageSourceUrl: "https://www.founderstory.in/story/d2c-fitness-brand-boldfit-raises-400-cr-from-bharat-value-fu-i93m",
+    sources: [
+      {
+        title: "FounderStory.in: D2C fitness brand Boldfit raises ₹400 Cr from Bharat Value Fund to scale retail footprint",
+        url: "https://www.founderstory.in/story/d2c-fitness-brand-boldfit-raises-400-cr-from-bharat-value-fu-i93m",
+        publishedAt: "2026-10-13",
+        accessedAt: "2026-11-16"
+      },
+      {
+        title: "LiveMint: KL Rahul-backed Boldfit raises ₹400 crore led by Bharat Value Fund",
+        url: "https://www.livemint.com/market/mark-to-market/d2c-fitness-brand-boldfit-funding-round-bharat-value-fund-kl-rahul-11728886367566.html",
+        publishedAt: "2026-10-14",
+        accessedAt: "2026-11-16"
+      }
+    ]
+  },
+  {
     id: "mayank-banerjee-matilde-giglio-alessandro-ialongo-even-healthcare",
     name: "Mayank Banerjee, Matilde Giglio, and Alessandro Davide Ialongo",
     title: "Co-Founders, Even Healthcare",
