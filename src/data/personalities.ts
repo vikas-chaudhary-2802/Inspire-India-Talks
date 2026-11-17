@@ -40,6 +40,55 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "ankit-agarwal-varun-limaye-mesa-school",
+    name: "Ankit Agarwal & Varun Limaye",
+    title: "Co-Founders, Mesa School of Business",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/ankit-agarwal-varun-limaye-mesa-school.png",
+    born: "1988 & 1989",
+    profession: "Higher Education Innovators & Startup Educators",
+    knownFor: "Founding Mesa School of Business in Bengaluru to reimagine Indian management education through an experiential, AI-first curriculum tailored for high-growth tech startups, and securing 110 crore INR in Series A funding.",
+    quote: "Traditional business schools were engineered for 20th-century corporations. The AI and startup era demands resilient operators who build, experiment, and master execution in real time.",
+    story: `In an era where India’s tech and startup ecosystem was expanding at breakneck speed, conventional higher education remained curiously frozen in time. Across elite business schools, students were still debating decades-old corporate case studies, memorizing theoretical frameworks, and preparing for traditional conglomerate hierarchies. Meanwhile, high-growth startups were struggling with a severe talent drought—desperately searching for agile product leaders, growth operators, and general managers who could navigate ambiguity and execute from day one.
+
+Recognizing this massive structural mismatch, Ankit Agarwal and Varun Limaye decided to challenge the traditional MBA playbook.
+
+Both founders brought exceptional pedigrees and battle-tested operational expertise. Ankit Agarwal, a Harvard Business School alumnus, had honed his leadership skills spearheading high-stakes operational expansion at Urban Company. Varun Limaye, an alumnus of Northwestern University’s Kellogg School of Management, was a seasoned product manager at Amazon who understood firsthand how modern technology companies build and scale consumer products.
+
+In 2023, they came together in Bengaluru to launch the Mesa School of Business—an institution created with a singular mission: to design a higher education model built specifically for the demands of the modern startup economy.
+
+Rather than relying on passive classroom lectures, Mesa pioneered an intensive, 12-month experiential curriculum. At Mesa, learning is hands-on: students launch and run real micro-businesses, build tech products using cutting-edge generative AI tools, analyze live unit economics, and spend immersive residencies working directly inside top startup offices. The faculty isn't composed solely of tenured academics; instead, courses and masterclasses are led by seasoned startup practitioners and CXOs who share real-time tactical playbooks.
+
+The founders' disruptive vision resonated deeply with India’s startup royalty. Prominent ecosystem leaders rallied behind Mesa, including Kunal Shah (CRED), Vidit Aatrey (Meesho), Abhiraj Bhal (Urban Company), and Vijay Shekhar Sharma (Paytm).
+
+In late 2026, Mesa achieved a major milestone by securing 110 crore INR (approx. 11.6 million USD) in a Series A equity and venture debt round co-led by Dharana Capital and existing backer Elevation Capital, alongside venture debt partners InnoVen Capital and Alteria Capital. The round valued the startup-focused business school at 385 crore INR (40 million USD).
+
+With fresh institutional capital in hand, Ankit and Varun are accelerating Mesa’s expansion—deepening AI-native curricula across all programs, expanding dedicated startup incubator tracks, and forging long-term placement alliances with hundreds of technology enterprises across India and Southeast Asia.
+
+By bridging the chasm between academic theory and high-speed execution, Ankit Agarwal and Varun Limaye are not just running an institution; they are quietly building the talent operating system for India's digital century.`,
+    achievements: [
+      "Co-founded Mesa School of Business in Bengaluru to pioneer applied, startup-focused management education in India",
+      "Architected an AI-native, practice-led 12-month program where students build live ventures and master product operations",
+      "Earned the backing and mentorship of leading Indian unicorn founders including Kunal Shah, Vidit Aatrey, and Abhiraj Bhal",
+      "Raised 110 crore INR Series A funding co-led by Dharana Capital and Elevation Capital at a 385 crore INR valuation"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-17",
+    imageAlt: "Mesa School of Business co-founders Ankit Agarwal and Varun Limaye",
+    imageCaption: "Ankit Agarwal and Varun Limaye, co-founders of Bengaluru-based Mesa School of Business.",
+    imageCredit: "FounderStory.in",
+    imageSourceUrl: "https://www.founderstory.in/story/mesa-school-of-business-raises-110-cr-to-integrate-ai-and-de-lsz4",
+    sources: [
+      {
+        title: "FounderStory: Mesa School of Business raises Rs 110 Cr to integrate AI and deepen startup partnerships",
+        url: "https://www.founderstory.in/story/mesa-school-of-business-raises-110-cr-to-integrate-ai-and-de-lsz4",
+        publishedAt: "2026-10-13",
+        accessedAt: "2026-11-17"
+      }
+    ]
+  },
+  {
     id: "pallav-bihani-boldfit",
     name: "Pallav Bihani",
     title: "Founder & CEO, Boldfit",

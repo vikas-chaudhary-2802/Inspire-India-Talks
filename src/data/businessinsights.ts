@@ -35,6 +35,41 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "handpickd-posts-rs-28-6-cr-revenue-rs-43-cr-loss-fy26",
+    title: "Handpickd Posts Rs 28.6 Cr Revenue and Rs 43 Cr Loss in FY26",
+    date: "17-11-2026",
+    category: "Agritech / Quick Commerce",
+    image: "/images/business-insights/handpickd-fy26-financials.png",
+    excerpt: "Gurugram-based farm-to-fork platform Handpickd scaled its operating revenue 3.3X to Rs 28.6 crore in FY26, while net losses expanded to Rs 43.1 crore as procurement and delivery expenditures rose.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Handpickd founder Anant Goel with fresh produce and supply chain logistics warehouse illustration",
+    imageCaption: "Gurugram-based fresh grocery platform Handpickd scaled revenue to Rs 28.6 crore in FY26 using an inventory-free farm-to-table procurement model.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/handpickd-posts-rs-286-cr-revenue-and-rs-43-cr-loss-in-fy26-12815932",
+    sources: [
+      {
+        title: "Entrackr: Handpickd posts Rs 28.6 Cr revenue and Rs 43 Cr loss in FY26",
+        url: "https://entrackr.com/fintrackr/handpickd-posts-rs-286-cr-revenue-and-rs-43-cr-loss-in-fy26-12815932",
+        publishedAt: "2026-11-17",
+        accessedAt: "2026-11-17"
+      }
+    ],
+    content: `Farm-to-fresh grocery delivery in India has historically been notoriously difficult to crack. High perishability, supply chain leakage, and steep logistics expenses forced well-funded category pioneers like Otipy (raised 49 million USD), Fraazo (raised 61 million USD), and Deep Rooted (raised 20 million USD) to shutter operations. 
+
+Gurugram-based Handpickd (formerly Sorted) is attempting to beat that historical curse by deploying a distinctive inventory-free approach. According to the company's annual financial filings sourced from the Registrar of Companies (RoC), Handpickd’s revenue from operations surged 3.3X to Rs 28.6 crore in FY26, up from Rs 8.7 crore in FY25.
+
+Founded in 2024 by Milkbasket co-founder Anant Goel alongside Nitin Gupta and Sahil Madan, Handpickd eliminates dark stores and holding warehouses entirely. Instead of forecasting volatile demand and stocking perishables in centralized depots, the platform aggregates consumer orders digitally throughout the day, procures the precise volume directly from farmers overnight, and delivers fresh produce to customer doorsteps the following morning.
+
+Alongside its operating revenue from product sales, the startup reported Rs 1.2 crore in interest income on bank deposits, pushing total income to Rs 29.8 crore in FY26 compared to Rs 8.91 crore in FY25.
+
+However, the rapid top-line expansion brought mounting burn. Total expenditure surged 3.6X to Rs 72.9 crore in FY26 from Rs 20.1 crore in FY25. Procurement of raw materials formed the single largest cost bucket at nearly 40% of overall spending, jumping 3.7X to Rs 28.9 crore from Rs 7.7 crore in FY25. Notably, procurement costs of Rs 28.9 crore slightly exceeded total product revenue of Rs 28.6 crore, leaving gross margins negative even before factoring in logistics.
+
+Operating overheads also expanded substantially: employee benefit outlays tripled to Rs 13 crore, while packaging and delivery expenses reached Rs 12 crore. Consequently, Handpickd’s net loss widened 3.85X to Rs 43.1 crore in FY26, compared to Rs 11.2 crore in the prior fiscal year. On a unit basis, the company spent Rs 2.55 to generate a single rupee of operating revenue in FY26, compared to Rs 2.31 in FY25.
+
+Handpickd recently secured a 15 million USD Series A round to finance its ongoing infrastructure scale. While its inventory-free model insulates the business from warehouse spoilage and heavy static capital costs, building durable gross margins and optimizing delivery density across North India will be decisive in proving whether next-morning farm deliveries can turn unit-economics positive.`,
+  },
+  {
     id: "frnd-posts-rs-367-cr-revenue-fy26-profit-jumps-10x",
     title: "FRND Posts Rs 367 Cr Revenue in FY26; Net Profit Jumps 10X to Rs 19 Cr",
     date: "16-11-2026",
