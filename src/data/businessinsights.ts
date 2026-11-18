@@ -35,6 +35,41 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "moglix-posts-rs-6129-cr-revenue-rs-160-cr-loss-fy26",
+    title: "Moglix Posts Rs 6,129 Cr Revenue and Rs 160 Cr Loss in FY26",
+    date: "18-11-2026",
+    category: "B2B Commerce / Supply Chain",
+    image: "/images/business-insights/moglix-fy26-financials.png",
+    excerpt: "B2B industrial commerce unicorn Moglix recorded an 8% rise in operating revenue to Rs 6,129 crore in FY26, while net losses widened 11% to Rs 160 crore ahead of its planned public market debut in 2027.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Moglix founder Rahul Garg with industrial supply chain and financial growth illustration",
+    imageCaption: "B2B manufacturing commerce platform Moglix crossed Rs 6,129 crore in revenue for FY26 as it prepares for an initial public offering in 2027.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/moglix-posts-rs-6129-cr-revenue-and-rs-160-cr-loss-in-fy26-12818948",
+    sources: [
+      {
+        title: "Entrackr: Moglix posts Rs 6,129 Cr revenue and Rs 160 Cr loss in FY26",
+        url: "https://entrackr.com/fintrackr/moglix-posts-rs-6129-cr-revenue-and-rs-160-cr-loss-in-fy26-12818948",
+        publishedAt: "2026-11-18",
+        accessedAt: "2026-11-18"
+      }
+    ],
+    content: `As B2B industrial procurement unicorn Moglix advances preparations for its anticipated public market debut in 2027, its financial statements for the fiscal year ended March 2026 (FY26) present a picture of disciplined top-line scale alongside persistent bottom-line pressures.
+
+According to annual financial filings reviewed by Entrackr, Moglix’s revenue from operations grew 8% to Rs 6,129 crore in FY26, compared to Rs 5,674 crore in FY25. 
+
+Founded by Rahul Garg, Moglix operates an enterprise B2B platform that supplies industrial and manufacturing products, ranging from maintenance, repair, and operations (MRO) items to electrical gear, safety products, industrial tools, and packaging supplies. In addition to direct distribution, the company offers integrated warehousing, digital procurement SaaS, and supply chain financing solutions for manufacturing enterprises.
+
+Product sales continued to drive almost the entirety of Moglix's business, accounting for 99% of operating revenue. Income from product distribution increased to Rs 6,074 crore in FY26, up from Rs 5,638 crore in FY25, while the remainder stemmed from enterprise support contracts, trade commissions, and IT services.
+
+On the cost front, material procurement formed the overwhelming share of spending, accounting for 89% of total expenditures. The cost of procured goods rose 7.3% to Rs 5,643 crore in FY26 from Rs 5,261 crore in the previous year. Employee benefit outlays grew moderately to Rs 239 crore, while logistics, legal, and operational overheads pushed total company expenditure up 8% to Rs 6,307 crore from Rs 5,839 crore in FY25.
+
+Because expenses grew in tandem with sales, net loss widened 11% to Rs 160 crore in FY26, compared with Rs 144 crore in FY25. On a unit economics basis, Moglix spent Rs 1.03 to earn each rupee of operating revenue during the fiscal year. The company reported an EBITDA margin of -2% and a return on capital employed (ROCE) of -18.5%.
+
+Moglix’s performance arrives amidst intense public market momentum across India’s B2B supply chain ecosystem. Zetwerk completed its stock market debut on October 23, 2026, delivering Rs 4,599 crore in Q2 FY27 revenue, while peer OfBusiness closed FY26 with Rs 20,645 crore in revenue and a Rs 724 crore net profit. For Moglix, improving gross margins and operating leverage on its Rs 6,000+ crore base will be crucial as investors evaluate its road to sustainable profitability ahead of the 2027 IPO.`,
+  },
+  {
     id: "handpickd-posts-rs-28-6-cr-revenue-rs-43-cr-loss-fy26",
     title: "Handpickd Posts Rs 28.6 Cr Revenue and Rs 43 Cr Loss in FY26",
     date: "17-11-2026",

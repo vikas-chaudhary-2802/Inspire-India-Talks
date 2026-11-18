@@ -40,6 +40,55 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "karun-tadepalli-charan-tadepalli-bytexl",
+    name: "Karun Tadepalli & Charan Tadepalli",
+    title: "Co-Founders, byteXL",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/karun-tadepalli-charan-tadepalli-bytexl.png",
+    born: "1980 & 1983",
+    profession: "EdTech Innovators & Engineering Talent Leaders",
+    knownFor: "Founding byteXL to bridge India's engineering employability gap by embedding practical AI, cloud computing, and software development curricula into Tier 2 and Tier 3 college campuses, and raising 9 million USD in Series B funding.",
+    quote: "India's real engineering potential is locked inside Tier 2 and Tier 3 towns. By embedding modern technology and AI training directly into college curricula, we turn ambitious students into global tech talent.",
+    story: `India produces over 1.5 million engineering graduates every single year, yet industry study after study arrives at the same startling reality: fewer than 20% possess the practical programming, system design, and applied technological skills required by modern IT and tech employers.
+
+For years, the edtech sector attempted to address this crisis through direct-to-consumer (B2C) bootcamps and upskilling courses sold directly to students or fresh graduates. But that model was severely flawed: astronomical customer acquisition costs, sub-15% completion rates, and premium course fees that excluded millions of talented youth in non-metro India.
+
+Brothers Karun Tadepalli and Sricharan (Charan) Tadepalli saw an opportunity to rethink engineering education from the inside out.
+
+Karun brought nearly two decades of global enterprise IT and engineering leadership across the United States, having spearheaded large-scale software modernization for companies like Accenture, AT&T, and Health Management Systems. His brother Charan was an accomplished enterprise technology strategist with leadership tenures at Oracle and Kloud9. Together, they understood both sides of the divide: the exact talent requirements of global tech enterprises and the systemic bottlenecks holding back Indian engineering academia.
+
+In 2019, they launched byteXL with an institutional B2B2C model. Instead of asking individual students to take evening classes or enroll in expensive post-college bootcamps, byteXL partnered directly with colleges and universities—focusing intently on Tier 2 and Tier 3 institutions across Andhra Pradesh, Telangana, Maharashtra, Tamil Nadu, and Karnataka.
+
+byteXL integrates its proprietary learning platform, hands-on coding sandboxes, and modern curriculum directly into the colleges' mandatory four-year academic schedules. From their very first semester, students are immersed in practical, industry-aligned disciplines: generative AI, machine learning, cloud architecture, cybersecurity, and DevOps. byteXL deploys seasoned industry practitioners into campus labs, helping students build real-world software projects, contribute to open-source code, and solve live technical problems.
+
+The institutional approach delivered astonishing results. Colleges partnering with byteXL witnessed student placement rates jump from 30% to over 80%, with average compensation packages rising markedly. For partner institutions, byteXL became a transformative academic partner that modernized outdated syllabi and unlocked direct hiring channels with top IT and product companies.
+
+In late 2026, byteXL reached a major inflection point, securing 9 million USD in Series B funding led by Elevar Equity, with participation from marquee existing backers Kalaari Capital and The Michael & Susan Dell Foundation. Building on a track record of training over 100,000 engineering students across 40+ colleges, the fresh capital is enabling Karun and Charan to expand their footprint to 120 institutions, scale AI-native learning tools, and establish advanced talent pipelines across emerging tech hubs.
+
+By transforming campus classrooms where it matters most, Karun and Charan Tadepalli are democratizing access to high-paying tech careers and building India's premier grassroots engineering workforce.`,
+    achievements: [
+      "Co-founded byteXL to bridge India's engineering employability divide through institutional partnerships",
+      "Pioneered an embedded B2B2C learning model integrated directly into college degree curricula",
+      "Trained over 100,000 students across 40+ engineering colleges, lifting campus placement rates to over 80%",
+      "Secured 9 million USD in Series B funding led by Elevar Equity alongside Kalaari Capital and Michael & Susan Dell Foundation"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-18",
+    imageAlt: "byteXL co-founders Karun Tadepalli and Charan Tadepalli",
+    imageCaption: "Karun Tadepalli and Charan Tadepalli, co-founders of Hyderabad-based tech skilling enterprise byteXL.",
+    imageCredit: "FounderStory.in",
+    imageSourceUrl: "https://www.founderstory.in/story/edtech-startup-bytexl-raises-9m-to-expand-tech-and-ai-skilli-skdg",
+    sources: [
+      {
+        title: "FounderStory: Edtech startup byteXL raises 9M USD to expand tech and AI skilling across engineering colleges",
+        url: "https://www.founderstory.in/story/edtech-startup-bytexl-raises-9m-to-expand-tech-and-ai-skilli-skdg",
+        publishedAt: "2026-10-09",
+        accessedAt: "2026-11-18"
+      }
+    ]
+  },
+  {
     id: "ankit-agarwal-varun-limaye-mesa-school",
     name: "Ankit Agarwal & Varun Limaye",
     title: "Co-Founders, Mesa School of Business",
