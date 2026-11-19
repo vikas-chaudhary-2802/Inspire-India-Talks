@@ -40,6 +40,55 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "ben-chestnut-dan-kurzius-mailchimp",
+    name: "Ben Chestnut & Dan Kurzius",
+    title: "Co-Founders, Mailchimp",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/ben-chestnut-dan-kurzius-mailchimp.jpg",
+    born: "1974 & 1972",
+    profession: "Tech Entrepreneurs & Software Pioneers",
+    knownFor: "Bootstrapping Mailchimp from a side hustle into a global marketing platform for small businesses with zero venture capital, and orchestrating its historic 12 billion USD acquisition by Intuit.",
+    quote: "Listen hard to your customers and change fast. Proximity to customer pain is the most underrated competitive advantage in software.",
+    story: `In 2000, when the dot-com bubble burst, Ben Chestnut and Dan Kurzius found themselves suddenly unemployed after their corporate web design jobs vanished overnight. Rather than giving up, the duo partnered up in Atlanta, Georgia, to establish a boutique web design consultancy called The Rocket Science Group.
+
+While designing websites for small businesses, Chestnut and Kurzius repeatedly encountered the same frustrating hurdle: their mom-and-pop clients desperately wanted to send email newsletters to their customers, but enterprise email software at the time was prohibitively complex, priced in tens of thousands of dollars, and built solely for Fortune 500 corporations.
+
+The empathy for small business operators ran deep in both founders’ DNA. Chestnut had grown up watching his mother run a bustling hair salon out of their family kitchen, while Kurzius had seen his father struggle tirelessly and eventually endure bankruptcy operating a local bakery and deli. They knew firsthand that small business owners don't have IT departments, endless hours, or deep pockets.
+
+In 2001, to solve this immediate need for their design clients, Chestnut coded a lightweight email marketing tool in his spare time. They named it Mailchimp.
+
+For the first eight years, Mailchimp remained an unglamorous side project funded entirely by their web agency profits. While Silicon Valley was obsessed with chasing massive venture capital checks and vanity metrics, Chestnut and Kurzius chose a radically contrarian path: zero outside funding, rigorous financial prudence, and obsessive proximity to their customers. Kurzius became the company’s first developer, its first customer support agent, and the architect of its support department. Every support ticket, bug report, and customer complaint became direct, unfiltered input into their product roadmap.
+
+In 2007, recognizing the immense pull of their email product, the founders shut down their web design agency completely to dedicate 100% of their energy to Mailchimp. Two years later, in 2009, they made a high-stakes bet that redefined the SaaS industry: introducing a revolutionary freemium model. Within a single year, their user base surged fivefold from 85,000 to over 450,000, and profits exploded by 650%.
+
+Over the following decade, Mailchimp expanded from an intuitive email newsletter tool into an all-in-one marketing platform for millions of growing businesses worldwide, generating hundreds of millions of dollars in annual cash flow while remaining 100% founder-owned.
+
+In 2021, after two decades of disciplined, profitable bootstrapping, Chestnut and Kurzius agreed to sell Mailchimp to financial software giant Intuit for a staggering 12 billion USD in cash and stock—representing one of the largest self-funded tech acquisitions in corporate history.
+
+The journey of Ben Chestnut and Dan Kurzius stands as an enduring beacon for entrepreneurs worldwide: you do not need venture capital hype or Silicon Valley pedigree to build an enduring global technology giant. All you need is deep empathy for the people you serve, relentless focus on product utility, and the discipline to keep your ear firmly glued to the ground.`,
+    achievements: [
+      "Bootstrapped Mailchimp for 20 years with zero outside venture capital into an international SaaS giant",
+      "Pioneered the freemium business model in 2009, expanding user base to millions of businesses worldwide",
+      "Engineered a customer-first support culture that directly informed product development and user experience",
+      "Completed a landmark 12 billion USD acquisition by Intuit in 2021, setting a global benchmark for self-funded software companies"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-19",
+    imageAlt: "Mailchimp co-founders Ben Chestnut and Dan Kurzius",
+    imageCaption: "Ben Chestnut and Dan Kurzius, co-founders of global marketing platform Mailchimp.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/ben-chestnut-dan-kurzius-mailchimp-customer-close",
+    sources: [
+      {
+        title: "Founderline: Ben Chestnut and Dan Kurzius - keeping Mailchimp close to the customer",
+        url: "https://www.founderline.org/stories/ben-chestnut-dan-kurzius-mailchimp-customer-close",
+        publishedAt: "2026-11-16",
+        accessedAt: "2026-11-19"
+      }
+    ]
+  },
+  {
     id: "karun-tadepalli-charan-tadepalli-bytexl",
     name: "Karun Tadepalli & Charan Tadepalli",
     title: "Co-Founders, byteXL",

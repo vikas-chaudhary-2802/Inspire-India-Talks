@@ -35,6 +35,39 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "boba-bhai-raises-18-mn-series-b-left-lane-titan-big-capital",
+    title: "Boba Bhai Raises 18 Mn USD in Series B Led by Left Lane Capital and Titan Capital",
+    date: "19-11-2026",
+    category: "QSR / Food & Beverage",
+    image: "/images/business-insights/boba-bhai-funding.jpg",
+    excerpt: "Bubble tea and Korean street food brand Boba Bhai secured 18 million USD in Series B funding with participation from US-based Left Lane Capital, BIG Capital, and Titan Capital to scale its 120-outlet retail footprint.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Boba Bhai founder Dhruv Kohli with signature bubble tea beverages and store backdrop",
+    imageCaption: "Bengaluru-based bubble tea and Korean quick-service chain Boba Bhai secured 18 million USD to expand its pan-India retail network.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/boba-bhai-raises-18-mn-from-left-lane-titan-and-big-capital-12821882",
+    sources: [
+      {
+        title: "Entrackr: Boba Bhai raises 18 Mn USD from Left Lane, Titan and BIG Capital",
+        url: "https://entrackr.com/news/boba-bhai-raises-18-mn-from-left-lane-titan-and-big-capital-12821882",
+        publishedAt: "2026-11-19",
+        accessedAt: "2026-11-19"
+      }
+    ],
+    content: `Fast-growing bubble tea and Korean street food chain Boba Bhai has secured 18 million USD in a Series B funding round, drawing marquee international and domestic venture backing as youth beverage culture takes deep root in India.
+
+The round marked the entry of US-based venture capital firm Left Lane Capital, alongside follow-on participation from BIG Capital and existing early-stage investor Titan Capital. Left Lane Capital, globally recognized for backing disruptive quick-service and consumer food concepts such as Blank Street Coffee and 7th Street Burger, marked Boba Bhai as its fourth portfolio bet in India.
+
+Founded by Dhruv Kohli in October 2023, Boba Bhai has emerged as one of the fastest-scaling homegrown quick-service restaurant (QSR) brands in recent years. Within three years of inception, the company has built an operational network of 120 stores across metro and Tier 1 cities, fulfilling more than 3 lakh orders per month across dine-in, takeaway, and digital delivery channels.
+
+The company plans to deploy the fresh capital to expand its physical footprint across India and incubate new fast-casual food and beverage brands under its parent umbrella, Boba Bhai Ventures. By leveraging its existing cold-chain supply operations, centralized kitchen infrastructure, and digital distribution partnerships, the brand aims to establish high-density clusters in high-traffic retail hubs and university catchments.
+
+The Series B fundraise follows Boba Bhai’s Rs 40 crore round in March 2026, which was led by 8i Ventures, Titan Capital Winners Fund, and Global Growth Capital. 
+
+On the financial front, the brand experienced sharp top-line acceleration in FY26. Operating revenue surged 139% year-on-year to Rs 68 crore in FY26, up from Rs 28.44 crore in FY25. Parallel to rapid geographic expansion and front-loaded store rollout expenses, net losses widened 2.2X to Rs 21.8 crore in FY26 from Rs 9.96 crore in the previous fiscal. With fresh institutional capital in place, Boba Bhai is aggressively positioning itself to capture India's burgeoning Gen Z-driven specialty beverage and Asian fast-casual dining market.`,
+  },
+  {
     id: "moglix-posts-rs-6129-cr-revenue-rs-160-cr-loss-fy26",
     title: "Moglix Posts Rs 6,129 Cr Revenue and Rs 160 Cr Loss in FY26",
     date: "18-11-2026",
