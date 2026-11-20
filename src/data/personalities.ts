@@ -40,6 +40,55 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "tobi-lutke-shopify",
+    name: "Tobi Lütke",
+    title: "Co-Founder & CEO, Shopify",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/tobi-lutke-shopify.jpg",
+    born: "1981",
+    profession: "Software Engineer & Tech Entrepreneur",
+    knownFor: "Founding Shopify after building custom e-commerce software for his online snowboard store Snowdevil, scaling it into an e-commerce infrastructure powerhouse supporting millions of merchants globally.",
+    quote: "Treat an internal tool as a hypothesis about another customer’s needs. Build what eliminates friction, and let craftsmanship dictate scale.",
+    story: `In 2004, German-born computer programmer Tobias "Tobi" Lütke moved to Ottawa, Canada, driven by a passion for snowboarding and open-source software. Eager to turn his sporting hobby into an online business, Lütke teamed up with partners Scott Lake and Daniel Weinand to launch an online retail shop called Snowdevil, dedicated to selling high-end snowboards and gear.
+
+However, when Lütke attempted to set up their digital storefront, he encountered an insurmountable technical wall. The existing e-commerce software platforms of the early 2000s—such as Yahoo Stores and legacy enterprise systems—were agonizingly slow, rigid, and prohibitively expensive. Simple tasks like updating product inventory, customizing layouts, or processing checkout flows required endless clicks and hours of frustrating workarounds.
+
+Rather than settling for inferior software, Lütke decided to build his own. Using Ruby on Rails—a relatively nascent web development framework at the time—he spent two intensive months engineering a clean, lightning-fast, custom e-commerce engine designed specifically to power Snowdevil's sales and inventory.
+
+Snowdevil opened for business, but something unexpected occurred. While snowboard sales trickled in steadily, what truly captivated other entrepreneurs and online store owners was the elegant software running behind the scenes. Peers began reaching out not to buy snowboards, but to ask how Snowdevil was built and whether they could license the underlying shopping software for their own businesses.
+
+Lütke and his co-founders had a foundational revelation: the tool they had engineered to solve their own operational headache was infinitely more valuable than the retail products they were selling.
+
+In 2006, the founders made an audacious pivot. They shuttered the retail snowboard shop and redirected all their energy toward launching Shopify—a turnkey platform empowering anyone, regardless of coding expertise, to build, manage, and scale an independent online store.
+
+Lütke’s philosophy as CEO was rooted in relentless software craftsmanship. Rather than prioritizing growth hacks or venture vanity metrics, Shopify obsessed over simplifying commerce for the merchant: reliable checkout infrastructure, an open developer app ecosystem, transparent pricing, and zero platform lock-in.
+
+Over the next two decades, Shopify revolutionized global digital retail. It grew from a modest Canadian startup into a global e-commerce titan powering millions of merchants across more than 175 countries—processing hundreds of billions of dollars in annual gross merchandise volume and standing as the premier independent alternative to centralized marketplace monopolies.
+
+Tobi Lütke’s story remains one of technology’s greatest parables of builder curiosity: when you solve your own deepest friction with genuine craftsmanship, the tool you build can very well become the business that changes an entire industry.`,
+    achievements: [
+      "Founded Shopify in 2006 by transforming an internal e-commerce tool built for Snowdevil into a global SaaS platform",
+      "Pioneered modern web development as a core early contributor to the Ruby on Rails open-source ecosystem",
+      "Scaled Shopify to support millions of merchants across 175+ countries, processing hundreds of billions in commerce",
+      "Led Shopify through its landmark IPO in 2015, establishing it as Canada’s most valuable technology company"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-20",
+    imageAlt: "Shopify co-founder and CEO Tobi Lütke with retail and e-commerce illustrations",
+    imageCaption: "Tobi Lütke, who turned a custom software tool built for an online snowboard shop into Shopify, powering millions of global merchants.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/tobi-lutke-shopify-tool-became-business",
+    sources: [
+      {
+        title: "Founderline: Tobi Lütke’s Shopify - when the tool becomes the business",
+        url: "https://www.founderline.org/stories/tobi-lutke-shopify-tool-became-business",
+        publishedAt: "2026-11-13",
+        accessedAt: "2026-11-20"
+      }
+    ]
+  },
+  {
     id: "ben-chestnut-dan-kurzius-mailchimp",
     name: "Ben Chestnut & Dan Kurzius",
     title: "Co-Founders, Mailchimp",

@@ -35,6 +35,40 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "decoding-cap-table-aman-gupta-ranveer-singh-him",
+    title: "Decoding Cap Table of Aman Gupta and Ranveer Singh’s H.I.M: Valuation at Rs 29.5 Cr",
+    date: "20-11-2026",
+    category: "D2C / Personal Care",
+    image: "/images/business-insights/him-cap-table-aman-gupta-ranveer-singh.jpg",
+    excerpt: "Men's personal care brand H.I.M (Handsome Indian Man), co-founded by Bollywood star Ranveer Singh and boAt co-founder Aman Gupta, raised Rs 15 crore from OFF/BEAT at an estimated valuation of Rs 29.5 crore.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Aman Gupta and Ranveer Singh co-founders of men personal care brand H.I.M with cap table graphic",
+    imageCaption: "Aman Gupta and Ranveer Singh launch men's personal care label H.I.M with Rs 15 crore in seed funding from venture studio OFF/BEAT.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/decoding/decoding-cap-table-of-aman-gupta-and-ranveer-singhs-him-12822472",
+    sources: [
+      {
+        title: "Entrackr: Decoding captable of Aman Gupta and Ranveer Singh's H.I.M",
+        url: "https://entrackr.com/decoding/decoding-cap-table-of-aman-gupta-and-ranveer-singhs-him-12822472",
+        publishedAt: "2026-11-19",
+        accessedAt: "2026-11-20"
+      }
+    ],
+    content: `In a growing shift where Indian celebrities transition from traditional brand ambassadors into active venture co-founders, Bollywood actor Ranveer Singh and boAt co-founder Aman Gupta have launched men’s grooming brand H.I.M (Handsome Indian Man). 
+
+According to regulatory filings accessed and analyzed by Entrackr, the startup has raised an initial capital infusion of Rs 15 crore from OFF/BEAT, a consumer-focused venture studio founded by Gupta. The company allotted 10,409 equity shares at an issue price of Rs 14,411 per share to OFF/BEAT, pegging H.I.M’s post-money valuation at approximately Rs 29.5 crore.
+
+Following this allotment, the cap table reveals clear operational control and strategic equity division:
+• OFF/BEAT (Aman Gupta) emerges as the controlling promoter with a 51% majority stake.
+• Ranveer Singh holds 44.54% equity as active co-founder.
+• Talent management and entertainment agency Collective Artists Network owns the remaining 4.45% stake.
+
+Unlike traditional celebrity endorsement deals that rely solely on marketing collateral and equity sweeteners, Singh joined Gupta as an operational co-founder. Formulations for H.I.M were developed specifically to address Indian men's skin in tropical climates—tackling humidity, heavy pollution, heat, and hard water using a proprietary active delivery system branded as IN-XT.
+
+The venture enters India's highly competitive men’s personal care and grooming sector, currently populated by established direct-to-consumer players including Beardo (acquired by Marico), The Man Company (acquired by Emami), and Ustraa. With Aman Gupta’s proven D2C brand-building playbook from boAt and Ranveer Singh’s massive pop-culture reach, H.I.M represents a well-capitalized challenger aiming to disrupt modern retail shelves and digital quick-commerce channels alike.`,
+  },
+  {
     id: "boba-bhai-raises-18-mn-series-b-left-lane-titan-big-capital",
     title: "Boba Bhai Raises 18 Mn USD in Series B Led by Left Lane Capital and Titan Capital",
     date: "19-11-2026",
