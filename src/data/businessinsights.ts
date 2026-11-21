@@ -35,6 +35,41 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "rooters-revenue-jumps-2x-to-rs-170-cr-fy26-losses-shrink-40",
+    title: "Rooter Revenue Jumps Over 2X to Rs 170 Cr in FY26; Losses Shrink 40%",
+    date: "21-11-2026",
+    category: "Gaming / Creator Economy",
+    image: "/images/business-insights/rooter-fy26-financials.jpg",
+    excerpt: "Gaming live-streaming and digital commerce platform Rooter more than doubled its operating revenue to Rs 170.4 crore in FY26, while shrinking net losses by 40% to Rs 19.2 crore as in-game commerce surged.",
+    readTime: "2 min read",
+    featured: false,
+    imageAlt: "Rooter founder Piyush Kumar with gaming app screens and platform logo",
+    imageCaption: "Gaming live-streaming and digital commerce platform Rooter scaled FY26 operating revenue to Rs 170.4 crore while cutting net losses by 40%.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/rooters-revenue-jumps-over-2x-to-rs-170-cr-in-fy26-losses-shrink-40-12825913",
+    sources: [
+      {
+        title: "Entrackr: Rooter’s revenue jumps over 2X to Rs 170 Cr in FY26; losses shrink 40%",
+        url: "https://entrackr.com/fintrackr/rooters-revenue-jumps-over-2x-to-rs-170-cr-in-fy26-losses-shrink-40-12825913",
+        publishedAt: "2026-11-20",
+        accessedAt: "2026-11-21"
+      }
+    ],
+    content: `India’s gaming economy is expanding rapidly beyond casual mobile gameplay into competitive esports, livestreaming entertainment, and in-game digital commerce. Benefiting from this macro surge, gaming community and livestreaming platform Rooter reported strong financial numbers for the fiscal year ended March 2026 (FY26).
+
+According to annual financial statements reviewed by Entrackr, Rooter’s operating revenue more than doubled, jumping 116% year-on-year to Rs 170.4 crore in FY26 from Rs 78.9 crore in FY25. 
+
+Founded in 2016 by Piyush Kumar and Dipesh Agarwal, Rooter began as a sports engagement app before pivoting into game streaming across hit titles like BGMI, Call of Duty, Free Fire, and Valorant. In recent years, the startup expanded aggressively into gaming commerce through its marketplace "Rooter Shop," which sells in-game currencies, vouchers, and digital gift cards directly to gamers alongside its creator tipping and virtual gifting features.
+
+On the expenditure front, company costs grew 69.5% to Rs 189.7 crore in FY26 from Rs 111.9 crore in FY25. The primary cost component was the procurement of digital goods—including in-game game credits and vouchers sourced from publishers—which surged 3.4X to Rs 146.7 crore, accounting for nearly 77% of total company spending.
+
+Conversely, operational leverage showed clear signs of maturity: employee benefit costs decreased 21% to Rs 14.6 crore, while general, IT, and administrative overheads held steady at approximately Rs 28 crore.
+
+As a result of sharp revenue expansion and tight cost controls on operating overheads, Rooter reduced its net losses by 40% to Rs 19.2 crore in FY26, down from Rs 32 crore in FY25. Its EBITDA margin improved substantially to -9.97%, with the company spending Rs 1.11 to earn every rupee of operating revenue, positioning it within striking distance of operational break-even.
+
+Backed by investors including Lightbox Ventures, Duane Park Ventures, and March Gaming with over 40 million USD in total equity funding, Rooter currently commands a registered community of over 85 million users. With India's domestic gaming market crossing 1.04 billion USD across 511 million gamers in 2025 according to Niko Partners, Rooter’s blended strategy of esports content and digital commerce is unlocking a clear trajectory toward near-term profitability.`,
+  },
+  {
     id: "decoding-cap-table-aman-gupta-ranveer-singh-him",
     title: "Decoding Cap Table of Aman Gupta and Ranveer Singh’s H.I.M: Valuation at Rs 29.5 Cr",
     date: "20-11-2026",

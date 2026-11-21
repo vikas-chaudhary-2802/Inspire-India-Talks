@@ -40,6 +40,53 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "joel-gascoigne-buffer",
+    name: "Joel Gascoigne",
+    title: "Founder & CEO, Buffer",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/joel-gascoigne-buffer.jpg",
+    born: "1987",
+    profession: "Software Engineer & SaaS Entrepreneur",
+    knownFor: "Founding Buffer in 2010 through the legendary 2-page landing page MVP experiment, validating customer willingness to pay in 7 weeks before writing code, and pioneering radical corporate transparency.",
+    quote: "Code is the most expensive way to test demand. Test interest and willingness to pay with a landing page first before building a single feature.",
+    story: `In late 2010, British software engineer Joel Gascoigne found himself wrestling with a mundane daily annoyance. He loved curating and sharing interesting tech articles on Twitter, but posting them all at once flooded his followers' feeds. Existing scheduling tools required users to manually select exact calendar dates and precise timestamps for every single tweet—a tedious chore that sapped the joy out of sharing.
+
+Gascoigne envisioned a simpler alternative: a digital "buffer" where you could drop links and thoughts throughout the day, and the tool would automatically space them out and tweet them at optimal time intervals.
+
+Having previously spent months building an elaborate startup product that ultimately zero people wanted or paid for, Gascoigne was determined not to repeat the fatal mistake of building in a vacuum. Instead of opening his code editor and spending weeks programming, he devised one of the most famous experiments in Lean Startup history: the two-page "fake door" MVP.
+
+He created a simple landing page describing what Buffer was: "A better way to schedule tweets." It included a clear button labeled "Plans and Pricing." When interested visitors clicked through, they were shown three pricing tiers: Free, 5 USD per month, and 20 USD per month. Clicking on a paid tier brought up a polite modal explaining: "We are not quite ready yet. Leave your email to get early access when we launch."
+
+This two-step test was revolutionary. It did not just measure passive curiosity; it measured willingness to pay. When visitors voluntarily clicked on the 5 USD or 20 USD options before submitting their email, Gascoigne had high-intent, empirical proof that people considered the problem painful enough to spend real money on a solution.
+
+Armed with validated customer demand, Gascoigne spent the next seven weeks building the barest, simplest functional prototype of Buffer during evenings and weekends. When he launched the MVP on November 30, 2010, he acquired his first paying customer within four days.
+
+Under Gascoigne’s leadership, Buffer grew into a global social media management powerhouse serving hundreds of thousands of creators, small businesses, and agencies worldwide. Along the way, Gascoigne rewrote the cultural playbook for modern tech companies, pioneering radical workplace transparency—publicly sharing employee salaries, revenue metrics, equity formulas, and fully remote work policies.
+
+Joel Gascoigne’s Buffer journey remains the definitive masterclass in entrepreneurial discipline: fall in love with the customer's problem rather than your own code, validate commercial intent before building, and let real evidence guide every step of your company.`,
+    achievements: [
+      "Pioneered the 'smoke test' MVP methodology, validating customer demand and willingness to pay in 7 weeks before coding",
+      "Bootstrapped Buffer into a multi-million-dollar ARR social media management platform serving global creators and brands",
+      "Championed radical organizational transparency by publicly sharing company revenues, salaries, and remote work playbooks",
+      "Created an enduring sustainable SaaS business model focused on long-term customer utility over hyper-dilutive venture capital"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-21",
+    imageAlt: "Buffer founder Joel Gascoigne with landing page test illustration",
+    imageCaption: "Joel Gascoigne, who launched social media management platform Buffer by validating customer willingness to pay before writing code.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/joel-gascoigne-buffer-first-customer-test",
+    sources: [
+      {
+        title: "Founderline: Joel Gascoigne’s Buffer - what the first customer test really proved",
+        url: "https://www.founderline.org/stories/joel-gascoigne-buffer-first-customer-test",
+        publishedAt: "2026-11-10",
+        accessedAt: "2026-11-21"
+      }
+    ]
+  },
+  {
     id: "tobi-lutke-shopify",
     name: "Tobi Lütke",
     title: "Co-Founder & CEO, Shopify",
