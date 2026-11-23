@@ -35,6 +35,42 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "paytm-pine-labs-mobikwik-shares-tank-upi-mdr-delay",
+    title: "Paytm, Pine Labs, MobiKwik Shares Tank Over 7% Amid Reports of Further UPI MDR Delay",
+    date: "23-11-2026",
+    category: "Fintech & Public Markets",
+    image: "/images/business-insights/paytm-pine-labs-mobikwik-upi-mdr.jpg",
+    excerpt: "Shares of listed fintech giants Paytm, MobiKwik, and Pine Labs dropped between 4% and 8% following reports that the government may delay introducing merchant discount rates (MDR) on UPI transactions beyond 2027 elections.",
+    readTime: "3 min read",
+    featured: true,
+    imageAlt: "Paytm, MobiKwik, and Pine Labs logos with UPI QR code and stock decline chart",
+    imageCaption: "Fintech stocks faced sharp selling pressure as reports suggested UPI MDR implementation may be deferred past upcoming state elections.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/all-article/paytm-pine-labs-mobikwik-shares-tank-over-7-amid-reports-of-further-upi-mdr-delay-12823081",
+    sources: [
+      {
+        title: "Entrackr: Paytm, Pine Labs, MobiKwik shares tank over 7% amid reports of further UPI MDR delay",
+        url: "https://entrackr.com/all-article/paytm-pine-labs-mobikwik-shares-tank-over-7-amid-reports-of-further-upi-mdr-delay-12823081",
+        publishedAt: "2026-11-22",
+        accessedAt: "2026-11-23"
+      }
+    ],
+    content: `Shares of India’s leading listed fintech companies witnessed a sharp sell-off on the bourses, triggered by media reports suggesting that the central government is likely to defer the introduction of a Merchant Discount Rate (MDR) on Unified Payments Interface (UPI) transactions past the crucial 2027 state assembly elections.
+
+During the trading session, market pioneer One97 Communications (Paytm) plunged as much as 7.85% to touch an intraday low of Rs 1,741.6, while digital wallet and payments provider One MobiKwik Systems dropped 7.42% to Rs 209.9. Newly listed point-of-sale and merchant commerce leader Pine Labs also fell 4.6% to trade at Rs 161.5.
+
+The market downturn stems from persistent regulatory ambiguity surrounding the long-debated revival of transaction charges on UPI. Industry stakeholders and payment aggregators had lobbied for a tiered MDR framework—proposing a modest fee of 0.3% to 0.5% exclusively on high-value Peer-to-Merchant (P2M) transactions exceeding Rs 2,000—aimed at easing the financial burden of maintaining robust digital payments infrastructure.
+
+However, sources cited by financial dailies indicate that policymakers remain cautious about any move that might disincentivize small and medium merchants or trigger inflation concerns ahead of major electoral cycles, prompting further postponement of any charge framework.
+
+The market reaction came despite resilient operating momentum across India's top fintech players in recent quarters:
+- One97 Communications (Paytm) clocked its sixth consecutive profitable quarter in Q2 FY27, reporting Rs 225 crore in net profit on operating revenue of Rs 2,090 crore, bolstered by merchant device subscriptions and loan distribution.
+- Pine Labs delivered strong Q2 FY27 operating performance with Rs 610 crore in revenue and Rs 39 crore in net profit, fueled by enterprise POS deployments and payment gateway services.
+- MobiKwik achieved its highest-ever quarterly profit after tax of Rs 11.8 crore on revenue of Rs 315 crore, driven by soundbox subscriptions and short-term consumer credit.
+
+While zero-MDR ensures exponential consumer and merchant adoption across India's digital payments rail—now handling over 16 billion transactions a month—fintechs remain reliant on peripheral monetization engines such as soundbox rental fees, credit distribution, and software solutions to fund infrastructure and maintain profitability.`,
+  },
+  {
     id: "rooters-revenue-jumps-2x-to-rs-170-cr-fy26-losses-shrink-40",
     title: "Rooter Revenue Jumps Over 2X to Rs 170 Cr in FY26; Losses Shrink 40%",
     date: "21-11-2026",

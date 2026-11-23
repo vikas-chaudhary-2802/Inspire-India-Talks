@@ -40,6 +40,49 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "tope-awotona-calendly",
+    name: "Tope Awotona",
+    title: "Founder & CEO, Calendly",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/tope-awotona-calendly.jpg",
+    born: "1981",
+    profession: "Software Entrepreneur & Technology Executive",
+    knownFor: "Founding Calendly in 2013 after pouring his entire life savings into solving the calendar scheduling friction, turning email coordination into a multi-billion-dollar product-led growth SaaS leader.",
+    quote: "The scheduling problem wasn't a technical problem—it was an empathy problem. Make it effortless for the other person to say yes.",
+    story: `In the early 2010s, enterprise software sales representative Tope Awotona found himself battling a universal workplace headache: the endless back-and-forth email volley required to arrange a single business meeting. Working at technology companies like EMC and Perceptive Software, Awotona was spending hours every week trading dozens of emails just to align calendars across corporate firewalls and different time zones.
+
+Born in Lagos, Nigeria, and having moved to the United States as a teenager, Awotona possessed relentless entrepreneurial drive. He had tried founding businesses before—an online dating platform, an optical fiber marketplace, and an e-commerce projector store—all of which failed. Yet, the friction of scheduling meetings felt fundamentally different: it was an omnipresent, painful inefficiency shared by millions of professionals worldwide.
+
+Rather than jumping into building blindly, Awotona spent six months thoroughly auditing existing scheduling software on the market. His diagnosis was decisive: every existing tool was designed with the organizer in mind, ignoring the invitee's experience. They were cumbersome, forced users through multi-step forms, and felt clunky. Awotona saw that scheduling wasn't simply a calendar utility; it was a relationship touchpoint that demanded friction-free simplicity.
+
+Determined to execute his vision, Awotona cashed out his 401(k), maxed out his credit cards, and invested over 200,000 USD of his personal life savings. Unable to code himself and facing skepticism from local investors who failed to grasp the magnitude of the problem, he partnered with an offshore development agency in Ukraine to construct the earliest version of Calendly.
+
+Launched in late 2013, Calendly incorporated a natural viral flywheel directly into its product design. Every time a user shared a link to arrange an interview, sales demo, or coffee chat, the recipient experienced the seamless scheduling workflow firsthand. At the bottom of each booked meeting was a simple prompt: "Powered by Calendly." Invitees frequently turned into new signups without any outbound marketing expenditure.
+
+Under Awotona's disciplined leadership, Calendly scaled into a global productivity behemoth valued at over 3 billion USD, serving tens of millions of active users and hundreds of thousands of enterprise clients. Today, Tope Awotona stands as one of the most successful immigrant tech founders in Silicon Valley history, proving that obsessive customer empathy and persistent self-belief can turn a universal workplace annoyance into an indispensable global standard.`,
+    achievements: [
+      "Bootstrapped Calendly into a multi-billion-dollar SaaS giant valued at over 3 billion USD",
+      "Pioneered organic product-led growth (PLG) where each scheduled meeting serves as an active product demo",
+      "Self-funded early development by investing over 200,000 USD from life savings and retirement accounts",
+      "Built one of the world's most widely adopted productivity platforms used by tens of millions of global professionals"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-23",
+    imageAlt: "Tope Awotona founder of Calendly with calendar schedule illustrations",
+    imageCaption: "Tope Awotona solved the universal calendar scheduling headache, building Calendly into a multi-billion-dollar SaaS powerhouse.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/tope-awotona-calendly-scheduling-opportunity",
+    sources: [
+      {
+        title: "Founderline: Tope Awotona - Calendly and The Scheduling Opportunity",
+        url: "https://www.founderline.org/stories/tope-awotona-calendly-scheduling-opportunity",
+        publishedAt: "2026-11-20",
+        accessedAt: "2026-11-23"
+      }
+    ]
+  },
+  {
     id: "joel-gascoigne-buffer",
     name: "Joel Gascoigne",
     title: "Founder & CEO, Buffer",
