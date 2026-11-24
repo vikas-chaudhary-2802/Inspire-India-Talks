@@ -40,6 +40,57 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "ritesh-arora-nakul-aggarwal-browserstack",
+    name: "Ritesh Arora & Nakul Aggarwal",
+    title: "Co-Founders, BrowserStack",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/browserstack-ritesh-arora-nakul-aggarwal.jpg",
+    born: "1983",
+    profession: "Software Engineers & SaaS Entrepreneurs",
+    knownFor: "Founding BrowserStack in 2011 to eliminate the universal headache of cross-browser software testing, bootstrapping it profitably for seven years before reaching a 4 billion USD valuation.",
+    quote: "Look for the repetitive, painful bottlenecks right in front of you. If you solve an authentic daily friction for developers, adoption takes care of itself.",
+    story: `In 2011, IIT Bombay computer science graduates and close friends Ritesh Arora and Nakul Aggarwal were running a boutique technology consulting firm. They needed a new website to showcase their services. Nakul wrote the code and completed the entire website within two days. But what followed was an agonizing ordeal: Ritesh spent the next two weeks attempting to make the website look and function correctly across various editions of Microsoft Internet Explorer, Windows OS versions, and screen resolutions.
+
+At the time, cross-browser compatibility was every web developer's private nightmare. Ensuring a website worked properly across Internet Explorer 6, 7, 8, Safari, Firefox, and nascent mobile browsers required setting up heavy virtual machines, downloading massive ISO files, or buying physical computers for each operating system.
+
+Arora and Aggarwal had an epiphany: building the website took two days, but the surrounding friction of testing took weeks. If two skilled software engineers faced this recurring bottleneck, millions of developers worldwide were suffering through the exact same agony.
+
+Rather than trying to solve all software quality problems at once, they focused on an intensely narrow, high-pain entry point: providing instant cloud-based access to test websites on Internet Explorer without downloading virtual machines. Working out of a small apartment in Mumbai, they built a prototype in a few weeks and launched BrowserStack on developer forums and Hacker News.
+
+The response was immediate and overwhelming. Developers loved being able to open a browser tab, pick an operating system and browser version, and interact with their staging servers in real time. Within months, BrowserStack began signing up paying customers across North America and Europe purely through word-of-mouth.
+
+For the next seven years, Arora and Aggarwal took an unconventional path for Indian tech founders: they refused outside venture capital, choosing instead to bootstrap the business entirely on cash flows. By 2018, BrowserStack was highly profitable, serving over 25,000 paying corporate customers in more than 130 countries, including tech giants like Microsoft, Twitter, and Spotify.
+
+When venture capital firm Accel finally invested 50 million USD in a Series A round in 2018—following a persistent six-year courtship—BrowserStack was already a mature global software engine. Subsequent investments propelled the company to a 4 billion USD valuation. Today, BrowserStack powers over a billion automated and manual tests annually across millions of real devices and desktop browsers, standing as one of the most profitable and celebrated SaaS success stories born in India.`,
+    achievements: [
+      "Bootstrapped BrowserStack profitably for seven years before raising institutional capital, scaling to tens of thousands of paying customers globally",
+      "Pioneered cloud-based developer infrastructure, transforming cross-browser and mobile device testing into an on-demand web service",
+      "Secured a 50 million USD Series A from Accel after a six-year courtship and later achieved a 4 billion USD valuation",
+      "Built a global software standard used by over 50,000 corporate clients, including Amazon, Google, Microsoft, and Spotify"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-24",
+    imageAlt: "BrowserStack founders Ritesh Arora and Nakul Aggarwal beside browser panels and testing tools",
+    imageCaption: "Ritesh Arora and Nakul Aggarwal turned developer cross-browser testing frustration into BrowserStack, an iconic 4 billion USD SaaS powerhouse.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/ritesh-arora-nakul-aggarwal-browserstack-testing-opportunity",
+    sources: [
+      {
+        title: "Founderline: Ritesh Arora and Nakul Aggarwal - The Testing Problem Behind BrowserStack",
+        url: "https://www.founderline.org/stories/ritesh-arora-nakul-aggarwal-browserstack-testing-opportunity",
+        publishedAt: "2026-11-04",
+        accessedAt: "2026-11-24"
+      },
+      {
+        title: "BrowserStack: Celebrating 10 Years of Making Testing Awesome",
+        url: "https://www.browserstack.com/blog/celebrating-10-years-of-making-testing-awesome/",
+        publishedAt: "2021-08-19",
+        accessedAt: "2026-11-24"
+      }
+    ]
+  },
+  {
     id: "tope-awotona-calendly",
     name: "Tope Awotona",
     title: "Founder & CEO, Calendly",

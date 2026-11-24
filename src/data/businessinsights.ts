@@ -35,6 +35,41 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "steadview-capital-sells-stake-in-lenskart-block-deal",
+    title: "Steadview Capital Sells 0.73% Stake in Lenskart for Rs 921 Cr via Block Deal",
+    date: "24-11-2026",
+    category: "Retail & Public Markets",
+    image: "/images/business-insights/steadview-capital-lenskart-block-deal.jpg",
+    excerpt: "San Francisco-based Steadview Capital offloaded a 0.73% stake in omnichannel eyewear leader Lenskart for Rs 920.58 crore through a block deal on the NSE, with Goldman Sachs and Societe Generale acquiring the shares.",
+    readTime: "2 min read",
+    featured: true,
+    imageAlt: "Lenskart Opticals store and founder Peyush Bansal with financial growth chart background",
+    imageCaption: "Steadview Capital secured a Rs 921 crore partial secondary exit in Lenskart through a block deal on the NSE at an enterprise valuation of Rs 1,24,306 crore.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/steadview-capital-sells-073-stake-in-lenskart-for-rs-921-cr-through-block-deal-12835966",
+    sources: [
+      {
+        title: "Entrackr: Steadview Capital sells 0.73% stake in Lenskart for Rs 921 Cr through block deal",
+        url: "https://entrackr.com/news/steadview-capital-sells-073-stake-in-lenskart-for-rs-921-cr-through-block-deal-12835966",
+        publishedAt: "2026-11-23",
+        accessedAt: "2026-11-24"
+      }
+    ],
+    content: `San Francisco-based investment firm Steadview Capital has executed a significant secondary transaction, offloading a 0.73% equity stake in omnichannel eyewear powerhouse Lenskart for Rs 920.58 crore through a series of block deals on the National Stock Exchange (NSE).
+
+According to stock exchange disclosures, Steadview Capital executed the divestment through two key investment entities—Steadview Capital Mauritius Ltd-FDI and LTR Focus Fund—offloading a combined total of 1.27 crore equity shares at an agreed price of Rs 725 per share.
+
+The shares were absorbed by marquee global institutional investors:
+- Societe Generale ODI acquired 61.76 lakh shares valued at Rs 447.8 crore.
+- Global investment banking major Goldman Sachs, acting via two separate investment vehicles, purchased a combined 65.21 lakh shares worth approximately Rs 473 crore.
+
+All trades were settled at Rs 725 per share, representing a modest 2.6% discount to Lenskart's previous market closing price of Rs 744.35. Following the transaction, Lenskart shares closed at Rs 714.50 on the NSE, giving the eyewear giant an overall market capitalization of Rs 1,24,306 crore (approximately 13 billion USD).
+
+Prior to this block deal, Steadview Capital held a 3.31% stake in Lenskart as of September 2026, marking this transaction as a strategic partial liquidity harvest while retaining long-term upside in the company.
+
+The block deal follows an exceptional second quarter (Q2 FY27) performance delivered by Lenskart. The company recorded a 35.7% year-on-year surge in operating revenue to Rs 2,845 crore, while net profit more than doubled to Rs 232 crore. Operating EBITDA expanded 50% year-on-year to Rs 662 crore, underscoring strong domestic retail execution and deepening international footprint across Southeast Asia and the Middle East.`,
+  },
+  {
     id: "paytm-pine-labs-mobikwik-shares-tank-upi-mdr-delay",
     title: "Paytm, Pine Labs, MobiKwik Shares Tank Over 7% Amid Reports of Further UPI MDR Delay",
     date: "23-11-2026",
