@@ -35,6 +35,40 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "flipkart-group-ceo-kalyan-krishnamurthy-step-down-report",
+    title: "Flipkart Group CEO Kalyan Krishnamurthy to Step Down After Decade-Long Stint: Report",
+    date: "25-11-2026",
+    category: "E-commerce & Leadership",
+    image: "/images/business-insights/kalyan-krishnamurthy-flipkart-ceo.png",
+    excerpt: "Flipkart Group CEO Kalyan Krishnamurthy is reportedly preparing to step down in the coming weeks, concluding a ten-year tenure steering the Walmart-backed e-commerce titan through intense market competition and strategic expansions.",
+    readTime: "2 min read",
+    featured: true,
+    imageAlt: "Portrait of Kalyan Krishnamurthy CEO of Flipkart Group in navy polo shirt",
+    imageCaption: "Kalyan Krishnamurthy is reportedly preparing to step down as Flipkart Group CEO after leading the company for nearly a decade.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/news/flipkart-group-ceo-kalyan-krishnamurthy-to-step-down-report-12839924",
+    sources: [
+      {
+        title: "Entrackr: Flipkart Group CEO Kalyan Krishnamurthy to step down: Report",
+        url: "https://entrackr.com/news/flipkart-group-ceo-kalyan-krishnamurthy-to-step-down-report-12839924",
+        publishedAt: "2026-11-25",
+        accessedAt: "2026-11-25"
+      }
+    ],
+    content: `In a landmark leadership transition for India’s e-commerce landscape, Flipkart Group Chief Executive Officer Kalyan Krishnamurthy is likely to step down from his role over the coming weeks, according to a report by Moneycontrol. The development marks the impending conclusion of his decade-long tenure steering the Walmart-controlled retail giant.
+
+Flipkart reportedly convened an emergency all-hands town hall on Wednesday afternoon to address the organizational restructuring and transition plan with employees.
+
+Krishnamurthy initially joined Flipkart's leadership orbit in 2013 as interim Chief Financial Officer and head of category management while serving as a senior executive at Tiger Global, the company's early marquee backer. He assumed complete operational leadership as CEO in early 2017 and subsequently steered the company through Walmart's historic 16 billion USD majority acquisition in 2018, which saw the exit of co-founders Sachin Bansal and Binny Bansal.
+
+Over the past decade, Krishnamurthy transformed Flipkart into an expansive consumer ecosystem, defending domestic market dominance against global titan Amazon and navigating the rise of low-price disruptors like Meesho:
+- Led Flipkart's expansion into new verticals, including travel through the acquisition of Cleartrip, wholesale B2B commerce, and digital healthcare.
+- Supercharged the company's entry into the high-intensity quick commerce sector via "Flipkart Minutes," competing head-to-head against Blinkit, Swiggy Instamart, and Zepto.
+- Oversaw massive logistics infrastructure development through Ekart, building an automated supply chain network serving every serviceable postal code in India.
+
+The anticipated transition comes at a pivotal moment for Flipkart as it navigates ongoing fundraising efforts, prepares to flip its corporate domicile from Singapore back to India, and fine-tunes readiness for its long-awaited domestic initial public offering (IPO).`,
+  },
+  {
     id: "steadview-capital-sells-stake-in-lenskart-block-deal",
     title: "Steadview Capital Sells 0.73% Stake in Lenskart for Rs 921 Cr via Block Deal",
     date: "24-11-2026",

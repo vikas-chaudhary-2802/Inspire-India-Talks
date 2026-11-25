@@ -40,6 +40,55 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "smita-ram-ramakrishna-rang-de",
+    name: "Smita Ram & Ramakrishna NK",
+    title: "Co-Founders, Rang De",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/smita-ram-ramakrishna-rang-de.jpg",
+    born: "1979",
+    profession: "Social Entrepreneurs & Financial Inclusion Pioneers",
+    knownFor: "Founding Rang De in 2008 to challenge predatory microcredit interest rates, pioneering peer-to-peer social investing in India and enabling thousands of rural artisans and farmers to transition from financial access to true economic agency.",
+    quote: "Access to credit is just the first step. The true measure of our success is agency—giving communities the economic power to make their own choices until they no longer need our platform.",
+    story: `In the mid-2000s, while living in Oxford, husband-and-wife duo Smita Ram and Ramakrishna NK found themselves wrestling with a deeply troubling paradox in India's financial system. While urban professionals enjoyed seamless access to cheap bank credit and home loans, rural farmers, weavers, and small shopkeepers in Indian villages were forced to pay exorbitant interest rates—often exceeding 24% to 36% annually from local moneylenders and even traditional microfinance institutions.
+
+Deeply inspired by the global microcredit movement spearheaded by Nobel laureate Muhammad Yunus, the couple asked an uncomfortable question: why should the poorest and most hardworking individuals pay the highest cost for credit to earn a livelihood?
+
+Determined to find an answer, they returned to India, leaving behind comfortable corporate careers in the UK. Ramakrishna had learned a foundational lesson in listening during his college days in Vijayawada, when organizing a fundraiser for an orphanage taught him that true service requires immersing oneself in the community's real priorities rather than imposing assumptions from afar.
+
+In 2008, they launched Rang De as an innovative social investment platform. The concept was elegant and democratized: everyday urban citizens—called "social investors"—could lend small sums starting at just Rs 100 to rural borrowers, providing affordable, transparent credit to purchase seeds, handlooms, livestock, or vocational equipment.
+
+Over the years, Smita and Ramakrishna steered the platform through multiple evolutions, eventually securing an RBI-approved peer-to-peer (P2P) NBFC license to operate within India's formal regulatory framework while maintaining their non-profit social ethos.
+
+Crucially, as Smita reflected in 2026, their definition of success fundamentally matured. While conventional finance measures triumph by customer retention and growing loan books, Rang De champions "agency." For Smita and Ram, the ultimate celebration occurs when a rural borrower establishes a formal repayment track record and qualifies for mainstream bank loans—graduating out of needing Rang De altogether. Today, Rang De stands as a beacon of empathetic social enterprise, proving that credit paired with dignity creates lasting independence across rural India.`,
+    achievements: [
+      "Pioneered peer-to-peer social investing in India, mobilizing millions in affordable microcredit for unbanked rural entrepreneurs",
+      "Secured an RBI-regulated P2P NBFC license, transitioning Rang De from a non-profit initiative into a sustainable institutional fintech platform",
+      "Eliminated predatory lending interest rates for thousands of rural farmers, weavers, and women micro-entrepreneurs across India",
+      "Championed a transformative 'access to agency' model where borrower graduation to mainstream banking is celebrated as the ultimate success"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-25",
+    imageAlt: "Rang De founders Ramakrishna NK and Smita Ram beside rural handloom spools with headline From Access to Agency",
+    imageCaption: "Smita Ram and Ramakrishna NK transformed rural credit into social investing with Rang De, moving India's unbanked from basic access to enduring economic agency.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/smita-ram-ramakrishna-rang-de-founder-story",
+    sources: [
+      {
+        title: "Founderline: Smita Ram and Ramakrishna NK - The Rang De Story, From Access to Agency",
+        url: "https://www.founderline.org/stories/smita-ram-ramakrishna-rang-de-founder-story",
+        publishedAt: "2026-10-16",
+        accessedAt: "2026-11-25"
+      },
+      {
+        title: "Rang De: Official Company and Founder Story",
+        url: "https://rangde.in/about/our-story",
+        publishedAt: "2026-10-16",
+        accessedAt: "2026-11-25"
+      }
+    ]
+  },
+  {
     id: "ritesh-arora-nakul-aggarwal-browserstack",
     name: "Ritesh Arora & Nakul Aggarwal",
     title: "Co-Founders, BrowserStack",
