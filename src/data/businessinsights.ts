@@ -35,6 +35,43 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "libas-revenue-grows-19-to-rs-726-cr-fy26-losses-narrow",
+    title: "Libas Revenue Grows 19% to Rs 726 Cr in FY26; Losses Narrow Marginally",
+    date: "26-11-2026",
+    category: "D2C & Fashion",
+    image: "/images/business-insights/libas-fy26-financials.jpg",
+    excerpt: "Gurugram-based ethnic fashion brand Libas expanded its operating revenue by 19% year-on-year to Rs 726 crore in FY26, while maintaining positive operating EBITDA at Rs 4 crore and narrowing net losses to Rs 15.2 crore.",
+    readTime: "3 min read",
+    featured: true,
+    imageAlt: "Libas founder Sidhant Keshwani seated in front of Libas retail store and apparel display rack",
+    imageCaption: "Gurugram-based ethnic wear brand Libas grew operating revenue 19% to Rs 726 crore in FY26 while holding operating EBITDA positive.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/libas-revenue-grows-19-to-rs-726-cr-in-fy26-losses-narrow-marginally-12840277",
+    sources: [
+      {
+        title: "Entrackr: Libas’ revenue grows 19% to Rs 726 Cr in FY26; losses narrow marginally",
+        url: "https://entrackr.com/fintrackr/libas-revenue-grows-19-to-rs-726-cr-in-fy26-losses-narrow-marginally-12840277",
+        publishedAt: "2026-11-25",
+        accessedAt: "2026-11-26"
+      }
+    ],
+    content: `India’s organized ethnic and contemporary fusion wear market is experiencing intense brand building as homegrown labels balance aggressive direct-to-consumer (D2C) online scale with expanding physical storefronts. Amidst this competitive environment, Gurugram-based fast-fashion ethnic brand Libas demonstrated consistent growth during the fiscal year ended March 2026 (FY26).
+
+According to annual financial statements filed with the Registrar of Companies (RoC), Libas’ revenue from operations grew 19% year-on-year to Rs 726 crore in FY26, up from Rs 610 crore in FY25. The brand's sales of women's apparel—encompassing kurtas, sarees, lehengas, fusion suits, and everyday bottom wear—formed its primary revenue engine.
+
+Founded originally in 1985 and later revitalized under the leadership of CEO Sidhant Keshwani into a modern omnichannel retail powerhouse, Libas has deepened its reach across Tier-II and Tier-III cities alongside major metropolitan clusters through exclusive brand outlets (EBOs) and leading e-commerce marketplaces.
+
+On the expenditure ledger, total operational costs expanded 19.6% year-on-year to Rs 742.8 crore in FY26 from Rs 621.2 crore in FY25:
+- Procurement of raw materials and fabric remained the single largest cost driver, increasing 34.6% to Rs 426.7 crore, accounting for 57.4% of total expenditure.
+- Employee benefit expenses climbed 53% to Rs 67.7 crore as the company scaled its offline retail workforce and corporate teams.
+- Advertising and brand promotions grew 17.9% to Rs 66 crore.
+- Conversely, selling and logistics distribution expenses fell 20.2% to Rs 46.1 crore, while stitching and fabrication overheads contracted 32.5% to Rs 40.35 crore through improved supply chain efficiencies.
+
+On a unit economics basis, Libas spent Rs 1.02 to generate every rupee of operating revenue in FY26. Consequently, the company recorded a net loss of Rs 15.2 crore, marking a 7.9% improvement compared to the Rs 16.5 crore loss posted in FY25. On an operating level, Libas remained EBITDA positive, delivering an operating surplus of Rs 4 crore with an EBITDA margin of 0.55%.
+
+As of March 2026, the company held total current assets of Rs 377.6 crore, including cash and bank balances of Rs 41.4 crore. Having secured Rs 150 crore (around 18 million USD) from ICICI Venture’s IAF Series 5 fund in its maiden external institutional financing round, Libas is well-capitalized to compete alongside entrenched industry incumbents like Biba Fashion (Rs 765 crore revenue in FY25) and Vedant Fashions / Manyavar (Rs 1,436 crore revenue in FY26).`,
+  },
+  {
     id: "flipkart-group-ceo-kalyan-krishnamurthy-step-down-report",
     title: "Flipkart Group CEO Kalyan Krishnamurthy to Step Down After Decade-Long Stint: Report",
     date: "25-11-2026",

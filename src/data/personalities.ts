@@ -40,6 +40,55 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "sachin-bansal-flipkart",
+    name: "Sachin Bansal",
+    title: "Co-Founder, Flipkart",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/sachin-bansal-flipkart.jpg",
+    born: "1981",
+    profession: "Tech Entrepreneur & Fintech Investor",
+    knownFor: "Co-founding Flipkart in 2007 with Binny Bansal from a two-bedroom apartment in Bengaluru, pioneering Cash on Delivery (COD) and in-house logistics to ignite India's modern e-commerce revolution before its historic 16 billion USD sale to Walmart.",
+    quote: "A sale does not end on the computer screen. Real customer trust is won at the doorstep through dependable fulfilment, easy returns, and keeping every promise.",
+    story: `In October 2007, two IIT Delhi computer science graduates and former Amazon colleagues, Sachin Bansal and Binny Bansal, pooled Rs 4 lakh of their savings to launch an online bookstore from a modest two-bedroom rented apartment in Bengaluru's Koramangala. In an era when most Indians viewed buying anything over the internet with deep suspicion, Flipkart’s earliest days were spent scouring physical bookstores on two-wheelers, hand-packaging books, and personally delivering them to the city's earliest online shoppers.
+
+Sachin Bansal recognized early on that e-commerce was not merely a software catalog or a digital shopfront; it was fundamentally an infrastructure and consumer trust challenge. In late-2000s India, digital payment penetration was negligible, credit cards were scarce, and consumers hesitated to pay upfront for goods they could not touch.
+
+To dismantle this barrier, Sachin spearheaded the rollout of Cash on Delivery (COD) in 2010—a bold, operational innovation that allowed consumers to inspect their parcels and pay cash only upon doorstep arrival. The decision was fraught with working capital risks and return logistics headaches, but it catalyzed an exponential surge in first-time online buyers across non-metro towns and cities.
+
+When existing third-party courier companies struggled with cash handling, transit delays, and damaged packages, Sachin refused to let external operational failures degrade the customer experience. Flipkart built its own dedicated supply chain and logistics arm, Ekart, establishing standardized warehousing, real-time shipment tracking, and courteous doorstep delivery representatives across India.
+
+Paired with a revolutionary 30-day "no-questions-asked" replacement policy, Flipkart transformed online shopping from a niche novelty into a daily national habit. Under Sachin’s visionary helm as CEO and Executive Chairman, Flipkart expanded aggressively from books into electronics, fashion, and consumer appliances, surviving fierce international competition from Amazon and acquiring market leaders like Myntra and PhonePe.
+
+In August 2018, American retail giant Walmart acquired a 77% controlling stake in Flipkart for 16 billion USD—the largest e-commerce acquisition in world history. Sachin Bansal’s pioneering legacy remains the defining inflection point of India's startup ecosystem, proving that extraordinary technological businesses are built by solving real, grounded operational problems for everyday citizens.`,
+    achievements: [
+      "Co-founded Flipkart in 2007, pioneering modern e-commerce in India from a Bengaluru apartment into a market titan",
+      "Introduced Cash on Delivery (COD) in 2010, unlocking digital purchasing for millions of unbanked and cautious Indian consumers",
+      "Engineered proprietary logistics infrastructure (Ekart), setting the benchmark for pan-India supply chain and doorstep delivery",
+      "Led Flipkart through Walmart's historic 16 billion USD acquisition in 2018, the world's largest e-commerce buyout"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-26",
+    imageAlt: "Sachin Bansal beside Flipkart delivery boxes crossing a bridge with headline Trust at Checkout",
+    imageCaption: "Sachin Bansal built consumer trust into the foundation of Indian e-commerce, taking Flipkart from an online bookstore to a global retail phenomenon.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/sachin-bansal-flipkart",
+    sources: [
+      {
+        title: "Founderline: Sachin Bansal - The Flipkart Founder Story and Trust at Checkout",
+        url: "https://www.founderline.org/stories/sachin-bansal-flipkart",
+        publishedAt: "2026-10-10",
+        accessedAt: "2026-11-26"
+      },
+      {
+        title: "Walmart: Completion of Investment in Flipkart, India’s Leading Marketplace",
+        url: "https://corporate.walmart.com/news/2018/08/18/walmart-and-flipkart-announce-completion-of-walmart-investment-in-flipkart-indias-leading-marketplace-ecommerce-platform",
+        publishedAt: "2018-08-18",
+        accessedAt: "2026-11-26"
+      }
+    ]
+  },
+  {
     id: "smita-ram-ramakrishna-rang-de",
     name: "Smita Ram & Ramakrishna NK",
     title: "Co-Founders, Rang De",
