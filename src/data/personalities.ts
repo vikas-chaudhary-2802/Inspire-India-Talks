@@ -40,6 +40,57 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "deepinder-goyal-zomato",
+    name: "Deepinder Goyal",
+    title: "Founder & CEO, Zomato",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/deepinder-goyal-zomato.jpg",
+    born: "1983, Muktsar, Punjab",
+    profession: "Tech Entrepreneur & Food-Tech Pioneer",
+    knownFor: "Founding Zomato in 2008 by digitizing restaurant menus, navigating the brutal transition from information discovery to physical delivery, and scaling it into a public consumer tech powerhouse and quick-commerce leader with Blinkit.",
+    quote: "Finding a restaurant and delivering a meal are entirely different businesses. Discovery is about organizing information; delivery is about orchestrating every real-world variable with relentless operational discipline.",
+    story: `In 2008, while working as management consultants at Bain & Company in New Delhi, Deepinder Goyal and his colleague Pankaj Chaddah noticed an everyday workplace annoyance. Every afternoon at lunchtime, dozens of coworkers queued up around the office pantry noticeboard, frantically passing around paper takeout menus to place lunch orders over the telephone.
+
+Realizing that restaurant discovery was trapped in the analog era, Goyal scanned local menus, converted them into digital files, and uploaded them to an intranet portal called "Foodiebay." The portal became an immediate hit among office colleagues, prompting the duo to expand the catalog across Delhi-NCR and launch it publicly on the web.
+
+By 2010, the company rebranded to Zomato, quickly cementing its place as India's premier restaurant search and review platform. Users relied on Zomato for crowdsourced ratings, photos, verified menus, and neighborhood food exploration. For several years, Zomato remained an asset-light information product, scaling into over 20 countries.
+
+However, the rise of on-demand logistics presented a daunting existential challenge: helping someone choose where to eat was no longer enough—consumers wanted the food brought directly to their doorstep.
+
+Goyal took the audacious leap from software discovery into physical fulfillment. Unlike an information portal where servers handle traffic, food delivery required orchestrating thousands of independent variables: kitchen prep delays, traffic snarls, live GPS tracking, delivery partner earnings, and customer support. Goyal led Zomato through years of fierce cash-burning battles against heavily funded domestic and international rivals, restructuring unit economics with ruthless operational precision.
+
+In July 2021, Goyal led Zomato to a historic public listing on the Indian stock exchanges—one of the earliest technology unicorns to debut domestically. Rather than resting on food delivery profitability, he made another bold contrarian bet: acquiring struggling quick-commerce platform Blinkit in 2022. Under his leadership, Blinkit orchestrated one of the most stunning operational turnarounds in Indian startup history, establishing Zomato as the undisputed market leader in 10-minute grocery delivery.
+
+Today, Deepinder Goyal’s journey stands as the definitive masterclass in founder evolution: beginning with scanned paper menus on an office desk, and relentlessly expanding into a multi-vertical consumer ecosystem serving millions of households every day.`,
+    achievements: [
+      "Built Zomato from a workplace menu-scanning project into an iconic publicly traded consumer tech titan",
+      "Pioneered the modern Indian tech IPO era with Zomato’s historic stock exchange debut in July 2021",
+      "Orchestrated the turnaround and hyper-growth of Blinkit to dominate India's quick-commerce landscape",
+      "Transformed restaurant discovery, hyperlocal food delivery, and farm-to-fork B2B supply chains through Hyperpure"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-27",
+    imageAlt: "Deepinder Goyal beside restaurant menus, dining tables, and urban delivery network",
+    imageCaption: "Deepinder Goyal evolved Zomato from a scanned menu site into an indispensable public food delivery and quick-commerce giant.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/deepinder-goyal-zomato",
+    sources: [
+      {
+        title: "Founderline: Deepinder Goyal - The Zomato Founder Story, From Menus to Markets",
+        url: "https://www.founderline.org/stories/deepinder-goyal-zomato",
+        publishedAt: "2026-10-09",
+        accessedAt: "2026-11-27"
+      },
+      {
+        title: "Eternal: Zomato Origins and Governance",
+        url: "https://www.eternal.com/our-businesses/zomato/",
+        publishedAt: "2026-10-09",
+        accessedAt: "2026-11-27"
+      }
+    ]
+  },
+  {
     id: "sachin-bansal-flipkart",
     name: "Sachin Bansal",
     title: "Co-Founder, Flipkart",
@@ -2429,23 +2480,6 @@ Beyond aviation, he has remained an influential voice through his autobiography 
     quote: "Build for India, and you build for the world.",
     story: "Bhavish Aggarwal co-**founded** Ola Cabs in 2010 after a bad taxi experience, aiming to solve India's mobility problems. Ola became India's largest ride-hailing platform, successfully competing with global giant Uber.\n\nKey: Not stopping there, Bhavish ventured into electric vehicles with Ola Electric, building the world's largest two-wheeler factory in Tamil Nadu. His mission to make India a global hub for EVs represents the ambition of new-age Indian entrepreneurs who are not just building services but manufacturing high-tech products for the world.",
     achievements: ["Built Ola into India's largest mobility platform", "Founded Ola Electric", "Built world's largest 2W EV factory", "IIT Bombay alumnus", "Time 100 Most Influential People"],
-    authorName: "Inspire India",
-    authorLinkedin: "https://www.linkedin.com/company/inspire-india",
-    addedAt: "2026-02-15",
-  },
-  {
-    id: "deepinder-goyal",
-    name: "Deepinder Goyal",
-    title: "Founder & CEO, Zomato",
-    category: "Entrepreneurs & Founders",
-    categorySlug: "entrepreneurs",
-    image: "/images/founder-stories/deepinder-goyal.webp",
-    born: "12 May 1983, Punjab",
-    profession: "Entrepreneur",
-    knownFor: "Building Zomato into a food-tech giant",
-    quote: "Building a company is like eating glass and staring into the abyss.",
-    story: "Deepinder Goyal started Zomato (then Foodiebay) in 2008 to solve the problem of finding restaurant menus. What began as a scanned menu website grew into a food delivery behemoth operating across India and briefly in 24 countries.\n\nKey: He navigated intense competition and operational challenges to take Zomato public in 2021 — one of India's first major startup IPOs. With the acquisition of Blinkit, he is now reshaping quick commerce in India.\n\nHis relentless focus on customer experience and execution has made Zomato a household name.",
-    achievements: ["Built Zomato from a menu site to $10B+ company", "Led one of India's first major tech IPOs", "Pioneered food delivery at scale in India", "IIT Delhi alumnus", "Acquired Blinkit for quick commerce"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-02-15",

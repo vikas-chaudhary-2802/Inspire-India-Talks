@@ -35,6 +35,45 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "namma-yatri-raises-27-cr-michael-susan-dell-foundation",
+    title: "Namma Yatri Raises Rs 27.25 Cr Led by Michael & Susan Dell Foundation",
+    date: "27-11-2026",
+    category: "Mobility & Tech",
+    image: "/images/business-insights/namma-yatri-funding-round.jpg",
+    excerpt: "Open-mobility platform Namma Yatri raised Rs 27.25 crore in a pre-Series A funding round led by the Michael & Susan Dell Foundation, valuing parent entity Moving Tech at Rs 526 crore.",
+    readTime: "2 min read",
+    featured: true,
+    imageAlt: "Moving Tech and Namma Yatri co-founder Shan M S with auto rickshaw and cab fleet illustration",
+    imageCaption: "Namma Yatri parent Moving Tech raised Rs 27.25 crore from Michael & Susan Dell Foundation, driving its zero-commission open mobility expansion.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/exclusive/exclusive-namma-yatri-raises-rs-2725-cr-led-by-michael-susan-dell-foundation-12844724",
+    sources: [
+      {
+        title: "Entrackr: Exclusive: Namma Yatri raises Rs 27.25 Cr led by Michael & Susan Dell Foundation",
+        url: "https://entrackr.com/exclusive/exclusive-namma-yatri-raises-rs-2725-cr-led-by-michael-susan-dell-foundation-12844724",
+        publishedAt: "2026-11-27",
+        accessedAt: "2026-11-27"
+      }
+    ],
+    content: `Google-backed community mobility platform Namma Yatri has raised Rs 27.25 crore in an ongoing pre-Series A funding round led by global philanthropic investor Michael & Susan Dell Foundation, with strategic participation from healthcare provider Narayana Hrudayalaya Limited.
+
+According to regulatory filings, the board of parent entity Moving Tech passed a resolution allotting 86,31,602 Series A2 compulsorily convertible preference shares (CCPS) at an issue price of Rs 31.57 per share alongside 10 equity shares. The Michael & Susan Dell Foundation contributed Rs 27 crore, while Narayana Hrudayalaya invested Rs 25 lakh.
+
+The transaction values the Bengaluru-based open-mobility company at a post-money valuation of approximately Rs 526 crore. The capital infusion will fund ongoing technological development, driver welfare initiatives, and regional expansion across key Indian urban hubs.
+
+Founded in Bengaluru, Moving Tech operates direct-to-driver transit applications including Namma Yatri, Yatri Sathi, and Bharat Taxi. Unlike legacy ride-hailing aggregators that extract high percentage commissions from fares, Namma Yatri runs on the open ONDC protocol and charges drivers a nominal daily subscription or SaaS fee, allowing drivers to retain 100% of rider fares directly.
+
+Post-allotment cap table dynamics:
+- Payments infrastructure giant Juspay remains the single largest shareholder with a 27.93% stake.
+- Juspay founder Vimal Kumar holds 13.19%.
+- Early backer Blume Ventures commands 10.43%.
+- Co-founders Magizhan Selvan and Shanmugavel Mani Subbiah (Shan M S) hold 7.68% and 6.28% respectively.
+- Global venture firm Antler holds 5.48%, while the Michael & Susan Dell Foundation holds 5.13%.
+- Other notable stakeholders include the Moving Tech Collaborators Trust (4.89%), Sheetal Lalwani (3.49%), and Google (3.17%).
+
+The fresh financing follows strong operating momentum. In FY26, Moving Tech’s revenue from operations surged 89.4% year-on-year to Rs 37.5 crore from Rs 19.8 crore in FY25, while net losses narrowed 14.8% to Rs 43.8 crore, proving the commercial sustainability of open, community-led mobility rails in India.`,
+  },
+  {
     id: "libas-revenue-grows-19-to-rs-726-cr-fy26-losses-narrow",
     title: "Libas Revenue Grows 19% to Rs 726 Cr in FY26; Losses Narrow Marginally",
     date: "26-11-2026",
