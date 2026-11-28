@@ -40,6 +40,59 @@ export const categories: Category[] = [
 
 export const personalities: Personality[] = [
   {
+    id: "sriharsha-majety-swiggy",
+    name: "Sriharsha Majety",
+    title: "Co-Founder & Group CEO, Swiggy",
+    category: "Entrepreneurs & Founders",
+    categorySlug: "entrepreneurs",
+    image: "/images/founder-stories/sriharsha-majety-swiggy.jpg",
+    born: "1986, Vijayawada, Andhra Pradesh",
+    profession: "Tech Entrepreneur & Logistics Pioneer",
+    knownFor: "Co-founding Swiggy in 2014, pioneering full-stack hyperlocal delivery infrastructure in India, turning everyday last-mile delivery into an indispensable national utility, and steering it to a blockbuster public listing.",
+    quote: "Convenience looks simple on a smartphone screen, but the real product is the physical coordination—ensuring availability, pickup, routing, and trust when real-world conditions get tough.",
+    story: `Behind the effortless tap of a smartphone screen that brings hot food or urgent groceries to millions of doorsteps in minutes lies one of the most sophisticated logistics networks ever built in Asia. At the helm of this transformation is Sriharsha Majety, the co-founder and Group CEO of Swiggy.
+
+Raised in Vijayawada in an enterprising household—his father operated a restaurant while his mother was a practicing physician—Majety studied electrical engineering and physics at BITS Pilani before completing an MBA in finance from IIM Calcutta. A promising, lucrative stint in London investment banking at Nomura followed, but the entrepreneurial itch proved irresistible.
+
+Majety’s initial foray into business was Bundl, a courier and cargo logistics aggregator launched in 2013 alongside his friend Nandan Reddy. Plagued by shifting market dynamics and the lack of in-house technical leadership, Bundl shut down within a year. Instead of being demoralized, Majety treated Bundl as invaluable tuition.
+
+Analyzing the rise of smartphone-driven transit apps like Uber and Ola, Majety and Reddy realized that food delivery in India was fundamentally broken. Existing platforms acted as mere directories or outsourced delivery to uncoordinated restaurant staff, leading to frequent delays, cold food, and cancelled orders.
+
+In August 2014, together with ace coder Rahul Jaimini as technical co-founder, they launched Swiggy out of a small office in Koramangala, Bengaluru, with just six delivery executives and 25 restaurant partners.
+
+Majety made the decisive, capital-intensive bet that defined the company: owning the entire last-mile delivery fleet. By controlling rider dispatch, real-time routing algorithms, and customer support end-to-end, Swiggy transformed food delivery from an unpredictable gamble into an everyday standard of reliability.
+
+Under his disciplined leadership, Swiggy expanded far beyond restaurant meals. In 2020, Majety pioneered India's rapid-commerce revolution with the launch of Instamart, followed by the integrated Swiggy One membership program and dining-out solutions.
+
+In November 2024, Majety steered Swiggy through a blockbuster domestic initial public offering (IPO), cementing its status as an enduring public consumer tech powerhouse. From a failed courier experiment to an enterprise coordinating hundreds of thousands of daily delivery partners across India, Sriharsha Majety proved that true convenience is won on the streets through relentless operational excellence.`,
+    achievements: [
+      "Co-founded Swiggy in 2014, pioneering India's first captive last-mile delivery fleet for hyperlocal food delivery",
+      "Pioneered the quick-commerce revolution in India with the nationwide rollout of Instamart in 2020",
+      "Steered Swiggy to a blockbuster domestic public listing in November 2024 as Managing Director and Group CEO",
+      "Transformed an early startup failure (Bundl) into an indispensable multi-billion-dollar consumer ecosystem"
+    ],
+    authorName: "Inspire India Talks",
+    addedAt: "2026-11-28",
+    imageAlt: "Sriharsha Majety beside Swiggy delivery rider navigating urban grid with headline The Last Mile",
+    imageCaption: "Sriharsha Majety transformed urban logistics by owning the last mile, turning Swiggy into a public consumer tech powerhouse.",
+    imageCredit: "Founderline",
+    imageSourceUrl: "https://www.founderline.org/stories/sriharsha-majety-swiggy",
+    sources: [
+      {
+        title: "Founderline: Sriharsha Majety - The Swiggy Founder Story and The Last Mile",
+        url: "https://www.founderline.org/stories/sriharsha-majety-swiggy",
+        publishedAt: "2026-10-09",
+        accessedAt: "2026-11-28"
+      },
+      {
+        title: "Swiggy: Corporate History and Milestones",
+        url: "https://www.swiggy.com/corporate/",
+        publishedAt: "2024-11-13",
+        accessedAt: "2026-11-28"
+      }
+    ]
+  },
+  {
     id: "deepinder-goyal-zomato",
     name: "Deepinder Goyal",
     title: "Founder & CEO, Zomato",
@@ -1956,23 +2009,6 @@ In 2024, Meena Bindra chronicled her pathbreaking journey in her memoir, 'A Stit
     quote: "We didn't just build a company — we had to build the trust that made online shopping possible in India.",
     story: "Two men named Bansal — **Sachin** and **Binny** — with no family ties between them, would together do something few thought possible: convince a nation to shop online. Born in **Chandigarh**, both studied computer science at **IIT Delhi**, and both had brief stints at **Amazon** before deciding to build for India rather than work for someone else. In 2007, from a two-bedroom apartment in Bangalore, they launched **Flipkart** as a humble online bookstore.\n\nTheir partnership worked because their strengths were complementary. **Sachin**, the outward-facing force, drove vision, fundraising, and the audacious bets. **Binny** built the engine most customers never see — the operations, supply chain, and technology that let the business scale, eventually rising to become CEO and then Group CEO.\n\nWhat truly set Flipkart apart wasn't its catalogue but the **trust it engineered.** India in 2007 had low card penetration and deep suspicion of online payments, so the duo pioneered innovations like **Cash on Delivery**, easy returns, and their own logistics arm, **Ekart** — solving the ground-level problems global players had ignored. From the blockbuster **Big Billion Days** sale to categories spanning fashion, electronics, and groceries, Flipkart came to define Indian e-commerce.\n\nThe defining moment arrived in **2018**, when **Walmart acquired around 77% of Flipkart for roughly $16 billion** — the largest e-commerce deal of its kind anywhere in the world. It was a landmark not just for the founders but for the credibility of India's entire startup story.\n\nAfter Flipkart, the two took divergent second acts. **Sachin** founded **Navi Technologies**, turning to financial inclusion with a tech-first platform for affordable loans, insurance, and investments. **Binny** co-founded **xto10x**, packaging his operational playbooks to help other startups scale, and later launched **OppDoor** to support e-commerce brands expanding across borders — while becoming an active angel investor in the next generation of founders.\n\nThe legacy of the Bansals is bigger than any one company. By proving that a homegrown startup could take on global giants and win, they **unlocked India's startup era** — and showed a generation that world-class companies could be built from Bangalore, not just Silicon Valley.",
     achievements: ["Co-founded Flipkart in 2007, pioneering Indian e-commerce", "Introduced Cash on Delivery and built the Ekart logistics network", "Grew Flipkart into India's largest e-commerce platform (Big Billion Days)", "Steered the landmark ~$16B Walmart–Flipkart deal in 2018", "Went on to build Navi (Sachin) and xto10x & OppDoor (Binny), catalysing India's startup ecosystem"],
-    authorName: "Inspire India",
-    authorLinkedin: "https://www.linkedin.com/company/inspire-india",
-    addedAt: "2026-08-03",
-  },
-  {
-    id: "sriharsha-majety",
-    name: "Sriharsha Majety",
-    title: "Co-founder & CEO, Swiggy",
-    category: "Entrepreneurs & Founders",
-    categorySlug: "entrepreneurs",
-    image: "/images/founder-stories/sriharsha-majety.jpg",
-    born: "Vijayawada, Andhra Pradesh",
-    profession: "Entrepreneur & Swiggy Co-founder",
-    knownFor: "Co-founding Swiggy and building it into India's food-delivery and quick-commerce giant",
-    quote: "The first idea failing wasn't the end — it was tuition for the next one.",
-    story: "Open a phone in almost any Indian city today, and Swiggy is never more than a tap away — food, groceries, medicines, all at the door in minutes. Behind that everyday convenience is **Sriharsha Majety**, the co-founder and CEO who turned a failed first startup into one of India's most recognised consumer companies. His story is a reminder that the road to building something enduring usually runs straight through failure.\n\nMajety grew up in **Vijayawada, Andhra Pradesh**, in a home where enterprise and care sat side by side — his father ran a restaurant, his mother was a doctor. He went far from home to study at **BITS Pilani**, earning degrees in electrical engineering and physics, before adding an MBA in finance from **IIM Calcutta**. His early career took him into **investment banking at Nomura in London** — a stable, prestigious path he ultimately chose to leave.\n\nHis first attempt at entrepreneurship did not work. Along with college-mate **Nandan Reddy**, he launched **Bundl**, a logistics and courier venture that folded within roughly a year — hampered by shifting market dynamics and the absence of a strong technical co-founder. Rather than treat it as a dead end, the duo treated it as a lesson.\n\nStudying the rise of Ola and Uber — companies using smartphones and technology to reinvent everyday convenience — they spotted the same untapped potential in **hyperlocal food delivery**. This time they made sure to fix their earlier mistake, bringing in ace coder **Rahul Jaimini** as the technical co-founder. In **August 2014**, Swiggy opened out of a small Bangalore office; by 2015 it had raised its first $2 million.\n\nWhat set Majety apart was his obsession with the **hardest part of the business — logistics.** Swiggy built its own delivery network rather than merely connecting restaurants and customers, and that operational edge powered its rise. Under his leadership the company expanded well beyond food into **Instamart** (quick commerce), Swiggy One, and dining-out, becoming a daily habit for millions.\n\nThe defining validation came in **November 2024**, when Swiggy went public in one of India's largest new-age IPOs, with Majety leading as Managing Director and Group CEO. From a courier startup that collapsed in a year to a listed giant, his journey is a masterclass in **resilience, the right team, and building for everyday life.**",
-    achievements: ["Co-founded Swiggy in 2014 with Nandan Reddy and Rahul Jaimini", "Built India's largest food-delivery and quick-commerce (Instamart) platform", "Pioneered an in-house hyperlocal delivery logistics network", "Led Swiggy's landmark November 2024 IPO as MD and Group CEO", "Turned an early failed venture (Bundl) into a springboard for Swiggy"],
     authorName: "Inspire India",
     authorLinkedin: "https://www.linkedin.com/company/inspire-india",
     addedAt: "2026-08-03",

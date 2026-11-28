@@ -35,6 +35,43 @@ export interface BusinessInsight extends EditorialImageMetadata {
 
 export const businessinsights: BusinessInsight[] = [
   {
+    id: "foxtales-income-nearly-doubles-to-rs-400-cr-in-fy26-losses-narrow",
+    title: "Foxtale’s Income Nearly Doubles to Rs 400 Cr in FY26; Losses Narrow 10%",
+    date: "28-11-2026",
+    category: "D2C & Beauty",
+    image: "/images/business-insights/foxtale-fy26-financials.jpg",
+    excerpt: "Mumbai-based direct-to-consumer skincare brand Foxtale grew its operating revenue by 93% to Rs 382.6 crore in FY26 and crossed Rs 400 crore in total income, while narrowing its net losses by 10% to Rs 66.1 crore.",
+    readTime: "3 min read",
+    featured: true,
+    imageAlt: "Foxtale founder Romita Mazumdar beside skincare product line and financial growth chart",
+    imageCaption: "D2C skincare brand Foxtale scaled total income to Rs 400 crore in FY26 while holding cash and bank balances of Rs 109 crore.",
+    imageCredit: "Entrackr",
+    imageSourceUrl: "https://entrackr.com/fintrackr/foxtales-income-nearly-doubles-to-rs-400-cr-in-fy26-losses-narrow-10-12844924",
+    sources: [
+      {
+        title: "Entrackr: Foxtale’s income nearly doubles to Rs 400 Cr in FY26; losses narrow 10%",
+        url: "https://entrackr.com/fintrackr/foxtales-income-nearly-doubles-to-rs-400-cr-in-fy26-losses-narrow-10-12844924",
+        publishedAt: "2026-11-27",
+        accessedAt: "2026-11-28"
+      }
+    ],
+    content: `India’s direct-to-consumer (D2C) beauty and personal care ecosystem has emerged as a high-stakes battleground where specialized science-backed skincare brands compete fiercely for digital and retail shelf space. Navigating this competitive landscape, Mumbai-based skincare startup Foxtale delivered strong top-line momentum during the fiscal year ended March 2026 (FY26).
+
+According to consolidated financial filings sourced from the Registrar of Companies (RoC), Foxtale’s revenue from operations surged 92.6% year-on-year to Rs 382.6 crore in FY26, up from Rs 198.7 crore in FY25. Along with non-operating interest income of Rs 17.6 crore earned on deposits and investments, the startup's total income crossed the Rs 400 crore mark.
+
+Founded in 2021 by Romita Mazumdar, Foxtale formulates targeted skincare solutions—such as serums, cleansers, moisturizers, and sunscreens—specifically designed for Indian weather conditions and diverse skin types. Product sales across digital marketplaces and its proprietary storefront represented the company's sole source of operating revenue.
+
+To fuel this rapid customer acquisition, Foxtale scaled its operational expenditures by 67% year-on-year to Rs 466.3 crore in FY26:
+- Advertising and promotional marketing formed the single largest cost center, climbing 68.5% to Rs 178.3 crore, accounting for 38.2% of total company spending.
+- Procurement of raw materials and packaging supplies increased 88% to Rs 138.3 crore, representing roughly 30% of overall costs.
+- Employee benefit expenses rose 57.3% to Rs 48.3 crore, which included Rs 6 crore in stock-based compensation (ESOPs).
+- Logistics and delivery charges expanded 42% to Rs 23.5 crore, while outsourced manpower support costs stood at Rs 21.4 crore.
+
+On a unit economics level, Foxtale spent Rs 1.22 to generate every single rupee of operating revenue during the fiscal year. Consequently, its net losses narrowed by 10% to Rs 66.1 crore in FY26 from Rs 73.4 crore in FY25.
+
+As of March 2026, Foxtale maintained a robust balance sheet with current assets of Rs 263 crore, including cash and bank balances of Rs 109 crore. In a sector where peers like HUL-backed Minimalist (Rs 700 crore revenue) and Innovist (Rs 686 crore revenue) are scaling rapidly, Foxtale’s doubling of top line while keeping cash reserves intact positions it strongly for long-term category expansion.`,
+  },
+  {
     id: "namma-yatri-raises-27-cr-michael-susan-dell-foundation",
     title: "Namma Yatri Raises Rs 27.25 Cr Led by Michael & Susan Dell Foundation",
     date: "27-11-2026",
